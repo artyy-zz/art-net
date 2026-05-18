@@ -9,9 +9,11 @@ import {
   getAssmannCategoryBySlug,
   getAssmannProductBySlug,
   getAssmannProducts,
+  getProductBrand,
   getProductDetailHref,
   getPrimaryPlacement,
   getProductImage,
+  getProductSourceName,
   getRelatedAssmannProducts,
 } from "@/data/assmann-catalog";
 import { publicBrand, publicCopy } from "@/data/public-site";
@@ -21,7 +23,7 @@ import { getAbsoluteUrl, getAlternateLanguages, siteName } from "@/lib/seo";
 const copy = {
   sq: {
     back: "Kthehu te produktet",
-    sku: "SKU",
+    sku: "SKU / Model",
     category: "Kategoria",
     subcategory: "Nenkategoria",
     specifications: "Specifikimet",
@@ -35,7 +37,7 @@ const copy = {
   },
   en: {
     back: "Back to products",
-    sku: "SKU",
+    sku: "SKU / Model",
     category: "Category",
     subcategory: "Subcategory",
     specifications: "Specifications",
@@ -76,10 +78,12 @@ export async function generateMetadata({
   const placement =
     product.placements.find((item) => item.categorySlug === activeCategory.slug) ??
     getPrimaryPlacement(product);
+  const productBrand = getProductBrand(product);
+  const productSourceName = getProductSourceName(product);
   const path = `/${typedLocale}/products/${activeCategory.slug}/${product.slug}`;
   const description =
     product.description ||
-    `${product.documentName}. ${placement?.category ?? "ASSMANN / DIGITUS"} product number ${product.sku}.`;
+    `${product.documentName}. ${productBrand} product number ${product.sku}.`;
   const title = `${product.title || product.documentName} | ${product.sku} | ${siteName}`;
 
   return {
@@ -89,10 +93,10 @@ export async function generateMetadata({
       product.sku,
       product.title,
       product.documentName,
+      productBrand,
+      productSourceName,
       placement?.category,
       placement?.subcategory,
-      "DIGITUS",
-      "ASSMANN",
     ].filter((value): value is string => Boolean(value)),
     alternates: {
       canonical: path,
@@ -186,6 +190,8 @@ export default async function ProductDetailPage({
   const related = getRelatedAssmannProducts(product);
   const title = product.title || product.documentName;
   const description = product.description || product.documentName;
+  const productBrand = getProductBrand(product);
+  const productSourceName = getProductSourceName(product);
   const productUrl = getAbsoluteUrl(`/${typedLocale}/products/${activeCategory.slug}/${product.slug}`);
   const structuredData = {
     "@context": "https://schema.org",
@@ -201,11 +207,11 @@ export default async function ProductDetailPage({
         category: `${placement.category} / ${placement.subcategory}`,
         brand: {
           "@type": "Brand",
-          name: "DIGITUS",
+          name: productBrand,
         },
         manufacturer: {
           "@type": "Organization",
-          name: "ASSMANN Electronic GmbH",
+          name: productSourceName,
         },
       },
       {
@@ -286,7 +292,7 @@ export default async function ProductDetailPage({
 
           <div className="min-w-0">
             <p className="text-sm font-semibold text-[var(--color-accent-strong)]">
-              DIGITUS / ASSMANN
+              {productBrand}
             </p>
             <h1 className="mt-4 break-words font-display text-4xl font-semibold leading-tight text-[var(--color-foreground)] md:text-5xl">
               {title}

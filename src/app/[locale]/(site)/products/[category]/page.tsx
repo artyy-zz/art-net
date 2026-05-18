@@ -36,6 +36,9 @@ export async function generateMetadata({
       ...activeCategory.subcategories.map((subcategory) => subcategory.name),
       "DIGITUS",
       "ASSMANN",
+      "Ubiquiti",
+      "UniFi",
+      "ITE Group",
     ],
     alternates: {
       canonical: path,

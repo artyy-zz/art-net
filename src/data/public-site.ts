@@ -1015,7 +1015,7 @@ export const publicCopy = {
     },
     products: {
       eyebrow: "Produkte & zgjidhje",
-      title: "Katalog profesional ASSMANN / DIGITUS me SKU reale.",
+      title: "Katalog profesional me SKU dhe modele reale.",
       subtitle: "",
       allProducts: "Të gjitha produktet",
       searchPlaceholder: "Kërko produkt, specifikim ose kategori",
@@ -1097,7 +1097,7 @@ export const publicCopy = {
     },
     products: {
       eyebrow: "Products & solutions",
-      title: "A professional ASSMANN / DIGITUS catalog with real SKUs.",
+      title: "A professional catalog with real SKUs and models.",
       subtitle: "",
       allProducts: "All Products",
       searchPlaceholder: "Search product, specification, or category",

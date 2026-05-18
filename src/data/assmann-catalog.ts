@@ -18,9 +18,11 @@ export type AssmannProduct = {
   specifications: string[];
   images: string[];
   officialUrl: string | null;
-  officialSource: "products.digitus.com" | null;
+  officialSource: "products.digitus.com" | "store.ui.com" | "itegroup.al" | null;
   foundOfficialPage: boolean;
   placements: AssmannPlacement[];
+  brand?: string;
+  sourceLabel?: string;
 };
 
 export type AssmannSubcategory = {
@@ -68,7 +70,7 @@ const categoryMeta = {
   },
   surveillance: {
     description:
-      "DIGITUS surveillance hardware from the source document, kept as a compact product group.",
+      "Cameras, recording, access, and surveillance hardware merged from the official product sources.",
     image: "/images/artnet/cctv-camera.png",
     theme: "#0f766e",
   },
@@ -108,6 +110,18 @@ const categoryMeta = {
     image: "/images/artnet/toolkit.png",
     theme: "#525252",
   },
+  "electrical-industrial": {
+    description:
+      "Electrical protection, switches, lighting, cable routing, industrial panels, breakers, sockets, and installation materials.",
+    image: "https://itegroup.al/wp-content/uploads/2025/01/SHEZ9F351162734-10.jpg",
+    theme: "#5b6b73",
+  },
+  "solar-photovoltaic": {
+    description:
+      "Photovoltaic panels, solar inverters, DC protection, and solar installation components sourced from the ITE catalog.",
+    image: "https://itegroup.al/wp-content/uploads/2025/01/HUSUN2000-8KTL-M11364-10.jpg",
+    theme: "#b7791f",
+  },
 } as const;
 
 const productBySku = new Map(rawCatalog.products.map((product) => [product.sku, product]));
@@ -134,10 +148,30 @@ export function getProductImage(product: AssmannProduct) {
   return product.images[0] ?? null;
 }
 
+export function getProductBrand(product: AssmannProduct) {
+  if (product.brand) {
+    return product.brand;
+  }
+
+  if (product.officialSource === "store.ui.com") {
+    return "Ubiquiti / UniFi";
+  }
+
+  if (product.officialSource === "itegroup.al") {
+    return product.sourceLabel ?? "ITE Group";
+  }
+
+  return "DIGITUS / ASSMANN";
+}
+
+export function getProductSourceName(product: AssmannProduct) {
+  return product.sourceLabel ?? getProductBrand(product);
+}
+
 export function getAssmannCategories(): AssmannCategory[] {
   return rawCatalog.categories.map((category) => {
     const meta = categoryMeta[category.slug as keyof typeof categoryMeta] ?? {
-      description: "Products imported from the ASSMANN / DIGITUS source catalog.",
+      description: "Products imported from the official source catalogs.",
       image: "/images/artnet/hardware.png",
       theme: "#334155",
     };

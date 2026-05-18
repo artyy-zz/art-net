@@ -1,0 +1,341 @@
+{
+  "generatedAt": "2026-05-18T19:32:33.290Z",
+  "rows": 275,
+  "addedProducts": 0,
+  "mergedProducts": 1165,
+  "dedupedProducts": 50,
+  "addedPlacements": 0,
+  "skippedRows": [
+    {
+      "source": "ite",
+      "name": "BMS products",
+      "sku": "Category: BMS",
+      "reason": "ITE category source did not match a public WooCommerce category."
+    },
+    {
+      "source": "ite",
+      "name": "Photovoltaic cables",
+      "sku": "Category: FOTOVOLTAIK",
+      "reason": "Skipped broad parent ITE category FOTOVOLTAIK."
+    },
+    {
+      "source": "unifi",
+      "name": "E7 Campus",
+      "sku": "E7 Campus Product Collection",
+      "reason": "Skipped UniFi product collection placeholder; no single SKU/model."
+    },
+    {
+      "source": "unifi",
+      "name": "E7 Audience",
+      "sku": "E7 Audience Product Collection",
+      "reason": "Skipped UniFi product collection placeholder; no single SKU/model."
+    },
+    {
+      "source": "unifi",
+      "name": "SuperLink Gateway",
+      "sku": "SuperLink Gateway Product Collection",
+      "reason": "Skipped UniFi product collection placeholder; no single SKU/model."
+    },
+    {
+      "source": "unifi",
+      "name": "Camera Junction Boxes",
+      "sku": "Camera Junction Boxes Product Collection",
+      "reason": "Skipped UniFi product collection placeholder; no single SKU/model."
+    },
+    {
+      "source": "unifi",
+      "name": "Camera Arm Mounts",
+      "sku": "Camera Arm Mounts Product Collection",
+      "reason": "Skipped UniFi product collection placeholder; no single SKU/model."
+    },
+    {
+      "source": "unifi",
+      "name": "Camera Enhancers",
+      "sku": "Camera Enhancers Product Collection",
+      "reason": "Skipped UniFi product collection placeholder; no single SKU/model."
+    },
+    {
+      "source": "unifi",
+      "name": "Doorbells",
+      "sku": "Doorbells Product Collection",
+      "reason": "Skipped UniFi product collection placeholder; no single SKU/model."
+    },
+    {
+      "source": "unifi",
+      "name": "Toolless Mini Rack Shelf",
+      "sku": "Toolless Mini Rack Shelf Product Collection",
+      "reason": "Skipped UniFi product collection placeholder; no single SKU/model."
+    }
+  ],
+  "missingOfficialData": [
+    {
+      "source": "ite",
+      "name": "Karikues EVPro3F 32A 22kW+kabell+RFID+RCD IP55",
+      "sku": "Product slug visible, SKU not opened",
+      "url": "https://itegroup.al/product-category/energji/karikues-ev/"
+    },
+    {
+      "source": "ite",
+      "name": "Adaptor NEVE RJ45 keystone (UTP/FTP)",
+      "sku": "VI09338.C",
+      "url": "https://itegroup.al/product/prize-16a-shuko-universale/"
+    }
+  ],
+  "categoryImports": [
+    {
+      "sourceName": "PLC products",
+      "matchedCategory": "PLC",
+      "products": 45
+    },
+    {
+      "sourceName": "HMI products",
+      "matchedCategory": "HMI",
+      "products": 4
+    },
+    {
+      "sourceName": "Inverter frequency products",
+      "matchedCategory": "INVERTER FREKUENCE",
+      "products": 33
+    },
+    {
+      "sourceName": "Industrial sensors",
+      "matchedCategory": "SENSOR INDUSTRIALE",
+      "products": 5
+    },
+    {
+      "sourceName": "Measurement instruments",
+      "matchedCategory": "INSTRUMENTA MATJE",
+      "products": 22
+    },
+    {
+      "sourceName": "Panel accessories",
+      "matchedCategory": "AKSESOR PANELE",
+      "products": 20
+    },
+    {
+      "sourceName": "Industrial boxes",
+      "matchedCategory": "KASETA INDUSTRIALE",
+      "products": 9
+    },
+    {
+      "sourceName": "Vetroresin cabinets",
+      "matchedCategory": "KASETA VETRORESINE",
+      "products": 17
+    },
+    {
+      "sourceName": "Panel ventilation",
+      "matchedCategory": "VENTILIM PANELE",
+      "products": 10
+    },
+    {
+      "sourceName": "Generators",
+      "matchedCategory": "GJENERATOR",
+      "products": 19
+    },
+    {
+      "sourceName": "Power factor correction",
+      "matchedCategory": "RIFAZATOR",
+      "products": 10
+    },
+    {
+      "sourceName": "MV transformers",
+      "matchedCategory": "TRANSFORMATOR TM",
+      "products": 10
+    },
+    {
+      "sourceName": "Solar inverters / SmartLog",
+      "matchedCategory": "INVERTER,SMARTLOG",
+      "products": 12
+    },
+    {
+      "sourceName": "Photovoltaic panels",
+      "matchedCategory": "PANELE FOTOVOLTAIKE",
+      "products": 3
+    },
+    {
+      "sourceName": "PV structures and accessories",
+      "matchedCategory": "STRUKTURE,AKSESOR",
+      "products": 19
+    },
+    {
+      "sourceName": "LED Panels",
+      "matchedCategory": "PANELE LED",
+      "products": 1
+    },
+    {
+      "sourceName": "Street lighting",
+      "matchedCategory": "NDRICUES RRUGOR",
+      "products": 2
+    },
+    {
+      "sourceName": "LED strips 12V/24V/220V",
+      "matchedCategory": "SHIRIT LED 24VDC",
+      "products": 15
+    },
+    {
+      "sourceName": "LED strips 12V/24V/220V",
+      "matchedCategory": "SHIRIT LED 220V",
+      "products": 2
+    },
+    {
+      "sourceName": "Emergency lighting",
+      "matchedCategory": "NDRICUES EMERGJENCE",
+      "products": 5
+    },
+    {
+      "sourceName": "2-wire intercom systems",
+      "matchedCategory": "CITOFONI “DY FIJE”",
+      "products": 18
+    },
+    {
+      "sourceName": "4+N intercom systems",
+      "matchedCategory": "CITOFONI “4+N”",
+      "products": 12
+    },
+    {
+      "sourceName": "RJ45 plugs",
+      "matchedCategory": "FISHA RJ45",
+      "products": 5
+    },
+    {
+      "sourceName": "RJ45 outlets",
+      "matchedCategory": "PRIZA RJ45",
+      "products": 5
+    },
+    {
+      "sourceName": "Patch cords",
+      "matchedCategory": "PATCH KORD",
+      "products": 21
+    },
+    {
+      "sourceName": "Patch panels",
+      "matchedCategory": "PATCH PANEL",
+      "products": 5
+    },
+    {
+      "sourceName": "Rack accessories",
+      "matchedCategory": "AKSESORE RACK",
+      "products": 18
+    },
+    {
+      "sourceName": "19-inch rack structures",
+      "matchedCategory": "STRUKRURA RACK 19",
+      "products": 24
+    },
+    {
+      "sourceName": "Anti-theft systems",
+      "matchedCategory": "ANTI-VJEDHJE",
+      "products": 1
+    },
+    {
+      "sourceName": "Fire alarm systems",
+      "matchedCategory": "ALARM ZJARRI",
+      "products": 23
+    },
+    {
+      "sourceName": "Plastic cable ducts",
+      "matchedCategory": "KANALINE PLASTIKE",
+      "products": 74
+    },
+    {
+      "sourceName": "Metal cable ducts",
+      "matchedCategory": "KANALINE METALIKE",
+      "products": 25
+    },
+    {
+      "sourceName": "Cable trays / wire mesh trays",
+      "matchedCategory": "PASARELE GRILE",
+      "products": 6
+    },
+    {
+      "sourceName": "Terminals",
+      "matchedCategory": "TERMINALE",
+      "products": 66
+    },
+    {
+      "sourceName": "Vimar Neve",
+      "matchedCategory": "VIMAR, NEVE",
+      "products": 82
+    },
+    {
+      "sourceName": "Vimar Plana",
+      "matchedCategory": "VIMAR, PLANA",
+      "products": 42
+    },
+    {
+      "sourceName": "Vimar Arké",
+      "matchedCategory": "VIMAR, ARKE",
+      "products": 84
+    },
+    {
+      "sourceName": "Vimar Eikon",
+      "matchedCategory": "VIMAR, EIKON",
+      "products": 34
+    },
+    {
+      "sourceName": "Schneider sockets",
+      "matchedCategory": "PRIZA SCHNEIDER",
+      "products": 2
+    },
+    {
+      "sourceName": "Power cables FG16R16/OR16",
+      "matchedCategory": "FG16R16/OR16",
+      "products": 58
+    },
+    {
+      "sourceName": "Data cables",
+      "matchedCategory": "DATA",
+      "products": 13
+    },
+    {
+      "sourceName": "Bus cables",
+      "matchedCategory": "BUS",
+      "products": 2
+    },
+    {
+      "sourceName": "Audio cables",
+      "matchedCategory": "AUDIO",
+      "products": 10
+    },
+    {
+      "sourceName": "Fiber optic cables",
+      "matchedCategory": "FIBER OPTIKE",
+      "products": 4
+    },
+    {
+      "sourceName": "TV-SAT/CCTV cables",
+      "matchedCategory": "TV-SAT,CCTV",
+      "products": 8
+    },
+    {
+      "sourceName": "Pliers",
+      "matchedCategory": "PINCA",
+      "products": 18
+    },
+    {
+      "sourceName": "Scissors",
+      "matchedCategory": "GERSHERE",
+      "products": 2
+    },
+    {
+      "sourceName": "Screwdrivers",
+      "matchedCategory": "KACAVIDA",
+      "products": 18
+    },
+    {
+      "sourceName": "Mechanical keys / wrenches",
+      "matchedCategory": "CELSA MEKANIK",
+      "products": 2
+    },
+    {
+      "sourceName": "Knives",
+      "matchedCategory": "THIKA",
+      "products": 4
+    },
+    {
+      "sourceName": "Measuring tools",
+      "matchedCategory": "METER",
+      "products": 3
+    }
+  ]
+}

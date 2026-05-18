@@ -15,6 +15,7 @@ import {
 import { useMemo, useState } from "react";
 import type { AssmannCategory, AssmannProduct } from "@/data/assmann-catalog";
 import {
+  getProductBrand,
   getPrimaryPlacement,
   getProductDetailHref,
   getProductImage,
@@ -24,7 +25,7 @@ import { cn } from "@/lib/utils";
 
 const copy = {
   sq: {
-    search: "Kerko ne te gjithe katalogun me emer, SKU, kategori ose nenkategori",
+    search: "Kerko ne te gjithe katalogun me emer, SKU/model, kategori ose nenkategori",
     filter: "Filtro",
     allProducts: "Te gjitha produktet",
     categories: "Kategorite",
@@ -39,7 +40,7 @@ const copy = {
     suggestions: "Sugjerime",
   },
   en: {
-    search: "Search the full catalog by name, SKU, category, or subcategory",
+    search: "Search the full catalog by name, SKU/model, category, or subcategory",
     filter: "Filter",
     allProducts: "All Products",
     categories: "Categories",
@@ -79,6 +80,8 @@ function productMatches(product: AssmannProduct, query: string) {
     product.title,
     product.documentName,
     product.description,
+    getProductBrand(product),
+    product.sourceLabel,
     ...product.specifications,
     ...product.placements.flatMap((placement) => [placement.category, placement.subcategory]),
   ].join(" ");
