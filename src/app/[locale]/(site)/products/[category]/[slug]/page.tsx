@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { ArrowLeft, ExternalLink } from "lucide-react";
-import { notFound } from "next/navigation";
+import { notFound, redirect } from "next/navigation";
 import type { Metadata } from "next";
 import { JsonLd } from "@/components/shared/json-ld";
 import { ProductGallery } from "@/components/site/product-gallery";
@@ -9,6 +9,7 @@ import {
   getAssmannCategoryBySlug,
   getAssmannProductBySlug,
   getAssmannProducts,
+  getLegacyProductCategorySlug,
   getProductBrand,
   getProductDetailHref,
   getPrimaryPlacement,
@@ -18,6 +19,7 @@ import {
 } from "@/data/assmann-catalog";
 import { publicBrand, publicCopy } from "@/data/public-site";
 import { locales, type Locale } from "@/lib/i18n";
+import { isRemoteImage } from "@/lib/image-utils";
 import { getAbsoluteUrl, getAlternateLanguages, siteName } from "@/lib/seo";
 
 const copy = {
@@ -72,6 +74,16 @@ export async function generateMetadata({
   const activeCategory = getAssmannCategoryBySlug(category);
 
   if (!product || !activeCategory) {
+    const replacementSlug = getLegacyProductCategorySlug(category);
+
+    if (product && replacementSlug) {
+      return {
+        alternates: {
+          canonical: getProductDetailHref(typedLocale, product, replacementSlug),
+        },
+      };
+    }
+
     return {};
   }
 
@@ -97,6 +109,7 @@ export async function generateMetadata({
       productSourceName,
       placement?.category,
       placement?.subcategory,
+      ...(product.tags ?? []),
     ].filter((value): value is string => Boolean(value)),
     alternates: {
       canonical: path,
@@ -148,6 +161,7 @@ function RelatedProductCard({
             alt={product.title || product.documentName}
             fill
             loading="lazy"
+            unoptimized={isRemoteImage(image)}
             sizes="112px"
             className="object-contain p-3"
           />
@@ -175,7 +189,17 @@ export default async function ProductDetailPage({
   const product = getAssmannProductBySlug(slug);
   const activeCategory = getAssmannCategoryBySlug(category);
 
-  if (!product || !activeCategory) {
+  if (!product) {
+    notFound();
+  }
+
+  if (!activeCategory) {
+    const replacementSlug = getLegacyProductCategorySlug(category);
+
+    if (replacementSlug) {
+      redirect(getProductDetailHref(typedLocale, product, replacementSlug));
+    }
+
     notFound();
   }
 
@@ -184,7 +208,7 @@ export default async function ProductDetailPage({
     getPrimaryPlacement(product);
 
   if (!placement || placement.categorySlug !== activeCategory.slug) {
-    notFound();
+    redirect(getProductDetailHref(typedLocale, product));
   }
 
   const related = getRelatedAssmannProducts(product);

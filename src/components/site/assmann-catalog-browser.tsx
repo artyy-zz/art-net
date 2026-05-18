@@ -19,8 +19,10 @@ import {
   getPrimaryPlacement,
   getProductDetailHref,
   getProductImage,
+  getProductSourceName,
 } from "@/data/assmann-catalog";
 import type { Locale } from "@/lib/i18n";
+import { isRemoteImage } from "@/lib/image-utils";
 import { cn } from "@/lib/utils";
 
 const copy = {
@@ -30,6 +32,7 @@ const copy = {
     allProducts: "Te gjitha produktet",
     categories: "Kategorite",
     subcategories: "Nenkategorite",
+    sources: "Brendet / burimet",
     filters: "Opsionet",
     withImages: "Vetem me imazhe",
     officialOnly: "Vetem me faqe zyrtare",
@@ -45,6 +48,7 @@ const copy = {
     allProducts: "All Products",
     categories: "Categories",
     subcategories: "Subcategories",
+    sources: "Brands / sources",
     filters: "Filtering options",
     withImages: "Only with images",
     officialOnly: "Only official pages",
@@ -56,7 +60,7 @@ const copy = {
   },
 } as const;
 
-type SectionKey = "categories" | "subcategories" | "filters";
+type SectionKey = "categories" | "subcategories" | "sources" | "filters";
 
 type ProductSection = {
   id: string;
@@ -82,6 +86,8 @@ function productMatches(product: AssmannProduct, query: string) {
     product.description,
     getProductBrand(product),
     product.sourceLabel,
+    getProductSourceName(product),
+    ...(product.tags ?? []),
     ...product.specifications,
     ...product.placements.flatMap((placement) => [placement.category, placement.subcategory]),
   ].join(" ");
@@ -157,6 +163,7 @@ function ProductCard({
             alt={title}
             fill
             loading="lazy"
+            unoptimized={isRemoteImage(image)}
             sizes="280px"
             className="object-contain p-5 transition duration-500 group-hover:scale-[1.04]"
           />
@@ -223,11 +230,13 @@ export function AssmannCatalogBrowser({
   const [query, setQuery] = useState("");
   const [sidebarOpen, setSidebarOpen] = useState(false);
   const [selectedSubcategories, setSelectedSubcategories] = useState<string[]>([]);
+  const [selectedSources, setSelectedSources] = useState<string[]>([]);
   const [onlyWithImages, setOnlyWithImages] = useState(false);
   const [officialOnly, setOfficialOnly] = useState(false);
   const [expanded, setExpanded] = useState<Record<SectionKey, boolean>>({
     categories: true,
     subcategories: true,
+    sources: true,
     filters: true,
   });
 
@@ -246,6 +255,19 @@ export function AssmannCatalogBrowser({
       })),
     );
   }, [activeCategory, categories, hasQuery]);
+
+  const sourceOptions = useMemo(() => {
+    const counts = new Map<string, number>();
+
+    for (const product of products) {
+      const source = getProductSourceName(product);
+      counts.set(source, (counts.get(source) ?? 0) + 1);
+    }
+
+    return [...counts.entries()]
+      .map(([label, count]) => ({ label, count }))
+      .sort((left, right) => right.count - left.count || left.label.localeCompare(right.label));
+  }, [products]);
 
   const filteredProducts = useMemo(() => {
     return products
@@ -268,6 +290,11 @@ export function AssmannCatalogBrowser({
           selectedSubcategories.includes(`${placement.categorySlug}:${placement.subcategorySlug}`),
         );
       })
+      .filter((product) =>
+        selectedSources.length > 0
+          ? selectedSources.includes(getProductSourceName(product))
+          : true,
+      )
       .filter((product) => (onlyWithImages ? product.images.length > 0 : true))
       .filter((product) => (officialOnly ? product.foundOfficialPage : true))
       .slice()
@@ -280,6 +307,7 @@ export function AssmannCatalogBrowser({
     onlyWithImages,
     products,
     selectedSubcategories,
+    selectedSources,
   ]);
 
   const filteredSkuSet = useMemo(
@@ -350,9 +378,16 @@ export function AssmannCatalogBrowser({
     );
   }
 
+  function toggleSource(value: string) {
+    setSelectedSources((current) =>
+      current.includes(value) ? current.filter((item) => item !== value) : [...current, value],
+    );
+  }
+
   function clearFilters() {
     setQuery("");
     setSelectedSubcategories([]);
+    setSelectedSources([]);
     setOnlyWithImages(false);
     setOfficialOnly(false);
   }
@@ -432,6 +467,33 @@ export function AssmannCatalogBrowser({
                       {subcategory.category}
                     </span>
                   ) : null}
+                </span>
+              </label>
+            ))}
+          </div>
+        </SidebarSection>
+
+        <SidebarSection
+          title={labels.sources}
+          section="sources"
+          expanded={expanded.sources}
+          onToggle={toggleSection}
+        >
+          <div className="max-h-64 space-y-2 overflow-y-auto pr-1 pt-2">
+            {sourceOptions.map((source) => (
+              <label
+                key={source.label}
+                className="flex cursor-pointer items-start gap-2 rounded-md px-2 py-1.5 text-sm text-[var(--color-muted)] transition hover:bg-[#f5f8fa] hover:text-[var(--color-foreground)]"
+              >
+                <input
+                  type="checkbox"
+                  checked={selectedSources.includes(source.label)}
+                  onChange={() => toggleSource(source.label)}
+                  className="mt-1 h-4 w-4 rounded border-[var(--color-line-strong)] accent-[var(--color-accent)]"
+                />
+                <span className="min-w-0 flex-1">
+                  <span className="block truncate font-medium">{source.label}</span>
+                  <span className="text-xs text-[var(--color-muted)]">{source.count}</span>
                 </span>
               </label>
             ))}
@@ -530,6 +592,7 @@ export function AssmannCatalogBrowser({
                           src={getProductImage(product) ?? ""}
                           alt={product.title || product.documentName}
                           fill
+                          unoptimized={isRemoteImage(getProductImage(product))}
                           sizes="44px"
                           className="object-contain p-1"
                         />

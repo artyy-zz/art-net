@@ -1,0 +1,105 @@
+Examine the existing product catalog and fix the product category structure.
+
+Do not delete products. Reorganize them into cleaner categories and subcategories.
+
+Current issue:
+Some products are placed in categories that are too broad or wrong. For example, Smart Home contains normal LED lighting, Surveillance contains intercom/fire/access systems, and Power contains PoE/solar items that should be categorized better.
+
+Create or update these main categories:
+
+* Networking
+* WiFi & Wireless
+* Surveillance
+* Security & Access Control
+* Racks & Cabinets
+* Fiber Optics
+* Power
+* AV & Multimedia
+* Smart Home & Automation
+* Lighting
+* Electrical & Industrial
+* Solar / Photovoltaic
+* Installation Materials & Cables
+* Tools & Accessories
+* Services
+
+Rules:
+
+1. Networking
+   Put copper networking, switches, patch cables, patch panels, keystone modules, RJ45 connectors, media converters, SFP modules, and PoE injectors/splitters/extenders here.
+
+2. WiFi & Wireless
+   Move UniFi access points, WiFi devices, wireless bridges, mesh devices, wireless adapters, outdoor wireless, antennas, and wireless controllers here.
+
+3. Surveillance
+   Keep only video/security camera products here:
+   IP cameras, UniFi cameras, NVRs, camera mounts, CCTV/surveillance cables, camera accessories, and video recording devices.
+
+4. Security & Access Control
+   Move intercoms, door access, access cards, access readers, door controllers, anti-theft systems, fire alarm systems, alarm sensors, sirens, smart access, and security sensors here.
+
+5. Racks & Cabinets
+   Keep wall cabinets, freestanding cabinets, server racks, rack shelves, rack cooling, cable management panels, blank panels, rack accessories, AV racks, and charging cabinets here.
+
+6. Fiber Optics
+   Keep fiber patch cables, fiber structured cables, fiber pigtails, fiber trunk cables, fiber couplers, fiber connectors, splice boxes, distribution boxes, FTTX, MPO, and fiber-specific tools here.
+
+7. Power
+   Keep PDUs, UPS systems, chargers, power supplies, power cords, EV chargers, stabilizers, generators, transformers, power factor correction, and battery/storage power products here.
+   Move solar cables/accessories to Solar / Photovoltaic.
+   Move PoE injectors/splitters/extenders to Networking.
+
+8. AV & Multimedia
+   Keep HDMI extenders, splitters, switches, matrix systems, video wall controllers, AV converters, conference/presentation systems, monitor mounts, TV mounts, and TV presentation carts here.
+
+9. Smart Home & Automation
+   Keep only smart/automation products here:
+   Philips Hue, smart switches, smart controllers, smart sensors, smart bulbs, smart home modules, and automation devices.
+   Move normal LED lamps, panels, floodlights, street lighting, and emergency lights to Lighting.
+
+10. Lighting
+    Move all normal lighting here:
+    LED lamps, GU10 lamps, LED panels, LED strips, floodlights, street lighting, emergency lighting, spotlights, outdoor lights, and industrial lighting.
+
+11. Electrical & Industrial
+    Keep industrial electrical products here:
+    circuit breakers, differentials/RCDs, PLC, BMS, HMI, contactors, relays, motor protection, industrial sensors, measuring instruments, panel switches, industrial sockets, and automation components.
+
+12. Solar / Photovoltaic
+    Keep solar-specific products here:
+    solar inverters, SmartLog, photovoltaic panels, PV structures, PV accessories, solar connectors, solar cables, and solar mounting hardware.
+
+13. Installation Materials & Cables
+    Move general installation products here:
+    plastic/metal cable channels, tubes, conduits, wall boxes, distribution boxes, screws, anchors, grounding components, terminals, cable trays, general cables, data cables, fire/alarm cables, TV-SAT/CCTV cables, and installation accessories.
+
+14. Tools & Accessories
+    Keep actual tools and small accessories here:
+    network testers, crimping tools, stripping tools, fiber tools only if not already inside Fiber Optics, pliers, scissors, screwdrivers, knives, measuring tools, rack mounting kits, small adapters, cable ties, labels, and general accessories.
+
+15. Services
+    Do not mix services with product catalog.
+    Create a separate Services section/page with:
+
+* Network Installation
+* CCTV / Surveillance Installation
+* Rack & Cabinet Setup
+* Fiber Optic Installation
+* WiFi Setup
+* Hardware Maintenance
+* Website Development
+* Ecommerce Websites
+* ERP Systems
+* Hosting & Domains
+* SEO
+* UI/UX Design
+
+Important:
+
+* Avoid duplicate products.
+* If a product fits multiple categories, choose one primary category and add secondary tags.
+* Keep global search working across all products.
+* Keep filters working by category, subcategory, brand/source, SKU/model, and image availability.
+* Do not invent products or SKUs.
+* Preserve existing product pages and images where possible.
+* Update category counts after reorganizing.

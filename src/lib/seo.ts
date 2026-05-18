@@ -73,12 +73,20 @@ export const rootMetadata: Metadata = {
   },
 };
 
-export type PublicPage = "home" | "about" | "products" | "projects" | "contact" | "quote";
+export type PublicPage =
+  | "home"
+  | "about"
+  | "products"
+  | "services"
+  | "projects"
+  | "contact"
+  | "quote";
 
 const routePaths = {
   home: "",
   about: "/about",
   products: "/products",
+  services: "/services",
   projects: "/projects",
   contact: "/contact",
   quote: "/quote",
@@ -112,6 +120,12 @@ const pageSeo = {
       description:
         "Shikoni produktet dhe zgjidhjet Artnet për rrjete, siguri, kabllo, aksesore, software dhe hapësira smart.",
       keywords: ["produkte rrjeti", "kamera IP", "kabllo ethernet", "fiber patch"],
+    },
+    services: {
+      title: "Sherbime teknologjike | Artnet",
+      description:
+        "Sherbime Artnet per instalim rrjeti, CCTV, fiber optike, WiFi, mirembajtje hardware, website, ecommerce, ERP, hosting, SEO dhe UI/UX.",
+      keywords: ["instalim rrjeti", "instalim CCTV", "website development", "ERP", "hosting"],
     },
     projects: {
       title: "Projekte teknologjike | Artnet",
@@ -150,6 +164,12 @@ const pageSeo = {
       description:
         "Explore Artnet products and solutions for networks, security, cables, accessories, software, and smart spaces.",
       keywords: ["network products", "IP cameras", "ethernet cable", "fiber patch"],
+    },
+    services: {
+      title: "Technology Services | Artnet",
+      description:
+        "Artnet services for network installation, CCTV, fiber optics, WiFi setup, hardware maintenance, website development, ecommerce, ERP, hosting, SEO, and UI/UX.",
+      keywords: ["network installation", "CCTV installation", "website development", "ERP", "hosting"],
     },
     projects: {
       title: "Technology Projects | Artnet",

@@ -6,6 +6,7 @@ import { X } from "lucide-react";
 import { useEffect, useState } from "react";
 import type { LocalizedCategory } from "@/data/public-site";
 import type { Locale } from "@/lib/i18n";
+import { isRemoteImage } from "@/lib/image-utils";
 
 type HomeCategoryCopy = {
   detailsButton: string;
@@ -64,6 +65,7 @@ function CategoryModal({
             src={category.image}
             alt={category.title}
             fill
+            unoptimized={isRemoteImage(category.image)}
             sizes="(min-width: 768px) 42vw, 100vw"
             className="object-contain p-8 sm:p-12"
           />
@@ -165,6 +167,7 @@ export function HomeCategorySections({
                   src={category.image}
                   alt={category.title}
                   fill
+                  unoptimized={isRemoteImage(category.image)}
                   sizes="(min-width: 1024px) 48vw, 100vw"
                   className="object-contain p-3 transition duration-700 ease-out hover:scale-[1.03] sm:p-6"
                 />

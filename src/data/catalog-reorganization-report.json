@@ -1,0 +1,108 @@
+{
+  "generatedAt": "2026-05-18T20:50:34.974Z",
+  "products": 2136,
+  "categories": [
+    {
+      "name": "Networking",
+      "slug": "networking",
+      "products": 280,
+      "subcategories": 10
+    },
+    {
+      "name": "WiFi & Wireless",
+      "slug": "wifi-wireless",
+      "products": 27,
+      "subcategories": 2
+    },
+    {
+      "name": "Surveillance",
+      "slug": "surveillance",
+      "products": 53,
+      "subcategories": 3
+    },
+    {
+      "name": "Security & Access Control",
+      "slug": "security-access-control",
+      "products": 74,
+      "subcategories": 4
+    },
+    {
+      "name": "Racks & Cabinets",
+      "slug": "racks-cabinets",
+      "products": 356,
+      "subcategories": 7
+    },
+    {
+      "name": "Fiber Optics",
+      "slug": "fiber-optics",
+      "products": 241,
+      "subcategories": 10
+    },
+    {
+      "name": "Power",
+      "slug": "power",
+      "products": 130,
+      "subcategories": 10
+    },
+    {
+      "name": "AV & Multimedia",
+      "slug": "av-multimedia",
+      "products": 142,
+      "subcategories": 8
+    },
+    {
+      "name": "Smart Home & Automation",
+      "slug": "smart-home-automation",
+      "products": 5,
+      "subcategories": 1
+    },
+    {
+      "name": "Lighting",
+      "slug": "lighting",
+      "products": 29,
+      "subcategories": 5
+    },
+    {
+      "name": "Electrical & Industrial",
+      "slug": "electrical-industrial",
+      "products": 413,
+      "subcategories": 7
+    },
+    {
+      "name": "Solar / Photovoltaic",
+      "slug": "solar-photovoltaic",
+      "products": 45,
+      "subcategories": 4
+    },
+    {
+      "name": "Installation Materials & Cables",
+      "slug": "installation-materials-cables",
+      "products": 250,
+      "subcategories": 7
+    },
+    {
+      "name": "Tools & Accessories",
+      "slug": "tools-accessories",
+      "products": 91,
+      "subcategories": 4
+    }
+  ],
+  "assignmentCounts": {
+    "av-multimedia": 142,
+    "electrical-industrial": 413,
+    "fiber-optics": 241,
+    "installation-materials-cables": 250,
+    "lighting": 29,
+    "networking": 280,
+    "power": 130,
+    "racks-cabinets": 356,
+    "security-access-control": 74,
+    "smart-home-automation": 5,
+    "solar-photovoltaic": 45,
+    "surveillance": 53,
+    "tools-accessories": 91,
+    "wifi-wireless": 27
+  },
+  "movedProducts": 0,
+  "sampleMoves": []
+}

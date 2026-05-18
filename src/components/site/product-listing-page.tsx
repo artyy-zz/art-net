@@ -9,6 +9,7 @@ import {
 } from "@/data/assmann-catalog";
 import { publicBrand, publicCopy } from "@/data/public-site";
 import type { Locale } from "@/lib/i18n";
+import { isRemoteImage } from "@/lib/image-utils";
 
 const listingCopy = {
   sq: {
@@ -50,6 +51,7 @@ function CategoryTile({
           src={category.image}
           alt={category.name}
           fill
+          unoptimized={isRemoteImage(category.image)}
           sizes="72px"
           className="object-contain p-2 transition duration-500 group-hover:scale-[1.05]"
         />
@@ -125,6 +127,7 @@ export function ProductListingPage({
                 alt={heroAlt}
                 fill
                 preload
+                unoptimized={isRemoteImage(heroImage)}
                 sizes="(min-width: 1024px) 32vw, 100vw"
                 className="object-contain p-10"
               />

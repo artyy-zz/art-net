@@ -23,6 +23,7 @@ export type AssmannProduct = {
   placements: AssmannPlacement[];
   brand?: string;
   sourceLabel?: string;
+  tags?: string[];
 };
 
 export type AssmannSubcategory = {
@@ -68,11 +69,23 @@ const categoryMeta = {
     image: "/images/artnet/ethernet-cable.png",
     theme: "#006b96",
   },
+  "wifi-wireless": {
+    description:
+      "Access points, WiFi devices, wireless antennas, mesh, outdoor wireless, and wireless accessories.",
+    image: "https://cdn.ecomm.ui.com/products/9a175fbc-89d5-4628-a3bd-3492f912632f/74af8d47-99ff-4dee-a74d-34d7a30e4d56.png",
+    theme: "#0477b8",
+  },
   surveillance: {
     description:
-      "Cameras, recording, access, and surveillance hardware merged from the official product sources.",
+      "Video surveillance products including IP cameras, NVRs, camera accessories, and surveillance cabling.",
     image: "/images/artnet/cctv-camera.png",
     theme: "#0f766e",
+  },
+  "security-access-control": {
+    description:
+      "Intercoms, door access, readers, fire alarm systems, alarm sensors, sirens, and security controls.",
+    image: "https://cdn.ecomm.ui.com/products/01c25022-4f42-4ff7-a33e-14697428985e/eceace8a-d596-45a0-b3ec-ff55d4030a6b.png",
+    theme: "#7f1d1d",
   },
   "racks-cabinets": {
     description:
@@ -104,6 +117,18 @@ const categoryMeta = {
     image: "/images/artnet/smart-doorbell.jpg",
     theme: "#0f7a58",
   },
+  "smart-home-automation": {
+    description:
+      "Smart lighting, controllers, smart bulbs, sensors, and home automation modules.",
+    image: "/images/artnet/smart-doorbell.jpg",
+    theme: "#0f7a58",
+  },
+  lighting: {
+    description:
+      "LED lamps, panels, strips, street lighting, emergency lighting, spotlights, and general lighting products.",
+    image: "https://itegroup.al/wp-content/uploads/2025/01/PI9290026962026920-10.jpg",
+    theme: "#b45309",
+  },
   "tools-accessories": {
     description:
       "Network tools, testers, labels, organizers, small accessories, mounts, bags, and workspace accessories.",
@@ -112,7 +137,7 @@ const categoryMeta = {
   },
   "electrical-industrial": {
     description:
-      "Electrical protection, switches, lighting, cable routing, industrial panels, breakers, sockets, and installation materials.",
+      "Electrical protection, civil switchgear, industrial panels, PLC/HMI, sensors, measuring instruments, and automation components.",
     image: "https://itegroup.al/wp-content/uploads/2025/01/SHEZ9F351162734-10.jpg",
     theme: "#5b6b73",
   },
@@ -122,6 +147,16 @@ const categoryMeta = {
     image: "https://itegroup.al/wp-content/uploads/2025/01/HUSUN2000-8KTL-M11364-10.jpg",
     theme: "#b7791f",
   },
+  "installation-materials-cables": {
+    description:
+      "Cable channels, conduits, trays, wall boxes, terminals, general cables, and installation accessories.",
+    image: "https://itegroup.al/wp-content/uploads/2025/01/SHISM10200P6367-10.jpg",
+    theme: "#64748b",
+  },
+} as const;
+
+const legacyCategorySlugRedirects = {
+  "smart-home": "smart-home-automation",
 } as const;
 
 const productBySku = new Map(rawCatalog.products.map((product) => [product.sku, product]));
@@ -166,6 +201,10 @@ export function getProductBrand(product: AssmannProduct) {
 
 export function getProductSourceName(product: AssmannProduct) {
   return product.sourceLabel ?? getProductBrand(product);
+}
+
+export function getLegacyProductCategorySlug(slug: string) {
+  return legacyCategorySlugRedirects[slug as keyof typeof legacyCategorySlugRedirects] ?? null;
 }
 
 export function getAssmannCategories(): AssmannCategory[] {

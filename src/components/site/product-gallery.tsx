@@ -3,6 +3,7 @@
 import Image from "next/image";
 import { ImageIcon, Maximize2, X } from "lucide-react";
 import { useEffect, useState } from "react";
+import { isRemoteImage } from "@/lib/image-utils";
 
 function EmptyImage({ label }: { label: string }) {
   return (
@@ -69,6 +70,7 @@ export function ProductGallery({
             src={activeImage}
             alt={title}
             fill
+            unoptimized={isRemoteImage(activeImage)}
             sizes="(min-width: 1024px) 50vw, 100vw"
             className="object-contain p-8 transition duration-500 group-hover:scale-[1.03]"
           />
@@ -96,6 +98,7 @@ export function ProductGallery({
                   alt={`${title} ${index + 1}`}
                   fill
                   loading="lazy"
+                  unoptimized={isRemoteImage(image)}
                   sizes="120px"
                   className="object-contain p-2"
                 />
@@ -121,6 +124,7 @@ export function ProductGallery({
               src={activeImage}
               alt={title}
               fill
+              unoptimized={isRemoteImage(activeImage)}
               sizes="100vw"
               className="object-contain p-5 sm:p-8"
             />

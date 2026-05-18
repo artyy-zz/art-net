@@ -1,7 +1,11 @@
 import type { Metadata } from "next";
-import { notFound } from "next/navigation";
+import { notFound, redirect } from "next/navigation";
 import { ProductListingPage } from "@/components/site/product-listing-page";
-import { getAssmannCategories, getAssmannCategoryBySlug } from "@/data/assmann-catalog";
+import {
+  getAssmannCategories,
+  getAssmannCategoryBySlug,
+  getLegacyProductCategorySlug,
+} from "@/data/assmann-catalog";
 import { locales, type Locale } from "@/lib/i18n";
 import { getAbsoluteUrl, getAlternateLanguages, siteName } from "@/lib/seo";
 
@@ -22,6 +26,19 @@ export async function generateMetadata({
   const activeCategory = getAssmannCategoryBySlug(category);
 
   if (!activeCategory) {
+    const replacementSlug = getLegacyProductCategorySlug(category);
+
+    if (replacementSlug) {
+      const replacementCategory = getAssmannCategoryBySlug(replacementSlug);
+
+      if (replacementCategory) {
+        return {
+          title: `${replacementCategory.name} Products | ${siteName}`,
+          description: replacementCategory.description,
+        };
+      }
+    }
+
     return {};
   }
 
@@ -72,6 +89,12 @@ export default async function ProductCategoryPage({
   const activeCategory = getAssmannCategoryBySlug(category);
 
   if (!activeCategory) {
+    const replacementSlug = getLegacyProductCategorySlug(category);
+
+    if (replacementSlug) {
+      redirect(`/${locale}/products/${replacementSlug}`);
+    }
+
     notFound();
   }
 

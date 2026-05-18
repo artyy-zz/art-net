@@ -11,6 +11,7 @@ export function SiteFooter({ locale }: { locale: Locale }) {
   const navItems = [
     { href: `/${locale}`, label: dict.nav.home },
     { href: `/${locale}/products`, label: copy.nav.products },
+    { href: `/${locale}/services`, label: copy.nav.services },
     { href: `/${locale}/projects`, label: copy.nav.projects },
     { href: `/${locale}/contact`, label: copy.nav.contacts },
   ];

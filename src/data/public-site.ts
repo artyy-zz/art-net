@@ -995,6 +995,7 @@ export const publicCopy = {
   sq: {
     nav: {
       products: "Produkte",
+      services: "Shërbimet",
       projects: "Projekte",
       contacts: "Kontaktet",
     },
@@ -1077,6 +1078,7 @@ export const publicCopy = {
   en: {
     nav: {
       products: "Products",
+      services: "Services",
       projects: "Projects",
       contacts: "Contacts",
     },
