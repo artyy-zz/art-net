@@ -3,9 +3,9 @@ export const dictionaries = {
     localeLabel: "Shqip",
     localeShort: "AL",
     common: {
-      requestQuote: "Kërko Ofertë",
+      requestQuote: "Kërko konsultë",
       learnMore: "Më shumë",
-      exploreCollection: "Shiko koleksionin",
+      exploreCollection: "Shiko produktet",
       viewAll: "Shiko të gjitha",
       downloadPdf: "Shkarko PDF",
       login: "Hyr",
@@ -23,33 +23,33 @@ export const dictionaries = {
     },
     nav: {
       home: "Ballina",
-      furniture: "Mobilje",
+      furniture: "Produkte",
       about: "Rreth nesh",
       contact: "Kontakt",
       admin: "Admin",
     },
     home: {
-      eyebrow: "Cilësi që ndihet në çdo detaj.",
-      title: "Mobilje moderne, funksionale dhe të punuara me kujdes.",
+      eyebrow: "Infrastrukturë teknologjike me standard premium.",
+      title: "Rrjete, siguri dhe sisteme smart për hapësira moderne.",
       subtitle:
-        "Art Home krijon mobilje për hapësira të përditshme që kërkojnë dizajn të pastër, materiale cilësore dhe realizim të saktë.",
-      featuredTitle: "Punime të zgjedhura",
-      ctaTitle: "Na dërgo idenë tënde. Ne e kthejmë në plan pune.",
+        "Artnet projekton dhe instalon zgjidhje teknologjike që duken pastër, punojnë shpejt dhe shkallëzohen me biznesin tuaj.",
+      featuredTitle: "Produkte të zgjedhura",
+      ctaTitle: "Na tregoni hapësirën. Ne e kthejmë në arkitekturë teknike.",
       ctaBody:
-        "Nga kuzhinat premium deri te mobiljet e personalizuara për banesa dhe biznese, procesi ynë fokusohet në material, detaj dhe përfundim të saktë.",
+        "Nga rrjetet dhe kamerat deri te pajisjet smart, procesi ynë fokusohet në performancë, pastërti vizuale dhe mirëmbajtje të thjeshtë.",
     },
     about: {
-      title: "Rreth Art Home",
+      title: "Rreth Artnet",
       intro:
-        "Art Home ndërton mobilje që i japin hapësirës karakter, rregull dhe përdorim të përditshëm pa kompromis në cilësi.",
+        "Artnet ndërton shtresën teknologjike që e bën një hapësirë më të lidhur, më të sigurt dhe më të lehtë për t'u menaxhuar.",
       craftsmanshipTitle: "Kush jemi ne?",
       craftsmanshipBody:
-        "Ne jemi një kompani e përkushtuar në krijimin e mobiljeve cilësore që kombinojnë dizajnin modern me funksionalitetin e përditshëm. Me një përvojë të gjatë në këtë industri, synimi ynë është të sjellim produkte që jo vetëm zbukurojnë hapësirën tuaj, por edhe e bëjnë atë më të rehatshme dhe praktike.",
+        "Ne jemi ekip teknik i fokusuar në rrjete, siguri, instalime smart dhe mbështetje praktike. Qëllimi ynë është të krijojmë sisteme që funksionojnë qetë, duken pastër dhe mbeten të kuptueshme edhe pas dorëzimit.",
     },
     contact: {
       title: "Kontakt",
       intro:
-        "Na kontaktoni për informata, takime dhe projekte të reja të mobiljeve.",
+        "Na kontaktoni për rrjete, sisteme sigurie, instalime smart ose mbështetje teknike.",
       formSuccess: "Kërkesa u regjistrua me sukses.",
     },
     login: {
@@ -63,7 +63,7 @@ export const dictionaries = {
       dashboard: "Dashboard",
       clients: "Klientët",
       leads: "Kërkesat",
-      suppliers: "Furnitoret",
+      suppliers: "Furnitorët",
       inventory: "Artikujt",
       assetsInventory: "Inventari",
       stoqet: "Stoqet",
@@ -86,9 +86,9 @@ export const dictionaries = {
     localeLabel: "English",
     localeShort: "EN",
     common: {
-      requestQuote: "Request a Quote",
+      requestQuote: "Request a Consult",
       learnMore: "Learn more",
-      exploreCollection: "Explore collection",
+      exploreCollection: "Explore products",
       viewAll: "View all",
       downloadPdf: "Download PDF",
       login: "Login",
@@ -106,33 +106,33 @@ export const dictionaries = {
     },
     nav: {
       home: "Home",
-      furniture: "Furniture",
+      furniture: "Products",
       about: "About",
       contact: "Contact",
       admin: "Admin",
     },
     home: {
-      eyebrow: "Quality you can feel in every detail.",
-      title: "Modern, functional furniture made with care.",
+      eyebrow: "Premium technology infrastructure.",
+      title: "Networks, security, and smart systems for modern spaces.",
       subtitle:
-        "Art Home creates furniture for everyday spaces that need clean design, quality materials, and precise execution.",
-      featuredTitle: "Featured work",
-      ctaTitle: "Send us your idea. We turn it into a practical plan.",
+        "Artnet designs and installs technology solutions that look clean, run fast, and scale with your business.",
+      featuredTitle: "Selected products",
+      ctaTitle: "Tell us the space. We turn it into a technical architecture.",
       ctaBody:
-        "From premium kitchens to personalized home and business furniture, our process is built around material quality, detail, and a precise finish.",
+        "From networks and cameras to smart devices, our process focuses on performance, visual clarity, and simple maintenance.",
     },
     about: {
-      title: "About Art Home",
+      title: "About Artnet",
       intro:
-        "Art Home builds furniture that gives each space character, order, and practical everyday use without compromising quality.",
+        "Artnet builds the technology layer that makes a space more connected, secure, and easy to manage.",
       craftsmanshipTitle: "Who we are",
       craftsmanshipBody:
-        "We are a company dedicated to creating quality furniture that combines modern design with everyday functionality. With long experience in this industry, our goal is to deliver products that not only enhance your space, but also make it more comfortable and practical.",
+        "We are a technical team focused on networks, security, smart installations, and practical support. Our goal is to create systems that run quietly, look clean, and stay understandable after handover.",
     },
     contact: {
       title: "Contact",
       intro:
-        "Contact us for information, appointments, and new furniture projects.",
+        "Contact us for networks, security systems, smart installations, or technical support.",
       formSuccess: "Your request has been recorded successfully.",
     },
     login: {

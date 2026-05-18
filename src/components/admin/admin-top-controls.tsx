@@ -77,7 +77,7 @@ export function AdminTopControls({
           href={`/${locale}/admin/${section}/new`}
           className={buttonClasses({
             size: "lg",
-            className: "min-h-16 min-w-[220px] gap-3 px-8 text-lg font-semibold shadow-[0_18px_42px_rgba(18,16,14,0.24)] sm:min-w-[260px]",
+            className: "min-h-16 min-w-[220px] gap-3 px-8 text-lg font-semibold shadow-[0_18px_42px_rgba(8,27,42,0.24)] sm:min-w-[260px]",
           })}
         >
           <Plus className="h-6 w-6" />
@@ -89,7 +89,7 @@ export function AdminTopControls({
           type="button"
           onClick={toggleTheme}
           className={cn(
-            "inline-flex h-11 w-11 shrink-0 items-center justify-center rounded-full border border-white/14 bg-[#2a241f] text-white/78 transition hover:bg-white/12 hover:text-white",
+            "inline-flex h-11 w-11 shrink-0 items-center justify-center rounded-full border border-white/14 bg-[#0d2838] text-white/78 transition hover:bg-white/12 hover:text-white",
             "focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-white/18",
           )}
           aria-label={theme === "dark" ? (locale === "sq" ? "Kalo në dritë" : "Switch to light mode") : locale === "sq" ? "Kalo në errësirë" : "Switch to dark mode"}

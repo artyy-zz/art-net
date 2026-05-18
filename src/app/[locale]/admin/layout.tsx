@@ -46,7 +46,7 @@ export default async function AdminLayout({
   );
 
   return (
-    <div className="admin-shell min-h-screen bg-[#140f0c] px-3 py-3 sm:px-4 sm:py-4 md:px-6 md:py-6 lg:px-8">
+    <div className="admin-shell min-h-screen bg-[#061723] px-3 py-3 sm:px-4 sm:py-4 md:px-6 md:py-6 lg:px-8">
       <div className="mx-auto flex max-w-[1600px] flex-col gap-4 lg:flex-row lg:gap-6">
         <AdminSidebar
           locale={typedLocale}

@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import { publicBrand } from "@/data/public-site";
 import { cn } from "@/lib/utils";
 
 export function Logo({
@@ -12,31 +13,25 @@ export function Logo({
   inverse?: boolean;
 }) {
   return (
-    <Link href={href} className={cn("inline-flex items-center gap-3", className)}>
+    <Link
+      href={href}
+      className={cn("inline-flex items-center", className)}
+      aria-label={publicBrand.name}
+    >
       <span
         className={cn(
-          "overflow-hidden rounded-full p-1 shadow-[0_10px_20px_rgba(0,0,0,0.08)]",
-          inverse
-            ? "border border-white/12 bg-white/10"
-            : "border border-black/10 bg-white/80",
+          "inline-flex overflow-hidden",
+          inverse ? "brightness-0 invert" : undefined,
         )}
       >
         <Image
-          src="/images/brand/logo.avif"
-          alt="Mobileria Art Home logo"
-          width={46}
-          height={46}
-          sizes="46px"
-          className="h-11 w-11 rounded-full object-cover"
+          src={publicBrand.logo}
+          alt=""
+          width={190}
+          height={68}
+          sizes="190px"
+          className="h-12 w-auto object-contain"
         />
-      </span>
-      <span
-        className={cn(
-          "font-display text-2xl leading-none tracking-[0.12em]",
-          inverse ? "text-white" : "text-[var(--color-foreground)]",
-        )}
-      >
-        Art Home
       </span>
     </Link>
   );

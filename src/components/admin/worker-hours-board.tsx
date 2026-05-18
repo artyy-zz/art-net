@@ -43,9 +43,9 @@ type WorkerHoursBoardProps = {
 };
 
 const inputClassName =
-  "rounded-2xl border border-black/10 bg-white/92 px-4 py-3 text-sm text-[var(--color-foreground)] outline-none transition placeholder:text-[var(--color-muted)] focus:border-[var(--color-accent)] focus:ring-4 focus:ring-[rgba(150,114,79,0.14)]";
+  "rounded-2xl border border-black/10 bg-white/92 px-4 py-3 text-sm text-[var(--color-foreground)] outline-none transition placeholder:text-[var(--color-muted)] focus:border-[var(--color-accent)] focus:ring-4 focus:ring-[rgba(0,107,150,0.14)]";
 const smallInputClassName =
-  "h-11 rounded-2xl border border-black/10 bg-white/92 px-3 text-sm text-[var(--color-foreground)] outline-none transition focus:border-[var(--color-accent)] focus:ring-4 focus:ring-[rgba(150,114,79,0.12)]";
+  "h-11 rounded-2xl border border-black/10 bg-white/92 px-3 text-sm text-[var(--color-foreground)] outline-none transition focus:border-[var(--color-accent)] focus:ring-4 focus:ring-[rgba(0,107,150,0.12)]";
 
 function dateInputValue(value: Date | string = new Date()) {
   const date = value instanceof Date ? value : new Date(value);
@@ -252,7 +252,7 @@ export function WorkerHoursBoard({
         return (
           <details
             key={worker.id}
-            className="group overflow-hidden rounded-2xl border-[2.25px] border-black/18 bg-white/86 shadow-[0_14px_36px_rgba(18,16,14,0.06)]"
+            className="group overflow-hidden rounded-2xl border-[2.25px] border-black/18 bg-white/86 shadow-[0_14px_36px_rgba(8,27,42,0.06)]"
           >
             <summary className="grid cursor-pointer list-none gap-3 p-4 text-left transition hover:bg-white md:grid-cols-[minmax(0,1fr)_auto_auto] md:items-center [&::-webkit-details-marker]:hidden">
               <div>

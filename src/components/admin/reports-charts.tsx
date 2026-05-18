@@ -13,7 +13,7 @@ import {
   YAxis,
 } from "recharts";
 
-const colors = ["#96724f", "#1e1a16", "#c19f7a", "#615246", "#d7c0aa"];
+const colors = ["#006b96", "#061723", "#4cb6d9", "#365c70", "#bdeeff"];
 
 export function ReportsCharts({
   locale,
@@ -39,11 +39,11 @@ export function ReportsCharts({
             initialDimension={{ width: 600, height: 288 }}
           >
             <BarChart data={margins.slice(0, 6).map((item) => ({ ...item, margin: item.marginCents / 100 }))}>
-              <CartesianGrid stroke="rgba(22,20,18,0.08)" vertical={false} />
+              <CartesianGrid stroke="rgba(6,23,35,0.08)" vertical={false} />
               <XAxis dataKey="name" hide />
               <YAxis tickLine={false} axisLine={false} />
               <Tooltip />
-              <Bar dataKey="margin" fill="#1e1a16" radius={[12, 12, 0, 0]} />
+              <Bar dataKey="margin" fill="#061723" radius={[12, 12, 0, 0]} />
             </BarChart>
           </ResponsiveContainer>
         </div>

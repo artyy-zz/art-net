@@ -2,16 +2,14 @@ import { ImageResponse } from "next/og";
 
 export const dynamic = "force-static";
 
-const siteName = "Mobileria Art Home";
-
 export function GET() {
   return new ImageResponse(
     (
       <div
         style={{
           alignItems: "stretch",
-          background: "#fbf8f4",
-          color: "#1f1a16",
+          background: "#ffffff",
+          color: "#061723",
           display: "flex",
           height: "100%",
           justifyContent: "center",
@@ -21,9 +19,9 @@ export function GET() {
       >
         <div
           style={{
-            background: "#1f1a16",
-            borderRadius: "36px",
-            color: "#fff7eb",
+            background: "linear-gradient(135deg,#f8fcfe 0%,#e8f6fb 100%)",
+            border: "1px solid rgba(6,23,35,0.1)",
+            borderRadius: "40px",
             display: "flex",
             flexDirection: "column",
             height: "100%",
@@ -36,10 +34,9 @@ export function GET() {
         >
           <div
             style={{
-              background: "#96724f",
+              background: "#006b96",
               height: "12px",
               left: "58px",
-              opacity: 0.82,
               position: "absolute",
               right: "58px",
               top: "0",
@@ -48,24 +45,24 @@ export function GET() {
           <div style={{ display: "flex", flexDirection: "column", gap: "22px" }}>
             <div
               style={{
-                color: "#d5b690",
-                fontSize: 28,
-                fontWeight: 700,
-                letterSpacing: "6px",
+                color: "#005073",
+                fontSize: 30,
+                fontWeight: 800,
+                letterSpacing: "5px",
                 textTransform: "uppercase",
               }}
             >
-              Art Home KS
+              Artnet
             </div>
             <div
               style={{
-                fontSize: 80,
-                fontWeight: 700,
-                lineHeight: 0.95,
-                maxWidth: "850px",
+                fontSize: 82,
+                fontWeight: 800,
+                lineHeight: 0.98,
+                maxWidth: "920px",
               }}
             >
-              Custom furniture and kitchens in Kosovo
+              Networks, security and smart systems.
             </div>
           </div>
           <div
@@ -77,25 +74,28 @@ export function GET() {
             }}
           >
             <div style={{ display: "flex", flexDirection: "column", gap: "8px" }}>
-              <div style={{ fontSize: 34, fontWeight: 700 }}>{siteName}</div>
-              <div style={{ color: "#d8c8b6", fontSize: 26 }}>
-                mobilje me porosi | furniture Kosovo
+              <div style={{ color: "#061723", fontSize: 34, fontWeight: 800 }}>
+                Premium technology infrastructure
+              </div>
+              <div style={{ color: "#61717c", fontSize: 26 }}>
+                cabling | CCTV | smart spaces | support
               </div>
             </div>
             <div
               style={{
                 alignItems: "center",
-                border: "2px solid rgba(255,255,255,0.18)",
+                background: "#006b96",
                 borderRadius: "999px",
+                color: "white",
                 display: "flex",
-                fontSize: 26,
-                fontWeight: 700,
-                height: "88px",
+                fontSize: 28,
+                fontWeight: 800,
+                height: "92px",
                 justifyContent: "center",
-                width: "88px",
+                width: "92px",
               }}
             >
-              AH
+              AN
             </div>
           </div>
         </div>

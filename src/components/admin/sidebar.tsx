@@ -114,7 +114,7 @@ export function AdminSidebar({
   return (
     <>
       <div className="panel-card sticky top-3 z-40 flex items-center justify-between gap-3 rounded-[24px] p-3 lg:hidden">
-        <Logo href={`/${locale}`} inverse className="[&>span:last-child]:text-xl" />
+        <Logo href={`/${locale}`} inverse />
         <button
           type="button"
           onClick={() => setMobileOpen(true)}
@@ -130,7 +130,7 @@ export function AdminSidebar({
         <div className="fixed inset-0 z-50 bg-black/55 p-3 lg:hidden">
           <div className="panel-card flex max-h-[calc(100vh-1.5rem)] w-full max-w-sm flex-col overflow-hidden rounded-[26px] p-4">
             <div className="flex items-center justify-between gap-3">
-              <Logo href={`/${locale}`} inverse className="[&>span:last-child]:text-xl" />
+              <Logo href={`/${locale}`} inverse />
               <button
                 type="button"
                 onClick={closeMobile}
@@ -156,7 +156,7 @@ export function AdminSidebar({
                     className={cn(
                       "flex min-h-12 items-center gap-3 rounded-2xl px-4 py-3 text-sm font-medium transition",
                       active
-                        ? "bg-[#fff7eb] !text-black shadow-[0_12px_26px_rgba(0,0,0,0.18)]"
+                        ? "bg-[#e8f6fb] !text-black shadow-[0_12px_26px_rgba(0,0,0,0.18)]"
                         : "text-white/76 hover:bg-white/10 hover:text-white",
                     )}
                   >
@@ -221,7 +221,7 @@ export function AdminSidebar({
                 "flex items-center rounded-2xl text-sm font-medium transition",
                 collapsed ? "h-11 w-11 justify-center" : "gap-3 px-4 py-3",
                 active
-                  ? "bg-[#fff7eb] !text-black shadow-[0_12px_26px_rgba(0,0,0,0.18)]"
+                  ? "bg-[#e8f6fb] !text-black shadow-[0_12px_26px_rgba(0,0,0,0.18)]"
                   : "text-white/76 hover:bg-white/10 hover:text-white",
               )}
             >

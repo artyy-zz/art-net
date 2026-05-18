@@ -138,7 +138,7 @@ export function LightboxImage({
         type="button"
         onClick={() => setActiveIndex(index)}
         className={cn(
-          "grain-overlay group relative block w-full overflow-hidden rounded-[24px] border border-white/10 bg-[#201b16] text-left shadow-[0_16px_42px_rgba(18,16,14,0.14)] transition duration-300 ease-out hover:-translate-y-1.5 hover:scale-[1.035] hover:shadow-[0_28px_70px_rgba(18,16,14,0.22)] focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-[rgba(150,114,79,0.28)]",
+          "grain-overlay group relative block w-full overflow-hidden rounded-[24px] border border-white/10 bg-[var(--color-panel)] text-left shadow-[0_16px_42px_rgba(8,27,42,0.14)] transition duration-300 ease-out hover:-translate-y-1.5 hover:scale-[1.035] hover:shadow-[0_28px_70px_rgba(8,27,42,0.22)] focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-[rgba(0,107,150,0.28)]",
           className,
         )}
         aria-label={`Open ${triggerPhoto.label}`}
@@ -147,12 +147,12 @@ export function LightboxImage({
           src={triggerPhoto.src}
           alt={triggerPhoto.label}
           fill
-          priority={priority}
+          preload={priority}
           loading={priority ? undefined : "lazy"}
           sizes={sizes}
           className="object-cover transition duration-500 ease-out group-hover:scale-[1.06]"
         />
-        <div className="absolute inset-0 bg-[linear-gradient(180deg,rgba(18,14,10,0.04)_0%,rgba(18,14,10,0.12)_48%,rgba(18,14,10,0.74)_100%)]" />
+        <div className="absolute inset-0 bg-[linear-gradient(180deg,rgba(7,26,40,0.04)_0%,rgba(7,26,40,0.12)_48%,rgba(7,26,40,0.74)_100%)]" />
         <div className="absolute inset-x-0 bottom-0 z-10 p-4 sm:p-6">
           <div>
             {overlayEyebrow ? (

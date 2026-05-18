@@ -17,6 +17,7 @@
     "db:migrate:dev": "prisma migrate dev && npm run db:permissions:apply",
     "db:migrate:deploy": "prisma migrate deploy && npm run db:permissions:apply",
     "db:seed": "tsx prisma/seed.ts",
+    "catalog:import": "tsx scripts/import-assmann-catalog.ts",
     "postinstall": "prisma generate"
   },
   "prisma": {

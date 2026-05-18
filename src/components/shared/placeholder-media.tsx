@@ -6,7 +6,7 @@ export function PlaceholderMedia({
   className,
   src,
   priority = false,
-  overlayEyebrow = "Art Home",
+  overlayEyebrow = "ArtNet",
   overlayLabel = label,
 }: {
   label: string;
@@ -19,7 +19,7 @@ export function PlaceholderMedia({
   return (
     <div
       className={cn(
-        "grain-overlay relative overflow-hidden rounded-[24px] border border-white/10 bg-[#201b16]",
+        "grain-overlay relative overflow-hidden rounded-[24px] border border-white/10 bg-[var(--color-panel)]",
         className,
       )}
     >
@@ -28,7 +28,7 @@ export function PlaceholderMedia({
           src={src}
           alt={label}
           fill
-          priority={priority}
+          preload={priority}
           loading={priority ? undefined : "lazy"}
           sizes="(min-width: 1280px) 42vw, (min-width: 768px) 50vw, 100vw"
           className="object-cover"
@@ -36,10 +36,10 @@ export function PlaceholderMedia({
       ) : (
         <>
           <div className="industrial-grid absolute inset-0 opacity-35" />
-          <div className="absolute inset-0 bg-[linear-gradient(135deg,#2b251f_0%,#201b16_44%,#7b654d_100%)]" />
+          <div className="absolute inset-0 bg-[linear-gradient(135deg,#071a28_0%,#0d2838_48%,#006b96_100%)]" />
         </>
       )}
-      <div className="absolute inset-0 bg-[linear-gradient(180deg,rgba(18,14,10,0.08)_0%,rgba(18,14,10,0.68)_100%)]" />
+      <div className="absolute inset-0 bg-[linear-gradient(180deg,rgba(7,26,40,0.08)_0%,rgba(7,26,40,0.68)_100%)]" />
       <div className="relative flex h-full min-h-[220px] items-end p-4 sm:p-6">
         <div>
           {overlayEyebrow ? (

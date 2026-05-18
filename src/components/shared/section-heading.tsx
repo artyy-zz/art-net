@@ -19,7 +19,7 @@ export function SectionHeading({
   return (
     <div className={cn("max-w-3xl", align === "center" && "mx-auto text-center")}>
       {label ? <Badge tone="accent">{label}</Badge> : null}
-      <HeadingTag className="mt-4 break-words font-display text-3xl leading-none tracking-tight text-[var(--color-foreground)] sm:text-4xl md:text-5xl">
+      <HeadingTag className="mt-4 break-words font-display text-3xl font-semibold leading-[1.05] text-[var(--color-foreground)] sm:text-4xl md:text-5xl">
         {title}
       </HeadingTag>
       {description ? (

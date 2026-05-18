@@ -1,0 +1,14 @@
+Only plain objects can be passed to Client Components from Server Components. Decimal objects are not supported.
+  {name: "EMRI", activity: 6, debt: Decimal, lastInvoice: ...}
+                                    ^^^^^^^
+Only plain objects can be passed to Client Components from Server Components. Decimal objects are not supported.
+  {name: ..., activity: 1, debt: Decimal, lastInvoice: ...}
+                                 ^^^^^^^
+Only plain objects can be passed to Client Components from Server Components. Decimal objects are not supported.
+  {name: "fdhdh", activity: 0, debt: Decimal, lastInvoice: ...}
+                                     ^^^^^^^
+Only plain objects can be passed to Client Components from Server Components. Decimal objects are not supported.
+  {name: "nnn", activity: 0, debt: Decimal, lastInvoice: ...}
+                                   ^^^^^^^
+[browser] Image with src "/images/artnet/ethernet-cable.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading

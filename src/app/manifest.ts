@@ -4,14 +4,14 @@ import { siteName } from "@/lib/seo";
 export default function manifest(): MetadataRoute.Manifest {
   return {
     name: siteName,
-    short_name: "Art Home KS",
+    short_name: "Artnet",
     description:
-      "Custom furniture, kitchens, wardrobes, and interior systems by Mobileria Art Home in Kosovo.",
+      "Premium networks, security systems, smart devices, and technology infrastructure by Artnet.",
     start_url: "/sq",
     scope: "/",
     display: "standalone",
-    background_color: "#fbf8f4",
-    theme_color: "#1a1714",
+    background_color: "#ffffff",
+    theme_color: "#006b96",
     icons: [
       {
         src: "/favicon.ico",

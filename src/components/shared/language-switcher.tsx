@@ -35,8 +35,8 @@ export function LanguageSwitcher({
       className={cn(
         "inline-flex items-center rounded-full border p-1 text-xs font-semibold uppercase tracking-[0.16em]",
         inverse
-          ? "border-white/14 bg-[#2a241f] text-white/78"
-          : "border-black/12 bg-[#f8f1e8] text-[#3d332b]",
+          ? "border-white/14 bg-white/8 text-white/78"
+          : "border-black/10 bg-white/88 text-[var(--color-muted)]",
       )}
     >
       {locales.map((target) => {
@@ -53,11 +53,11 @@ export function LanguageSwitcher({
               "rounded-full px-3 py-2 transition",
               locale === target
                 ? inverse
-                  ? "!bg-[#fff7eb] !text-[#1e1a16]"
-                  : "!bg-[#1e1a16] !text-[#fffaf2]"
+                  ? "!bg-white !text-[var(--color-panel)]"
+                  : "!bg-[var(--color-foreground)] !text-white"
                 : inverse
                   ? "!text-white/78 hover:bg-white/12 hover:!text-white"
-                  : "!text-[#5a4b40] hover:bg-[#eadfce] hover:!text-[#1e1a16]",
+                  : "!text-[var(--color-muted)] hover:bg-[var(--color-accent-soft)] hover:!text-[var(--color-foreground)]",
             )}
           >
             {label}

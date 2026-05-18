@@ -1,39 +1,40 @@
 import type { Metadata } from "next";
+import { publicBrand } from "@/data/public-site";
 import { COMPANY } from "@/lib/company";
 import { locales, type Locale } from "@/lib/i18n";
 import { productionSiteUrl } from "@/lib/site-url";
 
 export const siteUrl = productionSiteUrl;
 export const metadataBase = new URL(siteUrl);
-export const siteName = "Mobileria Art Home";
+export const siteName = publicBrand.name;
 export const socialPreviewPath = "/social-preview";
+
+const defaultDescription =
+  "Artnet designs and installs premium networks, security systems, smart devices, and technology infrastructure for modern homes and businesses.";
 
 export const rootMetadata: Metadata = {
   metadataBase,
   applicationName: siteName,
   title: {
-    default: "Mobileria Art Home | Custom Furniture Kosovo",
+    default: "Artnet | Networks, Security & Smart Systems",
     template: "%s",
   },
-  description:
-    "Mobileria Art Home designs custom furniture, made-to-measure kitchens, wardrobes, and interior systems for homes and businesses in Kosovo.",
+  description: defaultDescription,
   keywords: [
-    "Mobileria Art Home",
-    "Art Home KS",
-    "mobilje me porosi",
-    "kuzhina me porosi",
-    "mobileri Kosovë",
-    "furniture Kosovo",
-    "custom furniture Kosovo",
+    "Artnet",
+    "network installation Kosovo",
+    "security cameras Kosovo",
+    "smart Kosovo",
+    "structured cabling",
+    "IT infrastructure",
   ],
   authors: [{ name: siteName, url: siteUrl }],
   creator: COMPANY.documents.legalName,
   publisher: COMPANY.documents.legalName,
   manifest: "/manifest.webmanifest",
   openGraph: {
-    title: "Mobileria Art Home | Custom Furniture Kosovo",
-    description:
-      "Custom furniture, kitchens, wardrobes, and interior systems made by Art Home KS in Kosovo.",
+    title: "Artnet | Networks, Security & Smart Systems",
+    description: defaultDescription,
     url: "/sq",
     siteName,
     locale: "sq_AL",
@@ -44,19 +45,18 @@ export const rootMetadata: Metadata = {
         url: socialPreviewPath,
         width: 1200,
         height: 630,
-        alt: "Mobileria Art Home - custom furniture and kitchens in Kosovo",
+        alt: "Artnet technology infrastructure",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Mobileria Art Home | Custom Furniture Kosovo",
-    description:
-      "Custom furniture, kitchens, wardrobes, and interior systems made by Art Home KS in Kosovo.",
+    title: "Artnet | Networks, Security & Smart Systems",
+    description: defaultDescription,
     images: [
       {
         url: socialPreviewPath,
-        alt: "Mobileria Art Home - custom furniture and kitchens in Kosovo",
+        alt: "Artnet technology infrastructure",
       },
     ],
   },
@@ -73,89 +73,101 @@ export const rootMetadata: Metadata = {
   },
 };
 
-export type PublicPage = "home" | "about" | "furniture" | "contact" | "quote";
+export type PublicPage = "home" | "about" | "products" | "projects" | "contact" | "quote";
 
 const routePaths = {
   home: "",
   about: "/about",
-  furniture: "/furniture",
+  products: "/products",
+  projects: "/projects",
   contact: "/contact",
   quote: "/quote",
 } as const satisfies Record<PublicPage, string>;
 
 const baseKeywords = [
-  "Mobileria Art Home",
-  "Art Home KS",
-  "mobilje me porosi",
-  "kuzhina me porosi",
-  "mobileri Kosovë",
-  "furniture Kosovo",
-  "custom furniture Kosovo",
+  "Artnet",
+  "IT infrastructure",
+  "network installation",
+  "CCTV installation",
+  "smart systems",
+  "structured cabling",
 ];
 
 const pageSeo = {
   sq: {
     home: {
-      title: "Mobileria Art Home | Mobilje me porosi në Kosovë",
+      title: "Artnet | Rrjete, siguri dhe sisteme smart",
       description:
-        "Mobileria Art Home në Kosovë projekton kuzhina me porosi, garderoba dhe mobilje moderne për shtëpi e biznese, me matje dhe punim profesional.",
-      keywords: ["mobileri në Kosovë", "mobilje moderne Kosovë"],
+        "Artnet projekton dhe instalon rrjete, kamera sigurie, pajisje smart dhe infrastrukturë teknologjike për biznese dhe shtëpi moderne.",
+      keywords: ["rrjete në Kosovë", "kamera sigurie Kosovë", "smart Kosovë"],
     },
     about: {
-      title: "Rreth Mobileria Art Home | Art Home KS",
+      title: "Rreth Artnet | Infrastrukturë teknologjike moderne",
       description:
-        "Njihuni me Art Home KS, mobileri në Kosovë e fokusuar në dizajn modern, materiale cilësore dhe realizim të saktë të mobiljeve me porosi.",
-      keywords: ["rreth Art Home KS", "punishte mobiljesh Kosovë"],
+        "Njihuni me Artnet, ekip teknik për rrjete, sisteme sigurie, kabllim të strukturuar dhe instalime smart.",
+      keywords: ["rreth Artnet", "instalime teknologjike Kosovë"],
     },
-    furniture: {
-      title: "Mobilje dhe kuzhina me porosi | Art Home KS",
+    products: {
+      title: "Produkte teknologjike | Artnet",
       description:
-        "Shikoni mobilje me porosi nga Art Home KS: kuzhina, tavolina, garderoba dhe sisteme të personalizuara për hapësira banimi e biznesi.",
-      keywords: ["kuzhina me porosi", "garderoba me porosi", "mobilje për shtëpi"],
+        "Shikoni produktet dhe zgjidhjet Artnet për rrjete, siguri, kabllo, aksesore, software dhe hapësira smart.",
+      keywords: ["produkte rrjeti", "kamera IP", "kabllo ethernet", "fiber patch"],
+    },
+    projects: {
+      title: "Projekte teknologjike | Artnet",
+      description:
+        "Projekte Artnet për zyra, objekte komerciale dhe hapësira banimi me rrjete, siguri dhe sisteme smart.",
+      keywords: ["projekte rrjeti", "instalime CCTV", "smart office"],
     },
     contact: {
-      title: "Kontakt | Mobileria Art Home Kosovë",
+      title: "Kontakt | Artnet",
       description:
-        "Kontaktoni Mobileria Art Home për mobilje me porosi, kuzhina dhe projekte interieri në Kosovë. Na shkruani, telefononi ose vizitoni lokacionin.",
-      keywords: ["kontakt Mobileria Art Home", "Art Home Ferizaj Prishtinë"],
+        "Kontaktoni Artnet për rrjete, kamera sigurie, instalime smart, kabllim të strukturuar dhe mbështetje teknike.",
+      keywords: ["kontakt Artnet", "rrjete Kosovë kontakt"],
     },
     quote: {
-      title: "Kërko ofertë për mobilje me porosi | Art Home KS",
+      title: "Kërko konsultë teknike | Artnet",
       description:
-        "Dërgoni kërkesën tuaj për mobilje ose kuzhina me porosi dhe ekipi i Art Home KS do ta shqyrtojë projektin për ofertë profesionale.",
-      keywords: ["ofertë mobilje me porosi", "porosit mobilje Kosovë"],
+        "Dërgoni kërkesën tuaj për rrjet, sistem sigurie, pajisje smart ose instalim teknologjik dhe ekipi i Artnet do ta shqyrtojë.",
+      keywords: ["konsultë teknike", "ofertë rrjeti", "ofertë kamera sigurie"],
     },
   },
   en: {
     home: {
-      title: "Mobileria Art Home | Custom Furniture Kosovo",
+      title: "Artnet | Networks, Security & Smart Systems",
       description:
-        "Art Home KS designs custom furniture in Kosovo, including made-to-measure kitchens, wardrobes, tables, and business interiors with professional execution.",
-      keywords: ["custom furniture Kosovo", "furniture Kosovo"],
+        "Artnet designs and installs networks, security cameras, smart devices, and technology infrastructure for modern homes and businesses.",
+      keywords: ["network installation Kosovo", "security cameras Kosovo", "smart Kosovo"],
     },
     about: {
-      title: "About Mobileria Art Home | Art Home KS",
+      title: "About Artnet | Modern technology infrastructure",
       description:
-        "Meet Art Home KS, a Kosovo furniture company focused on modern design, quality materials, and precise execution for custom interior projects.",
-      keywords: ["about Art Home KS", "Kosovo furniture workshop"],
+        "Meet Artnet, a technical team for networks, security systems, structured cabling, and smart installations.",
+      keywords: ["about Artnet", "technology installation Kosovo"],
     },
-    furniture: {
-      title: "Custom Kitchens and Furniture | Art Home KS",
+    products: {
+      title: "Technology Products | Artnet",
       description:
-        "Explore custom furniture by Art Home KS: kitchens, wardrobes, dining tables, and made-to-measure systems for homes and business interiors.",
-      keywords: ["custom kitchens Kosovo", "made-to-measure furniture Kosovo"],
+        "Explore Artnet products and solutions for networks, security, cables, accessories, software, and smart spaces.",
+      keywords: ["network products", "IP cameras", "ethernet cable", "fiber patch"],
+    },
+    projects: {
+      title: "Technology Projects | Artnet",
+      description:
+        "Artnet projects for offices, commercial facilities, and homes with networks, security, and smart systems.",
+      keywords: ["network projects", "CCTV installation", "smart office"],
     },
     contact: {
-      title: "Contact | Mobileria Art Home Kosovo",
+      title: "Contact | Artnet",
       description:
-        "Contact Mobileria Art Home for custom furniture, kitchens, and interior projects in Kosovo. Reach us by phone, email, social media, or location.",
-      keywords: ["contact Mobileria Art Home", "Art Home Kosovo contact"],
+        "Contact Artnet for networks, security cameras, smart installations, structured cabling, and technical support.",
+      keywords: ["contact Artnet", "network Kosovo contact"],
     },
     quote: {
-      title: "Request a Custom Furniture Quote | Art Home KS",
+      title: "Request a Technical Consult | Artnet",
       description:
-        "Send your custom furniture or kitchen request to Art Home KS and our team will review the project details for a professional quote.",
-      keywords: ["custom furniture quote Kosovo", "order furniture Kosovo"],
+        "Send your request for a network, security system, smart device, or technology installation and the Artnet team will review it.",
+      keywords: ["technical consult", "network quote", "security camera quote"],
     },
   },
 } as const satisfies Record<
@@ -195,8 +207,8 @@ export function buildPageMetadata(locale: Locale, page: PublicPage): Metadata {
   const path = getLocalizedPath(locale, page);
   const socialAlt =
     locale === "sq"
-      ? "Mobileria Art Home - mobilje dhe kuzhina me porosi në Kosovë"
-      : "Mobileria Art Home - custom furniture and kitchens in Kosovo";
+      ? "Artnet - rrjete, siguri dhe sisteme smart"
+      : "Artnet - networks, security, and smart systems";
 
   return {
     title: seo.title,
@@ -254,8 +266,8 @@ export function buildLoginMetadata(locale: Locale): Metadata {
   const title = locale === "sq" ? "Hyr në ERP" : "ERP Login";
   const description =
     locale === "sq"
-      ? "Qasje e mbrojtur për ekipin e Mobileria Art Home."
-      : "Protected access for the Mobileria Art Home team.";
+      ? "Qasje e mbrojtur për ekipin e Artnet."
+      : "Protected access for the Artnet team.";
 
   return {
     title,
@@ -279,8 +291,8 @@ export function getStructuredData(locale: Locale) {
   const organizationId = `${siteUrl}/#organization`;
   const localBusinessId = `${siteUrl}/#localbusiness`;
   const websiteId = `${siteUrl}/#website`;
-  const logoUrl = getAbsoluteUrl("/images/brand/logo.png");
-  const imageUrl = getAbsoluteUrl("/images/mobiljet/mobilje-1.avif");
+  const logoUrl = getAbsoluteUrl(publicBrand.logo);
+  const imageUrl = getAbsoluteUrl("/images/artnet/ethernet-cable.png");
 
   return {
     "@context": "https://schema.org",
@@ -290,7 +302,7 @@ export function getStructuredData(locale: Locale) {
         "@id": organizationId,
         name: siteName,
         legalName: COMPANY.documents.legalName,
-        alternateName: ["Art Home", "Art Home KS", "Mobileria Art Home KS"],
+        alternateName: ["Artnet Kosovo", "Artnet KS"],
         url: siteUrl,
         logo: logoUrl,
         image: imageUrl,
@@ -299,11 +311,11 @@ export function getStructuredData(locale: Locale) {
         sameAs: [COMPANY.instagram, COMPANY.facebook],
       },
       {
-        "@type": ["LocalBusiness", "FurnitureStore"],
+        "@type": ["LocalBusiness", "ProfessionalService"],
         "@id": localBusinessId,
         name: siteName,
         legalName: COMPANY.documents.legalName,
-        alternateName: ["Art Home KS", "Mobileria Art Home"],
+        alternateName: "Artnet KS",
         url: siteUrl,
         image: imageUrl,
         logo: logoUrl,
@@ -336,7 +348,7 @@ export function getStructuredData(locale: Locale) {
         "@type": "WebSite",
         "@id": websiteId,
         name: siteName,
-        alternateName: "Art Home KS",
+        alternateName: "Artnet KS",
         url: siteUrl,
         inLanguage,
         publisher: {

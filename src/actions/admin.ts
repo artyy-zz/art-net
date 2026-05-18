@@ -1226,7 +1226,7 @@ async function createProductActionImpl(locale: Locale, formData: FormData) {
   });
 
   revalidateEveryLocale("/admin/products");
-  revalidateEveryLocale("/furniture");
+  revalidateEveryLocale("/products");
   revalidateEveryLocale("/");
 }
 

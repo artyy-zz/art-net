@@ -22,7 +22,7 @@ import { can, getUserPermissionMatrix, requirePermission } from "@/lib/permissio
 import { formatCurrency, formatDate, formatDateInputValue } from "@/lib/utils";
 
 const inputClassName =
-  "rounded-2xl border border-black/10 bg-white/92 px-4 py-3 text-sm text-[var(--color-foreground)] outline-none transition placeholder:text-[var(--color-muted)] focus:border-[var(--color-accent)] focus:ring-4 focus:ring-[rgba(150,114,79,0.14)]";
+  "rounded-2xl border border-black/10 bg-white/92 px-4 py-3 text-sm text-[var(--color-foreground)] outline-none transition placeholder:text-[var(--color-muted)] focus:border-[var(--color-accent)] focus:ring-4 focus:ring-[rgba(0,107,150,0.14)]";
 
 const categoryLabels = {
   sq: {
@@ -302,7 +302,7 @@ async function ExpensesPage({
                     </summary>
                     <form
                       action={updateExpenseAction.bind(null, typedLocale, expense.id)}
-                      className="absolute right-0 z-20 mt-2 grid w-[min(90vw,560px)] gap-2 rounded-2xl border-[2.25px] border-black/18 bg-[#fbf8f4] p-3 shadow-[0_18px_48px_rgba(18,16,14,0.16)] md:grid-cols-2"
+                      className="absolute right-0 z-20 mt-2 grid w-[min(90vw,560px)] gap-2 rounded-2xl border-[2.25px] border-black/18 bg-[#f8fcfe] p-3 shadow-[0_18px_48px_rgba(8,27,42,0.16)] md:grid-cols-2"
                     >
                       <ExpenseFields locale={typedLocale} defaults={expense} />
                       <div className="md:col-span-2">

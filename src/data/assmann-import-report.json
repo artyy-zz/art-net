@@ -1,0 +1,1850 @@
+{
+  "generatedAt": "2026-05-17T23:53:51.890Z",
+  "documentRows": 1028,
+  "uniqueProducts": 977,
+  "duplicateSkusDeduped": [
+    {
+      "sku": "DN-14001-2",
+      "count": 2
+    },
+    {
+      "sku": "DN-94001-1",
+      "count": 2
+    },
+    {
+      "sku": "DN-94027",
+      "count": 2
+    },
+    {
+      "sku": "DN-94025",
+      "count": 2
+    },
+    {
+      "sku": "DN-14001-1",
+      "count": 2
+    },
+    {
+      "sku": "DN-CR-001",
+      "count": 2
+    },
+    {
+      "sku": "DN-94022",
+      "count": 2
+    },
+    {
+      "sku": "DN-94014",
+      "count": 2
+    },
+    {
+      "sku": "DN-94001",
+      "count": 2
+    },
+    {
+      "sku": "DN-94004",
+      "count": 2
+    },
+    {
+      "sku": "DN-LSA-PT",
+      "count": 2
+    },
+    {
+      "sku": "A-LSA-K",
+      "count": 2
+    },
+    {
+      "sku": "DN-95103-3",
+      "count": 2
+    },
+    {
+      "sku": "DN-95118",
+      "count": 2
+    },
+    {
+      "sku": "DN-95211",
+      "count": 2
+    },
+    {
+      "sku": "DN-651140",
+      "count": 2
+    },
+    {
+      "sku": "DN-651141",
+      "count": 2
+    },
+    {
+      "sku": "DN-651143",
+      "count": 2
+    },
+    {
+      "sku": "DN-95129",
+      "count": 2
+    },
+    {
+      "sku": "DN-95128-1",
+      "count": 2
+    },
+    {
+      "sku": "DN-95132",
+      "count": 2
+    },
+    {
+      "sku": "DN-95208",
+      "count": 2
+    },
+    {
+      "sku": "DN-95421",
+      "count": 2
+    },
+    {
+      "sku": "DN-95108",
+      "count": 2
+    },
+    {
+      "sku": "DN-95109",
+      "count": 2
+    },
+    {
+      "sku": "DN-18602",
+      "count": 2
+    },
+    {
+      "sku": "DN-10-TRAY-1-B",
+      "count": 2
+    },
+    {
+      "sku": "DN-10-TRAY-2-B",
+      "count": 2
+    },
+    {
+      "sku": "DN-10-TRAY-2",
+      "count": 2
+    },
+    {
+      "sku": "DN-97665",
+      "count": 2
+    },
+    {
+      "sku": "DN-19 GS-NW",
+      "count": 2
+    },
+    {
+      "sku": "DN-19 GS-SRV",
+      "count": 2
+    },
+    {
+      "sku": "DN-10-ORG-1-2U-B",
+      "count": 2
+    },
+    {
+      "sku": "DN-10-ORG-1U-B",
+      "count": 2
+    },
+    {
+      "sku": "DN-10 ORG-1/2U",
+      "count": 2
+    },
+    {
+      "sku": "DN-10 ORG-1U",
+      "count": 2
+    },
+    {
+      "sku": "DN-19 ORG-42U-B",
+      "count": 2
+    },
+    {
+      "sku": "DN-19 ORG-42U",
+      "count": 2
+    },
+    {
+      "sku": "DN-97666",
+      "count": 2
+    },
+    {
+      "sku": "DN-97667",
+      "count": 2
+    },
+    {
+      "sku": "DN-97668",
+      "count": 2
+    },
+    {
+      "sku": "DN-97669",
+      "count": 2
+    },
+    {
+      "sku": "DN-19-DIN-3U",
+      "count": 2
+    },
+    {
+      "sku": "DN-19 C-1000",
+      "count": 2
+    },
+    {
+      "sku": "DN-19 C-800",
+      "count": 2
+    },
+    {
+      "sku": "DN-19 CASTOR-WM",
+      "count": 2
+    },
+    {
+      "sku": "DN-97679",
+      "count": 2
+    },
+    {
+      "sku": "DN-FO-FC",
+      "count": 2
+    },
+    {
+      "sku": "DN-FO-CC-1",
+      "count": 2
+    },
+    {
+      "sku": "DN-FO-FS4",
+      "count": 2
+    },
+    {
+      "sku": "DN-FO-KC",
+      "count": 2
+    }
+  ],
+  "officialPagesFound": 854,
+  "officialPagesMissing": [
+    {
+      "sku": "DN-93844-OD-2",
+      "name": "Outdoor Surface Mount Box, IP44, with inlet",
+      "placements": [
+        {
+          "category": "Networking",
+          "categorySlug": "networking",
+          "subcategory": "Wall Outlets / Surface Boxes / Face Plates",
+          "subcategorySlug": "wall-outlets-surface-boxes-face-plates"
+        }
+      ],
+      "reason": "No exact official products.digitus.com page returned by SKU search"
+    },
+    {
+      "sku": "DN-93844-OD",
+      "name": "Outdoor Surface Mount Box for Keystone Modules, IP44",
+      "placements": [
+        {
+          "category": "Networking",
+          "categorySlug": "networking",
+          "subcategory": "Wall Outlets / Surface Boxes / Face Plates",
+          "subcategorySlug": "wall-outlets-surface-boxes-face-plates"
+        }
+      ],
+      "reason": "No exact official products.digitus.com page returned by SKU search"
+    },
+    {
+      "sku": "DN-93844-OD-1",
+      "name": "Inlet for Outdoor Surface Mount Box",
+      "placements": [
+        {
+          "category": "Networking",
+          "categorySlug": "networking",
+          "subcategory": "Wall Outlets / Surface Boxes / Face Plates",
+          "subcategorySlug": "wall-outlets-surface-boxes-face-plates"
+        }
+      ],
+      "reason": "No exact official products.digitus.com page returned by SKU search"
+    },
+    {
+      "sku": "A-MO6-8-8-HRS-10",
+      "name": "Hirose Modular Plug, CAT 6 TM 21, 10 pieces",
+      "placements": [
+        {
+          "category": "Networking",
+          "categorySlug": "networking",
+          "subcategory": "Plugs and Connectors",
+          "subcategorySlug": "plugs-and-connectors"
+        }
+      ],
+      "reason": "No exact official products.digitus.com page returned by SKU search"
+    },
+    {
+      "sku": "DN-94001",
+      "name": "Stripping tool for data cable",
+      "placements": [
+        {
+          "category": "Networking",
+          "categorySlug": "networking",
+          "subcategory": "Tools and Testing Devices",
+          "subcategorySlug": "tools-and-testing-devices"
+        },
+        {
+          "category": "Tools & Accessories",
+          "categorySlug": "tools-accessories",
+          "subcategory": "Network Tools & Testing Devices",
+          "subcategorySlug": "network-tools-testing-devices"
+        }
+      ],
+      "reason": "No exact official products.digitus.com page returned by SKU search"
+    },
+    {
+      "sku": "DN-651146",
+      "name": "Industrial 8+2 port Fast Ethernet switch",
+      "placements": [
+        {
+          "category": "Networking",
+          "categorySlug": "networking",
+          "subcategory": "Network Switches",
+          "subcategorySlug": "network-switches"
+        }
+      ],
+      "reason": "No exact official products.digitus.com page returned by SKU search"
+    },
+    {
+      "sku": "DN-651148",
+      "name": "Industrial 4+2 port Gigabit Ethernet switch",
+      "placements": [
+        {
+          "category": "Networking",
+          "categorySlug": "networking",
+          "subcategory": "Network Switches",
+          "subcategorySlug": "network-switches"
+        }
+      ],
+      "reason": "No exact official products.digitus.com page returned by SKU search"
+    },
+    {
+      "sku": "DN-651151",
+      "name": "Industrial 8+2 port Gigabit Ethernet PoE switch",
+      "placements": [
+        {
+          "category": "Networking",
+          "categorySlug": "networking",
+          "subcategory": "Network Switches",
+          "subcategorySlug": "network-switches"
+        }
+      ],
+      "reason": "No exact official products.digitus.com page returned by SKU search"
+    },
+    {
+      "sku": "DN-651154",
+      "name": "Industrial 4+2 Port L2 managed Gigabit Ethernet Switch",
+      "placements": [
+        {
+          "category": "Networking",
+          "categorySlug": "networking",
+          "subcategory": "Network Switches",
+          "subcategorySlug": "network-switches"
+        }
+      ],
+      "reason": "No exact official products.digitus.com page returned by SKU search"
+    },
+    {
+      "sku": "DN-651155",
+      "name": "Industrial 4+2 port L2 managed Gigabit Ethernet PoE switch",
+      "placements": [
+        {
+          "category": "Networking",
+          "categorySlug": "networking",
+          "subcategory": "Network Switches",
+          "subcategorySlug": "network-switches"
+        }
+      ],
+      "reason": "No exact official products.digitus.com page returned by SKU search"
+    },
+    {
+      "sku": "DN-80115",
+      "name": "10\" Gigabit 16-Port Unmanaged Switch",
+      "placements": [
+        {
+          "category": "Networking",
+          "categorySlug": "networking",
+          "subcategory": "Network Switches",
+          "subcategorySlug": "network-switches"
+        }
+      ],
+      "reason": "No exact official products.digitus.com page returned by SKU search"
+    },
+    {
+      "sku": "DN-651143",
+      "name": "Industrial 5-Port Gigabit PoE Extender",
+      "placements": [
+        {
+          "category": "Networking",
+          "categorySlug": "networking",
+          "subcategory": "PoE Products",
+          "subcategorySlug": "poe-products"
+        },
+        {
+          "category": "Power",
+          "categorySlug": "power",
+          "subcategory": "PoE Power Solutions",
+          "subcategorySlug": "poe-power-solutions"
+        }
+      ],
+      "reason": "No exact official products.digitus.com page returned by SKU search"
+    },
+    {
+      "sku": "DN-95129",
+      "name": "DIGITUS Long Range PoE Extender 10/100 Mbit",
+      "placements": [
+        {
+          "category": "Networking",
+          "categorySlug": "networking",
+          "subcategory": "PoE Products",
+          "subcategorySlug": "poe-products"
+        },
+        {
+          "category": "Power",
+          "categorySlug": "power",
+          "subcategory": "PoE Power Solutions",
+          "subcategorySlug": "poe-power-solutions"
+        }
+      ],
+      "reason": "No exact official products.digitus.com page returned by SKU search"
+    },
+    {
+      "sku": "DN-652101-1",
+      "name": "DIGITUS Industrial Gigabit Media Converter RJ45, SC 0.5 km",
+      "placements": [
+        {
+          "category": "Networking",
+          "categorySlug": "networking",
+          "subcategory": "Media Converters",
+          "subcategorySlug": "media-converters"
+        }
+      ],
+      "reason": "No exact official products.digitus.com page returned by SKU search"
+    },
+    {
+      "sku": "DN-81212",
+      "name": "10Gb/s SFP+SR MM 850nm 300m DDM Industrial",
+      "placements": [
+        {
+          "category": "Networking",
+          "categorySlug": "networking",
+          "subcategory": "SFP / DAC / AOC Technology",
+          "subcategorySlug": "sfp-dac-aoc-technology"
+        }
+      ],
+      "reason": "No exact official products.digitus.com page returned by SKU search"
+    },
+    {
+      "sku": "DN-81325",
+      "name": "40G QSFP+ to 4XSFP+ Direct Attach Cable 5 m",
+      "placements": [
+        {
+          "category": "Networking",
+          "categorySlug": "networking",
+          "subcategory": "SFP / DAC / AOC Technology",
+          "subcategorySlug": "sfp-dac-aoc-technology"
+        }
+      ],
+      "reason": "No exact official products.digitus.com page returned by SKU search"
+    },
+    {
+      "sku": "DN-81312",
+      "name": "QSFP+ 40G 5 m AOC cable",
+      "placements": [
+        {
+          "category": "Networking",
+          "categorySlug": "networking",
+          "subcategory": "SFP / DAC / AOC Technology",
+          "subcategorySlug": "sfp-dac-aoc-technology"
+        }
+      ],
+      "reason": "No exact official products.digitus.com page returned by SKU search"
+    },
+    {
+      "sku": "DN-81205",
+      "name": "SFP+ 10 Gbps Bi-directional Module, Singlemode, 10 km",
+      "placements": [
+        {
+          "category": "Networking",
+          "categorySlug": "networking",
+          "subcategory": "SFP / DAC / AOC Technology",
+          "subcategorySlug": "sfp-dac-aoc-technology"
+        }
+      ],
+      "reason": "No exact official products.digitus.com page returned by SKU search"
+    },
+    {
+      "sku": "DN-18602",
+      "name": "Smart Full HD Outdoor Camera with LED Floodlight, WLAN + Voice Control",
+      "placements": [
+        {
+          "category": "Surveillance",
+          "categorySlug": "surveillance",
+          "subcategory": "IP Cameras",
+          "subcategorySlug": "ip-cameras"
+        },
+        {
+          "category": "Smart Home",
+          "categorySlug": "smart-home",
+          "subcategory": "Smart Cameras",
+          "subcategorySlug": "smart-cameras"
+        }
+      ],
+      "reason": "No exact official products.digitus.com page returned by SKU search"
+    },
+    {
+      "sku": "DN-43000",
+      "name": "Network cabinet Varioflex-N Series - 800x800 mm, 42U, grey",
+      "placements": [
+        {
+          "category": "Racks & Cabinets",
+          "categorySlug": "racks-cabinets",
+          "subcategory": "Network Cabinets - Freestanding",
+          "subcategorySlug": "network-cabinets-freestanding"
+        }
+      ],
+      "reason": "No exact official products.digitus.com page returned by SKU search"
+    },
+    {
+      "sku": "DN-43001",
+      "name": "Network cabinet Varioflex-N Series - 800x1000 mm, 42U, grey",
+      "placements": [
+        {
+          "category": "Racks & Cabinets",
+          "categorySlug": "racks-cabinets",
+          "subcategory": "Network Cabinets - Freestanding",
+          "subcategorySlug": "network-cabinets-freestanding"
+        }
+      ],
+      "reason": "No exact official products.digitus.com page returned by SKU search"
+    },
+    {
+      "sku": "DN-31128",
+      "name": "Network cabinet Unique series - 800x1000 mm, 42U, double perforated doors, grey",
+      "placements": [
+        {
+          "category": "Racks & Cabinets",
+          "categorySlug": "racks-cabinets",
+          "subcategory": "Network Cabinets - Freestanding",
+          "subcategorySlug": "network-cabinets-freestanding"
+        }
+      ],
+      "reason": "No exact official products.digitus.com page returned by SKU search"
+    },
+    {
+      "sku": "DN-31126",
+      "name": "Network cabinet Unique series - 800x1000 mm, 42U, perforated doors, grey",
+      "placements": [
+        {
+          "category": "Racks & Cabinets",
+          "categorySlug": "racks-cabinets",
+          "subcategory": "Network Cabinets - Freestanding",
+          "subcategorySlug": "network-cabinets-freestanding"
+        }
+      ],
+      "reason": "No exact official products.digitus.com page returned by SKU search"
+    },
+    {
+      "sku": "DN-19 22U-6/6-DB",
+      "name": "Network cabinet Dynamic Basic series - 600x600 mm, 22U, black",
+      "placements": [
+        {
+          "category": "Racks & Cabinets",
+          "categorySlug": "racks-cabinets",
+          "subcategory": "Network Cabinets - Freestanding",
+          "subcategorySlug": "network-cabinets-freestanding"
+        }
+      ],
+      "reason": "No exact official products.digitus.com page returned by SKU search"
+    },
+    {
+      "sku": "DN-19 26U-6/6-DB",
+      "name": "Network cabinet Dynamic Basic series - 600x600 mm, 26U, black",
+      "placements": [
+        {
+          "category": "Racks & Cabinets",
+          "categorySlug": "racks-cabinets",
+          "subcategory": "Network Cabinets - Freestanding",
+          "subcategorySlug": "network-cabinets-freestanding"
+        }
+      ],
+      "reason": "No exact official products.digitus.com page returned by SKU search"
+    },
+    {
+      "sku": "DN-19 26U-6/8-DB",
+      "name": "Network cabinet Dynamic Basic series - 600x800 mm, 26U, black",
+      "placements": [
+        {
+          "category": "Racks & Cabinets",
+          "categorySlug": "racks-cabinets",
+          "subcategory": "Network Cabinets - Freestanding",
+          "subcategorySlug": "network-cabinets-freestanding"
+        }
+      ],
+      "reason": "No exact official products.digitus.com page returned by SKU search"
+    },
+    {
+      "sku": "DN-19 32U-6/8-D",
+      "name": "Network cabinet Dynamic Basic series - 600x800 mm, 32U, grey",
+      "placements": [
+        {
+          "category": "Racks & Cabinets",
+          "categorySlug": "racks-cabinets",
+          "subcategory": "Network Cabinets - Freestanding",
+          "subcategorySlug": "network-cabinets-freestanding"
+        }
+      ],
+      "reason": "No exact official products.digitus.com page returned by SKU search"
+    },
+    {
+      "sku": "DN-19 42U-8/10-D",
+      "name": "Network cabinet Dynamic Basic series - 800x1000 mm, 42U, grey",
+      "placements": [
+        {
+          "category": "Racks & Cabinets",
+          "categorySlug": "racks-cabinets",
+          "subcategory": "Network Cabinets - Freestanding",
+          "subcategorySlug": "network-cabinets-freestanding"
+        }
+      ],
+      "reason": "No exact official products.digitus.com page returned by SKU search"
+    },
+    {
+      "sku": "DN-19 42U-8/8-D-B",
+      "name": "Network cabinet Dynamic Basic series - 800x800 mm, 42U, black",
+      "placements": [
+        {
+          "category": "Racks & Cabinets",
+          "categorySlug": "racks-cabinets",
+          "subcategory": "Network Cabinets - Freestanding",
+          "subcategorySlug": "network-cabinets-freestanding"
+        }
+      ],
+      "reason": "No exact official products.digitus.com page returned by SKU search"
+    },
+    {
+      "sku": "DN-19 22U-6/8-D",
+      "name": "Network cabinet Dynamic Basic series - 600x800 mm, 22U, grey",
+      "placements": [
+        {
+          "category": "Racks & Cabinets",
+          "categorySlug": "racks-cabinets",
+          "subcategory": "Network Cabinets - Freestanding",
+          "subcategorySlug": "network-cabinets-freestanding"
+        }
+      ],
+      "reason": "No exact official products.digitus.com page returned by SKU search"
+    },
+    {
+      "sku": "DN-19 26U-6/8-D",
+      "name": "Network cabinet Dynamic Basic series - 600x800 mm, 26U, grey",
+      "placements": [
+        {
+          "category": "Racks & Cabinets",
+          "categorySlug": "racks-cabinets",
+          "subcategory": "Network Cabinets - Freestanding",
+          "subcategorySlug": "network-cabinets-freestanding"
+        }
+      ],
+      "reason": "No exact official products.digitus.com page returned by SKU search"
+    },
+    {
+      "sku": "DN-19 32U-6/6-D",
+      "name": "Network cabinet Dynamic Basic series - 600x600 mm, 32U, grey",
+      "placements": [
+        {
+          "category": "Racks & Cabinets",
+          "categorySlug": "racks-cabinets",
+          "subcategory": "Network Cabinets - Freestanding",
+          "subcategorySlug": "network-cabinets-freestanding"
+        }
+      ],
+      "reason": "No exact official products.digitus.com page returned by SKU search"
+    },
+    {
+      "sku": "DN-19 42U-6/6-D",
+      "name": "Network cabinet Dynamic Basic series - 600x600 mm, 42U, grey",
+      "placements": [
+        {
+          "category": "Racks & Cabinets",
+          "categorySlug": "racks-cabinets",
+          "subcategory": "Network Cabinets - Freestanding",
+          "subcategorySlug": "network-cabinets-freestanding"
+        }
+      ],
+      "reason": "No exact official products.digitus.com page returned by SKU search"
+    },
+    {
+      "sku": "DN-19 42U-6/8-D",
+      "name": "Network cabinet Dynamic Basic series - 600x800 mm, 42U, grey",
+      "placements": [
+        {
+          "category": "Racks & Cabinets",
+          "categorySlug": "racks-cabinets",
+          "subcategory": "Network Cabinets - Freestanding",
+          "subcategorySlug": "network-cabinets-freestanding"
+        }
+      ],
+      "reason": "No exact official products.digitus.com page returned by SKU search"
+    },
+    {
+      "sku": "DN-19 42U-8/8-D",
+      "name": "Network cabinet Dynamic Basic series - 800x800 mm, 42U, grey",
+      "placements": [
+        {
+          "category": "Racks & Cabinets",
+          "categorySlug": "racks-cabinets",
+          "subcategory": "Network Cabinets - Freestanding",
+          "subcategorySlug": "network-cabinets-freestanding"
+        }
+      ],
+      "reason": "No exact official products.digitus.com page returned by SKU search"
+    },
+    {
+      "sku": "DN-19 22U-6/6-D",
+      "name": "Network cabinet Dynamic Basic series - 600x600 mm, 22U, grey",
+      "placements": [
+        {
+          "category": "Racks & Cabinets",
+          "categorySlug": "racks-cabinets",
+          "subcategory": "Network Cabinets - Freestanding",
+          "subcategorySlug": "network-cabinets-freestanding"
+        }
+      ],
+      "reason": "No exact official products.digitus.com page returned by SKU search"
+    },
+    {
+      "sku": "DN-19 26U-6/6-D",
+      "name": "Network cabinet Dynamic Basic series - 600x600 mm, 26U, grey",
+      "placements": [
+        {
+          "category": "Racks & Cabinets",
+          "categorySlug": "racks-cabinets",
+          "subcategory": "Network Cabinets - Freestanding",
+          "subcategorySlug": "network-cabinets-freestanding"
+        }
+      ],
+      "reason": "No exact official products.digitus.com page returned by SKU search"
+    },
+    {
+      "sku": "DN-19 16-U-3-SW",
+      "name": "Wall Mounting Cabinet Unique Series, double sectioned, 16U, black",
+      "placements": [
+        {
+          "category": "Racks & Cabinets",
+          "categorySlug": "racks-cabinets",
+          "subcategory": "Wall Mount Cabinets - Unique",
+          "subcategorySlug": "wall-mount-cabinets-unique"
+        }
+      ],
+      "reason": "No exact official products.digitus.com page returned by SKU search"
+    },
+    {
+      "sku": "DN-19 SRV-26U-1",
+      "name": "Server Rack Unique Series - 600x1000 mm, 26U, grey",
+      "placements": [
+        {
+          "category": "Racks & Cabinets",
+          "categorySlug": "racks-cabinets",
+          "subcategory": "Server Cabinets - Freestanding",
+          "subcategorySlug": "server-cabinets-freestanding"
+        }
+      ],
+      "reason": "No exact official products.digitus.com page returned by SKU search"
+    },
+    {
+      "sku": "DN-19 SRV-26U-B-1",
+      "name": "Server Rack Unique Series - 600x1000 mm, 26U, black",
+      "placements": [
+        {
+          "category": "Racks & Cabinets",
+          "categorySlug": "racks-cabinets",
+          "subcategory": "Server Cabinets - Freestanding",
+          "subcategorySlug": "server-cabinets-freestanding"
+        }
+      ],
+      "reason": "No exact official products.digitus.com page returned by SKU search"
+    },
+    {
+      "sku": "DN-19 SRV-26U-B-G-1",
+      "name": "Server Rack Unique Series - 600x1000 mm, 26U, black, plexi glass front",
+      "placements": [
+        {
+          "category": "Racks & Cabinets",
+          "categorySlug": "racks-cabinets",
+          "subcategory": "Server Cabinets - Freestanding",
+          "subcategorySlug": "server-cabinets-freestanding"
+        }
+      ],
+      "reason": "No exact official products.digitus.com page returned by SKU search"
+    },
+    {
+      "sku": "DN-19 SRV-36U-B-G",
+      "name": "Server Rack Unique Series - 600x1000 mm, 36U, black, plexi glass front",
+      "placements": [
+        {
+          "category": "Racks & Cabinets",
+          "categorySlug": "racks-cabinets",
+          "subcategory": "Server Cabinets - Freestanding",
+          "subcategorySlug": "server-cabinets-freestanding"
+        }
+      ],
+      "reason": "No exact official products.digitus.com page returned by SKU search"
+    },
+    {
+      "sku": "DN-19 SRV-42U-8-N-1",
+      "name": "Server Rack Unique Series - 800x1000 mm, 42U, grey",
+      "placements": [
+        {
+          "category": "Racks & Cabinets",
+          "categorySlug": "racks-cabinets",
+          "subcategory": "Server Cabinets - Freestanding",
+          "subcategorySlug": "server-cabinets-freestanding"
+        }
+      ],
+      "reason": "No exact official products.digitus.com page returned by SKU search"
+    },
+    {
+      "sku": "DN-19 SRV-42U-8/12",
+      "name": "Server Rack Unique Series - 800x1200 mm, 42U, grey",
+      "placements": [
+        {
+          "category": "Racks & Cabinets",
+          "categorySlug": "racks-cabinets",
+          "subcategory": "Server Cabinets - Freestanding",
+          "subcategorySlug": "server-cabinets-freestanding"
+        }
+      ],
+      "reason": "No exact official products.digitus.com page returned by SKU search"
+    },
+    {
+      "sku": "DN-19 SRV-42U-B-1",
+      "name": "Server Rack Unique Series - 600x1000 mm, 42U, black",
+      "placements": [
+        {
+          "category": "Racks & Cabinets",
+          "categorySlug": "racks-cabinets",
+          "subcategory": "Server Cabinets - Freestanding",
+          "subcategorySlug": "server-cabinets-freestanding"
+        }
+      ],
+      "reason": "No exact official products.digitus.com page returned by SKU search"
+    },
+    {
+      "sku": "DN-19 SRV-42U-8-B",
+      "name": "Server Rack Unique Series - 800x1000 mm, 42U, black",
+      "placements": [
+        {
+          "category": "Racks & Cabinets",
+          "categorySlug": "racks-cabinets",
+          "subcategory": "Server Cabinets - Freestanding",
+          "subcategorySlug": "server-cabinets-freestanding"
+        }
+      ],
+      "reason": "No exact official products.digitus.com page returned by SKU search"
+    },
+    {
+      "sku": "DN-19 SRV-42U-8/12B",
+      "name": "Server Rack Unique Series - 800x1200 mm, 42U, black",
+      "placements": [
+        {
+          "category": "Racks & Cabinets",
+          "categorySlug": "racks-cabinets",
+          "subcategory": "Server Cabinets - Freestanding",
+          "subcategorySlug": "server-cabinets-freestanding"
+        }
+      ],
+      "reason": "No exact official products.digitus.com page returned by SKU search"
+    },
+    {
+      "sku": "DN-19-PHS-9473",
+      "name": "Swing handle with lock for network and server cabinets",
+      "placements": [
+        {
+          "category": "Racks & Cabinets",
+          "categorySlug": "racks-cabinets",
+          "subcategory": "Cabinet Accessories - Keys / Locks / Handles",
+          "subcategorySlug": "cabinet-accessories-keys-locks-handles"
+        }
+      ],
+      "reason": "No exact official products.digitus.com page returned by SKU search"
+    },
+    {
+      "sku": "DN-19 PHS",
+      "name": "Profile half cylinder for swivel handle",
+      "placements": [
+        {
+          "category": "Racks & Cabinets",
+          "categorySlug": "racks-cabinets",
+          "subcategory": "Cabinet Accessories - Keys / Locks / Handles",
+          "subcategorySlug": "cabinet-accessories-keys-locks-handles"
+        }
+      ],
+      "reason": "No exact official products.digitus.com page returned by SKU search"
+    },
+    {
+      "sku": "DN-19 FAN-4-SRV",
+      "name": "Roof Cooling Unit for Unique Server Cabinets, 4 fans",
+      "placements": [
+        {
+          "category": "Racks & Cabinets",
+          "categorySlug": "racks-cabinets",
+          "subcategory": "Cabinet Accessories - Cooling / Ventilation",
+          "subcategorySlug": "cabinet-accessories-cooling-ventilation"
+        }
+      ],
+      "reason": "No exact official products.digitus.com page returned by SKU search"
+    },
+    {
+      "sku": "DN-19 FAN-6-SRV",
+      "name": "Roof Cooling Unit for Unique Server Cabinets, 6 fans",
+      "placements": [
+        {
+          "category": "Racks & Cabinets",
+          "categorySlug": "racks-cabinets",
+          "subcategory": "Cabinet Accessories - Cooling / Ventilation",
+          "subcategorySlug": "cabinet-accessories-cooling-ventilation"
+        }
+      ],
+      "reason": "No exact official products.digitus.com page returned by SKU search"
+    },
+    {
+      "sku": "AL-9E2000-01I",
+      "name": "Fiber Optic Patch Cord, E2000 APC to E2000 APC, 1 m",
+      "placements": [
+        {
+          "category": "Fiber Optics",
+          "categorySlug": "fiber-optics",
+          "subcategory": "Fiber Patch Cables - E2000",
+          "subcategorySlug": "fiber-patch-cables-e2000"
+        }
+      ],
+      "reason": "No exact official products.digitus.com page returned by SKU search"
+    },
+    {
+      "sku": "AL-9E2000-02I",
+      "name": "Fiber Optic Patch Cord, E2000 APC to E2000 APC, 2 m",
+      "placements": [
+        {
+          "category": "Fiber Optics",
+          "categorySlug": "fiber-optics",
+          "subcategory": "Fiber Patch Cables - E2000",
+          "subcategorySlug": "fiber-patch-cables-e2000"
+        }
+      ],
+      "reason": "No exact official products.digitus.com page returned by SKU search"
+    },
+    {
+      "sku": "AL-9E2000LC-01I",
+      "name": "Fiber Optic Patch Cord, E2000 APC to LC UPC, 1 m",
+      "placements": [
+        {
+          "category": "Fiber Optics",
+          "categorySlug": "fiber-optics",
+          "subcategory": "Fiber Patch Cables - E2000",
+          "subcategorySlug": "fiber-patch-cables-e2000"
+        }
+      ],
+      "reason": "No exact official products.digitus.com page returned by SKU search"
+    },
+    {
+      "sku": "AL-9E2000LC-02I",
+      "name": "Fiber Optic Patch Cord, E2000 APC to LC UPC, 2 m",
+      "placements": [
+        {
+          "category": "Fiber Optics",
+          "categorySlug": "fiber-optics",
+          "subcategory": "Fiber Patch Cables - E2000",
+          "subcategorySlug": "fiber-patch-cables-e2000"
+        }
+      ],
+      "reason": "No exact official products.digitus.com page returned by SKU search"
+    },
+    {
+      "sku": "AL-9E2000LC-03I",
+      "name": "Fiber Optic Patch Cord, E2000 APC to LC UPC, 3 m",
+      "placements": [
+        {
+          "category": "Fiber Optics",
+          "categorySlug": "fiber-optics",
+          "subcategory": "Fiber Patch Cables - E2000",
+          "subcategorySlug": "fiber-patch-cables-e2000"
+        }
+      ],
+      "reason": "No exact official products.digitus.com page returned by SKU search"
+    },
+    {
+      "sku": "AL-9E2000LC-05I",
+      "name": "Fiber Optic Patch Cord, E2000 APC to LC UPC, 5 m",
+      "placements": [
+        {
+          "category": "Fiber Optics",
+          "categorySlug": "fiber-optics",
+          "subcategory": "Fiber Patch Cables - E2000",
+          "subcategorySlug": "fiber-patch-cables-e2000"
+        }
+      ],
+      "reason": "No exact official products.digitus.com page returned by SKU search"
+    },
+    {
+      "sku": "AL-9E2000LC-10I",
+      "name": "Fiber Optic Patch Cord, E2000 APC to LC UPC, 10 m",
+      "placements": [
+        {
+          "category": "Fiber Optics",
+          "categorySlug": "fiber-optics",
+          "subcategory": "Fiber Patch Cables - E2000",
+          "subcategorySlug": "fiber-patch-cables-e2000"
+        }
+      ],
+      "reason": "No exact official products.digitus.com page returned by SKU search"
+    },
+    {
+      "sku": "DK-2512-01/3",
+      "name": "Fiber Optic Multimode Patch Cord OM3, ST/SC, 1 m",
+      "placements": [
+        {
+          "category": "Fiber Optics",
+          "categorySlug": "fiber-optics",
+          "subcategory": "Fiber Patch Cables - OM3 Multimode",
+          "subcategorySlug": "fiber-patch-cables-om3-multimode"
+        }
+      ],
+      "reason": "No exact official products.digitus.com page returned by SKU search"
+    },
+    {
+      "sku": "DK-2512-03/3",
+      "name": "Fiber Optic Multimode Patch Cord OM3, ST/SC, 3 m",
+      "placements": [
+        {
+          "category": "Fiber Optics",
+          "categorySlug": "fiber-optics",
+          "subcategory": "Fiber Patch Cables - OM3 Multimode",
+          "subcategorySlug": "fiber-patch-cables-om3-multimode"
+        }
+      ],
+      "reason": "No exact official products.digitus.com page returned by SKU search"
+    },
+    {
+      "sku": "DK-2522-05/3",
+      "name": "Fiber Optic Multimode Patch Cord OM3, SC/SC, 5 m",
+      "placements": [
+        {
+          "category": "Fiber Optics",
+          "categorySlug": "fiber-optics",
+          "subcategory": "Fiber Patch Cables - OM3 Multimode",
+          "subcategorySlug": "fiber-patch-cables-om3-multimode"
+        }
+      ],
+      "reason": "No exact official products.digitus.com page returned by SKU search"
+    },
+    {
+      "sku": "DK-2522-10/3",
+      "name": "Fiber Optic Multimode Patch Cord OM3, SC/SC, 10 m",
+      "placements": [
+        {
+          "category": "Fiber Optics",
+          "categorySlug": "fiber-optics",
+          "subcategory": "Fiber Patch Cables - OM3 Multimode",
+          "subcategorySlug": "fiber-patch-cables-om3-multimode"
+        }
+      ],
+      "reason": "No exact official products.digitus.com page returned by SKU search"
+    },
+    {
+      "sku": "DK-2931-05",
+      "name": "Fiber Optic Singlemode Patch Cord LC/ST, 5 m",
+      "placements": [
+        {
+          "category": "Fiber Optics",
+          "categorySlug": "fiber-optics",
+          "subcategory": "Fiber Patch Cables - OS2 Singlemode",
+          "subcategorySlug": "fiber-patch-cables-os2-singlemode"
+        }
+      ],
+      "reason": "No exact official products.digitus.com page returned by SKU search"
+    },
+    {
+      "sku": "DK-2922-03",
+      "name": "Fiber Optic Singlemode Patch Cord SC/SC, 3 m",
+      "placements": [
+        {
+          "category": "Fiber Optics",
+          "categorySlug": "fiber-optics",
+          "subcategory": "Fiber Patch Cables - OS2 Singlemode",
+          "subcategorySlug": "fiber-patch-cables-os2-singlemode"
+        }
+      ],
+      "reason": "No exact official products.digitus.com page returned by SKU search"
+    },
+    {
+      "sku": "DK-2922-10",
+      "name": "Fiber Optic Singlemode Patch Cord SC/SC, 10 m",
+      "placements": [
+        {
+          "category": "Fiber Optics",
+          "categorySlug": "fiber-optics",
+          "subcategory": "Fiber Patch Cables - OS2 Singlemode",
+          "subcategorySlug": "fiber-patch-cables-os2-singlemode"
+        }
+      ],
+      "reason": "No exact official products.digitus.com page returned by SKU search"
+    },
+    {
+      "sku": "DK-292219-02-APC",
+      "name": "Colored pigtails, SC/APC OS2 09/125 µ, Simplex",
+      "placements": [
+        {
+          "category": "Fiber Optics",
+          "categorySlug": "fiber-optics",
+          "subcategory": "Fiber Pigtails",
+          "subcategorySlug": "fiber-pigtails"
+        }
+      ],
+      "reason": "No exact official products.digitus.com page returned by SKU search"
+    },
+    {
+      "sku": "DK-24338UE50BK-BBB",
+      "name": "Pre-assembled fiber optic universal breakout cable, OM4, 8 fibers, LC/UPC - LC/UPC, 150 m",
+      "placements": [
+        {
+          "category": "Fiber Optics",
+          "categorySlug": "fiber-optics",
+          "subcategory": "Fiber Trunk / Breakout Cables - OM4 Multimode",
+          "subcategorySlug": "fiber-trunk-breakout-cables-om4-multimode"
+        }
+      ],
+      "reason": "No exact official products.digitus.com page returned by SKU search"
+    },
+    {
+      "sku": "DK-2433CU075BK-BBB",
+      "name": "Pre-assembled fiber optic universal breakout cable, OM4, 12 fibres, LC/UPC - LC/UPC, 75 m",
+      "placements": [
+        {
+          "category": "Fiber Optics",
+          "categorySlug": "fiber-optics",
+          "subcategory": "Fiber Trunk / Breakout Cables - OM4 Multimode",
+          "subcategorySlug": "fiber-trunk-breakout-cables-om4-multimode"
+        }
+      ],
+      "reason": "No exact official products.digitus.com page returned by SKU search"
+    },
+    {
+      "sku": "DN-96018-1",
+      "name": "SC/SC Duplex Coupler, OM4",
+      "placements": [
+        {
+          "category": "Fiber Optics",
+          "categorySlug": "fiber-optics",
+          "subcategory": "Fiber Couplers",
+          "subcategorySlug": "fiber-couplers"
+        }
+      ],
+      "reason": "No exact official products.digitus.com page returned by SKU search"
+    },
+    {
+      "sku": "DN-96019-1",
+      "name": "LC/LC Duplex Coupler, OM4",
+      "placements": [
+        {
+          "category": "Fiber Optics",
+          "categorySlug": "fiber-optics",
+          "subcategory": "Fiber Couplers",
+          "subcategorySlug": "fiber-couplers"
+        }
+      ],
+      "reason": "No exact official products.digitus.com page returned by SKU search"
+    },
+    {
+      "sku": "DN-96009-1",
+      "name": "LC/LC Coupler, Multimode OM3",
+      "placements": [
+        {
+          "category": "Fiber Optics",
+          "categorySlug": "fiber-optics",
+          "subcategory": "Fiber Couplers",
+          "subcategorySlug": "fiber-couplers"
+        }
+      ],
+      "reason": "No exact official products.digitus.com page returned by SKU search"
+    },
+    {
+      "sku": "DN-96003-1",
+      "name": "SC/SC Coupler, Singlemode",
+      "placements": [
+        {
+          "category": "Fiber Optics",
+          "categorySlug": "fiber-optics",
+          "subcategory": "Fiber Couplers",
+          "subcategorySlug": "fiber-couplers"
+        }
+      ],
+      "reason": "No exact official products.digitus.com page returned by SKU search"
+    },
+    {
+      "sku": "DN-96004-1",
+      "name": "SC/SC Coupler, Multimode OM2",
+      "placements": [
+        {
+          "category": "Fiber Optics",
+          "categorySlug": "fiber-optics",
+          "subcategory": "Fiber Couplers",
+          "subcategorySlug": "fiber-couplers"
+        }
+      ],
+      "reason": "No exact official products.digitus.com page returned by SKU search"
+    },
+    {
+      "sku": "DN-96005-1",
+      "name": "SC/SC Coupler, Multimode OM3",
+      "placements": [
+        {
+          "category": "Fiber Optics",
+          "categorySlug": "fiber-optics",
+          "subcategory": "Fiber Couplers",
+          "subcategorySlug": "fiber-couplers"
+        }
+      ],
+      "reason": "No exact official products.digitus.com page returned by SKU search"
+    },
+    {
+      "sku": "DN-96007-1",
+      "name": "LC/LC Coupler, Singlemode",
+      "placements": [
+        {
+          "category": "Fiber Optics",
+          "categorySlug": "fiber-optics",
+          "subcategory": "Fiber Couplers",
+          "subcategorySlug": "fiber-couplers"
+        }
+      ],
+      "reason": "No exact official products.digitus.com page returned by SKU search"
+    },
+    {
+      "sku": "DN-96003-1APC",
+      "name": "SC/APC-SC/APC duplex coupler, Singlemode",
+      "placements": [
+        {
+          "category": "Fiber Optics",
+          "categorySlug": "fiber-optics",
+          "subcategory": "Fiber Couplers",
+          "subcategorySlug": "fiber-couplers"
+        }
+      ],
+      "reason": "No exact official products.digitus.com page returned by SKU search"
+    },
+    {
+      "sku": "DN-FC-9100",
+      "name": "SC/UPC Fiber Optic Fast connector, 10 pieces",
+      "placements": [
+        {
+          "category": "Fiber Optics",
+          "categorySlug": "fiber-optics",
+          "subcategory": "Fiber Connectors",
+          "subcategorySlug": "fiber-connectors"
+        }
+      ],
+      "reason": "No exact official products.digitus.com page returned by SKU search"
+    },
+    {
+      "sku": "DN-96200-2U",
+      "name": "Fiber Optic Splice Box, Sliding, 2U",
+      "placements": [
+        {
+          "category": "Fiber Optics",
+          "categorySlug": "fiber-optics",
+          "subcategory": "Fiber Splice Enclosures / Patch Panels",
+          "subcategorySlug": "fiber-splice-enclosures-patch-panels"
+        }
+      ],
+      "reason": "No exact official products.digitus.com page returned by SKU search"
+    },
+    {
+      "sku": "DN-949103",
+      "name": "Ftth Home Distribution Unit, 3 x LC/APC duplex",
+      "placements": [
+        {
+          "category": "Fiber Optics",
+          "categorySlug": "fiber-optics",
+          "subcategory": "Fiber Distribution Boxes / Wall Mount Boxes",
+          "subcategorySlug": "fiber-distribution-boxes-wall-mount-boxes"
+        }
+      ],
+      "reason": "No exact official products.digitus.com page returned by SKU search"
+    },
+    {
+      "sku": "DN-968915",
+      "name": "Fiber Optic Outdoor Distribution Box, 8x SC SX",
+      "placements": [
+        {
+          "category": "Fiber Optics",
+          "categorySlug": "fiber-optics",
+          "subcategory": "Fiber Distribution Boxes / Wall Mount Boxes",
+          "subcategorySlug": "fiber-distribution-boxes-wall-mount-boxes"
+        }
+      ],
+      "reason": "No exact official products.digitus.com page returned by SKU search"
+    },
+    {
+      "sku": "DN-931093",
+      "name": "FTTX enclosure, empty for 4 x SC SX, LC DX couplers",
+      "placements": [
+        {
+          "category": "Fiber Optics",
+          "categorySlug": "fiber-optics",
+          "subcategory": "Fiber Distribution Boxes / Wall Mount Boxes",
+          "subcategorySlug": "fiber-distribution-boxes-wall-mount-boxes"
+        }
+      ],
+      "reason": "No exact official products.digitus.com page returned by SKU search"
+    },
+    {
+      "sku": "A-96522-02-UPC-4",
+      "name": "Splice cassette with 12 pigtails, pre-assembled, SC, OM4",
+      "placements": [
+        {
+          "category": "Fiber Optics",
+          "categorySlug": "fiber-optics",
+          "subcategory": "Fiber Cassette & Splice Protection",
+          "subcategorySlug": "fiber-cassette-splice-protection"
+        }
+      ],
+      "reason": "No exact official products.digitus.com page returned by SKU search"
+    },
+    {
+      "sku": "AL-SK3",
+      "name": "Crimp splice protection",
+      "placements": [
+        {
+          "category": "Fiber Optics",
+          "categorySlug": "fiber-optics",
+          "subcategory": "Fiber Cassette & Splice Protection",
+          "subcategorySlug": "fiber-cassette-splice-protection"
+        }
+      ],
+      "reason": "No exact official products.digitus.com page returned by SKU search"
+    },
+    {
+      "sku": "DN-948050-1",
+      "name": "FTTX installation kit, pre-assembled, 4-fiber, LC/APC, 50 m",
+      "placements": [
+        {
+          "category": "Fiber Optics",
+          "categorySlug": "fiber-optics",
+          "subcategory": "FTTX",
+          "subcategorySlug": "fttx"
+        }
+      ],
+      "reason": "No exact official products.digitus.com page returned by SKU search"
+    },
+    {
+      "sku": "DK-3904LCA-30",
+      "name": "FTTH drop cable, singlemode, 4 fibers, 4 LC/APC, 30 m",
+      "placements": [
+        {
+          "category": "Fiber Optics",
+          "categorySlug": "fiber-optics",
+          "subcategory": "FTTX",
+          "subcategorySlug": "fttx"
+        }
+      ],
+      "reason": "No exact official products.digitus.com page returned by SKU search"
+    },
+    {
+      "sku": "DN-931087",
+      "name": "Wall Outlet FTTH for 2x SC Simplex / LC Duplex",
+      "placements": [
+        {
+          "category": "Fiber Optics",
+          "categorySlug": "fiber-optics",
+          "subcategory": "FTTX",
+          "subcategorySlug": "fttx"
+        }
+      ],
+      "reason": "No exact official products.digitus.com page returned by SKU search"
+    },
+    {
+      "sku": "DN-FO-FS4",
+      "name": "Cable Stripper for fibers of fiber optic installation cables",
+      "placements": [
+        {
+          "category": "Fiber Optics",
+          "categorySlug": "fiber-optics",
+          "subcategory": "Splice Devices & Fiber Tools",
+          "subcategorySlug": "splice-devices-fiber-tools"
+        },
+        {
+          "category": "Tools & Accessories",
+          "categorySlug": "tools-accessories",
+          "subcategory": "Fiber Optic Tools",
+          "subcategorySlug": "fiber-optic-tools"
+        }
+      ],
+      "reason": "No exact official products.digitus.com page returned by SKU search"
+    },
+    {
+      "sku": "DN-FO-KC",
+      "name": "Kevlar clipper",
+      "placements": [
+        {
+          "category": "Fiber Optics",
+          "categorySlug": "fiber-optics",
+          "subcategory": "Splice Devices & Fiber Tools",
+          "subcategorySlug": "splice-devices-fiber-tools"
+        },
+        {
+          "category": "Tools & Accessories",
+          "categorySlug": "tools-accessories",
+          "subcategory": "Fiber Optic Tools",
+          "subcategorySlug": "fiber-optic-tools"
+        }
+      ],
+      "reason": "No exact official products.digitus.com page returned by SKU search"
+    },
+    {
+      "sku": "DN-95428",
+      "name": "Socket Strip with Aluminum Profile, 8-way safety socket, 2 m cable, IEC C20 plug",
+      "placements": [
+        {
+          "category": "Power",
+          "categorySlug": "power",
+          "subcategory": "Power Distribution Units / Rack PDUs",
+          "subcategorySlug": "power-distribution-units-rack-pdus"
+        }
+      ],
+      "reason": "No exact official products.digitus.com page returned by SKU search"
+    },
+    {
+      "sku": "DN-95432",
+      "name": "Socket strip with aluminum profile and surge protection, integrated line filter, 6 safety sockets, 2 m cable safety plug",
+      "placements": [
+        {
+          "category": "Power",
+          "categorySlug": "power",
+          "subcategory": "Power Distribution Units / Rack PDUs",
+          "subcategorySlug": "power-distribution-units-rack-pdus"
+        }
+      ],
+      "reason": "No exact official products.digitus.com page returned by SKU search"
+    },
+    {
+      "sku": "DN-95417",
+      "name": "Aluminum Outlet Strip, 6 safety outlets with circuit breaker",
+      "placements": [
+        {
+          "category": "Power",
+          "categorySlug": "power",
+          "subcategory": "Power Distribution Units / Rack PDUs",
+          "subcategorySlug": "power-distribution-units-rack-pdus"
+        }
+      ],
+      "reason": "No exact official products.digitus.com page returned by SKU search"
+    },
+    {
+      "sku": "DN-95412",
+      "name": "Multiple socket outlet with aluminum profile and overvoltage protection, integrated mains filter, 7-way socket outlet with earthing contact, 2 m supply cable, vertical mounting",
+      "placements": [
+        {
+          "category": "Power",
+          "categorySlug": "power",
+          "subcategory": "Power Distribution Units / Rack PDUs",
+          "subcategorySlug": "power-distribution-units-rack-pdus"
+        }
+      ],
+      "reason": "No exact official products.digitus.com page returned by SKU search"
+    },
+    {
+      "sku": "DN-95410",
+      "name": "aluminum outlet strip with pre-fuse, 8 safety outlets, 2 m supply IEC C14 plug",
+      "placements": [
+        {
+          "category": "Power",
+          "categorySlug": "power",
+          "subcategory": "Power Distribution Units / Rack PDUs",
+          "subcategorySlug": "power-distribution-units-rack-pdus"
+        }
+      ],
+      "reason": "No exact official products.digitus.com page returned by SKU search"
+    },
+    {
+      "sku": "DN-95411",
+      "name": "aluminium outlet strip, 3 safety outlets, 2 m supply safety plug",
+      "placements": [
+        {
+          "category": "Power",
+          "categorySlug": "power",
+          "subcategory": "Power Distribution Units / Rack PDUs",
+          "subcategorySlug": "power-distribution-units-rack-pdus"
+        }
+      ],
+      "reason": "No exact official products.digitus.com page returned by SKU search"
+    },
+    {
+      "sku": "DN-95403",
+      "name": "aluminum outlet strip with overload protection, 7 safety outlets, 2 m supply safety plug",
+      "placements": [
+        {
+          "category": "Power",
+          "categorySlug": "power",
+          "subcategory": "Power Distribution Units / Rack PDUs",
+          "subcategorySlug": "power-distribution-units-rack-pdus"
+        }
+      ],
+      "reason": "No exact official products.digitus.com page returned by SKU search"
+    },
+    {
+      "sku": "DN-95423",
+      "name": "Multiple socket outlet with aluminium profile, 4x C13, 4x C19, 2x 16A plug, open end",
+      "placements": [
+        {
+          "category": "Power",
+          "categorySlug": "power",
+          "subcategory": "Power Distribution Units / Rack PDUs",
+          "subcategorySlug": "power-distribution-units-rack-pdus"
+        }
+      ],
+      "reason": "No exact official products.digitus.com page returned by SKU search"
+    },
+    {
+      "sku": "DN-95412-IT",
+      "name": "Socket strip with aluminum profile and surge protection, integrated line filter, 7-way Italian socket, 2 m cable Italian plug",
+      "placements": [
+        {
+          "category": "Power",
+          "categorySlug": "power",
+          "subcategory": "Power Distribution Units / Rack PDUs",
+          "subcategorySlug": "power-distribution-units-rack-pdus"
+        }
+      ],
+      "reason": "No exact official products.digitus.com page returned by SKU search"
+    },
+    {
+      "sku": "DN-95628",
+      "name": "Smart PDU, Outlet monitored, 1-phase, 16 A, 16 x C13",
+      "placements": [
+        {
+          "category": "Power",
+          "categorySlug": "power",
+          "subcategory": "Power Distribution Units / Rack PDUs",
+          "subcategorySlug": "power-distribution-units-rack-pdus"
+        }
+      ],
+      "reason": "No exact official products.digitus.com page returned by SKU search"
+    },
+    {
+      "sku": "DA-10063",
+      "name": "USB-C Charger, 2-port, 65W GaN",
+      "placements": [
+        {
+          "category": "Power",
+          "categorySlug": "power",
+          "subcategory": "Chargers, Power Supplies & Power Outlets",
+          "subcategorySlug": "chargers-power-supplies-power-outlets"
+        }
+      ],
+      "reason": "No exact official products.digitus.com page returned by SKU search"
+    },
+    {
+      "sku": "DA-10061",
+      "name": "USB Charger 2x USB-A, 15.5W",
+      "placements": [
+        {
+          "category": "Power",
+          "categorySlug": "power",
+          "subcategory": "Chargers, Power Supplies & Power Outlets",
+          "subcategorySlug": "chargers-power-supplies-power-outlets"
+        }
+      ],
+      "reason": "No exact official products.digitus.com page returned by SKU search"
+    },
+    {
+      "sku": "DA-10062",
+      "name": "USB Charger 1x USB-A / 1x USB-C, 30W",
+      "placements": [
+        {
+          "category": "Power",
+          "categorySlug": "power",
+          "subcategory": "Chargers, Power Supplies & Power Outlets",
+          "subcategorySlug": "chargers-power-supplies-power-outlets"
+        }
+      ],
+      "reason": "No exact official products.digitus.com page returned by SKU search"
+    },
+    {
+      "sku": "DA-10196",
+      "name": "Universal Charging Adapter, USB-C™, 20 W",
+      "placements": [
+        {
+          "category": "Power",
+          "categorySlug": "power",
+          "subcategory": "Chargers, Power Supplies & Power Outlets",
+          "subcategorySlug": "chargers-power-supplies-power-outlets"
+        }
+      ],
+      "reason": "No exact official products.digitus.com page returned by SKU search"
+    },
+    {
+      "sku": "DA-70617",
+      "name": "Universal USB Plug-in Charger with 2 x USB-A Sockets and Integrated Socket",
+      "placements": [
+        {
+          "category": "Power",
+          "categorySlug": "power",
+          "subcategory": "Chargers, Power Supplies & Power Outlets",
+          "subcategorySlug": "chargers-power-supplies-power-outlets"
+        }
+      ],
+      "reason": "No exact official products.digitus.com page returned by SKU search"
+    },
+    {
+      "sku": "DA-10195",
+      "name": "4-Port Universal USB Charging Adapter, USB Type-C™",
+      "placements": [
+        {
+          "category": "Power",
+          "categorySlug": "power",
+          "subcategory": "Chargers, Power Supplies & Power Outlets",
+          "subcategorySlug": "chargers-power-supplies-power-outlets"
+        }
+      ],
+      "reason": "No exact official products.digitus.com page returned by SKU search"
+    },
+    {
+      "sku": "84103",
+      "name": "Quick Charge™ 3.0 Car Charger, Dual Port",
+      "placements": [
+        {
+          "category": "Power",
+          "categorySlug": "power",
+          "subcategory": "Chargers, Power Supplies & Power Outlets",
+          "subcategorySlug": "chargers-power-supplies-power-outlets"
+        }
+      ],
+      "reason": "No exact official products.digitus.com page returned by SKU search"
+    },
+    {
+      "sku": "DN-95002",
+      "name": "Passive PoE Wall Mount Box, RJ45/DC/PoE",
+      "placements": [
+        {
+          "category": "Power",
+          "categorySlug": "power",
+          "subcategory": "PoE Power Solutions",
+          "subcategorySlug": "poe-power-solutions"
+        }
+      ],
+      "reason": "No exact official products.digitus.com page returned by SKU search"
+    },
+    {
+      "sku": "DN-95104",
+      "name": "Gigabit Ethernet PoE Ultra Injector, 802.3af/at, 60 W",
+      "placements": [
+        {
+          "category": "Power",
+          "categorySlug": "power",
+          "subcategory": "PoE Power Solutions",
+          "subcategorySlug": "poe-power-solutions"
+        }
+      ],
+      "reason": "No exact official products.digitus.com page returned by SKU search"
+    },
+    {
+      "sku": "DN-95103-2",
+      "name": "Gigabit Ethernet PoE+ injector, 802.3at, 30 W",
+      "placements": [
+        {
+          "category": "Power",
+          "categorySlug": "power",
+          "subcategory": "PoE Power Solutions",
+          "subcategorySlug": "poe-power-solutions"
+        }
+      ],
+      "reason": "No exact official products.digitus.com page returned by SKU search"
+    },
+    {
+      "sku": "DN-95127-1",
+      "name": "2 Port Gigabit 4PPoE Extender, 802.3at, 60 W",
+      "placements": [
+        {
+          "category": "Power",
+          "categorySlug": "power",
+          "subcategory": "PoE Power Solutions",
+          "subcategorySlug": "poe-power-solutions"
+        }
+      ],
+      "reason": "No exact official products.digitus.com page returned by SKU search"
+    },
+    {
+      "sku": "DN-95131",
+      "name": "Gigabit Active 802.3af PoE Midspan",
+      "placements": [
+        {
+          "category": "Power",
+          "categorySlug": "power",
+          "subcategory": "PoE Power Solutions",
+          "subcategorySlug": "poe-power-solutions"
+        }
+      ],
+      "reason": "No exact official products.digitus.com page returned by SKU search"
+    },
+    {
+      "sku": "DS-55122",
+      "name": "4K HDMI extender via CAT / IP (set)",
+      "placements": [
+        {
+          "category": "AV & Multimedia",
+          "categorySlug": "av-multimedia",
+          "subcategory": "HDMI / AV Extenders",
+          "subcategorySlug": "hdmi-av-extenders"
+        }
+      ],
+      "reason": "No exact official products.digitus.com page returned by SKU search"
+    },
+    {
+      "sku": "DS-55123",
+      "name": "4K HDMI extender via CAT / IP (receiver unit)",
+      "placements": [
+        {
+          "category": "AV & Multimedia",
+          "categorySlug": "av-multimedia",
+          "subcategory": "HDMI / AV Extenders",
+          "subcategorySlug": "hdmi-av-extenders"
+        }
+      ],
+      "reason": "No exact official products.digitus.com page returned by SKU search"
+    },
+    {
+      "sku": "DS-55125",
+      "name": "4K HDMI extender via CAT/IP (receiver unit), PoE",
+      "placements": [
+        {
+          "category": "AV & Multimedia",
+          "categorySlug": "av-multimedia",
+          "subcategory": "HDMI / AV Extenders",
+          "subcategorySlug": "hdmi-av-extenders"
+        }
+      ],
+      "reason": "No exact official products.digitus.com page returned by SKU search"
+    },
+    {
+      "sku": "DS-55523",
+      "name": "HDMI HDBaseT™ 3.0 Extender Set, 100 m",
+      "placements": [
+        {
+          "category": "AV & Multimedia",
+          "categorySlug": "av-multimedia",
+          "subcategory": "HDMI / AV Extenders",
+          "subcategorySlug": "hdmi-av-extenders"
+        }
+      ],
+      "reason": "No exact official products.digitus.com page returned by SKU search"
+    },
+    {
+      "sku": "DS-44100-1",
+      "name": "VGA Switch 2 PCs, 1 Monitor",
+      "placements": [
+        {
+          "category": "AV & Multimedia",
+          "categorySlug": "av-multimedia",
+          "subcategory": "HDMI Switches",
+          "subcategorySlug": "hdmi-switches"
+        }
+      ],
+      "reason": "No exact official products.digitus.com page returned by SKU search"
+    },
+    {
+      "sku": "DS-45100-1",
+      "name": "VGA Switch 4 PCs, 1 Monitor",
+      "placements": [
+        {
+          "category": "AV & Multimedia",
+          "categorySlug": "av-multimedia",
+          "subcategory": "HDMI Switches",
+          "subcategorySlug": "hdmi-switches"
+        }
+      ],
+      "reason": "No exact official products.digitus.com page returned by SKU search"
+    },
+    {
+      "sku": "DS-43309",
+      "name": "4K HDMI Video Wall Controller, 2x2",
+      "placements": [
+        {
+          "category": "AV & Multimedia",
+          "categorySlug": "av-multimedia",
+          "subcategory": "HDMI Matrix / Video Wall Controllers",
+          "subcategorySlug": "hdmi-matrix-video-wall-controllers"
+        }
+      ],
+      "reason": "No exact official products.digitus.com page returned by SKU search"
+    },
+    {
+      "sku": "DS-52900",
+      "name": "4K DisplayPort Repeater",
+      "placements": [
+        {
+          "category": "AV & Multimedia",
+          "categorySlug": "av-multimedia",
+          "subcategory": "HDMI / DisplayPort Repeaters",
+          "subcategorySlug": "hdmi-displayport-repeaters"
+        }
+      ],
+      "reason": "No exact official products.digitus.com page returned by SKU search"
+    },
+    {
+      "sku": "DS-45333",
+      "name": "3-Port MST Video Hub (USB-C™ -> 3x HDMI)",
+      "placements": [
+        {
+          "category": "AV & Multimedia",
+          "categorySlug": "av-multimedia",
+          "subcategory": "AV Converters / Adapters / Video Hubs",
+          "subcategorySlug": "av-converters-adapters-video-hubs"
+        }
+      ],
+      "reason": "No exact official products.digitus.com page returned by SKU search"
+    },
+    {
+      "sku": "DS-45334",
+      "name": "3-Port MST Video Hub (USB-C™ -> 3x DisplayPort)",
+      "placements": [
+        {
+          "category": "AV & Multimedia",
+          "categorySlug": "av-multimedia",
+          "subcategory": "AV Converters / Adapters / Video Hubs",
+          "subcategorySlug": "av-converters-adapters-video-hubs"
+        }
+      ],
+      "reason": "No exact official products.digitus.com page returned by SKU search"
+    },
+    {
+      "sku": "DA-73122",
+      "name": "USB 3.2 Gen1 Fiber Extender, 5 Gbps, 4 ports: 3x USB-A / 1x USB-C, 300m",
+      "placements": [
+        {
+          "category": "AV & Multimedia",
+          "categorySlug": "av-multimedia",
+          "subcategory": "USB Extenders",
+          "subcategorySlug": "usb-extenders"
+        }
+      ],
+      "reason": "No exact official products.digitus.com page returned by SKU search"
+    },
+    {
+      "sku": "DA-90351",
+      "name": "Single monitor mount, 32\", 8 kg",
+      "placements": [
+        {
+          "category": "AV & Multimedia",
+          "categorySlug": "av-multimedia",
+          "subcategory": "Monitor Desk Mounts / Stands",
+          "subcategorySlug": "monitor-desk-mounts-stands"
+        }
+      ],
+      "reason": "No exact official products.digitus.com page returned by SKU search"
+    },
+    {
+      "sku": "DA-90353",
+      "name": "Dual monitor mount, 2x 32\", 2x 8 kg",
+      "placements": [
+        {
+          "category": "AV & Multimedia",
+          "categorySlug": "av-multimedia",
+          "subcategory": "Monitor Desk Mounts / Stands",
+          "subcategorySlug": "monitor-desk-mounts-stands"
+        }
+      ],
+      "reason": "No exact official products.digitus.com page returned by SKU search"
+    }
+  ],
+  "productsWithoutImages": []
+}

@@ -1,0 +1,550 @@
+
+> arthome@0.1.0 dev
+> next dev --port 3000
+
+▲ Next.js 16.2.4 (Turbopack)
+- Local:         http://localhost:3000
+- Network:       http://26.108.41.110:3000
+- Environments: .env
+✓ Ready in 339ms
+
+ GET /en/products/networking 200 in 4.2s (next.js: 2.7s, generate-params: 1361ms, application-code: 1455ms)
+ GET /en/products/networking 200 in 728ms (next.js: 153ms, generate-params: 9ms, application-code: 575ms)
+ GET /products/networking 307 in 2.5s (next.js: 2.0s, application-code: 431ms)
+ GET /en/products/networking/dk-1743-a-vh-5-cat-7a-s-ftp-data-cable-installation-cable-500-m-simplex 200 in 1741ms (next.js: 1514ms, generate-params: 340ms, application-code: 227ms)
+ GET /en/products/networking 200 in 423ms (next.js: 23ms, generate-params: 7ms, application-code: 400ms)
+ GET /en/products/fiber-optics 200 in 4.1s (next.js: 20ms, generate-params: 11ms, application-code: 4.0s)
+ GET /en/products 200 in 6.7s (next.js: 1352ms, generate-params: 325ms, application-code: 5.3s)
+ HEAD /products/networking 307 in 108ms (next.js: 26ms, application-code: 82ms)
+✓ Compiled in 245ms
+ GET /en/products/networking 200 in 370ms (next.js: 181ms, generate-params: 9ms, application-code: 190ms)
+ GET /en 200 in 552ms (next.js: 359ms, generate-params: 315ms, application-code: 194ms)
+ GET /manifest.webmanifest 200 in 96ms (next.js: 78ms, application-code: 18ms)
+ GET /en/products/networking 200 in 140ms (next.js: 12ms, generate-params: 8ms, application-code: 128ms)
+ GET /manifest.webmanifest 200 in 21ms (next.js: 13ms, application-code: 7ms)
+ GET /sq/products/networking 200 in 127ms (next.js: 12ms, generate-params: 8ms, application-code: 115ms)
+ GET /manifest.webmanifest 200 in 9ms (next.js: 3ms, application-code: 6ms)
+ GET /en/products/networking 200 in 163ms (next.js: 11ms, generate-params: 7ms, application-code: 152ms)
+ GET /manifest.webmanifest 200 in 12ms (next.js: 4ms, application-code: 7ms)
+ GET /en/products/surveillance 200 in 109ms (next.js: 11ms, generate-params: 8ms, application-code: 98ms)
+ GET /manifest.webmanifest 200 in 10ms (next.js: 4ms, application-code: 5ms)
+ GET /en/products/networking 200 in 101ms (next.js: 11ms, generate-params: 7ms, application-code: 90ms)
+ GET /manifest.webmanifest 200 in 9ms (next.js: 3ms, application-code: 6ms)
+ GET /en/projects 200 in 370ms (next.js: 330ms, generate-params: 289ms, application-code: 40ms)
+ GET /manifest.webmanifest 200 in 11ms (next.js: 4ms, application-code: 7ms)
+ GET /en 200 in 53ms (next.js: 10ms, generate-params: 7ms, application-code: 43ms)
+ GET /manifest.webmanifest 200 in 9ms (next.js: 3ms, application-code: 6ms)
+ GET /en/products/networking 200 in 106ms (next.js: 10ms, generate-params: 7ms, application-code: 96ms)
+ GET /manifest.webmanifest 200 in 9ms (next.js: 3ms, application-code: 6ms)
+✓ Compiled in 188ms
+ GET /en/products/networking 200 in 132ms (next.js: 4ms, generate-params: 31µs, application-code: 128ms)
+ GET /en/products/networking 200 in 488ms (next.js: 163ms, generate-params: 7ms, application-code: 324ms)
+ GET /manifest.webmanifest 200 in 55ms (next.js: 41ms, application-code: 14ms)
+ GET /en 200 in 222ms (next.js: 143ms, generate-params: 6ms, application-code: 80ms)
+ GET /manifest.webmanifest 200 in 12ms (next.js: 5ms, application-code: 7ms)
+ GET /en/products 200 in 317ms (next.js: 187ms, generate-params: 57ms, application-code: 130ms)
+ GET /manifest.webmanifest 200 in 19ms (next.js: 12ms, application-code: 7ms)
+ GET /en/products/av-multimedia/ds-55580-4k-all-in-one-video-bar-pro-video-conferencing-system 200 in 254ms (next.js: 182ms, generate-params: 54ms, application-code: 72ms)
+ GET /manifest.webmanifest 200 in 10ms (next.js: 4ms, application-code: 7ms)
+ GET /en 200 in 58ms (next.js: 12ms, generate-params: 9ms, application-code: 46ms)
+ GET /manifest.webmanifest 200 in 11ms (next.js: 4ms, application-code: 7ms)
+ GET /en/products/networking 200 in 117ms (next.js: 15ms, generate-params: 10ms, application-code: 102ms)
+ GET /manifest.webmanifest 200 in 11ms (next.js: 4ms, application-code: 7ms)
+✓ Compiled in 192ms
+ GET /en/products/networking 200 in 1649ms (next.js: 197ms, generate-params: 15ms, application-code: 1452ms)
+ GET /en/products/networking 200 in 1653ms (next.js: 333ms, generate-params: 41µs, application-code: 1320ms)
+ GET /en/products/networking 200 in 1234ms (next.js: 4ms, generate-params: 28µs, application-code: 1230ms)
+ GET /en/products/networking 200 in 1170ms (next.js: 12ms, generate-params: 35µs, application-code: 1158ms)
+ GET /en/products/networking 200 in 1066ms (next.js: 303ms, generate-params: 29µs, application-code: 763ms)
+ GET /en/products/networking 200 in 1338ms (next.js: 150ms, generate-params: 26µs, application-code: 1187ms)
+ GET /en/products/networking 200 in 1343ms (next.js: 67ms, generate-params: 58ms, application-code: 1276ms)
+ GET /en/products/networking 200 in 1342ms (next.js: 222ms, generate-params: 27µs, application-code: 1120ms)
+ GET /en/products/networking 200 in 1340ms (next.js: 451ms, generate-params: 27µs, application-code: 889ms)
+ GET /en/products/networking 200 in 973ms (next.js: 163ms, generate-params: 30µs, application-code: 809ms)
+ GET /en/products/networking 200 in 1343ms (next.js: 375ms, generate-params: 30µs, application-code: 968ms)
+ GET /en/products/networking 200 in 976ms (next.js: 256ms, generate-params: 28µs, application-code: 719ms)
+ GET /en/products/networking 200 in 457ms (next.js: 20ms, generate-params: 9ms, application-code: 437ms)
+ GET /en/products/networking 200 in 456ms (next.js: 174ms, generate-params: 29µs, application-code: 283ms)
+ GET /en/products/networking 200 in 460ms (next.js: 95ms, generate-params: 49µs, application-code: 365ms)
+ GET /en/products/networking 200 in 177ms (next.js: 5ms, generate-params: 140µs, application-code: 172ms)
+ GET /manifest.webmanifest 200 in 59ms (next.js: 46ms, application-code: 13ms)
+✓ Compiled in 247ms
+ GET /en/products/networking 200 in 522ms (next.js: 325ms, generate-params: 34µs, application-code: 197ms)
+ GET /en/products/networking 200 in 526ms (next.js: 168ms, generate-params: 9ms, application-code: 358ms)
+ GET /manifest.webmanifest 200 in 51ms (next.js: 40ms, application-code: 11ms)
+ GET /en/products/networking 200 in 664ms (next.js: 11ms, generate-params: 7ms, application-code: 653ms)
+ GET /manifest.webmanifest 200 in 16ms (next.js: 7ms, application-code: 9ms)
+✓ Compiled in 80ms
+ GET /en/products/networking 200 in 1666ms (next.js: 175ms, generate-params: 8ms, application-code: 1491ms)
+ GET /en/products/networking 200 in 1674ms (next.js: 335ms, generate-params: 80µs, application-code: 1339ms)
+ GET /en/products/networking 200 in 1264ms (next.js: 10ms, generate-params: 34µs, application-code: 1253ms)
+ GET /en/products/networking 200 in 1273ms (next.js: 120ms, generate-params: 32µs, application-code: 1153ms)
+ GET /en/products/networking 200 in 1199ms (next.js: 255ms, generate-params: 27µs, application-code: 944ms)
+ GET /en/products/networking 200 in 1204ms (next.js: 183ms, generate-params: 29µs, application-code: 1021ms)
+ GET /en/products/networking 200 in 1201ms (next.js: 500ms, generate-params: 26µs, application-code: 702ms)
+ GET /en/products/networking 200 in 1204ms (next.js: 578ms, generate-params: 27µs, application-code: 625ms)
+ GET /en/products/networking 200 in 1212ms (next.js: 98ms, generate-params: 59µs, application-code: 1113ms)
+ GET /en/products/networking 200 in 1214ms (next.js: 20ms, generate-params: 8ms, application-code: 1195ms)
+ GET /en/products/networking 200 in 1296ms (next.js: 340ms, generate-params: 28µs, application-code: 956ms)
+ GET /en/products/networking 200 in 1298ms (next.js: 413ms, generate-params: 28µs, application-code: 885ms)
+ GET /en/products/networking 200 in 684ms (next.js: 18ms, generate-params: 9ms, application-code: 666ms)
+ GET /en/products/networking 200 in 511ms (next.js: 16ms, generate-params: 29µs, application-code: 495ms)
+ GET /en/products/networking 200 in 686ms (next.js: 95ms, generate-params: 26µs, application-code: 590ms)
+ GET /en/products/networking 200 in 408ms (next.js: 7ms, generate-params: 28µs, application-code: 401ms)
+ GET /en/products/networking 200 in 309ms (next.js: 14ms, generate-params: 8ms, application-code: 295ms)
+ GET /en/products/networking 200 in 310ms (next.js: 92ms, generate-params: 27µs, application-code: 218ms)
+ GET /manifest.webmanifest 200 in 56ms (next.js: 44ms, application-code: 12ms)
+ GET /en/projects 200 in 218ms (next.js: 136ms, generate-params: 6ms, application-code: 82ms)
+ GET /manifest.webmanifest 200 in 9ms (next.js: 3ms, application-code: 6ms)
+ GET /en/contact 200 in 362ms (next.js: 321ms, generate-params: 281ms, application-code: 42ms)
+ GET /manifest.webmanifest 200 in 11ms (next.js: 5ms, application-code: 6ms)
+✓ Compiled in 177ms
+ GET /en/contact 200 in 1470ms (next.js: 179ms, generate-params: 54ms, application-code: 1291ms)
+ GET /en/contact 200 in 853ms (next.js: 13ms, generate-params: 8ms, application-code: 840ms)
+ GET /en/contact 200 in 792ms (next.js: 111ms, generate-params: 27µs, application-code: 681ms)
+ GET /en/contact 200 in 796ms (next.js: 63ms, generate-params: 28µs, application-code: 733ms)
+ GET /en/contact 200 in 799ms (next.js: 15ms, generate-params: 31µs, application-code: 783ms)
+ GET /en/contact 200 in 797ms (next.js: 157ms, generate-params: 27µs, application-code: 640ms)
+ GET /en/contact 200 in 231ms (next.js: 71ms, generate-params: 63ms, application-code: 160ms)
+ GET /en/contact 200 in 109ms (next.js: 12ms, generate-params: 35µs, application-code: 97ms)
+ GET /manifest.webmanifest 200 in 54ms (next.js: 42ms, application-code: 12ms)
+ GET /en/products/networking 200 in 1865ms (next.js: 432ms, generate-params: 8ms, application-code: 1433ms)
+ GET /en/products/networking 200 in 857ms (next.js: 152ms, generate-params: 29µs, application-code: 705ms)
+ GET /en/products/networking 200 in 1189ms (next.js: 12ms, generate-params: 35µs, application-code: 1177ms)
+ GET /en/products/networking 200 in 938ms (next.js: 313ms, generate-params: 27µs, application-code: 625ms)
+ GET /en/products/networking 200 in 963ms (next.js: 82ms, generate-params: 64ms, application-code: 881ms)
+ GET /en/products/networking 200 in 966ms (next.js: 242ms, generate-params: 26µs, application-code: 724ms)
+ GET /en/products/networking 200 in 256ms (next.js: 18ms, generate-params: 8ms, application-code: 238ms)
+ GET /en/products/networking 200 in 148ms (next.js: 6ms, generate-params: 24µs, application-code: 142ms)
+✓ Compiled in 172ms
+ GET /en/contact 200 in 141ms (next.js: 26ms, generate-params: 9ms, application-code: 116ms)
+ GET /en/products/networking 200 in 516ms (next.js: 162ms, generate-params: 8ms, application-code: 354ms)
+ GET /manifest.webmanifest 200 in 51ms (next.js: 40ms, application-code: 11ms)
+ GET /en/projects 200 in 66ms (next.js: 23ms, generate-params: 8ms, application-code: 43ms)
+ GET /manifest.webmanifest 200 in 8ms (next.js: 3ms, application-code: 5ms)
+ GET /en/products/networking 200 in 102ms (next.js: 11ms, generate-params: 7ms, application-code: 91ms)
+ GET /manifest.webmanifest 200 in 13ms (next.js: 6ms, application-code: 6ms)
+ GET /en/products/racks-cabinets 200 in 100ms (next.js: 11ms, generate-params: 7ms, application-code: 89ms)
+ GET /manifest.webmanifest 200 in 9ms (next.js: 4ms, application-code: 5ms)
+✓ Compiled in 228ms
+ GET /en/products/racks-cabinets 200 in 558ms (next.js: 272ms, generate-params: 9ms, application-code: 286ms)
+ GET /en/products/networking 200 in 137ms (next.js: 5ms, generate-params: 30µs, application-code: 131ms)
+ GET /manifest.webmanifest 200 in 49ms (next.js: 39ms, application-code: 11ms)
+ GET /en/contact 200 in 65ms (next.js: 20ms, generate-params: 10ms, application-code: 45ms)
+ GET /manifest.webmanifest 200 in 9ms (next.js: 3ms, application-code: 6ms)
+ GET /en 200 in 67ms (next.js: 23ms, generate-params: 8ms, application-code: 45ms)
+ GET /manifest.webmanifest 200 in 9ms (next.js: 3ms, application-code: 5ms)
+ GET /en/products/smart-home 200 in 142ms (next.js: 11ms, generate-params: 7ms, application-code: 131ms)
+ GET /manifest.webmanifest 200 in 11ms (next.js: 3ms, application-code: 8ms)
+ GET /en 200 in 58ms (next.js: 12ms, generate-params: 8ms, application-code: 46ms)
+ GET /manifest.webmanifest 200 in 9ms (next.js: 3ms, application-code: 6ms)
+✓ Compiled in 232ms
+ GET /en 200 in 666ms (next.js: 154ms, generate-params: 8ms, application-code: 512ms)
+ GET /en/products/networking 200 in 705ms (next.js: 431ms, generate-params: 8ms, application-code: 274ms)
+ GET /manifest.webmanifest 200 in 54ms (next.js: 43ms, application-code: 11ms)
+✓ Compiled in 213ms
+ GET /en 200 in 1435ms (next.js: 502ms, generate-params: 8ms, application-code: 933ms)
+ GET /en 200 in 915ms (next.js: 77ms, generate-params: 24µs, application-code: 838ms)
+ GET /en 200 in 675ms (next.js: 367ms, generate-params: 30µs, application-code: 308ms)
+ GET /en 200 in 682ms (next.js: 93ms, generate-params: 8ms, application-code: 589ms)
+ GET /en 200 in 677ms (next.js: 409ms, generate-params: 26µs, application-code: 267ms)
+ GET /en 200 in 677ms (next.js: 454ms, generate-params: 25µs, application-code: 223ms)
+ GET /en 200 in 150ms (next.js: 12ms, generate-params: 8ms, application-code: 138ms)
+ GET /en/products/networking 200 in 1620ms (next.js: 206ms, generate-params: 9ms, application-code: 1414ms)
+ GET /en/products/networking 200 in 1031ms (next.js: 13ms, generate-params: 7ms, application-code: 1018ms)
+ GET /en/products/networking 200 in 781ms (next.js: 13ms, generate-params: 22µs, application-code: 768ms)
+ GET /en/products/networking 200 in 782ms (next.js: 213ms, generate-params: 29µs, application-code: 569ms)
+ GET /en/products/networking 200 in 873ms (next.js: 138ms, generate-params: 24µs, application-code: 735ms)
+ GET /manifest.webmanifest 200 in 53ms (next.js: 42ms, application-code: 11ms)
+ GET /en/products/networking 200 in 933ms (next.js: 286ms, generate-params: 24µs, application-code: 647ms)
+ GET /en/products/networking 200 in 200ms (next.js: 16ms, generate-params: 9ms, application-code: 184ms)
+✓ Compiled in 284ms
+ GET /en 200 in 619ms (next.js: 279ms, generate-params: 9ms, application-code: 340ms)
+ GET /en 200 in 248ms (next.js: 165ms, generate-params: 26µs, application-code: 84ms)
+ GET /en/products/networking 200 in 282ms (next.js: 11ms, generate-params: 27µs, application-code: 271ms)
+ GET /en/products/networking 200 in 653ms (next.js: 138ms, generate-params: 8ms, application-code: 515ms)
+ GET /manifest.webmanifest 200 in 52ms (next.js: 42ms, application-code: 10ms)
+✓ Compiled in 223ms
+ GET /en 200 in 680ms (next.js: 167ms, generate-params: 9ms, application-code: 512ms)
+ GET /en 200 in 270ms (next.js: 10ms, generate-params: 29µs, application-code: 260ms)
+ GET /en/products/networking 200 in 717ms (next.js: 308ms, generate-params: 8ms, application-code: 409ms)
+ GET /en/products/networking 200 in 303ms (next.js: 46ms, generate-params: 27µs, application-code: 257ms)
+ GET /manifest.webmanifest 200 in 53ms (next.js: 40ms, application-code: 13ms)
+ GET /en/products/networking 200 in 129ms (next.js: 13ms, generate-params: 9ms, application-code: 117ms)
+ GET /manifest.webmanifest 200 in 10ms (next.js: 4ms, application-code: 6ms)
+ GET /sq/products/networking 200 in 119ms (next.js: 10ms, generate-params: 7ms, application-code: 109ms)
+ GET /manifest.webmanifest 200 in 7ms (next.js: 2ms, application-code: 5ms)
+ GET /sq/products/networking 200 in 19ms (next.js: 11ms, generate-params: 7ms, application-code: 8ms)
+ GET /sq/products/networking 200 in 100ms (next.js: 4ms, generate-params: 22µs, application-code: 96ms)
+ GET /manifest.webmanifest 200 in 8ms (next.js: 3ms, application-code: 5ms)
+ GET /en/products/networking 200 in 111ms (next.js: 10ms, generate-params: 7ms, application-code: 101ms)
+ GET /manifest.webmanifest 200 in 8ms (next.js: 2ms, application-code: 5ms)
+ GET /sq/products/networking 200 in 203ms (next.js: 11ms, generate-params: 7ms, application-code: 192ms)
+ GET /manifest.webmanifest 200 in 9ms (next.js: 3ms, application-code: 7ms)
+ GET /sq/products/racks-cabinets 200 in 107ms (next.js: 11ms, generate-params: 7ms, application-code: 96ms)
+ GET /manifest.webmanifest 200 in 11ms (next.js: 4ms, application-code: 7ms)
+ GET /sq/contact 200 in 246ms (next.js: 170ms, generate-params: 8ms, application-code: 76ms)
+ GET /manifest.webmanifest 200 in 8ms (next.js: 3ms, application-code: 6ms)
+ GET /sq 200 in 48ms (next.js: 11ms, generate-params: 7ms, application-code: 37ms)
+ GET /manifest.webmanifest 200 in 8ms (next.js: 3ms, application-code: 5ms)
+ GET /sq/products/av-multimedia 200 in 110ms (next.js: 11ms, generate-params: 7ms, application-code: 99ms)
+ GET /manifest.webmanifest 200 in 26ms (next.js: 9ms, application-code: 17ms)
+ GET /sq/contact 200 in 50ms (next.js: 11ms, generate-params: 8ms, application-code: 38ms)
+ GET /manifest.webmanifest 200 in 9ms (next.js: 3ms, application-code: 6ms)
+ GET /en/contact 200 in 67ms (next.js: 12ms, generate-params: 8ms, application-code: 55ms)
+ GET /manifest.webmanifest 200 in 8ms (next.js: 3ms, application-code: 5ms)
+ GET /en/contact 200 in 20ms (next.js: 12ms, generate-params: 8ms, application-code: 8ms)
+ GET /en/contact 200 in 21ms (next.js: 1975µs, generate-params: 13µs, application-code: 19ms)
+ GET /manifest.webmanifest 200 in 7ms (next.js: 2ms, application-code: 5ms)
+ GET /en/contact 200 in 18ms (next.js: 11ms, generate-params: 7ms, application-code: 8ms)
+ GET /en/contact 200 in 35ms (next.js: 3ms, generate-params: 29µs, application-code: 32ms)
+ GET /manifest.webmanifest 200 in 7ms (next.js: 3ms, application-code: 5ms)
+ GET /en/projects 200 in 209ms (next.js: 150ms, generate-params: 6ms, application-code: 59ms)
+ GET /manifest.webmanifest 200 in 12ms (next.js: 5ms, application-code: 7ms)
+ GET /en/products 200 in 263ms (next.js: 148ms, generate-params: 6ms, application-code: 115ms)
+ GET /manifest.webmanifest 200 in 10ms (next.js: 3ms, application-code: 6ms)
+ GET /en/products/av-multimedia/ds-45334-3-port-mst-video-hub-usb-c-3x-displayport 200 in 219ms (next.js: 139ms, generate-params: 6ms, application-code: 81ms)
+ GET /manifest.webmanifest 200 in 14ms (next.js: 6ms, application-code: 8ms)
+ GET /en/products/av-multimedia/da-70466-4k-hdmi-edid-emulator 200 in 49ms (next.js: 11ms, generate-params: 7ms, application-code: 38ms)
+ GET /manifest.webmanifest 200 in 10ms (next.js: 4ms, application-code: 7ms)
+ GET /en/products/av-multimedia 200 in 91ms (next.js: 10ms, generate-params: 7ms, application-code: 81ms)
+ GET /manifest.webmanifest 200 in 10ms (next.js: 4ms, application-code: 6ms)
+ GET /en/products/av-multimedia/ds-55508-4k-hdbaset-hdmi-extender-set-150-m 200 in 49ms (next.js: 10ms, generate-params: 7ms, application-code: 39ms)
+ GET /manifest.webmanifest 200 in 10ms (next.js: 4ms, application-code: 6ms)
+ GET /en/products/av-multimedia/ds-55355-hdmi-kvm-ip-extender-set-4k-60hz 200 in 58ms (next.js: 11ms, generate-params: 8ms, application-code: 46ms)
+ GET /manifest.webmanifest 200 in 11ms (next.js: 4ms, application-code: 6ms)
+✓ Compiled in 132ms
+ GET /en/products/av-multimedia/ds-55355-hdmi-kvm-ip-extender-set-4k-60hz 200 in 519ms (next.js: 22ms, generate-params: 7ms, application-code: 497ms)
+ GET /en/products/av-multimedia/ds-55355-hdmi-kvm-ip-extender-set-4k-60hz 200 in 387ms (next.js: 4ms, generate-params: 21µs, application-code: 383ms)
+ GET /en/products/av-multimedia/ds-55355-hdmi-kvm-ip-extender-set-4k-60hz 200 in 142ms (next.js: 3ms, generate-params: 18µs, application-code: 139ms)
+ GET /en/products/av-multimedia/ds-55355-hdmi-kvm-ip-extender-set-4k-60hz 200 in 143ms (next.js: 38ms, generate-params: 19µs, application-code: 104ms)
+ GET /en/products/networking 200 in 863ms (next.js: 142ms, generate-params: 7ms, application-code: 720ms)
+ GET /en/products/networking 200 in 605ms (next.js: 70ms, generate-params: 19µs, application-code: 535ms)
+ GET /en/products/networking 200 in 351ms (next.js: 7ms, generate-params: 21µs, application-code: 345ms)
+ GET /en/products/networking 200 in 353ms (next.js: 56ms, generate-params: 24µs, application-code: 297ms)
+ GET /manifest.webmanifest 200 in 61ms (next.js: 51ms, application-code: 11ms)
+✓ Compiled in 199ms
+ GET /en/products/av-multimedia/ds-55355-hdmi-kvm-ip-extender-set-4k-60hz 200 in 270ms (next.js: 29ms, generate-params: 9ms, application-code: 242ms)
+ GET /en/products/networking 200 in 871ms (next.js: 209ms, generate-params: 8ms, application-code: 662ms)
+ GET /manifest.webmanifest 200 in 102ms (next.js: 79ms, application-code: 23ms)
+✓ Compiled in 251ms
+ GET /en/products/av-multimedia/ds-55355-hdmi-kvm-ip-extender-set-4k-60hz 200 in 687ms (next.js: 222ms, generate-params: 15ms, application-code: 465ms)
+ GET /en/products/av-multimedia/ds-55355-hdmi-kvm-ip-extender-set-4k-60hz 200 in 136ms (next.js: 18ms, generate-params: 14ms, application-code: 118ms)
+ GET /en/products/av-multimedia/ds-55355-hdmi-kvm-ip-extender-set-4k-60hz 200 in 584ms (next.js: 13ms, generate-params: 23µs, application-code: 571ms)
+ GET /en/products/av-multimedia/ds-55355-hdmi-kvm-ip-extender-set-4k-60hz 200 in 636ms (next.js: 9ms, generate-params: 29µs, application-code: 627ms)
+ GET /en/products/av-multimedia/ds-55355-hdmi-kvm-ip-extender-set-4k-60hz 200 in 568ms (next.js: 175ms, generate-params: 23µs, application-code: 393ms)
+ GET /en/products/av-multimedia/ds-55355-hdmi-kvm-ip-extender-set-4k-60hz 200 in 572ms (next.js: 22ms, generate-params: 15ms, application-code: 550ms)
+ GET /en/products/av-multimedia/ds-55355-hdmi-kvm-ip-extender-set-4k-60hz 200 in 573ms (next.js: 116ms, generate-params: 22µs, application-code: 457ms)
+ GET /en/products/av-multimedia/ds-55355-hdmi-kvm-ip-extender-set-4k-60hz 200 in 573ms (next.js: 293ms, generate-params: 29µs, application-code: 280ms)
+ GET /en/products/av-multimedia/ds-55355-hdmi-kvm-ip-extender-set-4k-60hz 200 in 377ms (next.js: 19ms, generate-params: 14ms, application-code: 359ms)
+ GET /en/products/av-multimedia/ds-55355-hdmi-kvm-ip-extender-set-4k-60hz 200 in 221ms (next.js: 11ms, generate-params: 27µs, application-code: 211ms)
+ GET /en/products/av-multimedia/ds-55355-hdmi-kvm-ip-extender-set-4k-60hz 200 in 137ms (next.js: 4ms, generate-params: 32µs, application-code: 133ms)
+ GET /en/products/networking 200 in 1511ms (next.js: 357ms, generate-params: 10ms, application-code: 1154ms)
+ GET /en/products/networking 200 in 972ms (next.js: 14ms, generate-params: 28µs, application-code: 957ms)
+ GET /en/products/networking 200 in 795ms (next.js: 98ms, generate-params: 25µs, application-code: 697ms)
+ GET /en/products/networking 200 in 889ms (next.js: 509ms, generate-params: 27µs, application-code: 381ms)
+ GET /en/products/networking 200 in 904ms (next.js: 267ms, generate-params: 779µs, application-code: 637ms)
+ GET /en/products/networking 200 in 996ms (next.js: 15ms, generate-params: 8ms, application-code: 981ms)
+ GET /en/products/networking 200 in 701ms (next.js: 14ms, generate-params: 8ms, application-code: 687ms)
+ GET /en/products/networking 200 in 500ms (next.js: 9ms, generate-params: 29µs, application-code: 490ms)
+ GET /en/products/networking 200 in 594ms (next.js: 7ms, generate-params: 24µs, application-code: 587ms)
+ GET /en/products/networking 200 in 378ms (next.js: 20ms, generate-params: 10ms, application-code: 357ms)
+ GET /en/products/networking 200 in 255ms (next.js: 14ms, generate-params: 28µs, application-code: 241ms)
+ GET /manifest.webmanifest 200 in 94ms (next.js: 69ms, application-code: 25ms)
+✓ Compiled in 5.2s
+ GET /en/products/av-multimedia/ds-55355-hdmi-kvm-ip-extender-set-4k-60hz 200 in 595ms (next.js: 158ms, generate-params: 10ms, application-code: 437ms)
+ GET /en/products/av-multimedia/ds-55355-hdmi-kvm-ip-extender-set-4k-60hz 200 in 316ms (next.js: 126ms, generate-params: 29µs, application-code: 190ms)
+ GET /en/products/networking 200 in 366ms (next.js: 25ms, generate-params: 8ms, application-code: 341ms)
+ GET /en/products/networking 200 in 170ms (next.js: 5ms, generate-params: 30µs, application-code: 165ms)
+ GET /manifest.webmanifest 200 in 50ms (next.js: 39ms, application-code: 11ms)
+✓ Compiled in 266ms
+ GET /en/products/av-multimedia/ds-55355-hdmi-kvm-ip-extender-set-4k-60hz 200 in 2.3s (next.js: 601ms, generate-params: 8ms, application-code: 1668ms)
+ GET /en/products/av-multimedia/ds-55355-hdmi-kvm-ip-extender-set-4k-60hz 200 in 1552ms (next.js: 290ms, generate-params: 28µs, application-code: 1262ms)
+ GET /en/products/av-multimedia/ds-55355-hdmi-kvm-ip-extender-set-4k-60hz 200 in 1243ms (next.js: 115ms, generate-params: 9ms, application-code: 1127ms)
+ GET /en/products/av-multimedia/ds-55355-hdmi-kvm-ip-extender-set-4k-60hz 200 in 1239ms (next.js: 458ms, generate-params: 30µs, application-code: 781ms)
+ GET /en/products/av-multimedia/ds-55355-hdmi-kvm-ip-extender-set-4k-60hz 200 in 1239ms (next.js: 690ms, generate-params: 32µs, application-code: 549ms)
+ GET /en/products/av-multimedia/ds-55355-hdmi-kvm-ip-extender-set-4k-60hz 200 in 1241ms (next.js: 568ms, generate-params: 27µs, application-code: 673ms)
+ GET /en/products/av-multimedia/ds-55355-hdmi-kvm-ip-extender-set-4k-60hz 200 in 145ms (next.js: 32ms, generate-params: 18ms, application-code: 112ms)
+ GET /en/products/networking 200 in 2.6s (next.js: 255ms, generate-params: 53ms, application-code: 2.3s)
+ GET /en/products/networking 200 in 1841ms (next.js: 41ms, generate-params: 25ms, application-code: 1800ms)
+ GET /en/products/networking 200 in 1612ms (next.js: 13ms, generate-params: 30µs, application-code: 1599ms)
+ GET /en/products/networking 200 in 1614ms (next.js: 178ms, generate-params: 24µs, application-code: 1437ms)
+ GET /en/products/networking 200 in 820ms (next.js: 31ms, generate-params: 10ms, application-code: 789ms)
+ GET /en/products/networking 200 in 1621ms (next.js: 268ms, generate-params: 35µs, application-code: 1353ms)
+ GET /en/products/networking 200 in 254ms (next.js: 87ms, generate-params: 78ms, application-code: 168ms)
+ GET /manifest.webmanifest 200 in 61ms (next.js: 47ms, application-code: 14ms)
+✓ Compiled in 186ms
+ GET /en/products/av-multimedia/ds-55355-hdmi-kvm-ip-extender-set-4k-60hz 200 in 671ms (next.js: 211ms, generate-params: 33ms, application-code: 460ms)
+ GET /en/products/av-multimedia/ds-55355-hdmi-kvm-ip-extender-set-4k-60hz 200 in 212ms (next.js: 5ms, generate-params: 23µs, application-code: 207ms)
+ GET /en/products/networking 200 in 141ms (next.js: 4ms, generate-params: 22µs, application-code: 137ms)
+ GET /en/products/networking 200 in 351ms (next.js: 23ms, generate-params: 7ms, application-code: 328ms)
+ GET /manifest.webmanifest 200 in 41ms (next.js: 32ms, application-code: 9ms)
+✓ Compiled in 228ms
+ GET /en/products/av-multimedia/ds-55355-hdmi-kvm-ip-extender-set-4k-60hz 200 in 1581ms (next.js: 455ms, generate-params: 7ms, application-code: 1127ms)
+ GET /en/products/av-multimedia/ds-55355-hdmi-kvm-ip-extender-set-4k-60hz 200 in 1081ms (next.js: 260ms, generate-params: 43µs, application-code: 821ms)
+ GET /en/products/av-multimedia/ds-55355-hdmi-kvm-ip-extender-set-4k-60hz 200 in 481ms (next.js: 17ms, generate-params: 9ms, application-code: 464ms)
+ GET /en/products/av-multimedia/ds-55355-hdmi-kvm-ip-extender-set-4k-60hz 200 in 483ms (next.js: 73ms, generate-params: 22µs, application-code: 411ms)
+ GET /en/products/av-multimedia/ds-55355-hdmi-kvm-ip-extender-set-4k-60hz 200 in 484ms (next.js: 126ms, generate-params: 23µs, application-code: 358ms)
+ GET /en/products/av-multimedia/ds-55355-hdmi-kvm-ip-extender-set-4k-60hz 200 in 485ms (next.js: 182ms, generate-params: 25µs, application-code: 304ms)
+ GET /en/products/av-multimedia/ds-55355-hdmi-kvm-ip-extender-set-4k-60hz 200 in 435ms (next.js: 6ms, generate-params: 27µs, application-code: 429ms)
+ GET /en/products/av-multimedia/ds-55355-hdmi-kvm-ip-extender-set-4k-60hz 200 in 354ms (next.js: 6ms, generate-params: 27µs, application-code: 349ms)
+ GET /en/products/av-multimedia/ds-55355-hdmi-kvm-ip-extender-set-4k-60hz 200 in 254ms (next.js: 16ms, generate-params: 9ms, application-code: 238ms)
+ GET /en/products/av-multimedia/ds-55355-hdmi-kvm-ip-extender-set-4k-60hz 200 in 254ms (next.js: 139ms, generate-params: 28µs, application-code: 114ms)
+ GET /en/products/av-multimedia/ds-55355-hdmi-kvm-ip-extender-set-4k-60hz 200 in 256ms (next.js: 74ms, generate-params: 27µs, application-code: 182ms)
+ GET /en/products/networking 200 in 2.2s (next.js: 188ms, generate-params: 9ms, application-code: 1966ms)
+ GET /en/products/networking 200 in 1573ms (next.js: 22ms, generate-params: 12ms, application-code: 1551ms)
+ GET /en/products/networking 200 in 1203ms (next.js: 9ms, generate-params: 26µs, application-code: 1194ms)
+ GET /en/products/networking 200 in 1311ms (next.js: 221ms, generate-params: 25µs, application-code: 1090ms)
+ GET /en/products/networking 200 in 1316ms (next.js: 82ms, generate-params: 23µs, application-code: 1234ms)
+ GET /en/products/networking 200 in 1322ms (next.js: 150ms, generate-params: 29µs, application-code: 1172ms)
+ GET /manifest.webmanifest 200 in 80ms (next.js: 67ms, application-code: 12ms)
+ GET /en/products/networking 200 in 724ms (next.js: 19ms, generate-params: 9ms, application-code: 705ms)
+ GET /en/products/networking 200 in 383ms (next.js: 8ms, generate-params: 28µs, application-code: 375ms)
+ GET /en/products/networking 200 in 594ms (next.js: 9ms, generate-params: 27µs, application-code: 584ms)
+ GET /en/products/networking 200 in 594ms (next.js: 93ms, generate-params: 26µs, application-code: 501ms)
+ GET /en/products/networking 200 in 386ms (next.js: 93ms, generate-params: 31µs, application-code: 293ms)
+ GET /en/products/av-multimedia/ds-55355-hdmi-kvm-ip-extender-set-4k-60hz 200 in 303ms (next.js: 14ms, generate-params: 10ms, application-code: 289ms)
+ GET /manifest.webmanifest 200 in 11ms (next.js: 3ms, application-code: 8ms)
+ GET /en/contact 200 in 252ms (next.js: 178ms, generate-params: 8ms, application-code: 74ms)
+ GET /manifest.webmanifest 200 in 12ms (next.js: 5ms, application-code: 7ms)
+ GET /manifest.webmanifest 200 in 11ms (next.js: 4ms, application-code: 7ms)
+ GET /en/products 200 in 451ms (next.js: 152ms, generate-params: 8ms, application-code: 298ms)
+ GET /manifest.webmanifest 200 in 13ms (next.js: 3ms, application-code: 9ms)
+ GET /en/products/networking 200 in 111ms (next.js: 11ms, generate-params: 7ms, application-code: 100ms)
+ GET /manifest.webmanifest 200 in 8ms (next.js: 3ms, application-code: 5ms)
+ GET /en/products/surveillance 200 in 104ms (next.js: 11ms, generate-params: 8ms, application-code: 93ms)
+ GET /manifest.webmanifest 200 in 10ms (next.js: 3ms, application-code: 7ms)
+ GET /en/products/fiber-optics 200 in 114ms (next.js: 11ms, generate-params: 8ms, application-code: 103ms)
+ GET /manifest.webmanifest 200 in 10ms (next.js: 4ms, application-code: 6ms)
+ GET /en/products/networking 200 in 106ms (next.js: 11ms, generate-params: 8ms, application-code: 95ms)
+ GET /manifest.webmanifest 200 in 10ms (next.js: 4ms, application-code: 6ms)
+ GET /en/contact 200 in 54ms (next.js: 12ms, generate-params: 8ms, application-code: 42ms)
+ GET /manifest.webmanifest 200 in 26ms (next.js: 20ms, application-code: 6ms)
+✓ Compiled in 153ms
+ GET /en/contact 200 in 277ms (next.js: 27ms, generate-params: 8ms, application-code: 250ms)
+ GET /en/contact 200 in 73ms (next.js: 6ms, generate-params: 27µs, application-code: 67ms)
+ GET /en/products/networking 200 in 601ms (next.js: 142ms, generate-params: 11ms, application-code: 459ms)
+ GET /en/products/networking 200 in 323ms (next.js: 87ms, generate-params: 26µs, application-code: 236ms)
+ GET /manifest.webmanifest 200 in 56ms (next.js: 44ms, application-code: 12ms)
+✓ Compiled in 210ms
+ GET /en/contact 200 in 1543ms (next.js: 465ms, generate-params: 8ms, application-code: 1077ms)
+ GET /en/contact 200 in 1024ms (next.js: 271ms, generate-params: 32µs, application-code: 753ms)
+ GET /en/contact 200 in 674ms (next.js: 334ms, generate-params: 9ms, application-code: 339ms)
+ GET /en/contact 200 in 675ms (next.js: 382ms, generate-params: 27µs, application-code: 293ms)
+ GET /en/contact 200 in 356ms (next.js: 163ms, generate-params: 26µs, application-code: 193ms)
+ GET /en/contact 200 in 358ms (next.js: 113ms, generate-params: 35µs, application-code: 246ms)
+ GET /en/contact 200 in 123ms (next.js: 7ms, generate-params: 27µs, application-code: 117ms)
+ GET /en/products/networking 200 in 1762ms (next.js: 177ms, generate-params: 8ms, application-code: 1585ms)
+ GET /en/products/networking 200 in 1161ms (next.js: 24ms, generate-params: 12ms, application-code: 1137ms)
+ GET /en/products/networking 200 in 806ms (next.js: 8ms, generate-params: 24µs, application-code: 797ms)
+ GET /en/products/networking 200 in 900ms (next.js: 254ms, generate-params: 27µs, application-code: 646ms)
+ GET /en/products/networking 200 in 904ms (next.js: 81ms, generate-params: 27µs, application-code: 822ms)
+ GET /en/products/networking 200 in 908ms (next.js: 163ms, generate-params: 29µs, application-code: 745ms)
+ GET /manifest.webmanifest 200 in 55ms (next.js: 44ms, application-code: 12ms)
+ GET /en/products/networking 200 in 212ms (next.js: 13ms, generate-params: 9ms, application-code: 198ms)
+✓ Compiled in 197ms
+ GET /en/contact 200 in 280ms (next.js: 188ms, generate-params: 8ms, application-code: 93ms)
+ GET /en/products/networking 200 in 753ms (next.js: 228ms, generate-params: 58ms, application-code: 525ms)
+ GET /manifest.webmanifest 200 in 50ms (next.js: 39ms, application-code: 11ms)
+ GET /en/products/networking 200 in 148ms (next.js: 14ms, generate-params: 9ms, application-code: 134ms)
+ GET /manifest.webmanifest 200 in 11ms (next.js: 4ms, application-code: 7ms)
+ GET /en/products/networking/dk-1616-vh-5-cat-6-u-utp-installation-cable-500-m-b2ca 200 in 234ms (next.js: 167ms, generate-params: 8ms, application-code: 66ms)
+ GET /manifest.webmanifest 200 in 10ms (next.js: 4ms, application-code: 6ms)
+ GET /en 200 in 228ms (next.js: 160ms, generate-params: 6ms, application-code: 68ms)
+ GET /manifest.webmanifest 200 in 8ms (next.js: 2ms, application-code: 6ms)
+ GET /en/products/networking 200 in 277ms (next.js: 11ms, generate-params: 8ms, application-code: 266ms)
+ GET /manifest.webmanifest 200 in 12ms (next.js: 3ms, application-code: 8ms)
+ GET /en/login 200 in 1749ms (next.js: 1711ms, generate-params: 328ms, application-code: 38ms)
+ GET /manifest.webmanifest 200 in 6ms (next.js: 1824µs, application-code: 5ms)
+[PERF_DETAIL] prisma.module init 0.0ms nodeEnv=development reusedClient=false
+[PERF_DETAIL] prisma.client.create 3.6ms nodeEnv=development
+[PERF_DETAIL] prisma.connection startup 504.8ms nodeEnv=development
+[PERF] prisma.query 312.4ms model=User operation=findUnique
+[PERF_DETAIL] prisma.query await 312.4ms model=User operation=findUnique
+[PERF] auth.authenticate.userLookup 821.7ms email=artiibela0@gmail.com
+[PERF] auth.authenticate.bcryptCompare 77.7ms
+[PERF] prisma.query 269.1ms model=User operation=update
+[PERF_DETAIL] prisma.query await 269.1ms model=User operation=update
+[PERF] auth.authenticate.lastLoginUpdate 271.3ms userId=cmoxbhoeq0004jf0a0ed2ch8q
+[PERF] auth.createSession.signJwt 4.3ms
+○ Compiling /[locale]/admin ...
+[PERF_DETAIL] prisma.module init 0.0ms nodeEnv=development reusedClient=false
+[PERF_DETAIL] prisma.client.create 1.9ms nodeEnv=development
+[PERF_DETAIL] admin/layout.i18n/locale loading 12.7ms
+[PERF_DETAIL] admin/dashboard.i18n/locale loading 9.4ms route=admin/dashboard
+[PERF_DETAIL] admin/layout.i18n/dictionary loading 0.0ms locale=en
+[PERF] auth.session.lookup 36.2ms
+[PERF] auth.currentUser.lookup 37.3ms
+[PERF] auth.requireStaffSession 37.7ms locale=en
+[PERF] auth.requireStaffSession 36.5ms route=admin/dashboard locale=en
+[PERF] auth.requireAdminSession 38.4ms locale=en
+[PERF_DETAIL] admin/dashboard.auth/session 37.2ms route=admin/dashboard locale=en module=DASHBOARD action=VIEW
+[PERF] permissions.requirePermission 37.6ms route=admin/dashboard locale=en module=DASHBOARD action=VIEW
+[PERF_DETAIL] admin/layout.auth/session 39.4ms locale=en
+[PERF] permissions.userMatrix 0.7ms route=admin/dashboard userId=cmoxbhoeq0004jf0a0ed2ch8q role=OWNER roleId=cmoxbg5200000unug46t3vkr2
+[PERF_DETAIL] admin/dashboard.permissions 1.5ms route=admin/dashboard locale=en module=DASHBOARD action=VIEW userId=cmoxbhoeq0004jf0a0ed2ch8q
+[PERF_DETAIL] admin/layout.permissions 1.0ms locale=en userId=cmoxbhoeq0004jf0a0ed2ch8q
+[PERF_DETAIL] admin/layout.layout/sidebar work 0.1ms locale=en userId=cmoxbhoeq0004jf0a0ed2ch8q
+[PERF_DETAIL] admin/dashboard.table mapping/formatting 0.3ms route=admin/dashboard locale=en
+[PERF] page.serverRender admin/dashboard 56.7ms route=admin/dashboard
+ GET /manifest.webmanifest 200 in 12ms (next.js: 4ms, application-code: 8ms)
+[PERF_DETAIL] admin/dashboard.main data query 324.3ms locale=en section=kpis
+[PERF] erp.dashboardKpis 325.8ms locale=en
+[PERF_DETAIL] admin/dashboard.main data query 693.6ms locale=en section=details
+[PERF] erp.dashboardDetails 695.8ms locale=en
+ GET /en/admin 200 in 4.5s (next.js: 3.7s, generate-params: 373ms, application-code: 820ms)
+ POST /en/login 303 in 5.8s (next.js: 11ms, generate-params: 7ms, application-code: 5.8s)
+  └─ ƒ loginAction("en", undefined, {}) in 1192ms src/actions/auth.ts
+[PERF_DETAIL] prisma.module init 0.0ms nodeEnv=development reusedClient=true
+[PERF] auth.session.lookup 6.6ms
+[PERF] auth.currentUser.lookup 8.0ms
+[PERF] auth.requireStaffSession 8.4ms locale=en
+[PERF_DETAIL] admin/stoqet.auth/session 8.7ms locale=en module=STOQET action=CREATE
+[PERF] permissions.requirePermission 9.1ms locale=en module=STOQET action=CREATE
+[PERF] permissions.userMatrix 0.1ms userId=cmoxbhoeq0004jf0a0ed2ch8q role=OWNER roleId=cmoxbg5200000unug46t3vkr2
+[PERF_DETAIL] admin/stoqet.permissions 0.5ms locale=en module=STOQET action=CREATE userId=cmoxbhoeq0004jf0a0ed2ch8q
+[PERF] prisma.query 269.6ms model=Material operation=findMany
+[PERF_DETAIL] prisma.query await 269.6ms model=Material operation=findMany
+[PERF_DETAIL] admin/stoqet.options query 272.3ms locale=en action=CREATE
+ GET /api/admin/options?locale=en&resource=stoqet&mode=create 200 in 998ms (next.js: 705ms, application-code: 292ms)
+[PERF] auth.session.lookup 2.6ms
+[PERF] auth.currentUser.lookup 11.4ms
+[PERF] auth.requireStaffSession 12.2ms locale=en
+[PERF_DETAIL] admin/offers.auth/session 12.9ms locale=en module=OFFERS action=CREATE
+[PERF] permissions.requirePermission 13.4ms locale=en module=OFFERS action=CREATE
+[PERF] permissions.userMatrix 0.0ms userId=cmoxbhoeq0004jf0a0ed2ch8q role=OWNER roleId=cmoxbg5200000unug46t3vkr2
+[PERF_DETAIL] admin/offers.permissions 0.8ms locale=en module=OFFERS action=CREATE userId=cmoxbhoeq0004jf0a0ed2ch8q
+[PERF] prisma.query 258.4ms model=Client operation=findMany
+[PERF_DETAIL] prisma.query await 258.4ms model=Client operation=findMany
+[PERF] prisma.query 263.6ms model=Material operation=findMany
+[PERF_DETAIL] prisma.query await 263.6ms model=Material operation=findMany
+[PERF] prisma.query 608.2ms model=Offer operation=count
+[PERF_DETAIL] prisma.query await 608.2ms model=Offer operation=count
+[PERF_DETAIL] admin/offers.builder/options query 610.9ms locale=en
+[PERF_DETAIL] admin/offers.table mapping/formatting 0.1ms
+ GET /api/admin/options?locale=en&resource=offers 200 in 636ms (next.js: 2ms, application-code: 634ms)
+ GET /en 200 in 88ms (next.js: 6ms, generate-params: 4ms, application-code: 81ms)
+ POST /en/admin 303 in 138ms (next.js: 12ms, generate-params: 8ms, application-code: 126ms)
+  └─ ƒ logoutAction("en") in 17ms src/actions/auth.ts
+ GET /manifest.webmanifest 200 in 9ms (next.js: 3ms, application-code: 6ms)
+[PERF_DETAIL] prisma.module init 0.0ms nodeEnv=development reusedClient=false
+[PERF_DETAIL] prisma.client.create 1.8ms nodeEnv=development
+ GET /sq 200 in 94ms (next.js: 11ms, generate-params: 7ms, application-code: 83ms)
+ GET /manifest.webmanifest 200 in 18ms (next.js: 10ms, application-code: 8ms)
+ GET /en 200 in 62ms (next.js: 11ms, generate-params: 7ms, application-code: 52ms)
+ GET /manifest.webmanifest 200 in 11ms (next.js: 3ms, application-code: 8ms)
+ GET /en/login 200 in 86ms (next.js: 63ms, generate-params: 59ms, application-code: 24ms)
+ GET /manifest.webmanifest 200 in 8ms (next.js: 3ms, application-code: 5ms)
+[PERF] prisma.query 244.2ms model=User operation=findUnique
+[PERF_DETAIL] prisma.query await 244.2ms model=User operation=findUnique
+[PERF] auth.authenticate.userLookup 246.0ms email=artiibela0@gmail.com
+[PERF] auth.authenticate.bcryptCompare 64.0ms
+[PERF] prisma.query 299.2ms model=User operation=update
+[PERF_DETAIL] prisma.query await 299.2ms model=User operation=update
+[PERF] auth.authenticate.lastLoginUpdate 300.8ms userId=cmoxbhoeq0004jf0a0ed2ch8q
+[PERF] auth.createSession.signJwt 0.8ms
+[PERF_DETAIL] admin/layout.i18n/locale loading 8.5ms
+[PERF_DETAIL] admin/dashboard.i18n/locale loading 8.0ms route=admin/dashboard
+[PERF_DETAIL] admin/layout.i18n/dictionary loading 0.0ms locale=en
+[PERF] auth.session.lookup 13.5ms
+[PERF] auth.currentUser.lookup 14.7ms
+[PERF] auth.requireStaffSession 15.2ms locale=en
+[PERF] auth.requireStaffSession 14.2ms route=admin/dashboard locale=en
+[PERF] auth.requireAdminSession 16.6ms locale=en
+[PERF_DETAIL] admin/dashboard.auth/session 15.2ms route=admin/dashboard locale=en module=DASHBOARD action=VIEW
+[PERF] permissions.requirePermission 15.6ms route=admin/dashboard locale=en module=DASHBOARD action=VIEW
+[PERF_DETAIL] admin/layout.auth/session 17.6ms locale=en
+[PERF] permissions.userMatrix 0.3ms route=admin/dashboard userId=cmoxbhoeq0004jf0a0ed2ch8q role=OWNER roleId=cmoxbg5200000unug46t3vkr2
+[PERF_DETAIL] admin/dashboard.permissions 0.8ms route=admin/dashboard locale=en module=DASHBOARD action=VIEW userId=cmoxbhoeq0004jf0a0ed2ch8q
+[PERF_DETAIL] admin/layout.permissions 0.9ms locale=en userId=cmoxbhoeq0004jf0a0ed2ch8q
+[PERF_DETAIL] admin/layout.layout/sidebar work 0.0ms locale=en userId=cmoxbhoeq0004jf0a0ed2ch8q
+[PERF_DETAIL] admin/dashboard.table mapping/formatting 0.1ms route=admin/dashboard locale=en
+[PERF] page.serverRender admin/dashboard 31.2ms route=admin/dashboard
+ GET /manifest.webmanifest 200 in 8ms (next.js: 3ms, application-code: 6ms)
+[PERF_DETAIL] admin/dashboard.main data query 258.4ms locale=en section=kpis
+[PERF] erp.dashboardKpis 259.3ms locale=en
+[PERF_DETAIL] prisma.module init 0.0ms nodeEnv=development reusedClient=false
+[PERF_DETAIL] prisma.client.create 1.8ms nodeEnv=development
+[PERF_DETAIL] admin/dashboard.main data query 314.7ms locale=en section=details
+[PERF] erp.dashboardDetails 315.7ms locale=en
+ GET /en/admin 200 in 400ms (next.js: 10ms, generate-params: 7ms, application-code: 390ms)
+ POST /en/login 303 in 1053ms (next.js: 11ms, generate-params: 7ms, application-code: 1042ms)
+  └─ ƒ loginAction("en", undefined, {}) in 622ms src/actions/auth.ts
+[PERF_DETAIL] prisma.module init 0.0ms nodeEnv=development reusedClient=false
+[PERF_DETAIL] prisma.client.create 2.3ms nodeEnv=development
+[PERF_DETAIL] admin/leads.i18n/locale loading 7.4ms route=admin/leads
+[PERF] auth.session.lookup 7.5ms route=admin/leads
+[PERF] auth.currentUser.lookup 8.5ms route=admin/leads
+[PERF] auth.requireStaffSession 9.4ms route=admin/leads locale=en
+[PERF_DETAIL] admin/leads.auth/session 10.2ms route=admin/leads locale=en module=LEADS action=VIEW
+[PERF] permissions.requirePermission 10.9ms route=admin/leads locale=en module=LEADS action=VIEW
+[PERF] permissions.userMatrix 0.5ms route=admin/leads userId=cmoxbhoeq0004jf0a0ed2ch8q role=OWNER roleId=cmoxbg5200000unug46t3vkr2
+[PERF_DETAIL] admin/leads.permissions 1.4ms route=admin/leads locale=en module=LEADS action=VIEW userId=cmoxbhoeq0004jf0a0ed2ch8q
+ GET /manifest.webmanifest 200 in 8ms (next.js: 2ms, application-code: 5ms)
+[PERF] prisma.query 285.3ms route=admin/leads prismaQueries=1 prismaQueryMs=285.3292000000365 model=QuoteRequest operation=findMany
+[PERF_DETAIL] prisma.query await 285.3ms route=admin/leads prismaQueries=1 prismaQueryMs=285.3292000000365 model=QuoteRequest operation=findMany
+[PERF_DETAIL] admin/leads.main data query 287.1ms route=admin/leads prismaQueries=1 prismaQueryMs=285.3292000000365
+[PERF_DETAIL] admin/leads.table mapping/formatting 5.1ms route=admin/leads prismaQueries=1 prismaQueryMs=285.3292000000365 locale=en rows=1
+[PERF] page.serverRender admin/leads 317.3ms route=admin/leads prismaQueries=1 prismaQueryMs=285.3292000000365
+ GET /en/admin/leads 200 in 1652ms (next.js: 1306ms, generate-params: 383ms, application-code: 346ms)
+[PERF_DETAIL] prisma.module init 0.0ms nodeEnv=development reusedClient=false
+[PERF_DETAIL] prisma.client.create 1.9ms nodeEnv=development
+[PERF_DETAIL] admin/clients.i18n/locale loading 6.9ms route=admin/clients
+[PERF] auth.session.lookup 13.5ms route=admin/clients
+[PERF] auth.currentUser.lookup 14.8ms route=admin/clients
+[PERF] auth.requireStaffSession 15.4ms route=admin/clients locale=en
+[PERF_DETAIL] admin/clients.auth/session 15.8ms route=admin/clients locale=en module=CLIENTS action=VIEW
+[PERF] permissions.requirePermission 16.3ms route=admin/clients locale=en module=CLIENTS action=VIEW
+[PERF] permissions.userMatrix 0.2ms route=admin/clients userId=cmoxbhoeq0004jf0a0ed2ch8q role=OWNER roleId=cmoxbg5200000unug46t3vkr2
+[PERF_DETAIL] admin/clients.permissions 1.6ms route=admin/clients locale=en module=CLIENTS action=VIEW userId=cmoxbhoeq0004jf0a0ed2ch8q
+ GET /manifest.webmanifest 200 in 9ms (next.js: 3ms, application-code: 6ms)
+[PERF_DETAIL] admin/clients.main data query 259.8ms route=admin/clients
+[PERF_DETAIL] admin/clients.table mapping/formatting 0.1ms route=admin/clients
+[PERF_DETAIL] admin/clients.table mapping/formatting 1.6ms route=admin/clients locale=en rows=4
+[PERF] page.serverRender admin/clients 294.4ms route=admin/clients
+ GET /en/admin/clients 200 in 1675ms (next.js: 1351ms, generate-params: 393ms, application-code: 324ms)
+[PERF_DETAIL] admin/leads.i18n/locale loading 6.6ms route=admin/leads
+[PERF] auth.session.lookup 21.4ms route=admin/leads
+[PERF] auth.currentUser.lookup 22.8ms route=admin/leads
+[PERF] auth.requireStaffSession 23.3ms route=admin/leads locale=en
+[PERF_DETAIL] admin/leads.auth/session 23.8ms route=admin/leads locale=en module=LEADS action=VIEW
+[PERF] permissions.requirePermission 24.3ms route=admin/leads locale=en module=LEADS action=VIEW
+[PERF] permissions.userMatrix 0.2ms route=admin/leads userId=cmoxbhoeq0004jf0a0ed2ch8q role=OWNER roleId=cmoxbg5200000unug46t3vkr2
+[PERF_DETAIL] admin/leads.permissions 0.8ms route=admin/leads locale=en module=LEADS action=VIEW userId=cmoxbhoeq0004jf0a0ed2ch8q
+ GET /manifest.webmanifest 200 in 8ms (next.js: 3ms, application-code: 6ms)
+[PERF] prisma.query 253.2ms route=admin/leads prismaQueries=1 prismaQueryMs=253.16910000005737 model=QuoteRequest operation=findMany
+[PERF_DETAIL] prisma.query await 253.2ms route=admin/leads prismaQueries=1 prismaQueryMs=253.16910000005737 model=QuoteRequest operation=findMany
+[PERF_DETAIL] admin/leads.main data query 255.3ms route=admin/leads prismaQueries=1 prismaQueryMs=253.16910000005737
+[PERF_DETAIL] admin/leads.table mapping/formatting 0.3ms route=admin/leads prismaQueries=1 prismaQueryMs=253.16910000005737 locale=en rows=1
+[PERF] page.serverRender admin/leads 291.1ms route=admin/leads prismaQueries=1 prismaQueryMs=253.16910000005737
+ GET /en/admin/leads 200 in 325ms (next.js: 11ms, generate-params: 8ms, application-code: 314ms)
+[PERF_DETAIL] prisma.module init 0.0ms nodeEnv=development reusedClient=false
+[PERF_DETAIL] prisma.client.create 1.9ms nodeEnv=development
+[PERF_DETAIL] admin/dashboard.i18n/locale loading 6.3ms route=admin/dashboard
+[PERF] auth.session.lookup 10.5ms route=admin/dashboard
+[PERF] auth.currentUser.lookup 11.6ms route=admin/dashboard
+[PERF] auth.requireStaffSession 12.1ms route=admin/dashboard locale=en
+[PERF_DETAIL] admin/dashboard.auth/session 12.6ms route=admin/dashboard locale=en module=DASHBOARD action=VIEW
+[PERF] permissions.requirePermission 13.1ms route=admin/dashboard locale=en module=DASHBOARD action=VIEW
+[PERF] permissions.userMatrix 0.2ms route=admin/dashboard userId=cmoxbhoeq0004jf0a0ed2ch8q role=OWNER roleId=cmoxbg5200000unug46t3vkr2
+[PERF_DETAIL] admin/dashboard.permissions 0.7ms route=admin/dashboard locale=en module=DASHBOARD action=VIEW userId=cmoxbhoeq0004jf0a0ed2ch8q
+[PERF_DETAIL] admin/dashboard.table mapping/formatting 0.1ms route=admin/dashboard locale=en
+[PERF] page.serverRender admin/dashboard 23.2ms route=admin/dashboard
+ GET /manifest.webmanifest 200 in 9ms (next.js: 3ms, application-code: 6ms)
+[PERF_DETAIL] admin/dashboard.main data query 258.0ms locale=en section=kpis
+[PERF] erp.dashboardKpis 259.5ms locale=en
+[PERF_DETAIL] admin/dashboard.main data query 282.1ms locale=en section=details
+[PERF] erp.dashboardDetails 283.1ms locale=en
+ GET /en/admin 200 in 338ms (next.js: 11ms, generate-params: 7ms, application-code: 328ms)
+[PERF_DETAIL] prisma.module init 0.0ms nodeEnv=development reusedClient=false
+[PERF_DETAIL] prisma.client.create 1.7ms nodeEnv=development
+ GET /en 200 in 81ms (next.js: 11ms, generate-params: 7ms, application-code: 69ms)
+ POST /en/admin 303 in 125ms (next.js: 11ms, generate-params: 8ms, application-code: 113ms)
+  └─ ƒ logoutAction("en") in 9ms src/actions/auth.ts
+ GET /manifest.webmanifest 200 in 9ms (next.js: 3ms, application-code: 6ms)
+[PERF_DETAIL] prisma.module init 0.0ms nodeEnv=development reusedClient=false
+[PERF_DETAIL] prisma.client.create 1.8ms nodeEnv=development
+ GET /manifest.webmanifest 200 in 11ms (next.js: 4ms, application-code: 7ms)
+ GET /en 200 in 289ms (next.js: 11ms, generate-params: 7ms, application-code: 278ms)
+ GET /en/products/networking 200 in 125ms (next.js: 13ms, generate-params: 8ms, application-code: 112ms)
+ GET /manifest.webmanifest 200 in 12ms (next.js: 6ms, application-code: 6ms)

@@ -248,7 +248,7 @@ export function RecordTable({
             name="q"
             defaultValue={query}
             placeholder={searchPlaceholder}
-            className="h-12 w-full rounded-full border border-black/10 bg-white/90 pl-11 pr-4 text-sm text-[var(--color-foreground)] outline-none transition focus:border-[var(--color-accent)] focus:ring-4 focus:ring-[rgba(150,114,79,0.16)]"
+            className="h-12 w-full rounded-full border border-black/10 bg-white/90 pl-11 pr-4 text-sm text-[var(--color-foreground)] outline-none transition focus:border-[var(--color-accent)] focus:ring-4 focus:ring-[rgba(0,107,150,0.16)]"
           />
         </label>
         {sort ? <input type="hidden" name="sort" value={sort} /> : null}
@@ -314,7 +314,7 @@ export function RecordTable({
               key={row.id}
               id={`mobile-${row.id}`}
               className={cn(
-                "rounded-[22px] border-[2.25px] border-black/18 p-4 shadow-[0_14px_36px_rgba(18,16,14,0.06)]",
+                "rounded-[22px] border-[2.25px] border-black/18 p-4 shadow-[0_14px_36px_rgba(8,27,42,0.06)]",
                 index % 2 === 0 ? "bg-white/88" : "bg-[#f2eee8]",
               )}
             >

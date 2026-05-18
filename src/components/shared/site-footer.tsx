@@ -1,49 +1,86 @@
 import Link from "next/link";
-import { COMPANY } from "@/lib/company";
+import Image from "next/image";
+import { Logo } from "@/components/shared/logo";
+import { publicBrand, publicContact, publicCopy } from "@/data/public-site";
 import type { Locale } from "@/lib/i18n";
 import { getDictionary } from "@/lib/i18n";
 
 export function SiteFooter({ locale }: { locale: Locale }) {
   const dict = getDictionary(locale);
+  const copy = publicCopy[locale];
+  const navItems = [
+    { href: `/${locale}`, label: dict.nav.home },
+    { href: `/${locale}/products`, label: copy.nav.products },
+    { href: `/${locale}/projects`, label: copy.nav.projects },
+    { href: `/${locale}/contact`, label: copy.nav.contacts },
+  ];
 
   return (
-    <footer className="border-t border-black/8 bg-[#1a1714] text-[#f2ede5]">
-      <div className="mx-auto grid max-w-7xl gap-8 px-4 py-10 sm:px-6 md:grid-cols-[1.3fr_1fr_1fr] md:px-10 md:py-14">
-        <div>
-          <p className="font-display text-3xl">Art Home</p>
-          <p className="mt-4 max-w-md text-sm leading-7 text-white/72">
-            {locale === "sq"
-              ? "Mobilje me porosi për banesa, vila, hotele dhe ambiente biznesi me menaxhim të qartë nga oferta deri te fatura."
-              : "Furniture for homes, villas, hotels, and commercial interiors with a disciplined process from quote to invoice."}
-          </p>
-        </div>
-        <div>
-          <p className="text-xs uppercase tracking-[0.22em] text-white/55">
-            {locale === "sq" ? "Navigim" : "Navigation"}
-          </p>
-          <div className="mt-4 flex flex-col gap-3 text-sm text-white/80">
-            <Link href={`/${locale}`}>{dict.nav.home}</Link>
-            <Link href={`/${locale}/furniture`}>{dict.nav.furniture}</Link>
-            <Link href={`/${locale}/about`}>{dict.nav.about}</Link>
-            <Link href={`/${locale}/contact`}>{dict.nav.contact}</Link>
-            <Link href={`/${locale}/quote`}>{dict.common.requestQuote}</Link>
+    <footer className="border-t border-black/8 bg-white">
+      <div className="mx-auto max-w-7xl px-4 py-7 sm:px-6 md:px-10 md:py-9">
+        <div className="grid gap-6 md:grid-cols-[1fr_1fr]">
+          <div>
+            <p className="text-xs font-semibold uppercase tracking-[0.22em] text-[var(--color-muted)]">
+              {locale === "sq" ? "Navigim" : "Navigation"}
+            </p>
+            <nav className="mt-3 grid gap-2 text-sm font-medium text-[var(--color-foreground)] sm:grid-cols-2">
+              {navItems.map((item) => (
+                <Link
+                  key={item.href}
+                  href={item.href}
+                  className="transition hover:text-[var(--color-accent-strong)]"
+                >
+                  {item.label}
+                </Link>
+              ))}
+            </nav>
+          </div>
+          <div className="md:justify-self-end md:text-right">
+            <p className="text-xs font-semibold uppercase tracking-[0.22em] text-[var(--color-muted)]">
+              {locale === "sq" ? "Kontakt" : "Contact"}
+            </p>
+            <div className="mt-3 space-y-1 break-words text-sm leading-6 text-[var(--color-muted)]">
+              {publicContact.phoneNumbers.map((phone) => (
+                <p key={phone}>{phone}</p>
+              ))}
+              {publicContact.emails.map((email) => (
+                <p key={email}>{email}</p>
+              ))}
+              <p>{publicContact.address}</p>
+            </div>
           </div>
         </div>
-        <div>
-          <p className="text-xs uppercase tracking-[0.22em] text-white/55">
-            {locale === "sq" ? "Kontakt" : "Contact"}
-          </p>
-          <div className="mt-4 space-y-3 break-words text-sm text-white/80">
-            <p>{COMPANY.phone}</p>
-            <p>{COMPANY.email}</p>
-            <p>{COMPANY.address}</p>
-            <a href={COMPANY.instagram} target="_blank" rel="noreferrer">
-              Instagram
-            </a>
-            <a href={COMPANY.facebook} target="_blank" rel="noreferrer">
-              Facebook
-            </a>
+        <div className="mt-7 flex flex-col gap-4 border-t border-black/8 pt-5 sm:flex-row sm:items-end sm:justify-between">
+          <div>
+            <div className="flex flex-wrap items-center gap-3">
+              <Logo href={`/${locale}`} />
+              {[
+                { name: "Art Home", logo: "/images/artnet/partners/arthome.jpg", width: 96 },
+                { name: "Artly", logo: "/images/artnet/partners/artly.png", width: 66 },
+              ].map((brand) => (
+                <span
+                  key={brand.name}
+                  className="inline-flex h-12 items-center justify-center rounded-[14px] border border-black/8 bg-white px-3 shadow-[0_10px_24px_rgba(8,27,42,0.06)]"
+                >
+                  <Image
+                    src={brand.logo}
+                    alt={brand.name}
+                    width={brand.width}
+                    height={34}
+                    className="max-h-8 w-auto object-contain"
+                  />
+                </span>
+              ))}
+            </div>
+            <p className="mt-3 max-w-xl text-sm leading-6 text-[var(--color-muted)]">
+              {locale === "sq"
+                ? "Rrjete, siguri dhe sisteme smart për hapësira që kërkojnë teknologji të pastër dhe të besueshme."
+                : "Networks, security, and smart systems for spaces that need clean, reliable technology."}
+            </p>
           </div>
+          <p className="text-sm text-[var(--color-muted)]">
+            © {new Date().getFullYear()} {publicBrand.name}
+          </p>
         </div>
       </div>
     </footer>

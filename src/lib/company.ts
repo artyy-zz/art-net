@@ -1,29 +1,29 @@
 import { FurnitureCategory } from "@prisma/client";
 
 export const COMPANY = {
-  name: "Art Home",
-  phone: "049/313/215",
-  email: "mobileriaarthome@gmail.com",
-  address: "PRISHTINË-FERIZAJ, 3",
+  name: "Artnet",
+  phone: "049 160 740",
+  email: "bujar.bela@artnet-ks.com",
+  address: "rr. Dardania, Fushe Kosove 12000, Kosovo",
   documents: {
-    legalName: "Mobileria Art Home SH.P.K.",
-    address: "PRISHTINË-FERIZAJ, 3",
-    phone: "049/313/215",
-    email: "mobileriaarthome@gmail.com",
+    legalName: "Artnet",
+    address: "rr. Dardania, Fushe Kosove 12000, Kosovo",
+    phone: "049 160 740",
+    email: "bujar.bela@artnet-ks.com",
     nui: null,
     vatNumber: null,
     bankAccounts: [
       "BPB: 1300001004256511",
     ],
   },
-  instagram: "https://www.instagram.com/mobileria_arthome_/",
-  instagramUsername: "@mobileria_arthome_",
-  facebook: "https://www.facebook.com/profile.php?id=61574449680489",
-  facebookUsername: "Mobileria Art Home",
+  instagram: "https://www.instagram.com/artnet_shpk?igsh=MTFjdHdqYmxtMW15ZQ==",
+  instagramUsername: "@artnet_shpk",
+  facebook: "https://www.facebook.com/share/1E13vUCTS8/?mibextid=wwXIfr",
+  facebookUsername: "Artnet",
 } as const;
 
 export const GOOGLE_MAPS_EMBED_URL =
-  "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1896.8206103520151!2d21.156797038976645!3d42.53455936923394!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x13548300065c9bf1%3A0xe34b13a129ea1a1f!2sMobileria%20Art%20Home!5e1!3m2!1sen!2s!4v1778696599141!5m2!1sen!2s";
+  "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d473.3770458239536!2d21.108567187813556!3d42.64350624647025!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x13549facfae7e1f5%3A0x2b9bf56a90b7ce46!2sART%20NET!5e1!3m2!1sen!2sus!4v1779052252279!5m2!1sen!2sus";
 
 export const categoryCopy: Record<
   FurnitureCategory,

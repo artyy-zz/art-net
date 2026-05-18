@@ -1,4 +1,4 @@
-export const productionSiteUrl = "https://arthome-ks.com";
+export const productionSiteUrl = "https://artnet-ks.com";
 
 export function getSiteUrl() {
   const configuredUrl = process.env.NEXT_PUBLIC_SITE_URL ?? productionSiteUrl;

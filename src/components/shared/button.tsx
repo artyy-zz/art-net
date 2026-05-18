@@ -6,13 +6,13 @@ type ButtonSize = "sm" | "md" | "lg";
 
 const variantClasses: Record<ButtonVariant, string> = {
   primary:
-    "bg-[var(--color-foreground)] !text-white hover:bg-black hover:!text-white visited:!text-white shadow-[0_14px_34px_rgba(18,16,14,0.18)]",
+    "bg-[var(--color-foreground)] !text-white hover:bg-[var(--color-accent-strong)] hover:!text-white visited:!text-white shadow-[0_14px_34px_rgba(8,27,42,0.18)]",
   secondary:
     "border border-[var(--color-line-strong)] bg-white/80 text-[var(--color-foreground)] hover:border-[var(--color-accent)] hover:bg-[var(--color-accent-soft)]",
   ghost:
     "text-[var(--color-foreground)] hover:bg-black/5",
   tonal:
-    "bg-[var(--color-accent-soft)] text-[var(--color-accent-strong)] hover:bg-[rgba(150,114,79,0.18)]",
+    "bg-[var(--color-accent-soft)] text-[var(--color-accent-strong)] hover:bg-[rgba(0,107,150,0.16)]",
   danger:
     "bg-[var(--color-danger)] !text-white hover:!text-white visited:!text-white hover:brightness-110",
 };
@@ -33,7 +33,7 @@ export function buttonClasses({
   className?: string;
 }) {
   return cn(
-    "inline-flex max-w-full items-center justify-center rounded-full text-center font-medium leading-tight transition duration-200 focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-[rgba(150,114,79,0.22)] disabled:pointer-events-none disabled:opacity-60",
+    "inline-flex max-w-full items-center justify-center rounded-full text-center font-medium leading-tight transition duration-200 focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-[rgba(0,107,150,0.2)] disabled:pointer-events-none disabled:opacity-60",
     variantClasses[variant],
     sizeClasses[size],
     className,

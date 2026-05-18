@@ -36,21 +36,21 @@ export function DashboardCharts({
             initialDimension={{ width: 600, height: 288 }}
           >
             <LineChart data={revenueSeries}>
-              <CartesianGrid stroke="rgba(22,20,18,0.08)" vertical={false} />
+              <CartesianGrid stroke="rgba(6,23,35,0.08)" vertical={false} />
               <XAxis dataKey="month" tickLine={false} axisLine={false} />
               <YAxis tickLine={false} axisLine={false} />
               <Tooltip />
               <Line
                 type="monotone"
                 dataKey="revenue"
-                stroke="#96724f"
+                stroke="#006b96"
                 strokeWidth={3}
                 dot={false}
               />
               <Line
                 type="monotone"
                 dataKey="profit"
-                stroke="#161412"
+                stroke="#061723"
                 strokeWidth={2}
                 dot={false}
               />
@@ -71,11 +71,11 @@ export function DashboardCharts({
             initialDimension={{ width: 600, height: 288 }}
           >
             <BarChart data={materialUsage}>
-              <CartesianGrid stroke="rgba(22,20,18,0.08)" vertical={false} />
+              <CartesianGrid stroke="rgba(6,23,35,0.08)" vertical={false} />
               <XAxis dataKey="name" hide />
               <YAxis tickLine={false} axisLine={false} />
               <Tooltip />
-              <Bar dataKey="quantity" fill="#96724f" radius={[12, 12, 0, 0]} />
+              <Bar dataKey="quantity" fill="#006b96" radius={[12, 12, 0, 0]} />
             </BarChart>
           </ResponsiveContainer>
         </div>
