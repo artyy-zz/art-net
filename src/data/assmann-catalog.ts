@@ -66,31 +66,31 @@ const categoryMeta = {
   networking: {
     description:
       "Copper networking, patching, switching, PoE, media conversion, SFP technology, and structured cabling components.",
-    image: "/images/artnet/ethernet-cable.png",
+    image: "/images/artnet/home-categories/networking.jpg",
     theme: "#006b96",
   },
   "wifi-wireless": {
     description:
       "Access points, WiFi devices, wireless antennas, mesh, outdoor wireless, and wireless accessories.",
-    image: "https://cdn.ecomm.ui.com/products/9a175fbc-89d5-4628-a3bd-3492f912632f/74af8d47-99ff-4dee-a74d-34d7a30e4d56.png",
+    image: "/images/artnet/home-categories/wifi-wireless.png",
     theme: "#0477b8",
   },
   surveillance: {
     description:
       "Video surveillance products including IP cameras, NVRs, camera accessories, and surveillance cabling.",
-    image: "/images/artnet/cctv-camera.png",
+    image: "/images/artnet/home-categories/surveillance.png",
     theme: "#0f766e",
   },
   "security-access-control": {
     description:
       "Intercoms, door access, readers, fire alarm systems, alarm sensors, sirens, and security controls.",
-    image: "https://cdn.ecomm.ui.com/products/01c25022-4f42-4ff7-a33e-14697428985e/eceace8a-d596-45a0-b3ec-ff55d4030a6b.png",
+    image: "/images/artnet/home-categories/security-access-control.png",
     theme: "#7f1d1d",
   },
   "racks-cabinets": {
     description:
       "Wall cabinets, freestanding racks, server cabinets, shelves, cooling, cable management, and cabinet accessories.",
-    image: "/images/artnet/rack.jpg",
+    image: "/images/artnet/home-categories/racks-cabinets.jpg",
     theme: "#334155",
   },
   "fiber-optics": {
@@ -102,13 +102,13 @@ const categoryMeta = {
   power: {
     description:
       "Rack PDUs, UPS systems, chargers, power outlets, power cords, and PoE power solutions.",
-    image: "/images/artnet/power-strip.png",
+    image: "/images/artnet/home-categories/power.jpg",
     theme: "#92400e",
   },
   "av-multimedia": {
     description:
       "AV cabling, adapters, extenders, splitters, converters, docking stations, and multimedia accessories.",
-    image: "/images/artnet/hdmi-cable.png",
+    image: "/images/artnet/home-categories/av-multimedia.jpg",
     theme: "#1d4ed8",
   },
   "smart-home": {
@@ -126,7 +126,7 @@ const categoryMeta = {
   lighting: {
     description:
       "LED lamps, panels, strips, street lighting, emergency lighting, spotlights, and general lighting products.",
-    image: "https://itegroup.al/wp-content/uploads/2025/01/PI9290026962026920-10.jpg",
+    image: "/images/artnet/home-categories/lighting.jpg",
     theme: "#b45309",
   },
   "tools-accessories": {
@@ -150,7 +150,7 @@ const categoryMeta = {
   "installation-materials-cables": {
     description:
       "Cable channels, conduits, trays, wall boxes, terminals, general cables, and installation accessories.",
-    image: "https://itegroup.al/wp-content/uploads/2025/01/SHISM10200P6367-10.jpg",
+    image: "/images/artnet/home-categories/installation-materials-cables.jpg",
     theme: "#64748b",
   },
 } as const;
