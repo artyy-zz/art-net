@@ -99,6 +99,7 @@ function ProductModal({ product, copy, locale, onClose }: ProductModalProps) {
             src={product.image}
             alt={product.name}
             fill
+            quality={95}
             sizes="(min-width: 768px) 44vw, 100vw"
             className="object-contain p-10 sm:p-14"
           />
@@ -254,6 +255,7 @@ function ProductRow({
                 src={product.image}
                 alt={product.name}
                 fill
+                quality={90}
                 sizes="320px"
                 className="object-contain p-8 transition duration-700 ease-out group-hover:scale-[1.05]"
               />

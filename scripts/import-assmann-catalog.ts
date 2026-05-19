@@ -25,10 +25,19 @@ type CatalogProduct = {
   description: string;
   specifications: string[];
   images: string[];
+  imageMetadata?: ProductImageMetadata[];
   officialUrl: string | null;
   officialSource: "products.digitus.com" | null;
   foundOfficialPage: boolean;
   placements: Placement[];
+};
+
+type ProductImageMetadata = {
+  src: string;
+  width: number;
+  height: number;
+  bytes: number;
+  low_quality_image?: true;
 };
 
 type CatalogSubcategory = {
@@ -78,6 +87,8 @@ const searchBaseUrl = "https://products.digitus.com/index.php?lang=1&cl=search&s
 const shouldSkipDownload = process.argv.includes("--skip-download");
 const limitArg = process.argv.find((arg) => arg.startsWith("--limit="));
 const importLimit = limitArg ? Number.parseInt(limitArg.split("=")[1] ?? "", 10) : null;
+const lowQualityMaxDimension = 500;
+const lowQualityMinDimension = 220;
 
 function fail(message: string): never {
   throw new Error(message);
@@ -257,6 +268,108 @@ function unique<T>(values: T[]) {
   return [...new Set(values)];
 }
 
+function readJpegDimensions(buffer: Buffer) {
+  if (buffer[0] !== 0xff || buffer[1] !== 0xd8) {
+    return null;
+  }
+
+  let offset = 2;
+
+  while (offset < buffer.length) {
+    if (buffer[offset] !== 0xff) {
+      offset += 1;
+      continue;
+    }
+
+    const marker = buffer[offset + 1];
+    const length = buffer.readUInt16BE(offset + 2);
+
+    if (
+      marker &&
+      ((marker >= 0xc0 && marker <= 0xc3) ||
+        (marker >= 0xc5 && marker <= 0xc7) ||
+        (marker >= 0xc9 && marker <= 0xcb) ||
+        (marker >= 0xcd && marker <= 0xcf))
+    ) {
+      return {
+        height: buffer.readUInt16BE(offset + 5),
+        width: buffer.readUInt16BE(offset + 7),
+      };
+    }
+
+    offset += 2 + length;
+  }
+
+  return null;
+}
+
+function readPngDimensions(buffer: Buffer) {
+  if (buffer.subarray(0, 8).toString("hex") !== "89504e470d0a1a0a") {
+    return null;
+  }
+
+  return {
+    width: buffer.readUInt32BE(16),
+    height: buffer.readUInt32BE(20),
+  };
+}
+
+function readWebpDimensions(buffer: Buffer) {
+  if (
+    buffer.subarray(0, 4).toString("ascii") !== "RIFF" ||
+    buffer.subarray(8, 12).toString("ascii") !== "WEBP"
+  ) {
+    return null;
+  }
+
+  const type = buffer.subarray(12, 16).toString("ascii");
+
+  if (type === "VP8X") {
+    return {
+      width: 1 + buffer.readUIntLE(24, 3),
+      height: 1 + buffer.readUIntLE(27, 3),
+    };
+  }
+
+  if (type === "VP8 " && buffer.length > 30) {
+    return {
+      width: buffer.readUInt16LE(26) & 0x3fff,
+      height: buffer.readUInt16LE(28) & 0x3fff,
+    };
+  }
+
+  if (type === "VP8L" && buffer.length > 25) {
+    const bits = buffer.readUInt32LE(21);
+
+    return {
+      width: (bits & 0x3fff) + 1,
+      height: ((bits >> 14) & 0x3fff) + 1,
+    };
+  }
+
+  return null;
+}
+
+function readImageDimensions(buffer: Buffer) {
+  return readPngDimensions(buffer) ?? readJpegDimensions(buffer) ?? readWebpDimensions(buffer);
+}
+
+function isLowQualityImage(metadata: ProductImageMetadata) {
+  return (
+    Math.max(metadata.width, metadata.height) < lowQualityMaxDimension ||
+    Math.min(metadata.width, metadata.height) < lowQualityMinDimension
+  );
+}
+
+function scoreImageUrl(url: string) {
+  const sizeMatch = url.match(/\/(\d+)_(\d+)_\d+\//);
+  const generatedSize = sizeMatch
+    ? Number.parseInt(sizeMatch[1] ?? "0", 10) * Number.parseInt(sizeMatch[2] ?? "0", 10)
+    : 0;
+
+  return (url.includes("/out/pictures/master/product/") ? 1_000_000_000 : 0) + generatedSize;
+}
+
 function getAttribute(html: string, pattern: RegExp) {
   return html.match(pattern)?.[1] ? htmlDecode(html.match(pattern)?.[1] ?? "") : "";
 }
@@ -302,17 +415,31 @@ function parseOfficialProduct(html: string, sku: string): ScrapedProduct {
   const techSection = html.match(/<div id=techdetails\b[\s\S]*?(?=<div id=techattrs|<div id="dlfiles"|<div id=logistics)/)?.[0] ?? "";
   const leadSection = html.match(/<div id="details_container"[\s\S]*?(?=<div id=techdetails)/)?.[0] ?? "";
   const specifications = unique([...parseListItems(leadSection), ...parseListItems(techSection)]).slice(0, 10);
-  const imageUrls = unique(
-    [
-      ...[...html.matchAll(/\s(?:href|src)="([^"]+\/out\/pictures\/generated\/product\/[^"]+\.(?:jpe?g|png|webp))"/gi)].map(
-        (match) => htmlDecode(match[1] ?? ""),
+  const rawImageUrls = [
+    ...[
+      ...html.matchAll(
+        /\s(?:href|src|data-src|data-zoom-image)="([^"]+\/out\/pictures\/(?:master|generated)\/product\/[^"]+\.(?:jpe?g|png|webp)(?:\?[^"]*)?)"/gi,
       ),
-      getAttribute(html, /<meta\s+property="og:image"\s+content="([^"]+)"/),
-    ]
-      .filter(Boolean)
-      .filter((url) => /\/product\//.test(url))
-      .filter((url) => !/\/95_95_75\//.test(url)),
-  ).slice(0, 12);
+    ].map((match) => htmlDecode(match[1] ?? "")),
+    getAttribute(html, /<meta\s+property="og:image"\s+content="([^"]+)"/),
+  ]
+    .filter(Boolean)
+    .filter((url) => /\/product\//.test(url))
+    .filter((url) => !/\/95_95_\d+\//.test(url))
+    .filter((url) => !/\/(?:thumb|thumbnail)[^/]*\.(?:jpe?g|png|webp)/i.test(url));
+
+  const imageUrls = unique(
+    rawImageUrls.flatMap((url) => {
+      const masterUrl = url.replace(
+        /\/out\/pictures\/generated\/product\/(\d+)\/\d+_\d+_\d+\//,
+        "/out/pictures/master/product/$1/",
+      );
+
+      return masterUrl === url ? [url] : [masterUrl, url];
+    }),
+  )
+    .sort((left, right) => scoreImageUrl(right) - scoreImageUrl(left))
+    .slice(0, 12);
 
   return {
     found: true,
@@ -365,7 +492,10 @@ function imageExtension(url: string) {
 
 async function downloadImages(sku: string, imageUrls: string[]) {
   if (shouldSkipDownload || imageUrls.length === 0) {
-    return imageUrls;
+    return {
+      images: imageUrls,
+      metadata: [],
+    };
   }
 
   const skuDir = slugify(sku);
@@ -373,23 +503,57 @@ async function downloadImages(sku: string, imageUrls: string[]) {
   await mkdir(targetDir, { recursive: true });
 
   const localImages: string[] = [];
+  const imageMetadata: ProductImageMetadata[] = [];
+  const seenNames = new Set<string>();
 
-  for (const [index, url] of imageUrls.entries()) {
+  for (const url of imageUrls) {
+    const urlFileName = path.basename(url.split("?")[0] ?? url);
+
+    if (seenNames.has(urlFileName)) {
+      continue;
+    }
+
+    seenNames.add(urlFileName);
+
     const extension = imageExtension(url);
-    const localFileName = `${String(index + 1).padStart(2, "0")}${extension}`;
+    const localFileName = `${String(localImages.length + 1).padStart(2, "0")}${extension}`;
     const absolutePath = path.join(targetDir, localFileName);
     const publicPath = `/images/assmann-products/${skuDir}/${localFileName}`;
+    let bytes: Buffer;
 
     if (!existsSync(absolutePath)) {
       const response = await fetchWithRetry(url, 3);
-      const bytes = Buffer.from(await response.arrayBuffer());
+      bytes = Buffer.from(await response.arrayBuffer());
       await writeFile(absolutePath, bytes);
+    } else {
+      bytes = await readFile(absolutePath);
+    }
+
+    const dimensions = readImageDimensions(bytes);
+
+    if (!dimensions) {
+      continue;
     }
 
     localImages.push(publicPath);
+    imageMetadata.push({
+      src: publicPath,
+      width: dimensions.width,
+      height: dimensions.height,
+      bytes: bytes.length,
+    });
   }
 
-  return localImages;
+  if (imageMetadata.length > 0 && imageMetadata.every(isLowQualityImage)) {
+    for (const metadata of imageMetadata) {
+      metadata.low_quality_image = true;
+    }
+  }
+
+  return {
+    images: localImages,
+    metadata: imageMetadata,
+  };
 }
 
 function buildCatalogSkeleton(rows: DocProductRow[]) {
@@ -509,7 +673,9 @@ async function main() {
       product.title = official.title || product.documentName;
       product.description = official.description;
       product.specifications = official.specifications;
-      product.images = await downloadImages(product.sku, official.imageUrls);
+      const downloadedImages = await downloadImages(product.sku, official.imageUrls);
+      product.images = downloadedImages.images;
+      product.imageMetadata = downloadedImages.metadata;
 
       if (product.images.length === 0) {
         missingImages.push({

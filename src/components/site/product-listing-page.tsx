@@ -51,6 +51,7 @@ function CategoryTile({
           src={category.image}
           alt={category.name}
           fill
+          quality={90}
           unoptimized={isRemoteImage(category.image)}
           sizes="72px"
           className="object-contain p-2 transition duration-500 group-hover:scale-[1.05]"
@@ -127,6 +128,7 @@ export function ProductListingPage({
                 alt={heroAlt}
                 fill
                 preload
+                quality={90}
                 unoptimized={isRemoteImage(heroImage)}
                 sizes="(min-width: 1024px) 32vw, 100vw"
                 className="object-contain p-10"

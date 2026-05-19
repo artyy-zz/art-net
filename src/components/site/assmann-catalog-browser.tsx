@@ -19,10 +19,10 @@ import {
   getPrimaryPlacement,
   getProductDetailHref,
   getProductImage,
+  getProductImageMetadata,
   getProductSourceName,
 } from "@/data/assmann-catalog";
 import type { Locale } from "@/lib/i18n";
-import { isRemoteImage } from "@/lib/image-utils";
 import { cn } from "@/lib/utils";
 
 const copy = {
@@ -149,24 +149,44 @@ function ProductCard({
   imageMissingLabel: string;
 }) {
   const image = getProductImage(product);
+  const imageMetadata = getProductImageMetadata(product, image);
   const title = product.title || product.documentName;
+  const cardImageWidth = imageMetadata?.width ?? 240;
+  const cardImageHeight = imageMetadata?.height ?? 180;
 
   return (
     <Link
       href={getProductDetailHref(locale, product, categorySlug)}
       className="group flex min-h-[318px] w-full min-w-0 flex-col rounded-lg border border-[var(--color-line)] bg-white shadow-[0_14px_36px_rgba(8,27,42,0.06)] transition duration-300 hover:-translate-y-1 hover:border-[rgba(0,107,150,0.3)] hover:shadow-[0_22px_54px_rgba(8,27,42,0.12)] focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-[rgba(0,107,150,0.16)]"
     >
-      <span className="relative block aspect-[4/3] overflow-hidden rounded-t-lg border-b border-[var(--color-line)] bg-white">
+      <span className="relative flex aspect-[4/3] items-center justify-center overflow-hidden rounded-t-lg border-b border-[var(--color-line)] bg-white p-5">
         {image ? (
-          <Image
-            src={image}
-            alt={title}
-            fill
-            loading="lazy"
-            unoptimized={isRemoteImage(image)}
-            sizes="280px"
-            className="object-contain p-5 transition duration-500 group-hover:scale-[1.04]"
-          />
+          imageMetadata ? (
+            <Image
+              src={image}
+              alt={title}
+              width={cardImageWidth}
+              height={cardImageHeight}
+              loading="lazy"
+              quality={90}
+              sizes="220px"
+              className="h-auto w-auto max-w-full object-contain transition duration-500 group-hover:scale-[1.03]"
+              style={{
+                maxWidth: `${Math.min(cardImageWidth, 220)}px`,
+                maxHeight: `${Math.min(cardImageHeight, 178)}px`,
+              }}
+            />
+          ) : (
+            <Image
+              src={image}
+              alt={title}
+              fill
+              loading="lazy"
+              quality={90}
+              sizes="280px"
+              className="object-contain p-5 transition duration-500 group-hover:scale-[1.03]"
+            />
+          )
         ) : (
           <ProductImagePlaceholder label={imageMissingLabel} />
         )}
@@ -586,15 +606,26 @@ export function AssmannCatalogBrowser({
                     href={getProductDetailHref(locale, product, activeCategory?.slug)}
                     className="grid grid-cols-[44px_1fr] items-center gap-3 rounded-md px-3 py-2 transition hover:bg-[#f7fafc]"
                   >
-                    <span className="relative aspect-square overflow-hidden rounded bg-[#f7fafc]">
+                    <span className="relative flex aspect-square items-center justify-center overflow-hidden rounded bg-[#f7fafc] p-1">
                       {getProductImage(product) ? (
                         <Image
                           src={getProductImage(product) ?? ""}
                           alt={product.title || product.documentName}
-                          fill
-                          unoptimized={isRemoteImage(getProductImage(product))}
+                          width={getProductImageMetadata(product, getProductImage(product))?.width ?? 44}
+                          height={getProductImageMetadata(product, getProductImage(product))?.height ?? 44}
+                          quality={90}
                           sizes="44px"
-                          className="object-contain p-1"
+                          className="h-auto w-auto max-w-full object-contain"
+                          style={{
+                            maxWidth: `${Math.min(
+                              getProductImageMetadata(product, getProductImage(product))?.width ?? 44,
+                              36,
+                            )}px`,
+                            maxHeight: `${Math.min(
+                              getProductImageMetadata(product, getProductImage(product))?.height ?? 44,
+                              36,
+                            )}px`,
+                          }}
                         />
                       ) : (
                         <PackageSearch className="m-3 h-5 w-5 text-[var(--color-muted)]" />

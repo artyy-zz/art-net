@@ -14,12 +14,12 @@ import {
   getProductDetailHref,
   getPrimaryPlacement,
   getProductImage,
+  getProductImageMetadata,
   getProductSourceName,
   getRelatedAssmannProducts,
 } from "@/data/assmann-catalog";
 import { publicBrand, publicCopy } from "@/data/public-site";
 import { locales, type Locale } from "@/lib/i18n";
-import { isRemoteImage } from "@/lib/image-utils";
 import { getAbsoluteUrl, getAlternateLanguages, siteName } from "@/lib/seo";
 
 const copy = {
@@ -148,23 +148,43 @@ function RelatedProductCard({
   categorySlug: string;
 }) {
   const image = getProductImage(product);
+  const imageMetadata = getProductImageMetadata(product, image);
+  const imageWidth = imageMetadata?.width ?? 112;
+  const imageHeight = imageMetadata?.height ?? 112;
 
   return (
     <Link
       href={getProductDetailHref(locale, product, categorySlug)}
       className="group grid min-h-[132px] grid-cols-[112px_1fr] overflow-hidden rounded-lg border border-[var(--color-line)] bg-white shadow-[0_12px_34px_rgba(8,27,42,0.06)] transition hover:-translate-y-0.5 hover:border-[rgba(0,107,150,0.28)]"
     >
-      <span className="relative bg-[#f7fafc]">
+      <span className="relative flex items-center justify-center bg-[#f7fafc] p-3">
         {image ? (
-          <Image
-            src={image}
-            alt={product.title || product.documentName}
-            fill
-            loading="lazy"
-            unoptimized={isRemoteImage(image)}
-            sizes="112px"
-            className="object-contain p-3"
-          />
+          imageMetadata ? (
+            <Image
+              src={image}
+              alt={product.title || product.documentName}
+              width={imageWidth}
+              height={imageHeight}
+              loading="lazy"
+              quality={90}
+              sizes="88px"
+              className="h-auto w-auto max-w-full object-contain"
+              style={{
+                maxWidth: `${Math.min(imageWidth, 88)}px`,
+                maxHeight: `${Math.min(imageHeight, 88)}px`,
+              }}
+            />
+          ) : (
+            <Image
+              src={image}
+              alt={product.title || product.documentName}
+              fill
+              loading="lazy"
+              quality={90}
+              sizes="112px"
+              className="object-contain p-3"
+            />
+          )
         ) : null}
       </span>
       <span className="flex min-w-0 flex-col justify-center p-4">
@@ -308,6 +328,7 @@ export default async function ProductDetailPage({
         <div className="mx-auto grid max-w-7xl gap-10 lg:grid-cols-[1fr_0.9fr]">
           <ProductGallery
             images={product.images}
+            imageMetadata={product.imageMetadata}
             title={title}
             missingLabel={labels.imageMissing}
             previewLabel={labels.preview}

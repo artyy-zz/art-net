@@ -17,13 +17,22 @@ export type AssmannProduct = {
   description: string;
   specifications: string[];
   images: string[];
+  imageMetadata?: ProductImageMetadata[];
   officialUrl: string | null;
-  officialSource: "products.digitus.com" | "store.ui.com" | "itegroup.al" | null;
+  officialSource: "products.digitus.com" | "store.ui.com" | "itegroup.al" | "assmann.com" | null;
   foundOfficialPage: boolean;
   placements: AssmannPlacement[];
   brand?: string;
   sourceLabel?: string;
   tags?: string[];
+};
+
+export type ProductImageMetadata = {
+  src: string;
+  width: number;
+  height: number;
+  bytes: number;
+  low_quality_image?: true;
 };
 
 export type AssmannSubcategory = {
@@ -181,6 +190,18 @@ export function getPrimaryPlacement(product: AssmannProduct) {
 
 export function getProductImage(product: AssmannProduct) {
   return product.images[0] ?? null;
+}
+
+export function getProductImageMetadata(product: AssmannProduct, src?: string | null) {
+  if (!src) {
+    return null;
+  }
+
+  return product.imageMetadata?.find((item) => item.src === src) ?? null;
+}
+
+export function isLowQualityProductImage(product: AssmannProduct, src?: string | null) {
+  return Boolean(getProductImageMetadata(product, src)?.low_quality_image);
 }
 
 export function getProductBrand(product: AssmannProduct) {

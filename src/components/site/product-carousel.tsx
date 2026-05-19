@@ -84,6 +84,7 @@ export function ProductCarousel({
                 src={item.image}
                 alt={item.title}
                 fill
+                quality={90}
                 sizes="(min-width: 1024px) 28vw, (min-width: 640px) 44vw, 100vw"
                 className="object-contain p-7 transition duration-700 ease-out group-hover:scale-[1.05]"
               />

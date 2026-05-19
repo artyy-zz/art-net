@@ -3,7 +3,12 @@
 import Image from "next/image";
 import { ImageIcon, Maximize2, X } from "lucide-react";
 import { useEffect, useState } from "react";
-import { isRemoteImage } from "@/lib/image-utils";
+import type { ProductImageMetadata } from "@/data/assmann-catalog";
+
+type ProductGalleryImage = {
+  src: string;
+  metadata: ProductImageMetadata | null;
+};
 
 function EmptyImage({ label }: { label: string }) {
   return (
@@ -16,12 +21,14 @@ function EmptyImage({ label }: { label: string }) {
 
 export function ProductGallery({
   images,
+  imageMetadata = [],
   title,
   missingLabel,
   previewLabel,
   closeLabel,
 }: {
   images: string[];
+  imageMetadata?: ProductImageMetadata[];
   title: string;
   missingLabel: string;
   previewLabel: string;
@@ -30,6 +37,17 @@ export function ProductGallery({
   const [activeIndex, setActiveIndex] = useState(0);
   const [isPreviewOpen, setIsPreviewOpen] = useState(false);
   const activeImage = images[activeIndex] ?? null;
+  const galleryImages: ProductGalleryImage[] = images.map((image) => ({
+    src: image,
+    metadata: imageMetadata.find((item) => item.src === image) ?? null,
+  }));
+  const activeMetadata = activeImage
+    ? imageMetadata.find((item) => item.src === activeImage) ?? null
+    : null;
+  const activeWidth = activeMetadata?.width ?? 900;
+  const activeHeight = activeMetadata?.height ?? 680;
+  const activeDisplayWidth = Math.min(activeWidth, 900);
+  const activeDisplayHeight = Math.min(activeHeight, 680);
 
   useEffect(() => {
     if (!isPreviewOpen) {
@@ -63,16 +81,21 @@ export function ProductGallery({
         <button
           type="button"
           onClick={() => setIsPreviewOpen(true)}
-          className="group relative block aspect-[4/3] w-full overflow-hidden rounded-lg border border-[var(--color-line)] bg-white shadow-[0_24px_70px_rgba(8,27,42,0.1)] focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-[rgba(0,107,150,0.18)]"
+          className="group flex min-h-[320px] w-full items-center justify-center overflow-hidden rounded-lg border border-[var(--color-line)] bg-white p-4 shadow-[0_24px_70px_rgba(8,27,42,0.1)] focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-[rgba(0,107,150,0.18)] sm:min-h-[420px]"
           aria-label={previewLabel}
         >
           <Image
             src={activeImage}
             alt={title}
-            fill
-            unoptimized={isRemoteImage(activeImage)}
-            sizes="(min-width: 1024px) 50vw, 100vw"
-            className="object-contain p-8 transition duration-500 group-hover:scale-[1.03]"
+            width={activeWidth}
+            height={activeHeight}
+            quality={95}
+            sizes="(min-width: 1024px) 46vw, 100vw"
+            className="h-auto w-auto max-w-full object-contain transition duration-500 group-hover:scale-[1.02]"
+            style={{
+              maxWidth: `${activeDisplayWidth}px`,
+              maxHeight: `${activeDisplayHeight}px`,
+            }}
           />
           <span className="absolute right-4 top-4 inline-flex h-10 w-10 items-center justify-center rounded-lg border border-black/10 bg-white/90 text-[var(--color-foreground)] shadow-[0_12px_30px_rgba(8,27,42,0.1)]">
             <Maximize2 className="h-5 w-5" />
@@ -81,9 +104,9 @@ export function ProductGallery({
 
         {images.length > 1 ? (
           <div className="grid grid-cols-4 gap-3 sm:grid-cols-6">
-            {images.map((image, index) => (
+            {galleryImages.map((image, index) => (
               <button
-                key={image}
+                key={image.src}
                 type="button"
                 onClick={() => setActiveIndex(index)}
                 className={`relative aspect-square overflow-hidden rounded-lg border bg-white transition ${
@@ -94,11 +117,11 @@ export function ProductGallery({
                 aria-label={`${previewLabel} ${index + 1}`}
               >
                 <Image
-                  src={image}
+                  src={image.src}
                   alt={`${title} ${index + 1}`}
                   fill
                   loading="lazy"
-                  unoptimized={isRemoteImage(image)}
+                  quality={90}
                   sizes="120px"
                   className="object-contain p-2"
                 />
@@ -117,16 +140,21 @@ export function ProductGallery({
           onMouseDown={() => setIsPreviewOpen(false)}
         >
           <div
-            className="relative h-[86vh] w-full max-w-6xl rounded-lg bg-white"
+            className="relative flex h-[86vh] w-full max-w-6xl items-center justify-center rounded-lg bg-white p-4 sm:p-8"
             onMouseDown={(event) => event.stopPropagation()}
           >
             <Image
               src={activeImage}
               alt={title}
-              fill
-              unoptimized={isRemoteImage(activeImage)}
+              width={activeWidth}
+              height={activeHeight}
+              quality={95}
               sizes="100vw"
-              className="object-contain p-5 sm:p-8"
+              className="h-auto w-auto max-w-full object-contain"
+              style={{
+                maxWidth: `${Math.min(activeWidth, 1120)}px`,
+                maxHeight: `${Math.min(activeHeight, 760)}px`,
+              }}
             />
             <button
               type="button"
