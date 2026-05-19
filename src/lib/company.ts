@@ -4,10 +4,10 @@ export const COMPANY = {
   name: "Artnet",
   phone: "049 160 740",
   email: "bujar.bela@artnet-ks.com",
-  address: "rr. Dardania, Fushe Kosove 12000, Kosovo",
+  address: "rr. Dardania, Fushë Kosovë 12000, Kosovë",
   documents: {
     legalName: "Artnet",
-    address: "rr. Dardania, Fushe Kosove 12000, Kosovo",
+    address: "rr. Dardania, Fushë Kosovë 12000, Kosovë",
     phone: "049 160 740",
     email: "bujar.bela@artnet-ks.com",
     nui: null,

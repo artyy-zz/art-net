@@ -2,6 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 import { AssmannCatalogBrowser } from "@/components/site/assmann-catalog-browser";
+import { ProductScrollRestoration } from "@/components/site/product-scroll-restoration";
 import {
   getAssmannCategories,
   getAssmannProducts,
@@ -144,6 +145,7 @@ export function ProductListingPage({
         locale={locale}
         activeCategorySlug={activeCategory?.slug}
       />
+      <ProductScrollRestoration />
 
       <section className="border-t border-[var(--color-line)] bg-white px-4 py-12 sm:px-6 md:px-10 md:py-16">
         <div className="mx-auto max-w-7xl">

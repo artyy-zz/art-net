@@ -23,26 +23,26 @@ import { buildPageMetadata } from "@/lib/seo";
 
 const serviceCopy = {
   sq: {
-    eyebrow: "Sherbime",
-    title: "Sherbime teknike dhe digjitale",
+    eyebrow: "Shërbime",
+    title: "Shërbime teknike dhe digjitale",
     description:
-      "Instalim, mirembajtje dhe zhvillim per infrastrukturen teknologjike qe duhet te funksionoje qarte nga pajisja fizike deri te sistemi online.",
-    infrastructure: "Infrastrukture",
+      "Instalim, mirëmbajtje dhe zhvillim për infrastrukturën teknologjike që duhet të funksionojë qartë nga pajisja fizike deri te sistemi online.",
+    infrastructure: "Infrastrukturë",
     digital: "Zhvillim digjital",
-    contact: "Kerko konsulten",
+    contact: "Kërko konsultën",
     items: [
-      ["Network Installation", "Projektim, kabllim, konfigurim dhe dokumentim rrjeti."],
-      ["CCTV / Surveillance Installation", "Kamera, NVR, akses ne distancë dhe organizim regjistrimi."],
-      ["Rack & Cabinet Setup", "Rack-e te pastra, patching, ventilim dhe menaxhim kabllosh."],
-      ["Fiber Optic Installation", "Shtrirje, terminim, saldim dhe testim i lidhjeve fiber."],
-      ["WiFi Setup", "Mbulim WiFi, roaming, kanale dhe kontroll per hapesira pune."],
-      ["Hardware Maintenance", "Kontrolle, nderrime pajisjesh dhe mirembajtje operative."],
-      ["Website Development", "Faqe prezantuese te shpejta, responsive dhe te mirestrukturuara."],
-      ["Ecommerce Websites", "Dyqane online me katalog, porosi dhe rrjedha shitjeje."],
-      ["ERP Systems", "Sisteme per procese biznesi, role, dokumente dhe raporte."],
-      ["Hosting & Domains", "Domaine, hosting, email dhe menaxhim teknik i publikimit."],
-      ["SEO", "Strukture teknike dhe permbajtje qe ndihmon zbulueshmerine."],
-      ["UI/UX Design", "Prototipe, rrjedha perdoruesi dhe nderfaqe te pastra."],
+      ["Instalim rrjeti", "Projektim, kabllim, konfigurim dhe dokumentim rrjeti."],
+      ["Instalim CCTV / mbikëqyrje", "Kamera, NVR, qasje në distancë dhe organizim regjistrimi."],
+      ["Setup i rack-ut dhe kabinetit", "Rack-e të pastra, patching, ventilim dhe menaxhim kabllosh."],
+      ["Instalim i fibrës optike", "Shtrirje, terminim, saldim dhe testim i lidhjeve fiber."],
+      ["Setup WiFi", "Mbulim WiFi, roaming, kanale dhe kontroll për hapësira pune."],
+      ["Mirëmbajtje hardueri", "Kontrolle, ndërrime pajisjesh dhe mirëmbajtje operative."],
+      ["Zhvillim websites", "Faqe prezantuese të shpejta, responsive dhe të mirëstrukturuara."],
+      ["Ecommerce websites", "Dyqane online me katalog, porosi dhe rrjedha shitjeje."],
+      ["Sisteme ERP", "Sisteme për procese biznesi, role, dokumente dhe raporte."],
+      ["Hosting dhe domaine", "Domaine, hosting, email dhe menaxhim teknik i publikimit."],
+      ["SEO", "Strukturë teknike dhe përmbajtje që ndihmon zbulueshmërinë."],
+      ["Dizajn UI/UX", "Prototipe, rrjedha përdoruesi dhe ndërfaqe të pastra."],
     ],
   },
   en: {
@@ -149,32 +149,32 @@ export default async function ServicesPage({ params }: PageProps<"/[locale]/serv
       </section>
 
       <section className="px-4 py-12 sm:px-6 md:px-10 md:py-16">
-        <div className="mx-auto grid max-w-7xl gap-10 lg:grid-cols-2">
+        <div className="mx-auto grid max-w-7xl gap-8 lg:grid-cols-2 lg:gap-10">
           {[
             [copy.infrastructure, infrastructure],
             [copy.digital, digital],
           ].map(([title, services], groupIndex) => (
             <div key={title as string} className="min-w-0">
-              <h2 className="text-2xl font-semibold text-[var(--color-foreground)]">
+              <h2 className="text-2xl font-semibold leading-tight text-[var(--color-foreground)]">
                 {title as string}
               </h2>
-              <div className="mt-5 grid gap-3">
+              <div className="mt-6 grid gap-4">
                 {(services as readonly (readonly [string, string])[]).map((service, index) => {
                   const Icon = icons[groupIndex * 6 + index] ?? LayoutTemplate;
 
                   return (
                     <article
                       key={service[0]}
-                      className="grid grid-cols-[44px_1fr] gap-4 rounded-lg border border-[var(--color-line)] bg-white p-4 shadow-[0_12px_30px_rgba(8,27,42,0.05)]"
+                      className="grid grid-cols-[48px_1fr] gap-4 rounded-lg border border-[var(--color-line)] bg-white p-5 shadow-[0_12px_30px_rgba(8,27,42,0.05)] transition duration-300 hover:-translate-y-0.5 hover:border-[rgba(0,107,150,0.24)] hover:shadow-[0_18px_42px_rgba(8,27,42,0.08)]"
                     >
-                      <span className="inline-flex h-11 w-11 items-center justify-center rounded-md bg-[var(--color-accent-soft)] text-[var(--color-accent-strong)]">
+                      <span className="inline-flex h-12 w-12 items-center justify-center rounded-md bg-[var(--color-accent-soft)] text-[var(--color-accent-strong)]">
                         <Icon className="h-5 w-5" />
                       </span>
-                      <span>
-                        <span className="block text-sm font-semibold text-[var(--color-foreground)]">
+                      <span className="min-w-0">
+                        <span className="block text-base font-semibold leading-6 text-[var(--color-foreground)]">
                           {service[0]}
                         </span>
-                        <span className="mt-1 block text-sm leading-6 text-[var(--color-muted)]">
+                        <span className="mt-2 block text-sm leading-6 text-[var(--color-muted)]">
                           {service[1]}
                         </span>
                       </span>

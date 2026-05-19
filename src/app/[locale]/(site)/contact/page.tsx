@@ -155,7 +155,7 @@ export default async function ContactPage({
                     rel="noreferrer"
                     className="inline-flex items-center gap-2 rounded-full border border-black/10 bg-white px-4 py-2 text-sm font-semibold text-[var(--color-foreground)] transition hover:border-[var(--color-accent)] hover:bg-[var(--color-accent-soft)]"
                   >
-                    {typedLocale === "sq" ? "Hape ne Google Maps" : "Open in Google Maps"}
+                    {typedLocale === "sq" ? "Hape në Google Maps" : "Open in Google Maps"}
                     <ExternalLink className="h-4 w-4" />
                   </a>
                 </div>

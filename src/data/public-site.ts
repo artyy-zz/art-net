@@ -92,7 +92,7 @@ export const publicAssetImages = {
 export const publicContact = {
   phoneNumbers: ["049 160 740", "049 313 215"],
   emails: ["bujar.bela@artnet-ks.com", "sales@artnet-ks.com"],
-  address: "rr. Dardania, Fushe Kosove 12000, Kosovo",
+  address: "rr. Dardania, Fushë Kosovë 12000, Kosovë",
   instagram: "https://www.instagram.com/artnet_shpk?igsh=MTFjdHdqYmxtMW15ZQ==",
   facebook: "https://www.facebook.com/share/1E13vUCTS8/?mibextid=wwXIfr",
 } as const;
@@ -738,7 +738,7 @@ export const publicCategories = [
     slug: "hardware",
     title: { sq: "Harduer", en: "Hardware" },
     description: {
-      sq: "Pajisje, instalim dhe pune infrastrukturore per sisteme qe duhet te vendosen me kujdes.",
+      sq: "Pajisje, instalim dhe punë infrastrukturore për sisteme që duhet të vendosen me kujdes.",
       en: "Hardware, installation, and infrastructure work for systems that need precise deployment.",
     },
     image: publicAssetImages.hardware,
@@ -997,14 +997,14 @@ export const publicCopy = {
       products: "Produkte",
       services: "Shërbimet",
       projects: "Projekte",
-      contacts: "Kontaktet",
+      contacts: "Kontakti",
     },
     home: {
       eyebrow: "Infrastrukturë teknologjike me standard premium",
       title: "Artnet",
       subtitle:
         "Rrjete, siguri, energji dhe sisteme smart për hapësira moderne që duhet të duken pastër dhe të punojnë pa ndërprerje.",
-      primaryCta: "Kontaktet",
+      primaryCta: "Kontakti",
       secondaryCta: "Shiko produktet",
       categoriesEyebrow: "Kategoritë",
       categoriesTitle: "Një ekosistem i plotë, i prezantuar qartë.",
@@ -1052,7 +1052,7 @@ export const publicCopy = {
         "Ekipi ynë mendon për gjithë zinxhirin: furnizim, instalim, konfigurim, testim dhe dorëzim me udhëzime të qarta.",
     },
     contact: {
-      eyebrow: "Kontaktet",
+      eyebrow: "Kontakti",
       title: "Flasim për hapësirën tuaj teknologjike.",
       intro:
         "Na dërgoni një ide, një problem rrjeti, një plan objekti ose një kërkesë për sistem sigurie.",

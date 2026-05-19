@@ -122,9 +122,9 @@ const pageSeo = {
       keywords: ["produkte rrjeti", "kamera IP", "kabllo ethernet", "fiber patch"],
     },
     services: {
-      title: "Sherbime teknologjike | Artnet",
+      title: "Shërbime teknologjike | Artnet",
       description:
-        "Sherbime Artnet per instalim rrjeti, CCTV, fiber optike, WiFi, mirembajtje hardware, website, ecommerce, ERP, hosting, SEO dhe UI/UX.",
+        "Shërbime Artnet për instalim rrjeti, CCTV, fibër optike, WiFi, mirëmbajtje hardware, website, ecommerce, ERP, hosting, SEO dhe UI/UX.",
       keywords: ["instalim rrjeti", "instalim CCTV", "website development", "ERP", "hosting"],
     },
     projects: {
@@ -351,7 +351,7 @@ export function getStructuredData(locale: Locale) {
         areaServed: [
           {
             "@type": "Country",
-            name: "Kosovo",
+            name: "Kosovë",
           },
           {
             "@type": "AdministrativeArea",
