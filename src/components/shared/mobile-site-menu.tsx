@@ -25,7 +25,7 @@ export function MobileSiteMenu({
 }) {
   const [isOpen, setIsOpen] = useState(false);
   const close = () => setIsOpen(false);
-  const allProductsLabel = locale === "sq" ? "Te gjitha produktet" : "All Products";
+  const allProductsLabel = locale === "sq" ? "Të gjitha produktet" : "All Products";
   const loginLabel = locale === "sq" ? "Hyr" : "Login";
 
   return (
@@ -34,7 +34,7 @@ export function MobileSiteMenu({
         type="button"
         onClick={() => setIsOpen(true)}
         className="inline-flex h-11 w-11 items-center justify-center rounded-full border border-black/10 bg-white/90 text-[var(--color-foreground)] transition hover:bg-white focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-[rgba(0,107,150,0.2)]"
-        aria-label={locale === "sq" ? "Hap menune" : "Open menu"}
+        aria-label={locale === "sq" ? "Hap menunë" : "Open menu"}
         aria-expanded={isOpen}
       >
         <Menu className="h-5 w-5" />
@@ -49,7 +49,7 @@ export function MobileSiteMenu({
                 type="button"
                 onClick={close}
                 className="inline-flex h-11 w-11 shrink-0 items-center justify-center rounded-full border border-black/10 bg-white/90 text-[var(--color-foreground)] transition hover:bg-white focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-[rgba(0,107,150,0.2)]"
-                aria-label={locale === "sq" ? "Mbyll menune" : "Close menu"}
+                aria-label={locale === "sq" ? "Mbyll menunë" : "Close menu"}
               >
                 <X className="h-5 w-5" />
               </button>

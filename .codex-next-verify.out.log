@@ -1,0 +1,32 @@
+
+> arthome@0.1.0 dev
+> next dev --hostname 127.0.0.1 --port 3000
+
+▲ Next.js 16.2.4 (Turbopack)
+- Local:         http://127.0.0.1:3000
+- Network:       http://127.0.0.1:3000
+- Environments: .env
+✓ Ready in 567ms
+
+ GET /sq 200 in 1130ms (next.js: 662ms, generate-params: 361ms, application-code: 469ms)
+ GET /en 200 in 772ms (next.js: 641ms, generate-params: 636ms, application-code: 131ms)
+ GET /sq/products/networking 200 in 4.7s (next.js: 1150ms, generate-params: 792ms, application-code: 3.6s)
+✓ Compiled in 480ms
+✓ Compiled in 204ms
+✓ Compiled in 192ms
+✓ Compiled in 170ms
+ GET /en 200 in 360ms (next.js: 160ms, generate-params: 9ms, application-code: 200ms)
+ GET /sq 200 in 1810ms (next.js: 991ms, generate-params: 53µs, application-code: 819ms)
+ GET /en/products/networking 200 in 4.7s (next.js: 204ms, generate-params: 69ms, application-code: 4.5s)
+ GET /sq/products/networking 200 in 7.3s (next.js: 152ms, generate-params: 8ms, application-code: 7.1s)
+ GET /sq/products/networking 200 in 6.3s (next.js: 15ms, generate-params: 9ms, application-code: 6.3s)
+✓ Compiled in 206ms
+ GET /sq/products/networking 200 in 6.5s (next.js: 207ms, generate-params: 12ms, application-code: 6.3s)
+ GET /sq/products/networking/dk-1743-a-vh-5-cat-7a-s-ftp-data-cable-installation-cable-500-m-simplex 200 in 824ms (next.js: 475ms, generate-params: 421ms, application-code: 349ms)
+ GET /en/products/networking/dk-1743-a-vh-5-cat-7a-s-ftp-data-cable-installation-cable-500-m-simplex 200 in 766ms (next.js: 623ms, generate-params: 620ms, application-code: 143ms)
+ GET /sq/products/networking/dk-1743-a-vh-5-cat-7a-s-ftp-data-cable-installation-cable-500-m-simplex 200 in 187ms (next.js: 13ms, generate-params: 9ms, application-code: 174ms)
+✓ Compiled in 216ms
+✓ Compiled in 175ms
+ GET /sq/products/networking/dk-1743-a-vh-5-cat-7a-s-ftp-data-cable-installation-cable-500-m-simplex 200 in 577ms (next.js: 234ms, generate-params: 9ms, application-code: 343ms)
+ GET /en/products/networking/dk-1743-a-vh-5-cat-7a-s-ftp-data-cable-installation-cable-500-m-simplex 200 in 136ms (next.js: 4ms, generate-params: 32µs, application-code: 131ms)
+[?25h

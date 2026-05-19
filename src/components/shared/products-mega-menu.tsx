@@ -25,7 +25,7 @@ export function ProductsMegaMenu({
   categories: ProductMenuCategory[];
 }) {
   const [isOpen, setIsOpen] = useState(false);
-  const allProductsLabel = locale === "sq" ? "Te gjitha produktet" : "All Products";
+  const allProductsLabel = locale === "sq" ? "Të gjitha produktet" : "All Products";
   const categoryLabel = locale === "sq" ? "Kategori" : "Categories";
   const productCountLabel = locale === "sq" ? "produkte" : "products";
 

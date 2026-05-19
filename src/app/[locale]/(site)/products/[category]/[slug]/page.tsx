@@ -27,15 +27,15 @@ const copy = {
     back: "Kthehu te produktet",
     sku: "SKU / Model",
     category: "Kategoria",
-    subcategory: "Nenkategoria",
+    subcategory: "Nënkategoria",
     specifications: "Specifikimet",
-    related: "Produkte te ngjashme",
+    related: "Produkte të ngjashme",
     official: "Kontakto",
-    sourceMissing: "Faqja zyrtare nuk u gjet gjate importit.",
+    sourceMissing: "Faqja zyrtare nuk u gjet gjatë importit.",
     imageMissing: "Pa imazh zyrtar",
     preview: "Shiko imazhin",
     close: "Mbyll",
-    description: "Pershkrimi",
+    description: "Përshkrimi",
   },
   en: {
     back: "Back to products",
@@ -71,7 +71,7 @@ export async function generateMetadata({
   const { locale, category, slug } = await params;
   const typedLocale = locale as Locale;
   const product = getAssmannProductBySlug(slug);
-  const activeCategory = getAssmannCategoryBySlug(category);
+  const activeCategory = getAssmannCategoryBySlug(category, typedLocale);
 
   if (!product || !activeCategory) {
     const replacementSlug = getLegacyProductCategorySlug(category);
@@ -90,6 +90,9 @@ export async function generateMetadata({
   const placement =
     product.placements.find((item) => item.categorySlug === activeCategory.slug) ??
     getPrimaryPlacement(product);
+  const localizedSubcategory =
+    activeCategory.subcategories.find((item) => item.slug === placement?.subcategorySlug)?.name ??
+    placement?.subcategory;
   const productBrand = getProductBrand(product);
   const productSourceName = getProductSourceName(product);
   const path = `/${typedLocale}/products/${activeCategory.slug}/${product.slug}`;
@@ -107,9 +110,8 @@ export async function generateMetadata({
       product.documentName,
       productBrand,
       productSourceName,
-      placement?.category,
-      placement?.subcategory,
-      ...(product.tags ?? []),
+      activeCategory.name,
+      localizedSubcategory,
     ].filter((value): value is string => Boolean(value)),
     alternates: {
       canonical: path,
@@ -207,7 +209,7 @@ export default async function ProductDetailPage({
   const labels = copy[typedLocale];
   const navProducts = publicCopy[typedLocale].nav.products;
   const product = getAssmannProductBySlug(slug);
-  const activeCategory = getAssmannCategoryBySlug(category);
+  const activeCategory = getAssmannCategoryBySlug(category, typedLocale);
 
   if (!product) {
     notFound();
@@ -231,6 +233,9 @@ export default async function ProductDetailPage({
     redirect(getProductDetailHref(typedLocale, product));
   }
 
+  const localizedSubcategory =
+    activeCategory.subcategories.find((item) => item.slug === placement.subcategorySlug)?.name ??
+    placement.subcategory;
   const related = getRelatedAssmannProducts(product);
   const title = product.title || product.documentName;
   const description = product.description || product.documentName;
@@ -248,7 +253,7 @@ export default async function ProductDetailPage({
         description,
         image: product.images.map((image) => getAbsoluteUrl(image)),
         url: productUrl,
-        category: `${placement.category} / ${placement.subcategory}`,
+        category: `${activeCategory.name} / ${localizedSubcategory}`,
         brand: {
           "@type": "Brand",
           name: productBrand,
@@ -276,7 +281,7 @@ export default async function ProductDetailPage({
           {
             "@type": "ListItem",
             position: 3,
-            name: placement.category,
+            name: activeCategory.name,
             item: getAbsoluteUrl(`/${typedLocale}/products/${activeCategory.slug}`),
           },
           {
@@ -318,7 +323,7 @@ export default async function ProductDetailPage({
               href={`/${typedLocale}/products/${activeCategory.slug}`}
               className="hover:text-[var(--color-foreground)]"
             >
-              {placement.category}
+              {activeCategory.name}
             </Link>
           </nav>
         </div>
@@ -355,7 +360,7 @@ export default async function ProductDetailPage({
                   {labels.category}
                 </p>
                 <p className="mt-2 text-base font-semibold text-[var(--color-foreground)]">
-                  {placement.category}
+                  {activeCategory.name}
                 </p>
               </div>
               <div className="rounded-lg border border-[var(--color-line)] bg-white p-4">
@@ -363,7 +368,7 @@ export default async function ProductDetailPage({
                   {labels.subcategory}
                 </p>
                 <p className="mt-2 text-base font-semibold text-[var(--color-foreground)]">
-                  {placement.subcategory}
+                  {localizedSubcategory}
                 </p>
               </div>
             </div>

@@ -13,12 +13,12 @@ import { isRemoteImage } from "@/lib/image-utils";
 
 const listingCopy = {
   sq: {
-    allLabel: "Te gjitha produktet",
+    allLabel: "Të gjitha produktet",
     breadcrumbProducts: "Produktet",
     categoryProducts: "produkte",
-    subcategories: "nenkategori",
-    relatedCategories: "Kategori te tjera",
-    relatedBody: "Kaloni shpejt ne nje familje tjeter produktesh pa humbur katalogun.",
+    subcategories: "nënkategori",
+    relatedCategories: "Kategori të tjera",
+    relatedBody: "Kaloni shpejt në një familje tjetër produktesh pa humbur rrjedhën e katalogut.",
     browse: "Shfleto",
   },
   en: {
@@ -79,8 +79,8 @@ export function ProductListingPage({
 }) {
   const copy = publicCopy[locale];
   const labels = listingCopy[locale];
-  const categories = getAssmannCategories();
-  const products = getAssmannProducts();
+  const categories = getAssmannCategories(locale);
+  const products = getAssmannProducts(locale);
   const otherCategories = categories.filter((category) => category.slug !== activeCategory?.slug);
   const pageTitle = activeCategory?.name ?? labels.allLabel;
   const pageDescription = activeCategory?.description;

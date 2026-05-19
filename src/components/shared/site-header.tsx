@@ -11,7 +11,7 @@ import { getDictionary } from "@/lib/i18n";
 export function SiteHeader({ locale }: { locale: Locale }) {
   const dict = getDictionary(locale);
   const copy = publicCopy[locale];
-  const productCategories = getAssmannCategories().map((category) => ({
+  const productCategories = getAssmannCategories(locale).map((category) => ({
     name: category.name,
     slug: category.slug,
     productCount: category.productCount,

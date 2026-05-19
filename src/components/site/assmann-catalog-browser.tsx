@@ -27,18 +27,18 @@ import { cn } from "@/lib/utils";
 
 const copy = {
   sq: {
-    search: "Kerko ne te gjithe katalogun me emer, SKU/model, kategori ose nenkategori",
+    search: "Kërko në të gjithë katalogun me emër, SKU/model, kategori ose nënkategori",
     filter: "Filtro",
-    allProducts: "Te gjitha produktet",
-    categories: "Kategorite",
-    subcategories: "Nenkategorite",
+    allProducts: "Të gjitha produktet",
+    categories: "Kategoritë",
+    subcategories: "Nënkategoritë",
     sources: "Brendet / burimet",
     filters: "Opsionet",
-    withImages: "Vetem me imazhe",
-    officialOnly: "Vetem me faqe zyrtare",
+    withImages: "Vetëm me imazhe",
+    officialOnly: "Vetëm me faqe zyrtare",
     clear: "Pastro",
     results: "rezultate",
-    noResults: "Nuk u gjet asnje produkt.",
+    noResults: "Nuk u gjet asnjë produkt.",
     imageMissing: "Pa imazh",
     suggestions: "Sugjerime",
   },
@@ -247,6 +247,10 @@ export function AssmannCatalogBrowser({
   const labels = copy[locale];
   const activeCategory =
     categories.find((category) => category.slug === activeCategorySlug) ?? null;
+  const categoryBySlug = useMemo(
+    () => new Map(categories.map((category) => [category.slug, category])),
+    [categories],
+  );
   const [query, setQuery] = useState("");
   const [sidebarOpen, setSidebarOpen] = useState(false);
   const [selectedSubcategories, setSelectedSubcategories] = useState<string[]>([]);
@@ -359,14 +363,18 @@ export function AssmannCatalogBrowser({
 
       const id = `${placement.categorySlug}:${placement.subcategorySlug}`;
       const existing = sectionMap.get(id);
+      const localizedCategory = categoryBySlug.get(placement.categorySlug);
+      const localizedSubcategory = localizedCategory?.subcategories.find(
+        (subcategory) => subcategory.slug === placement.subcategorySlug,
+      );
 
       if (existing) {
         existing.products.push(product);
       } else {
         sectionMap.set(id, {
           id,
-          title: placement.subcategory,
-          eyebrow: placement.category,
+          title: localizedSubcategory?.name ?? placement.subcategory,
+          eyebrow: localizedCategory?.name ?? placement.category,
           categorySlug: placement.categorySlug,
           products: [product],
         });
@@ -376,7 +384,7 @@ export function AssmannCatalogBrowser({
     return [...sectionMap.values()].sort((a, b) =>
       `${a.eyebrow} ${a.title}`.localeCompare(`${b.eyebrow} ${b.title}`),
     );
-  }, [activeCategory, filteredProducts, filteredSkuSet, hasQuery]);
+  }, [activeCategory, categoryBySlug, filteredProducts, filteredSkuSet, hasQuery]);
 
   const suggestions = useMemo(() => {
     if (normalizedQuery.length < 2) {

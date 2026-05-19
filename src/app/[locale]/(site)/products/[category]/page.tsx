@@ -11,7 +11,7 @@ import { getAbsoluteUrl, getAlternateLanguages, siteName } from "@/lib/seo";
 
 export function generateStaticParams() {
   return locales.flatMap((locale) =>
-    getAssmannCategories().map((category) => ({
+    getAssmannCategories(locale as Locale).map((category) => ({
       locale,
       category: category.slug,
     })),
@@ -23,17 +23,17 @@ export async function generateMetadata({
 }: PageProps<"/[locale]/products/[category]">): Promise<Metadata> {
   const { locale, category } = await params;
   const typedLocale = locale as Locale;
-  const activeCategory = getAssmannCategoryBySlug(category);
+  const activeCategory = getAssmannCategoryBySlug(category, typedLocale);
 
   if (!activeCategory) {
     const replacementSlug = getLegacyProductCategorySlug(category);
 
     if (replacementSlug) {
-      const replacementCategory = getAssmannCategoryBySlug(replacementSlug);
+      const replacementCategory = getAssmannCategoryBySlug(replacementSlug, typedLocale);
 
       if (replacementCategory) {
         return {
-          title: `${replacementCategory.name} Products | ${siteName}`,
+          title: `${replacementCategory.name} ${typedLocale === "sq" ? "produkte" : "Products"} | ${siteName}`,
           description: replacementCategory.description,
         };
       }
@@ -43,7 +43,7 @@ export async function generateMetadata({
   }
 
   const path = `/${typedLocale}/products/${activeCategory.slug}`;
-  const title = `${activeCategory.name} Products | ${siteName}`;
+  const title = `${activeCategory.name} ${typedLocale === "sq" ? "produkte" : "Products"} | ${siteName}`;
 
   return {
     title,
@@ -86,7 +86,7 @@ export default async function ProductCategoryPage({
   params,
 }: PageProps<"/[locale]/products/[category]">) {
   const { locale, category } = await params;
-  const activeCategory = getAssmannCategoryBySlug(category);
+  const activeCategory = getAssmannCategoryBySlug(category, locale as Locale);
 
   if (!activeCategory) {
     const replacementSlug = getLegacyProductCategorySlug(category);

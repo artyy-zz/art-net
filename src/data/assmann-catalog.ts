@@ -71,6 +71,194 @@ type RawCatalog = {
 
 const rawCatalog = catalogJson as RawCatalog;
 
+type AssmannCategoryCopy = {
+  name: string;
+  description: string;
+  subcategories: Record<string, string>;
+};
+
+const sqCategoryCopy = {
+  networking: {
+    name: "Rrjete",
+    description:
+      "Kabllo bakri për rrjete, patching, switching, PoE, konvertim mediash, teknologji SFP dhe komponentë për kabllim të strukturuar.",
+    subcategories: {
+      "copper-network-cables": "Kabllo rrjeti bakri",
+      "gateways-and-network-controllers": "Gateway dhe kontrollues rrjeti",
+      "keystone-modules-and-network-outlets": "Module keystone dhe priza rrjeti",
+      "media-converters": "Konvertues mediash",
+      "patch-cables": "Patch kabllo",
+      "patch-panels": "Patch panele",
+      "poe-injectors-splitters-extenders": "PoE injektorë, ndarës dhe zgjatues",
+      "rj45-connectors-and-plugs": "Konektorë dhe priza RJ45",
+      "sfp-dac-aoc-modules": "Module SFP / DAC / AOC",
+      switches: "Switch-e",
+    },
+  },
+  "wifi-wireless": {
+    name: "WiFi dhe pa tel",
+    description:
+      "Access point, pajisje WiFi, antena pa tel, mesh, zgjidhje të jashtme wireless dhe aksesorë për lidhje pa kabllo.",
+    subcategories: {
+      "access-points-and-wifi-devices": "Access point dhe pajisje WiFi",
+      "wireless-antennas-and-accessories": "Antena wireless dhe aksesorë",
+    },
+  },
+  surveillance: {
+    name: "Mbikëqyrje",
+    description:
+      "Produkte për video-mbikëqyrje, përfshirë kamera IP, NVR, aksesorë kamerash dhe kabllo për sisteme sigurie.",
+    subcategories: {
+      "ip-cameras": "Kamera IP",
+      "nvrs-and-video-recorders": "NVR dhe regjistrues video",
+      "surveillance-cables": "Kabllo për mbikëqyrje",
+      "surveillance-storage-accessories": "Ruajtje dhe aksesorë për mbikëqyrje",
+    },
+  },
+  "security-access-control": {
+    name: "Siguri dhe kontroll hyrjeje",
+    description:
+      "Interfonë, kontroll dyersh, lexues, sisteme alarmi zjarri, sensorë alarmi, sirena dhe kontrolle sigurie.",
+    subcategories: {
+      "alarm-sensors-and-sirens": "Sensorë alarmi dhe sirena",
+      "door-access-control": "Kontroll hyrjeje në dyer",
+      "fire-alarm-systems": "Sisteme alarmi zjarri",
+      "intercom-systems": "Sisteme interfonie",
+    },
+  },
+  "racks-cabinets": {
+    name: "Rack dhe kabinete",
+    description:
+      "Kabinete muri, rack-e të lira, kabinete serverësh, rafte, ftohje, menaxhim kabllosh dhe aksesorë kabinetesh.",
+    subcategories: {
+      "charging-cabinets": "Kabinete karikimi",
+      "cooling-and-ventilation": "Ftohje dhe ventilim",
+      "freestanding-racks-and-cabinets": "Rack-e dhe kabinete të lira",
+      "rack-accessories": "Aksesorë për rack",
+      "rack-cable-management": "Menaxhim kabllosh në rack",
+      "server-cabinets": "Kabinete serverësh",
+      "shelves-and-rails": "Rafte dhe shina",
+    },
+  },
+  "fiber-optics": {
+    name: "Fibër optike",
+    description:
+      "Patch kabllo fiber, pigtail, coupler, kuti bashkimi, kuti shpërndarjeje, MPO, FTTX dhe vegla për fibër.",
+    subcategories: {
+      "fiber-connectors": "Konektorë fiber",
+      "fiber-couplers": "Coupler fiber",
+      "fiber-distribution-boxes": "Kuti shpërndarjeje fiber",
+      "fiber-patch-cables": "Patch kabllo fiber",
+      "fiber-pigtails": "Pigtail fiber",
+      "fiber-splice-enclosures-patch-panels": "Kuti bashkimi dhe patch panele fiber",
+      "fiber-structured-installation-cables": "Kabllo fiber për instalim të strukturuar",
+      "fiber-trunk-breakout-cables": "Kabllo trunk dhe breakout fiber",
+      fttx: "FTTX",
+      "splice-devices-and-fiber-tools": "Pajisje bashkimi dhe vegla fiber",
+    },
+  },
+  power: {
+    name: "Energji",
+    description:
+      "Rack PDU, sisteme UPS, karikues, priza energjie, kabllo rryme dhe zgjidhje furnizimi me PoE.",
+    subcategories: {
+      "chargers-and-power-supplies": "Karikues dhe furnizues energjie",
+      "ev-chargers": "Karikues EV",
+      generators: "Gjeneratorë",
+      "power-cords": "Kabllo rryme",
+      "power-factor-correction": "Korrigjim i faktorit të fuqisë",
+      "rack-pdus": "Rack PDU",
+      stabilizers: "Stabilizatorë",
+      transformers: "Transformatorë",
+      "ups-systems-and-inverters": "Sisteme UPS dhe inverterë",
+    },
+  },
+  "av-multimedia": {
+    name: "AV dhe multimedia",
+    description:
+      "Kabllo AV, adapterë, zgjatues, splitter, konvertues, docking station dhe aksesorë multimedialë.",
+    subcategories: {
+      "conferencing-and-presentation": "Konferenca dhe prezantime",
+      "hdmi-av-extenders": "Zgjatues HDMI / AV",
+      "hdmi-splitters": "HDMI splitter",
+      "hdmi-switches": "HDMI switch",
+      "matrix-and-video-walls": "Matrix dhe video wall",
+      "monitor-and-tv-mounts": "Mbajtëse monitori dhe TV",
+      "repeaters-converters-adapters": "Repeater, konvertues dhe adapterë",
+      "usb-extenders": "Zgjatues USB",
+    },
+  },
+  "smart-home-automation": {
+    name: "Shtëpi smart dhe automatizim",
+    description:
+      "Ndriçim smart, kontrollues, poça smart, sensorë dhe module automatizimi për shtëpi.",
+    subcategories: {
+      "philips-hue-and-smart-lighting": "Philips Hue dhe ndriçim smart",
+    },
+  },
+  lighting: {
+    name: "Ndriçim",
+    description:
+      "Llamba LED, panele, shirita, ndriçim rrugor, ndriçim emergjent, spotlights dhe produkte të përgjithshme ndriçimi.",
+    subcategories: {
+      "emergency-lighting": "Ndriçim emergjent",
+      "led-lamps-and-spotlights": "Llamba LED dhe spotlights",
+      "led-panels": "Panele LED",
+      "led-strips": "Shirita LED",
+      "street-lighting": "Ndriçim rrugor",
+    },
+  },
+  "electrical-industrial": {
+    name: "Elektrike dhe industriale",
+    description:
+      "Mbrojtje elektrike, çelësa civilë, panele industriale, PLC/HMI, sensorë, instrumente matëse dhe komponentë automatizimi.",
+    subcategories: {
+      "circuit-breakers-and-rcds": "Automatë dhe RCD",
+      "civil-switches-and-sockets": "Çelësa dhe priza civile",
+      "frequency-inverters-and-motor-control": "Inverterë frekuence dhe kontroll motori",
+      "industrial-sensors": "Sensorë industrialë",
+      "measuring-instruments": "Instrumente matëse",
+      "panels-and-enclosures": "Panele dhe kuti mbrojtëse",
+      "plc-hmi-bms": "PLC / HMI / BMS",
+    },
+  },
+  "solar-photovoltaic": {
+    name: "Solare / Fotovoltaike",
+    description:
+      "Panele fotovoltaike, inverterë solarë, mbrojtje DC dhe komponentë instalimi për sisteme solare nga katalogu ITE.",
+    subcategories: {
+      "photovoltaic-panels": "Panele fotovoltaike",
+      "pv-structures-and-mounting": "Struktura dhe montim PV",
+      "solar-cables-and-connectors": "Kabllo dhe konektorë solarë",
+      "solar-inverters-and-smartlog": "Inverterë solarë dhe SmartLog",
+    },
+  },
+  "installation-materials-cables": {
+    name: "Materiale instalimi dhe kabllo",
+    description:
+      "Kanale kabllosh, tuba, kanale metalike, kuti muri, terminale, kabllo të përgjithshme dhe aksesorë instalimi.",
+    subcategories: {
+      "bus-cables": "Kabllo bus",
+      "cable-channels-and-ducts": "Kanale dhe duct kabllosh",
+      "conduits-and-tubes": "Tuba dhe kanale instalimi",
+      "fire-alarm-audio-cables": "Kabllo zjarri, alarmi dhe audio",
+      "general-power-cables": "Kabllo të përgjithshme energjie",
+      "junction-wall-distribution-boxes": "Kuti lidhëse, muri dhe shpërndarjeje",
+      "terminals-and-busbars": "Terminale dhe busbar",
+    },
+  },
+  "tools-accessories": {
+    name: "Vegla dhe aksesorë",
+    description:
+      "Vegla rrjeti, testues, etiketa, organizues, aksesorë të vegjël, mbajtëse, çanta dhe aksesorë për hapësirën e punës.",
+    subcategories: {
+      "hand-tools": "Vegla dore",
+      "measuring-tools": "Vegla matëse",
+      "network-testers-and-crimping-tools": "Testues rrjeti dhe vegla krimpimi",
+    },
+  },
+} as const satisfies Record<string, AssmannCategoryCopy>;
+
 const categoryMeta = {
   networking: {
     description:
@@ -164,6 +352,77 @@ const categoryMeta = {
   },
 } as const;
 
+function getSqCategoryCopy(categorySlug: string) {
+  return (sqCategoryCopy as Record<string, AssmannCategoryCopy>)[categorySlug];
+}
+
+function localizeCategoryName(category: RawCatalog["categories"][number], locale: Locale) {
+  return locale === "sq" ? getSqCategoryCopy(category.slug)?.name ?? category.name : category.name;
+}
+
+function localizeCategoryDescription(
+  category: RawCatalog["categories"][number],
+  fallback: string,
+  locale: Locale,
+) {
+  return locale === "sq" ? getSqCategoryCopy(category.slug)?.description ?? fallback : fallback;
+}
+
+function localizeSubcategoryName(
+  categorySlug: string,
+  subcategory: AssmannSubcategory,
+  locale: Locale,
+) {
+  return locale === "sq"
+    ? getSqCategoryCopy(categorySlug)?.subcategories[subcategory.slug] ?? subcategory.name
+    : subcategory.name;
+}
+
+function localizePlacement(placement: AssmannPlacement, locale: Locale): AssmannPlacement {
+  if (locale === "en") {
+    return placement;
+  }
+
+  const category = rawCatalog.categories.find((item) => item.slug === placement.categorySlug);
+  const subcategory = category?.subcategories.find(
+    (item) => item.slug === placement.subcategorySlug,
+  );
+
+  return {
+    ...placement,
+    category: category
+      ? localizeCategoryName(category, locale)
+      : getSqCategoryCopy(placement.categorySlug)?.name ?? placement.category,
+    subcategory: subcategory
+      ? localizeSubcategoryName(placement.categorySlug, subcategory, locale)
+      : getSqCategoryCopy(placement.categorySlug)?.subcategories[placement.subcategorySlug] ??
+        placement.subcategory,
+  };
+}
+
+function localizeProductPlacements(product: AssmannProduct, locale: Locale): AssmannProduct {
+  if (locale === "en") {
+    return product;
+  }
+
+  const tagTranslations = new Map<string, string>();
+  for (const category of rawCatalog.categories) {
+    tagTranslations.set(category.name, localizeCategoryName(category, locale));
+    for (const subcategory of category.subcategories) {
+      tagTranslations.set(
+        subcategory.name,
+        localizeSubcategoryName(category.slug, subcategory, locale),
+      );
+    }
+  }
+
+  return {
+    ...product,
+    placements: product.placements.map((placement) => localizePlacement(placement, locale)),
+    tags: product.tags?.map((tag) => tagTranslations.get(tag) ?? tag),
+  };
+}
+
 const legacyCategorySlugRedirects = {
   "smart-home": "smart-home-automation",
 } as const;
@@ -172,8 +431,8 @@ const productBySku = new Map(rawCatalog.products.map((product) => [product.sku, 
 
 export const assmannCatalogSource = rawCatalog.source;
 
-export function getAssmannProducts() {
-  return rawCatalog.products;
+export function getAssmannProducts(locale: Locale = "en") {
+  return rawCatalog.products.map((product) => localizeProductPlacements(product, locale));
 }
 
 export function getAssmannProductBySlug(slug: string) {
@@ -228,7 +487,7 @@ export function getLegacyProductCategorySlug(slug: string) {
   return legacyCategorySlugRedirects[slug as keyof typeof legacyCategorySlugRedirects] ?? null;
 }
 
-export function getAssmannCategories(): AssmannCategory[] {
+export function getAssmannCategories(locale: Locale = "en"): AssmannCategory[] {
   return rawCatalog.categories.map((category) => {
     const meta = categoryMeta[category.slug as keyof typeof categoryMeta] ?? {
       description: "Products imported from the official source catalogs.",
@@ -237,14 +496,18 @@ export function getAssmannCategories(): AssmannCategory[] {
     };
     const subcategories = category.subcategories.map((subcategory) => ({
       ...subcategory,
+      name: localizeSubcategoryName(category.slug, subcategory, locale),
       products: subcategory.productSkus
         .map((sku) => productBySku.get(sku))
-        .filter((product): product is AssmannProduct => Boolean(product)),
+        .filter((product): product is AssmannProduct => Boolean(product))
+        .map((product) => localizeProductPlacements(product, locale)),
     }));
 
     return {
       ...category,
       ...meta,
+      name: localizeCategoryName(category, locale),
+      description: localizeCategoryDescription(category, meta.description, locale),
       subcategories,
       productCount: new Set(category.subcategories.flatMap((subcategory) => subcategory.productSkus))
         .size,
@@ -252,8 +515,8 @@ export function getAssmannCategories(): AssmannCategory[] {
   });
 }
 
-export function getAssmannCategoryBySlug(slug: string) {
-  return getAssmannCategories().find((category) => category.slug === slug) ?? null;
+export function getAssmannCategoryBySlug(slug: string, locale: Locale = "en") {
+  return getAssmannCategories(locale).find((category) => category.slug === slug) ?? null;
 }
 
 export function getProductDetailHref(
@@ -288,10 +551,8 @@ export function getRelatedAssmannProducts(product: AssmannProduct, limit = 4) {
     .slice(0, limit);
 }
 
-export function getAssmannHomeCategories(_locale: Locale): LocalizedCategory[] {
-  void _locale;
-
-  return getAssmannCategories().map((category) => ({
+export function getAssmannHomeCategories(locale: Locale): LocalizedCategory[] {
+  return getAssmannCategories(locale).map((category) => ({
     id: category.slug,
     slug: category.slug,
     title: category.name,
