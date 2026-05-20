@@ -1,8 +1,9 @@
-import Link from "next/link";
 import { LanguageSwitcher } from "@/components/shared/language-switcher";
 import { Logo } from "@/components/shared/logo";
 import { MobileSiteMenu } from "@/components/shared/mobile-site-menu";
-import { ProductsMegaMenu } from "@/components/shared/products-mega-menu";
+import { SiteDesktopNav } from "@/components/shared/site-desktop-nav";
+import { SiteHeaderChrome } from "@/components/shared/site-header-chrome";
+import Link from "next/link";
 import { getAssmannCategories } from "@/data/assmann-catalog";
 import { publicCopy } from "@/data/public-site";
 import type { Locale } from "@/lib/i18n";
@@ -30,29 +31,14 @@ export function SiteHeader({ locale }: { locale: Locale }) {
   const loginLabel = locale === "sq" ? "Hyr" : "Login";
 
   return (
-    <header className="sticky top-0 z-30 border-b border-black/6 bg-white/82 backdrop-blur-2xl">
+    <SiteHeaderChrome>
       <div className="mx-auto grid max-w-7xl grid-cols-[auto_1fr_auto] items-center gap-3 px-4 py-3 sm:px-6 md:px-10">
         <Logo href={`/${locale}`} />
-        <nav className="hidden items-center justify-self-center rounded-full border border-black/8 bg-white/78 px-2 py-1 text-sm font-medium text-[var(--color-muted)] shadow-[0_12px_30px_rgba(8,27,42,0.05)] md:flex">
-          {navItems.map((item) => (
-            item.products ? (
-              <ProductsMegaMenu
-                key={item.href}
-                locale={locale}
-                label={item.label}
-                categories={productCategories}
-              />
-            ) : (
-              <Link
-                key={item.href}
-                href={item.href}
-                className="rounded-full px-4 py-2 transition duration-200 hover:bg-[var(--color-accent-soft)] hover:text-[var(--color-foreground)]"
-              >
-                {item.label}
-              </Link>
-            )
-          ))}
-        </nav>
+        <SiteDesktopNav
+          locale={locale}
+          navItems={navItems}
+          productCategories={productCategories}
+        />
         <div className="hidden items-center justify-end gap-3 md:flex">
           <LanguageSwitcher locale={locale} />
           <Link
@@ -66,6 +52,6 @@ export function SiteHeader({ locale }: { locale: Locale }) {
           <MobileSiteMenu locale={locale} navItems={navItems} productCategories={productCategories} />
         </div>
       </div>
-    </header>
+    </SiteHeaderChrome>
   );
 }

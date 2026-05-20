@@ -3,6 +3,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { X } from "lucide-react";
+import type { CSSProperties } from "react";
 import { useEffect, useState } from "react";
 import type { LocalizedCategory } from "@/data/public-site";
 import type { Locale } from "@/lib/i18n";
@@ -136,7 +137,8 @@ export function HomeCategorySections({
           <section
             key={category.slug}
             id={`category-${category.slug}`}
-            className="scroll-mt-28 px-4 py-12 sm:px-6 md:px-10 md:py-16"
+            className="reveal scroll-mt-28 px-4 py-12 sm:px-6 md:px-10 md:py-16"
+            style={{ "--reveal-delay": `${Math.min(index, 5) * 60}ms` } as CSSProperties}
           >
             <div className="mx-auto grid max-w-7xl gap-10 lg:grid-cols-[0.92fr_1.08fr] lg:items-center">
               <div className={index % 2 === 1 ? "lg:order-2" : undefined}>
@@ -162,14 +164,14 @@ export function HomeCategorySections({
                   </Link>
                 </div>
               </div>
-              <div className="relative min-h-[380px] sm:min-h-[520px] lg:min-h-[590px]">
+              <div className="relative min-h-[380px] sm:min-h-[520px] lg:min-h-[590px]" data-parallax>
                 <Image
                   src={category.image}
                   alt={category.title}
                   fill
                   unoptimized={isRemoteImage(category.image)}
                   sizes="(min-width: 1024px) 48vw, 100vw"
-                  className="object-contain p-3 transition duration-700 ease-out hover:scale-[1.03] sm:p-6"
+                  className="image-zoom object-contain p-3 sm:p-6"
                 />
               </div>
             </div>

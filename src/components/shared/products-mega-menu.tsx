@@ -4,6 +4,7 @@ import Link from "next/link";
 import { ChevronDown, Grid2X2, PackageSearch } from "lucide-react";
 import { useState } from "react";
 import type { Locale } from "@/lib/i18n";
+import { cn } from "@/lib/utils";
 
 export type ProductMenuCategory = {
   name: string;
@@ -19,10 +20,12 @@ export function ProductsMegaMenu({
   locale,
   label,
   categories,
+  active = false,
 }: {
   locale: Locale;
   label: string;
   categories: ProductMenuCategory[];
+  active?: boolean;
 }) {
   const [isOpen, setIsOpen] = useState(false);
   const allProductsLabel = locale === "sq" ? "Të gjitha produktet" : "All Products";
@@ -39,7 +42,10 @@ export function ProductsMegaMenu({
       <button
         type="button"
         onClick={() => setIsOpen((current) => !current)}
-        className="inline-flex items-center gap-1 rounded-full px-4 py-2 transition duration-200 hover:bg-[var(--color-accent-soft)] hover:text-[var(--color-foreground)] focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-[rgba(0,107,150,0.16)]"
+        className={cn(
+          "premium-nav-link inline-flex items-center gap-1 focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-[rgba(0,107,150,0.16)]",
+          (active || isOpen) && "is-active text-[var(--color-foreground)]",
+        )}
         aria-expanded={isOpen}
         aria-haspopup="true"
       >
@@ -77,13 +83,13 @@ export function ProductsMegaMenu({
                   <Grid2X2 className="h-3.5 w-3.5" />
                   {categoryLabel}
                 </div>
-                <div className="grid gap-2 sm:grid-cols-2">
+                <div className="grid gap-x-3 sm:grid-cols-2">
                   {categories.map((category) => (
                     <Link
                       key={category.slug}
                       href={`/${locale}/products/${category.slug}`}
                       onClick={() => setIsOpen(false)}
-                      className="rounded-lg border border-transparent px-3 py-2.5 transition hover:border-[var(--color-line)] hover:bg-[#f7fafc]"
+                      className="rounded-lg border border-transparent border-t-[var(--color-line)] px-3 py-2.5 transition first:border-t-transparent hover:border-[var(--color-line)] hover:bg-[#f7fafc] sm:[&:nth-child(-n+2)]:border-t-transparent"
                     >
                       <span className="flex items-center justify-between gap-3">
                         <span className="text-sm font-semibold text-[var(--color-foreground)]">

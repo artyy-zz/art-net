@@ -12,7 +12,7 @@ import {
   SlidersHorizontal,
   X,
 } from "lucide-react";
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import type { AssmannCategory, AssmannProduct } from "@/data/assmann-catalog";
 import {
   getProductBrand,
@@ -252,6 +252,7 @@ export function AssmannCatalogBrowser({
     [categories],
   );
   const [query, setQuery] = useState("");
+  const [suggestionsOpen, setSuggestionsOpen] = useState(false);
   const [sidebarOpen, setSidebarOpen] = useState(false);
   const [selectedSubcategories, setSelectedSubcategories] = useState<string[]>([]);
   const [selectedSources, setSelectedSources] = useState<string[]>([]);
@@ -266,6 +267,29 @@ export function AssmannCatalogBrowser({
 
   const normalizedQuery = normalize(query.trim());
   const hasQuery = normalizedQuery.length > 0;
+  const searchRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    function closeSuggestions(event: MouseEvent) {
+      if (!searchRef.current?.contains(event.target as Node)) {
+        setSuggestionsOpen(false);
+      }
+    }
+
+    function closeOnEscape(event: KeyboardEvent) {
+      if (event.key === "Escape") {
+        setSuggestionsOpen(false);
+      }
+    }
+
+    document.addEventListener("mousedown", closeSuggestions);
+    window.addEventListener("keydown", closeOnEscape);
+
+    return () => {
+      document.removeEventListener("mousedown", closeSuggestions);
+      window.removeEventListener("keydown", closeOnEscape);
+    };
+  }, []);
 
   const subcategoryOptions = useMemo(() => {
     const categoryScope = activeCategory && !hasQuery ? [activeCategory] : categories;
@@ -414,6 +438,7 @@ export function AssmannCatalogBrowser({
 
   function clearFilters() {
     setQuery("");
+    setSuggestionsOpen(false);
     setSelectedSubcategories([]);
     setSelectedSources([]);
     setOnlyWithImages(false);
@@ -572,26 +597,92 @@ export function AssmannCatalogBrowser({
       <div className="sticky top-[69px] z-20 border-b border-[var(--color-line)] bg-white/94 px-4 py-4 backdrop-blur-xl sm:px-6 md:px-10">
         <div className="mx-auto max-w-4xl">
           <div className="relative flex items-center gap-2">
-            <label className="relative block min-w-0 flex-1">
+            <div ref={searchRef} className="relative min-w-0 flex-1">
+              <label className="relative block">
               <span className="sr-only">{labels.search}</span>
               <Search className="pointer-events-none absolute left-4 top-1/2 h-5 w-5 -translate-y-1/2 text-[var(--color-muted)]" />
               <input
                 value={query}
-                onChange={(event) => setQuery(event.target.value)}
+                onChange={(event) => {
+                  setQuery(event.target.value);
+                  setSuggestionsOpen(true);
+                }}
+                onFocus={() => setSuggestionsOpen(true)}
+                onKeyDown={(event) => {
+                  if (event.key === "Escape") {
+                    setSuggestionsOpen(false);
+                  }
+                }}
                 placeholder={labels.search}
                 className="h-13 w-full rounded-lg border border-[var(--color-line-strong)] bg-white px-12 text-sm font-medium text-[var(--color-foreground)] shadow-[0_12px_30px_rgba(8,27,42,0.04)] outline-none transition placeholder:text-[var(--color-muted)] focus:border-[var(--color-accent)] focus:ring-4 focus:ring-[rgba(0,107,150,0.14)]"
               />
               {query ? (
                 <button
                   type="button"
-                  onClick={() => setQuery("")}
+                  onClick={() => {
+                    setQuery("");
+                    setSuggestionsOpen(false);
+                  }}
                   className="absolute right-2 top-1/2 inline-flex h-9 w-9 -translate-y-1/2 items-center justify-center rounded-md text-[var(--color-muted)] transition hover:bg-black/5"
                   aria-label={labels.clear}
                 >
                   <X className="h-4 w-4" />
                 </button>
               ) : null}
-            </label>
+              </label>
+
+              {suggestionsOpen && suggestions.length > 0 ? (
+                <div className="absolute left-0 top-[calc(100%+0.75rem)] z-30 w-full rounded-lg border border-[var(--color-line)] bg-white p-2 shadow-[0_24px_70px_rgba(8,27,42,0.16)]">
+                  <p className="px-3 py-2 text-xs font-semibold uppercase tracking-[0.16em] text-[var(--color-muted)]">
+                    {labels.suggestions}
+                  </p>
+                  <div className="grid gap-1">
+                    {suggestions.map((product) => (
+                      <Link
+                        key={product.sku}
+                        href={getProductDetailHref(locale, product, activeCategory?.slug)}
+                        onClick={() => setSuggestionsOpen(false)}
+                        className="grid grid-cols-[44px_1fr] items-center gap-3 rounded-md px-3 py-2 transition hover:bg-[#f7fafc]"
+                      >
+                        <span className="relative flex aspect-square items-center justify-center overflow-hidden rounded bg-[#f7fafc] p-1">
+                          {getProductImage(product) ? (
+                            <Image
+                              src={getProductImage(product) ?? ""}
+                              alt={product.title || product.documentName}
+                              width={getProductImageMetadata(product, getProductImage(product))?.width ?? 44}
+                              height={getProductImageMetadata(product, getProductImage(product))?.height ?? 44}
+                              quality={90}
+                              sizes="44px"
+                              className="h-auto w-auto max-w-full object-contain"
+                              style={{
+                                maxWidth: `${Math.min(
+                                  getProductImageMetadata(product, getProductImage(product))?.width ?? 44,
+                                  36,
+                                )}px`,
+                                maxHeight: `${Math.min(
+                                  getProductImageMetadata(product, getProductImage(product))?.height ?? 44,
+                                  36,
+                                )}px`,
+                              }}
+                            />
+                          ) : (
+                            <PackageSearch className="m-3 h-5 w-5 text-[var(--color-muted)]" />
+                          )}
+                        </span>
+                        <span className="min-w-0">
+                          <span className="block truncate text-sm font-semibold text-[var(--color-foreground)]">
+                            <Highlight value={product.title || product.documentName} query={query} />
+                          </span>
+                          <span className="mt-0.5 block text-xs font-semibold text-[var(--color-accent-strong)]">
+                            <Highlight value={product.sku} query={query} />
+                          </span>
+                        </span>
+                      </Link>
+                    ))}
+                  </div>
+                </div>
+              ) : null}
+            </div>
             <button
               type="button"
               onClick={() => setSidebarOpen(true)}
@@ -602,56 +693,6 @@ export function AssmannCatalogBrowser({
             </button>
           </div>
 
-          {suggestions.length > 0 ? (
-            <div className="absolute left-1/2 top-[calc(100%-10px)] z-30 w-[min(840px,calc(100vw-2rem))] -translate-x-1/2 rounded-lg border border-[var(--color-line)] bg-white p-2 shadow-[0_24px_70px_rgba(8,27,42,0.16)]">
-              <p className="px-3 py-2 text-xs font-semibold uppercase tracking-[0.16em] text-[var(--color-muted)]">
-                {labels.suggestions}
-              </p>
-              <div className="grid gap-1">
-                {suggestions.map((product) => (
-                  <Link
-                    key={product.sku}
-                    href={getProductDetailHref(locale, product, activeCategory?.slug)}
-                    className="grid grid-cols-[44px_1fr] items-center gap-3 rounded-md px-3 py-2 transition hover:bg-[#f7fafc]"
-                  >
-                    <span className="relative flex aspect-square items-center justify-center overflow-hidden rounded bg-[#f7fafc] p-1">
-                      {getProductImage(product) ? (
-                        <Image
-                          src={getProductImage(product) ?? ""}
-                          alt={product.title || product.documentName}
-                          width={getProductImageMetadata(product, getProductImage(product))?.width ?? 44}
-                          height={getProductImageMetadata(product, getProductImage(product))?.height ?? 44}
-                          quality={90}
-                          sizes="44px"
-                          className="h-auto w-auto max-w-full object-contain"
-                          style={{
-                            maxWidth: `${Math.min(
-                              getProductImageMetadata(product, getProductImage(product))?.width ?? 44,
-                              36,
-                            )}px`,
-                            maxHeight: `${Math.min(
-                              getProductImageMetadata(product, getProductImage(product))?.height ?? 44,
-                              36,
-                            )}px`,
-                          }}
-                        />
-                      ) : (
-                        <PackageSearch className="m-3 h-5 w-5 text-[var(--color-muted)]" />
-                      )}
-                    </span>
-                    <span className="min-w-0">
-                      <span className="block truncate text-sm font-semibold text-[var(--color-foreground)]">
-                        <Highlight value={product.title || product.documentName} query={query} />
-                      </span>
-                      <span className="mt-0.5 block text-xs font-semibold text-[var(--color-accent-strong)]">
-                        <Highlight value={product.sku} query={query} />
-                      </span>
-                    </span>
-                  </Link>
-                ))}
-              </div>
-            </div>
-          ) : null}
         </div>
       </div>
 
@@ -689,7 +730,7 @@ export function AssmannCatalogBrowser({
           {sections.length > 0 ? (
             <div className="space-y-16">
               {sections.map((section) => (
-                <section key={section.id} className="min-w-0 scroll-mt-36">
+                <section key={section.id} className="reveal min-w-0 scroll-mt-36">
                   <div className="mb-4 flex flex-wrap items-end justify-between gap-3">
                     <div>
                       <p className="text-xs font-semibold uppercase tracking-[0.16em] text-[var(--color-muted)]">

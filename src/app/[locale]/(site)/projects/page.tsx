@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import type { CSSProperties } from "react";
 import { getLocalizedProjects, publicCopy } from "@/data/public-site";
 import { locales, type Locale } from "@/lib/i18n";
 import { buildPageMetadata } from "@/lib/seo";
@@ -25,7 +26,7 @@ export default async function ProjectsPage({
 
   return (
     <div className="bg-white">
-      <section className="px-4 py-14 sm:px-6 md:px-10 md:py-20">
+      <section className="reveal px-4 py-14 sm:px-6 md:px-10 md:py-20">
         <div className="mx-auto max-w-7xl">
           <div className="mx-auto max-w-5xl text-center">
             <p className="text-xs font-semibold uppercase tracking-[0.24em] text-[var(--color-accent-strong)]">
@@ -43,10 +44,11 @@ export default async function ProjectsPage({
 
       <section className="px-4 pb-16 sm:px-6 md:px-10 md:pb-24">
         <div className="mx-auto max-w-7xl space-y-8">
-          {projects.map((project) => (
+          {projects.map((project, index) => (
             <article
               key={project.id}
-              className="grid overflow-hidden rounded-[40px] border border-black/8 bg-[#f8fcfe] shadow-[0_26px_80px_rgba(8,27,42,0.08)] lg:grid-cols-[1fr_1fr]"
+              className="premium-lift reveal grid overflow-hidden rounded-[40px] border border-black/8 bg-[#f8fcfe] shadow-[0_26px_80px_rgba(8,27,42,0.08)] hover:shadow-[0_32px_92px_rgba(8,27,42,0.12)] lg:grid-cols-[1fr_1fr]"
+              style={{ "--reveal-delay": `${Math.min(index, 5) * 70}ms` } as CSSProperties}
             >
               <div className="relative flex min-h-[340px] items-center justify-center bg-[linear-gradient(180deg,#f5f7f8_0%,#e4e9ec_100%)]">
                 <div className="absolute inset-0 bg-[linear-gradient(135deg,transparent_0%,transparent_48%,rgba(8,27,42,0.08)_49%,rgba(8,27,42,0.08)_51%,transparent_52%,transparent_100%)]" />
@@ -70,7 +72,11 @@ export default async function ProjectsPage({
                       key={`${project.id}-${metric.value}`}
                       className="rounded-[22px] border border-black/8 bg-white p-4"
                     >
-                      <p className="text-2xl font-semibold text-[var(--color-foreground)]">
+                      <p
+                        className="text-2xl font-semibold text-[var(--color-foreground)]"
+                        data-counter
+                        data-counter-value={metric.value}
+                      >
                         {metric.value}
                       </p>
                       <p className="mt-1 text-sm leading-5 text-[var(--color-muted)]">
@@ -95,7 +101,7 @@ export default async function ProjectsPage({
         </div>
       </section>
 
-      <section className="px-4 pb-18 sm:px-6 md:px-10 md:pb-24">
+      <section className="reveal px-4 pb-18 sm:px-6 md:px-10 md:pb-24" data-parallax>
         <div className="mx-auto max-w-7xl rounded-[36px] bg-[var(--color-panel)] p-8 text-white shadow-[0_28px_80px_rgba(2,14,24,0.26)] sm:p-10">
           <h2 className="max-w-3xl break-words font-display text-3xl font-semibold leading-[1.08] md:text-5xl">
             {typedLocale === "sq"

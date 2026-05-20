@@ -45,7 +45,7 @@ function CategoryTile({
   return (
     <Link
       href={`/${locale}/products/${category.slug}`}
-      className="group grid grid-cols-[72px_1fr_auto] items-center gap-4 rounded-lg border border-[var(--color-line)] bg-white p-3 shadow-[0_12px_30px_rgba(8,27,42,0.05)] transition duration-300 hover:-translate-y-0.5 hover:border-[rgba(0,107,150,0.28)] hover:shadow-[0_18px_48px_rgba(8,27,42,0.09)]"
+      className="premium-lift group grid grid-cols-[72px_1fr_auto] items-center gap-4 rounded-lg border border-[var(--color-line)] bg-white p-3 shadow-[0_12px_30px_rgba(8,27,42,0.05)] hover:border-[rgba(0,107,150,0.28)] hover:shadow-[0_18px_48px_rgba(8,27,42,0.09)]"
     >
       <span className="relative aspect-square overflow-hidden">
         <Image
@@ -55,7 +55,7 @@ function CategoryTile({
           quality={90}
           unoptimized={isRemoteImage(category.image)}
           sizes="72px"
-          className="object-contain p-2 transition duration-500 group-hover:scale-[1.05]"
+          className="image-zoom object-contain p-2"
         />
       </span>
       <span className="min-w-0">
@@ -90,7 +90,7 @@ export function ProductListingPage({
 
   return (
     <div className="bg-[#f7fafc]">
-      <section className="border-b border-[var(--color-line)] bg-white px-4 py-8 sm:px-6 md:px-10">
+      <section className="reveal border-b border-[var(--color-line)] bg-white px-4 py-8 sm:px-6 md:px-10">
         <div className="mx-auto max-w-7xl">
           <nav className="flex flex-wrap items-center gap-2 text-sm font-medium text-[var(--color-muted)]">
             <Link href={`/${locale}`} className="hover:text-[var(--color-foreground)]">
@@ -123,7 +123,7 @@ export function ProductListingPage({
               ) : null}
             </div>
 
-            <div className="relative min-h-[260px] overflow-hidden rounded-lg border border-[var(--color-line)] bg-white shadow-[0_24px_70px_rgba(8,27,42,0.08)]">
+            <div className="relative min-h-[260px] overflow-hidden rounded-lg border border-[var(--color-line)] bg-white shadow-[0_24px_70px_rgba(8,27,42,0.08)]" data-parallax>
               <Image
                 src={heroImage}
                 alt={heroAlt}
@@ -132,7 +132,7 @@ export function ProductListingPage({
                 quality={90}
                 unoptimized={isRemoteImage(heroImage)}
                 sizes="(min-width: 1024px) 32vw, 100vw"
-                className="object-contain p-10"
+                className="image-zoom object-contain p-10"
               />
             </div>
           </div>
@@ -147,7 +147,7 @@ export function ProductListingPage({
       />
       <ProductScrollRestoration />
 
-      <section className="border-t border-[var(--color-line)] bg-white px-4 py-12 sm:px-6 md:px-10 md:py-16">
+      <section className="reveal border-t border-[var(--color-line)] bg-white px-4 py-12 sm:px-6 md:px-10 md:py-16">
         <div className="mx-auto max-w-7xl">
           <div className="flex flex-wrap items-end justify-between gap-4">
             <div>
