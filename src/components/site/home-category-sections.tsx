@@ -137,7 +137,9 @@ export function HomeCategorySections({
           <section
             key={category.slug}
             id={`category-${category.slug}`}
-            className="reveal scroll-mt-28 px-4 py-12 sm:px-6 md:px-10 md:py-16"
+            className={`reveal scroll-mt-28 px-4 py-12 sm:px-6 md:px-10 md:py-16 ${
+              index > 0 ? "border-t border-[var(--color-line)]" : ""
+            }`}
             style={{ "--reveal-delay": `${Math.min(index, 5) * 60}ms` } as CSSProperties}
           >
             <div className="mx-auto grid max-w-7xl gap-10 lg:grid-cols-[0.92fr_1.08fr] lg:items-center">

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
+  <title id="title">Product image pending</title>
+  <desc id="desc">Neutral placeholder for catalog products without an official image.</desc>
+  <rect width="1200" height="900" fill="#f4f7f9"/>
+  <rect x="90" y="90" width="1020" height="720" rx="28" fill="#ffffff" stroke="#d7e0e6" stroke-width="4"/>
+  <path d="M385 555h430l-120-140-94 104-56-62-160 178z" fill="#dce7ed"/>
+  <circle cx="480" cy="335" r="58" fill="#c8d6de"/>
+  <rect x="410" y="650" width="380" height="24" rx="12" fill="#c8d6de"/>
+  <rect x="485" y="696" width="230" height="18" rx="9" fill="#dce7ed"/>
+</svg>

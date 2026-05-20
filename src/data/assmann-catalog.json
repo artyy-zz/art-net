@@ -10227,7 +10227,9 @@
       "title": "Outdoor Surface Mount Box, IP44, with inlet",
       "description": "",
       "specifications": [],
-      "images": [],
+      "images": [
+        "/images/product-placeholder.svg"
+      ],
       "officialUrl": null,
       "officialSource": null,
       "foundOfficialPage": false,
@@ -10251,7 +10253,9 @@
       "title": "Outdoor Surface Mount Box for Keystone Modules, IP44",
       "description": "",
       "specifications": [],
-      "images": [],
+      "images": [
+        "/images/product-placeholder.svg"
+      ],
       "officialUrl": null,
       "officialSource": null,
       "foundOfficialPage": false,
@@ -10275,7 +10279,9 @@
       "title": "Inlet for Outdoor Surface Mount Box",
       "description": "",
       "specifications": [],
-      "images": [],
+      "images": [
+        "/images/product-placeholder.svg"
+      ],
       "officialUrl": null,
       "officialSource": null,
       "foundOfficialPage": false,
@@ -10772,7 +10778,9 @@
       "title": "Hirose Modular Plug, CAT 6 TM 21, 10 pieces",
       "description": "",
       "specifications": [],
-      "images": [],
+      "images": [
+        "/images/product-placeholder.svg"
+      ],
       "officialUrl": null,
       "officialSource": null,
       "foundOfficialPage": false,
@@ -11760,7 +11768,9 @@
       "title": "Stripping tool for data cable",
       "description": "",
       "specifications": [],
-      "images": [],
+      "images": [
+        "/images/products/dn-94001/01.jpg"
+      ],
       "officialUrl": null,
       "officialSource": null,
       "foundOfficialPage": false,
@@ -11775,6 +11785,14 @@
       "tags": [
         "Tools & Accessories",
         "Network Testers & Crimping Tools"
+      ],
+      "imageMetadata": [
+        {
+          "src": "/images/products/dn-94001/01.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 284238
+        }
       ]
     },
     {
@@ -12612,7 +12630,9 @@
       "title": "Industrial 8+2 port Fast Ethernet switch",
       "description": "",
       "specifications": [],
-      "images": [],
+      "images": [
+        "/images/product-placeholder.svg"
+      ],
       "officialUrl": null,
       "officialSource": null,
       "foundOfficialPage": false,
@@ -12731,7 +12751,9 @@
       "title": "Industrial 4+2 port Gigabit Ethernet switch",
       "description": "",
       "specifications": [],
-      "images": [],
+      "images": [
+        "/images/product-placeholder.svg"
+      ],
       "officialUrl": null,
       "officialSource": null,
       "foundOfficialPage": false,
@@ -12889,7 +12911,9 @@
       "title": "Industrial 8+2 port Gigabit Ethernet PoE switch",
       "description": "",
       "specifications": [],
-      "images": [],
+      "images": [
+        "/images/product-placeholder.svg"
+      ],
       "officialUrl": null,
       "officialSource": null,
       "foundOfficialPage": false,
@@ -13008,7 +13032,9 @@
       "title": "Industrial 4+2 Port L2 managed Gigabit Ethernet Switch",
       "description": "",
       "specifications": [],
-      "images": [],
+      "images": [
+        "/images/product-placeholder.svg"
+      ],
       "officialUrl": null,
       "officialSource": null,
       "foundOfficialPage": false,
@@ -13032,7 +13058,9 @@
       "title": "Industrial 4+2 port L2 managed Gigabit Ethernet PoE switch",
       "description": "",
       "specifications": [],
-      "images": [],
+      "images": [
+        "/images/product-placeholder.svg"
+      ],
       "officialUrl": null,
       "officialSource": null,
       "foundOfficialPage": false,
@@ -13953,7 +13981,9 @@
       "title": "10\" Gigabit 16-Port Unmanaged Switch",
       "description": "",
       "specifications": [],
-      "images": [],
+      "images": [
+        "/images/products/dn-80115/01.jpg"
+      ],
       "officialUrl": null,
       "officialSource": null,
       "foundOfficialPage": false,
@@ -13968,6 +13998,14 @@
       "tags": [
         "Networking",
         "Switches"
+      ],
+      "imageMetadata": [
+        {
+          "src": "/images/products/dn-80115/01.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 682485
+        }
       ]
     },
     {
@@ -14431,7 +14469,9 @@
       "title": "Industrial 5-Port Gigabit PoE Extender",
       "description": "",
       "specifications": [],
-      "images": [],
+      "images": [
+        "/images/product-placeholder.svg"
+      ],
       "officialUrl": null,
       "officialSource": null,
       "foundOfficialPage": false,
@@ -14455,7 +14495,9 @@
       "title": "DIGITUS Long Range PoE Extender 10/100 Mbit",
       "description": "",
       "specifications": [],
-      "images": [],
+      "images": [
+        "/images/product-placeholder.svg"
+      ],
       "officialUrl": null,
       "officialSource": null,
       "foundOfficialPage": false,
@@ -14979,7 +15021,9 @@
       "title": "DIGITUS Industrial Gigabit Media Converter RJ45, SC 0.5 km",
       "description": "",
       "specifications": [],
-      "images": [],
+      "images": [
+        "/images/product-placeholder.svg"
+      ],
       "officialUrl": null,
       "officialSource": null,
       "foundOfficialPage": false,
@@ -15968,7 +16012,9 @@
       "title": "10Gb/s SFP+SR MM 850nm 300m DDM Industrial",
       "description": "",
       "specifications": [],
-      "images": [],
+      "images": [
+        "/images/product-placeholder.svg"
+      ],
       "officialUrl": null,
       "officialSource": null,
       "foundOfficialPage": false,
@@ -16186,7 +16232,9 @@
       "title": "40G QSFP+ to 4XSFP+ Direct Attach Cable 5 m",
       "description": "",
       "specifications": [],
-      "images": [],
+      "images": [
+        "/images/product-placeholder.svg"
+      ],
       "officialUrl": null,
       "officialSource": null,
       "foundOfficialPage": false,
@@ -16408,7 +16456,9 @@
       "title": "QSFP+ 40G 5 m AOC cable",
       "description": "",
       "specifications": [],
-      "images": [],
+      "images": [
+        "/images/product-placeholder.svg"
+      ],
       "officialUrl": null,
       "officialSource": null,
       "foundOfficialPage": false,
@@ -16651,7 +16701,9 @@
       "title": "SFP+ 10 Gbps Bi-directional Module, Singlemode, 10 km",
       "description": "",
       "specifications": [],
-      "images": [],
+      "images": [
+        "/images/product-placeholder.svg"
+      ],
       "officialUrl": null,
       "officialSource": null,
       "foundOfficialPage": false,
@@ -17106,7 +17158,9 @@
         "microSD card / cloud recording support",
         "Outdoor wall mounting, IP65"
       ],
-      "images": [],
+      "images": [
+        "/images/product-placeholder.svg"
+      ],
       "officialUrl": "https://www.assmann.com/product-pdf/4016032478850?PL=en",
       "officialSource": "assmann.com",
       "foundOfficialPage": true,
@@ -17242,7 +17296,9 @@
       "title": "Network cabinet Varioflex-N Series - 800x800 mm, 42U, grey",
       "description": "",
       "specifications": [],
-      "images": [],
+      "images": [
+        "/images/product-placeholder.svg"
+      ],
       "officialUrl": null,
       "officialSource": null,
       "foundOfficialPage": false,
@@ -17266,7 +17322,9 @@
       "title": "Network cabinet Varioflex-N Series - 800x1000 mm, 42U, grey",
       "description": "",
       "specifications": [],
-      "images": [],
+      "images": [
+        "/images/product-placeholder.svg"
+      ],
       "officialUrl": null,
       "officialSource": null,
       "foundOfficialPage": false,
@@ -17719,7 +17777,9 @@
       "title": "Network cabinet Unique series - 800x1000 mm, 42U, double perforated doors, grey",
       "description": "",
       "specifications": [],
-      "images": [],
+      "images": [
+        "/images/product-placeholder.svg"
+      ],
       "officialUrl": null,
       "officialSource": null,
       "foundOfficialPage": false,
@@ -17743,7 +17803,9 @@
       "title": "Network cabinet Unique series - 800x1000 mm, 42U, perforated doors, grey",
       "description": "",
       "specifications": [],
-      "images": [],
+      "images": [
+        "/images/product-placeholder.svg"
+      ],
       "officialUrl": null,
       "officialSource": null,
       "foundOfficialPage": false,
@@ -17767,7 +17829,9 @@
       "title": "Network cabinet Dynamic Basic series - 600x600 mm, 22U, black",
       "description": "",
       "specifications": [],
-      "images": [],
+      "images": [
+        "/images/product-placeholder.svg"
+      ],
       "officialUrl": null,
       "officialSource": null,
       "foundOfficialPage": false,
@@ -18125,7 +18189,9 @@
       "title": "Network cabinet Dynamic Basic series - 600x600 mm, 26U, black",
       "description": "",
       "specifications": [],
-      "images": [],
+      "images": [
+        "/images/product-placeholder.svg"
+      ],
       "officialUrl": null,
       "officialSource": null,
       "foundOfficialPage": false,
@@ -18202,7 +18268,9 @@
       "title": "Network cabinet Dynamic Basic series - 600x800 mm, 26U, black",
       "description": "",
       "specifications": [],
-      "images": [],
+      "images": [
+        "/images/product-placeholder.svg"
+      ],
       "officialUrl": null,
       "officialSource": null,
       "foundOfficialPage": false,
@@ -18680,7 +18748,9 @@
       "title": "Network cabinet Dynamic Basic series - 600x800 mm, 32U, grey",
       "description": "",
       "specifications": [],
-      "images": [],
+      "images": [
+        "/images/product-placeholder.svg"
+      ],
       "officialUrl": null,
       "officialSource": null,
       "foundOfficialPage": false,
@@ -19197,7 +19267,9 @@
       "title": "Network cabinet Dynamic Basic series - 800x1000 mm, 42U, grey",
       "description": "",
       "specifications": [],
-      "images": [],
+      "images": [
+        "/images/product-placeholder.svg"
+      ],
       "officialUrl": null,
       "officialSource": null,
       "foundOfficialPage": false,
@@ -19650,7 +19722,9 @@
       "title": "Network cabinet Dynamic Basic series - 800x800 mm, 42U, black",
       "description": "",
       "specifications": [],
-      "images": [],
+      "images": [
+        "/images/product-placeholder.svg"
+      ],
       "officialUrl": null,
       "officialSource": null,
       "foundOfficialPage": false,
@@ -20272,7 +20346,9 @@
       "title": "Network cabinet Dynamic Basic series - 600x800 mm, 22U, grey",
       "description": "",
       "specifications": [],
-      "images": [],
+      "images": [
+        "/images/product-placeholder.svg"
+      ],
       "officialUrl": null,
       "officialSource": null,
       "foundOfficialPage": false,
@@ -20296,7 +20372,9 @@
       "title": "Network cabinet Dynamic Basic series - 600x800 mm, 26U, grey",
       "description": "",
       "specifications": [],
-      "images": [],
+      "images": [
+        "/images/product-placeholder.svg"
+      ],
       "officialUrl": null,
       "officialSource": null,
       "foundOfficialPage": false,
@@ -20320,7 +20398,9 @@
       "title": "Network cabinet Dynamic Basic series - 600x600 mm, 32U, grey",
       "description": "",
       "specifications": [],
-      "images": [],
+      "images": [
+        "/images/product-placeholder.svg"
+      ],
       "officialUrl": null,
       "officialSource": null,
       "foundOfficialPage": false,
@@ -20344,7 +20424,9 @@
       "title": "Network cabinet Dynamic Basic series - 600x600 mm, 42U, grey",
       "description": "",
       "specifications": [],
-      "images": [],
+      "images": [
+        "/images/product-placeholder.svg"
+      ],
       "officialUrl": null,
       "officialSource": null,
       "foundOfficialPage": false,
@@ -20368,7 +20450,9 @@
       "title": "Network cabinet Dynamic Basic series - 600x800 mm, 42U, grey",
       "description": "",
       "specifications": [],
-      "images": [],
+      "images": [
+        "/images/product-placeholder.svg"
+      ],
       "officialUrl": null,
       "officialSource": null,
       "foundOfficialPage": false,
@@ -20392,7 +20476,9 @@
       "title": "Network cabinet Dynamic Basic series - 800x800 mm, 42U, grey",
       "description": "",
       "specifications": [],
-      "images": [],
+      "images": [
+        "/images/product-placeholder.svg"
+      ],
       "officialUrl": null,
       "officialSource": null,
       "foundOfficialPage": false,
@@ -20416,7 +20502,9 @@
       "title": "Network cabinet Dynamic Basic series - 600x600 mm, 22U, grey",
       "description": "",
       "specifications": [],
-      "images": [],
+      "images": [
+        "/images/product-placeholder.svg"
+      ],
       "officialUrl": null,
       "officialSource": null,
       "foundOfficialPage": false,
@@ -20440,7 +20528,9 @@
       "title": "Network cabinet Dynamic Basic series - 600x600 mm, 26U, grey",
       "description": "",
       "specifications": [],
-      "images": [],
+      "images": [
+        "/images/product-placeholder.svg"
+      ],
       "officialUrl": null,
       "officialSource": null,
       "foundOfficialPage": false,
@@ -29420,7 +29510,9 @@
       "title": "Wall Mounting Cabinet Unique Series, double sectioned, 16U, black",
       "description": "",
       "specifications": [],
-      "images": [],
+      "images": [
+        "/images/product-placeholder.svg"
+      ],
       "officialUrl": null,
       "officialSource": null,
       "foundOfficialPage": false,
@@ -31194,7 +31286,9 @@
       "title": "Server Rack Unique Series - 600x1000 mm, 26U, grey",
       "description": "",
       "specifications": [],
-      "images": [],
+      "images": [
+        "/images/product-placeholder.svg"
+      ],
       "officialUrl": null,
       "officialSource": null,
       "foundOfficialPage": false,
@@ -31218,7 +31312,9 @@
       "title": "Server Rack Unique Series - 600x1000 mm, 26U, black",
       "description": "",
       "specifications": [],
-      "images": [],
+      "images": [
+        "/images/product-placeholder.svg"
+      ],
       "officialUrl": null,
       "officialSource": null,
       "foundOfficialPage": false,
@@ -31242,7 +31338,9 @@
       "title": "Server Rack Unique Series - 600x1000 mm, 26U, black, plexi glass front",
       "description": "",
       "specifications": [],
-      "images": [],
+      "images": [
+        "/images/product-placeholder.svg"
+      ],
       "officialUrl": null,
       "officialSource": null,
       "foundOfficialPage": false,
@@ -31266,7 +31364,9 @@
       "title": "Server Rack Unique Series - 600x1000 mm, 36U, black, plexi glass front",
       "description": "",
       "specifications": [],
-      "images": [],
+      "images": [
+        "/images/product-placeholder.svg"
+      ],
       "officialUrl": null,
       "officialSource": null,
       "foundOfficialPage": false,
@@ -31290,7 +31390,9 @@
       "title": "Server Rack Unique Series - 800x1000 mm, 42U, grey",
       "description": "",
       "specifications": [],
-      "images": [],
+      "images": [
+        "/images/product-placeholder.svg"
+      ],
       "officialUrl": null,
       "officialSource": null,
       "foundOfficialPage": false,
@@ -31314,7 +31416,9 @@
       "title": "Server Rack Unique Series - 800x1200 mm, 42U, grey",
       "description": "",
       "specifications": [],
-      "images": [],
+      "images": [
+        "/images/product-placeholder.svg"
+      ],
       "officialUrl": null,
       "officialSource": null,
       "foundOfficialPage": false,
@@ -31338,7 +31442,9 @@
       "title": "Server Rack Unique Series - 600x1000 mm, 42U, black",
       "description": "",
       "specifications": [],
-      "images": [],
+      "images": [
+        "/images/product-placeholder.svg"
+      ],
       "officialUrl": null,
       "officialSource": null,
       "foundOfficialPage": false,
@@ -31362,7 +31468,9 @@
       "title": "Server Rack Unique Series - 800x1000 mm, 42U, black",
       "description": "",
       "specifications": [],
-      "images": [],
+      "images": [
+        "/images/product-placeholder.svg"
+      ],
       "officialUrl": null,
       "officialSource": null,
       "foundOfficialPage": false,
@@ -31386,7 +31494,9 @@
       "title": "Server Rack Unique Series - 800x1200 mm, 42U, black",
       "description": "",
       "specifications": [],
-      "images": [],
+      "images": [
+        "/images/product-placeholder.svg"
+      ],
       "officialUrl": null,
       "officialSource": null,
       "foundOfficialPage": false,
@@ -31650,7 +31760,9 @@
       "title": "Swing handle with lock for network and server cabinets",
       "description": "",
       "specifications": [],
-      "images": [],
+      "images": [
+        "/images/product-placeholder.svg"
+      ],
       "officialUrl": null,
       "officialSource": null,
       "foundOfficialPage": false,
@@ -31674,7 +31786,10 @@
       "title": "Profile half cylinder for swivel handle",
       "description": "",
       "specifications": [],
-      "images": [],
+      "images": [
+        "/images/products/dn-19-phs/01.jpg",
+        "/images/products/dn-19-phs/02.jpg"
+      ],
       "officialUrl": null,
       "officialSource": null,
       "foundOfficialPage": false,
@@ -31689,6 +31804,20 @@
       "tags": [
         "Racks & Cabinets",
         "Rack Accessories"
+      ],
+      "imageMetadata": [
+        {
+          "src": "/images/products/dn-19-phs/01.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 505514
+        },
+        {
+          "src": "/images/products/dn-19-phs/02.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 427196
+        }
       ]
     },
     {
@@ -34295,7 +34424,9 @@
       "title": "Roof Cooling Unit for Unique Server Cabinets, 4 fans",
       "description": "",
       "specifications": [],
-      "images": [],
+      "images": [
+        "/images/product-placeholder.svg"
+      ],
       "officialUrl": null,
       "officialSource": null,
       "foundOfficialPage": false,
@@ -34319,7 +34450,9 @@
       "title": "Roof Cooling Unit for Unique Server Cabinets, 6 fans",
       "description": "",
       "specifications": [],
-      "images": [],
+      "images": [
+        "/images/product-placeholder.svg"
+      ],
       "officialUrl": null,
       "officialSource": null,
       "foundOfficialPage": false,
@@ -37401,7 +37534,9 @@
       "title": "Fiber Optic Patch Cord, E2000 APC to E2000 APC, 1 m",
       "description": "",
       "specifications": [],
-      "images": [],
+      "images": [
+        "/images/product-placeholder.svg"
+      ],
       "officialUrl": null,
       "officialSource": null,
       "foundOfficialPage": false,
@@ -37425,7 +37560,9 @@
       "title": "Fiber Optic Patch Cord, E2000 APC to E2000 APC, 2 m",
       "description": "",
       "specifications": [],
-      "images": [],
+      "images": [
+        "/images/product-placeholder.svg"
+      ],
       "officialUrl": null,
       "officialSource": null,
       "foundOfficialPage": false,
@@ -37449,7 +37586,9 @@
       "title": "Fiber Optic Patch Cord, E2000 APC to LC UPC, 1 m",
       "description": "",
       "specifications": [],
-      "images": [],
+      "images": [
+        "/images/product-placeholder.svg"
+      ],
       "officialUrl": null,
       "officialSource": null,
       "foundOfficialPage": false,
@@ -37473,7 +37612,9 @@
       "title": "Fiber Optic Patch Cord, E2000 APC to LC UPC, 2 m",
       "description": "",
       "specifications": [],
-      "images": [],
+      "images": [
+        "/images/product-placeholder.svg"
+      ],
       "officialUrl": null,
       "officialSource": null,
       "foundOfficialPage": false,
@@ -37497,7 +37638,9 @@
       "title": "Fiber Optic Patch Cord, E2000 APC to LC UPC, 3 m",
       "description": "",
       "specifications": [],
-      "images": [],
+      "images": [
+        "/images/product-placeholder.svg"
+      ],
       "officialUrl": null,
       "officialSource": null,
       "foundOfficialPage": false,
@@ -37521,7 +37664,9 @@
       "title": "Fiber Optic Patch Cord, E2000 APC to LC UPC, 5 m",
       "description": "",
       "specifications": [],
-      "images": [],
+      "images": [
+        "/images/product-placeholder.svg"
+      ],
       "officialUrl": null,
       "officialSource": null,
       "foundOfficialPage": false,
@@ -37545,7 +37690,9 @@
       "title": "Fiber Optic Patch Cord, E2000 APC to LC UPC, 10 m",
       "description": "",
       "specifications": [],
-      "images": [],
+      "images": [
+        "/images/product-placeholder.svg"
+      ],
       "officialUrl": null,
       "officialSource": null,
       "foundOfficialPage": false,
@@ -37914,7 +38061,9 @@
       "title": "Fiber Optic Multimode Patch Cord OM3, ST/SC, 1 m",
       "description": "",
       "specifications": [],
-      "images": [],
+      "images": [
+        "/images/product-placeholder.svg"
+      ],
       "officialUrl": null,
       "officialSource": null,
       "foundOfficialPage": false,
@@ -38007,7 +38156,9 @@
       "title": "Fiber Optic Multimode Patch Cord OM3, ST/SC, 3 m",
       "description": "",
       "specifications": [],
-      "images": [],
+      "images": [
+        "/images/product-placeholder.svg"
+      ],
       "officialUrl": null,
       "officialSource": null,
       "foundOfficialPage": false,
@@ -38583,7 +38734,9 @@
       "title": "Fiber Optic Multimode Patch Cord OM3, SC/SC, 5 m",
       "description": "",
       "specifications": [],
-      "images": [],
+      "images": [
+        "/images/product-placeholder.svg"
+      ],
       "officialUrl": null,
       "officialSource": null,
       "foundOfficialPage": false,
@@ -38607,7 +38760,9 @@
       "title": "Fiber Optic Multimode Patch Cord OM3, SC/SC, 10 m",
       "description": "",
       "specifications": [],
-      "images": [],
+      "images": [
+        "/images/product-placeholder.svg"
+      ],
       "officialUrl": null,
       "officialSource": null,
       "foundOfficialPage": false,
@@ -41263,7 +41418,9 @@
       "title": "Fiber Optic Singlemode Patch Cord LC/ST, 5 m",
       "description": "",
       "specifications": [],
-      "images": [],
+      "images": [
+        "/images/product-placeholder.svg"
+      ],
       "officialUrl": null,
       "officialSource": null,
       "foundOfficialPage": false,
@@ -41429,7 +41586,9 @@
       "title": "Fiber Optic Singlemode Patch Cord SC/SC, 3 m",
       "description": "",
       "specifications": [],
-      "images": [],
+      "images": [
+        "/images/product-placeholder.svg"
+      ],
       "officialUrl": null,
       "officialSource": null,
       "foundOfficialPage": false,
@@ -41523,7 +41682,9 @@
       "title": "Fiber Optic Singlemode Patch Cord SC/SC, 10 m",
       "description": "",
       "specifications": [],
-      "images": [],
+      "images": [
+        "/images/product-placeholder.svg"
+      ],
       "officialUrl": null,
       "officialSource": null,
       "foundOfficialPage": false,
@@ -42307,7 +42468,9 @@
       "title": "Colored pigtails, SC/APC OS2 09/125 µ, Simplex",
       "description": "",
       "specifications": [],
-      "images": [],
+      "images": [
+        "/images/product-placeholder.svg"
+      ],
       "officialUrl": null,
       "officialSource": null,
       "foundOfficialPage": false,
@@ -42945,7 +43108,9 @@
       "title": "Pre-assembled fiber optic universal breakout cable, OM4, 8 fibers, LC/UPC - LC/UPC, 150 m",
       "description": "",
       "specifications": [],
-      "images": [],
+      "images": [
+        "/images/product-placeholder.svg"
+      ],
       "officialUrl": null,
       "officialSource": null,
       "foundOfficialPage": false,
@@ -43145,7 +43310,9 @@
       "title": "Pre-assembled fiber optic universal breakout cable, OM4, 12 fibres, LC/UPC - LC/UPC, 75 m",
       "description": "",
       "specifications": [],
-      "images": [],
+      "images": [
+        "/images/product-placeholder.svg"
+      ],
       "officialUrl": null,
       "officialSource": null,
       "foundOfficialPage": false,
@@ -44610,7 +44777,9 @@
       "title": "SC/SC Duplex Coupler, OM4",
       "description": "",
       "specifications": [],
-      "images": [],
+      "images": [
+        "/images/product-placeholder.svg"
+      ],
       "officialUrl": null,
       "officialSource": null,
       "foundOfficialPage": false,
@@ -44634,7 +44803,9 @@
       "title": "LC/LC Duplex Coupler, OM4",
       "description": "",
       "specifications": [],
-      "images": [],
+      "images": [
+        "/images/products/dn-96019-1/01.jpg"
+      ],
       "officialUrl": null,
       "officialSource": null,
       "foundOfficialPage": false,
@@ -44649,6 +44820,14 @@
       "tags": [
         "Fiber Optics",
         "Fiber Couplers"
+      ],
+      "imageMetadata": [
+        {
+          "src": "/images/products/dn-96019-1/01.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 386557
+        }
       ]
     },
     {
@@ -44658,7 +44837,9 @@
       "title": "LC/LC Coupler, Multimode OM3",
       "description": "",
       "specifications": [],
-      "images": [],
+      "images": [
+        "/images/product-placeholder.svg"
+      ],
       "officialUrl": null,
       "officialSource": null,
       "foundOfficialPage": false,
@@ -44682,7 +44863,9 @@
       "title": "SC/SC Coupler, Singlemode",
       "description": "",
       "specifications": [],
-      "images": [],
+      "images": [
+        "/images/product-placeholder.svg"
+      ],
       "officialUrl": null,
       "officialSource": null,
       "foundOfficialPage": false,
@@ -44706,7 +44889,9 @@
       "title": "SC/SC Coupler, Multimode OM2",
       "description": "",
       "specifications": [],
-      "images": [],
+      "images": [
+        "/images/product-placeholder.svg"
+      ],
       "officialUrl": null,
       "officialSource": null,
       "foundOfficialPage": false,
@@ -44730,7 +44915,9 @@
       "title": "SC/SC Coupler, Multimode OM3",
       "description": "",
       "specifications": [],
-      "images": [],
+      "images": [
+        "/images/product-placeholder.svg"
+      ],
       "officialUrl": null,
       "officialSource": null,
       "foundOfficialPage": false,
@@ -44754,7 +44941,11 @@
       "title": "LC/LC Coupler, Singlemode",
       "description": "",
       "specifications": [],
-      "images": [],
+      "images": [
+        "/images/products/dn-96007-1/01.jpg",
+        "/images/products/dn-96007-1/02.jpg",
+        "/images/products/dn-96007-1/03.jpg"
+      ],
       "officialUrl": null,
       "officialSource": null,
       "foundOfficialPage": false,
@@ -44769,6 +44960,26 @@
       "tags": [
         "Fiber Optics",
         "Fiber Couplers"
+      ],
+      "imageMetadata": [
+        {
+          "src": "/images/products/dn-96007-1/01.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 409531
+        },
+        {
+          "src": "/images/products/dn-96007-1/02.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 395198
+        },
+        {
+          "src": "/images/products/dn-96007-1/03.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 370284
+        }
       ]
     },
     {
@@ -44824,7 +45035,9 @@
       "title": "SC/APC-SC/APC duplex coupler, Singlemode",
       "description": "",
       "specifications": [],
-      "images": [],
+      "images": [
+        "/images/product-placeholder.svg"
+      ],
       "officialUrl": null,
       "officialSource": null,
       "foundOfficialPage": false,
@@ -45095,7 +45308,9 @@
       "title": "SC/UPC Fiber Optic Fast connector, 10 pieces",
       "description": "",
       "specifications": [],
-      "images": [],
+      "images": [
+        "/images/product-placeholder.svg"
+      ],
       "officialUrl": null,
       "officialSource": null,
       "foundOfficialPage": false,
@@ -47436,7 +47651,9 @@
       "title": "Fiber Optic Splice Box, Sliding, 2U",
       "description": "",
       "specifications": [],
-      "images": [],
+      "images": [
+        "/images/product-placeholder.svg"
+      ],
       "officialUrl": null,
       "officialSource": null,
       "foundOfficialPage": false,
@@ -47460,7 +47677,9 @@
       "title": "Ftth Home Distribution Unit, 3 x LC/APC duplex",
       "description": "",
       "specifications": [],
-      "images": [],
+      "images": [
+        "/images/product-placeholder.svg"
+      ],
       "officialUrl": null,
       "officialSource": null,
       "foundOfficialPage": false,
@@ -47484,7 +47703,9 @@
       "title": "Fiber Optic Outdoor Distribution Box, 8x SC SX",
       "description": "",
       "specifications": [],
-      "images": [],
+      "images": [
+        "/images/product-placeholder.svg"
+      ],
       "officialUrl": null,
       "officialSource": null,
       "foundOfficialPage": false,
@@ -47551,7 +47772,9 @@
       "title": "FTTX enclosure, empty for 4 x SC SX, LC DX couplers",
       "description": "",
       "specifications": [],
-      "images": [],
+      "images": [
+        "/images/product-placeholder.svg"
+      ],
       "officialUrl": null,
       "officialSource": null,
       "foundOfficialPage": false,
@@ -48450,7 +48673,9 @@
       "title": "Splice cassette with 12 pigtails, pre-assembled, SC, OM4",
       "description": "",
       "specifications": [],
-      "images": [],
+      "images": [
+        "/images/product-placeholder.svg"
+      ],
       "officialUrl": null,
       "officialSource": null,
       "foundOfficialPage": false,
@@ -48707,7 +48932,9 @@
       "title": "Crimp splice protection",
       "description": "",
       "specifications": [],
-      "images": [],
+      "images": [
+        "/images/product-placeholder.svg"
+      ],
       "officialUrl": null,
       "officialSource": null,
       "foundOfficialPage": false,
@@ -48819,7 +49046,9 @@
       "title": "FTTX installation kit, pre-assembled, 4-fiber, LC/APC, 50 m",
       "description": "",
       "specifications": [],
-      "images": [],
+      "images": [
+        "/images/product-placeholder.svg"
+      ],
       "officialUrl": null,
       "officialSource": null,
       "foundOfficialPage": false,
@@ -49466,7 +49695,9 @@
       "title": "FTTH drop cable, singlemode, 4 fibers, 4 LC/APC, 30 m",
       "description": "",
       "specifications": [],
-      "images": [],
+      "images": [
+        "/images/products/dk-3904lca-30/01.jpg"
+      ],
       "officialUrl": null,
       "officialSource": null,
       "foundOfficialPage": false,
@@ -49481,6 +49712,14 @@
       "tags": [
         "Fiber Optics",
         "FTTX"
+      ],
+      "imageMetadata": [
+        {
+          "src": "/images/products/dk-3904lca-30/01.jpg",
+          "width": 1999,
+          "height": 1333,
+          "bytes": 140144
+        }
       ]
     },
     {
@@ -49761,7 +50000,9 @@
       "title": "Wall Outlet FTTH for 2x SC Simplex / LC Duplex",
       "description": "",
       "specifications": [],
-      "images": [],
+      "images": [
+        "/images/product-placeholder.svg"
+      ],
       "officialUrl": null,
       "officialSource": null,
       "foundOfficialPage": false,
@@ -50608,7 +50849,9 @@
       "title": "Cable Stripper for fibers of fiber optic installation cables",
       "description": "",
       "specifications": [],
-      "images": [],
+      "images": [
+        "/images/product-placeholder.svg"
+      ],
       "officialUrl": null,
       "officialSource": null,
       "foundOfficialPage": false,
@@ -50632,7 +50875,9 @@
       "title": "Kevlar clipper",
       "description": "",
       "specifications": [],
-      "images": [],
+      "images": [
+        "/images/product-placeholder.svg"
+      ],
       "officialUrl": null,
       "officialSource": null,
       "foundOfficialPage": false,
@@ -51585,7 +51830,9 @@
       "title": "Socket Strip with Aluminum Profile, 8-way safety socket, 2 m cable, IEC C20 plug",
       "description": "",
       "specifications": [],
-      "images": [],
+      "images": [
+        "/images/product-placeholder.svg"
+      ],
       "officialUrl": null,
       "officialSource": null,
       "foundOfficialPage": false,
@@ -51711,7 +51958,9 @@
       "title": "Socket strip with aluminum profile and surge protection, integrated line filter, 6 safety sockets, 2 m cable safety plug",
       "description": "",
       "specifications": [],
-      "images": [],
+      "images": [
+        "/images/product-placeholder.svg"
+      ],
       "officialUrl": null,
       "officialSource": null,
       "foundOfficialPage": false,
@@ -51960,7 +52209,9 @@
       "title": "Aluminum Outlet Strip, 6 safety outlets with circuit breaker",
       "description": "",
       "specifications": [],
-      "images": [],
+      "images": [
+        "/images/product-placeholder.svg"
+      ],
       "officialUrl": null,
       "officialSource": null,
       "foundOfficialPage": false,
@@ -52079,7 +52330,9 @@
       "title": "Multiple socket outlet with aluminum profile and overvoltage protection, integrated mains filter, 7-way socket outlet with earthing contact, 2 m supply cable, vertical mounting",
       "description": "",
       "specifications": [],
-      "images": [],
+      "images": [
+        "/images/product-placeholder.svg"
+      ],
       "officialUrl": null,
       "officialSource": null,
       "foundOfficialPage": false,
@@ -52251,7 +52504,10 @@
       "title": "aluminum outlet strip with pre-fuse, 8 safety outlets, 2 m supply IEC C14 plug",
       "description": "",
       "specifications": [],
-      "images": [],
+      "images": [
+        "/images/products/dn-95410/01.jpg",
+        "/images/products/dn-95410/02.jpg"
+      ],
       "officialUrl": null,
       "officialSource": null,
       "foundOfficialPage": false,
@@ -52266,6 +52522,20 @@
       "tags": [
         "Power",
         "Rack PDUs"
+      ],
+      "imageMetadata": [
+        {
+          "src": "/images/products/dn-95410/01.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 330417
+        },
+        {
+          "src": "/images/products/dn-95410/02.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 401177
+        }
       ]
     },
     {
@@ -52377,7 +52647,9 @@
       "title": "aluminium outlet strip, 3 safety outlets, 2 m supply safety plug",
       "description": "",
       "specifications": [],
-      "images": [],
+      "images": [
+        "/images/product-placeholder.svg"
+      ],
       "officialUrl": null,
       "officialSource": null,
       "foundOfficialPage": false,
@@ -52591,7 +52863,9 @@
       "title": "aluminum outlet strip with overload protection, 7 safety outlets, 2 m supply safety plug",
       "description": "",
       "specifications": [],
-      "images": [],
+      "images": [
+        "/images/product-placeholder.svg"
+      ],
       "officialUrl": null,
       "officialSource": null,
       "foundOfficialPage": false,
@@ -52710,7 +52984,9 @@
       "title": "Multiple socket outlet with aluminium profile, 4x C13, 4x C19, 2x 16A plug, open end",
       "description": "",
       "specifications": [],
-      "images": [],
+      "images": [
+        "/images/product-placeholder.svg"
+      ],
       "officialUrl": null,
       "officialSource": null,
       "foundOfficialPage": false,
@@ -52734,7 +53010,9 @@
       "title": "Socket strip with aluminum profile and surge protection, integrated line filter, 7-way Italian socket, 2 m cable Italian plug",
       "description": "",
       "specifications": [],
-      "images": [],
+      "images": [
+        "/images/product-placeholder.svg"
+      ],
       "officialUrl": null,
       "officialSource": null,
       "foundOfficialPage": false,
@@ -52758,7 +53036,9 @@
       "title": "Smart PDU, Outlet monitored, 1-phase, 16 A, 16 x C13",
       "description": "",
       "specifications": [],
-      "images": [],
+      "images": [
+        "/images/product-placeholder.svg"
+      ],
       "officialUrl": null,
       "officialSource": null,
       "foundOfficialPage": false,
@@ -55031,7 +55311,9 @@
       "title": "USB-C Charger, 2-port, 65W GaN",
       "description": "",
       "specifications": [],
-      "images": [],
+      "images": [
+        "/images/product-placeholder.svg"
+      ],
       "officialUrl": null,
       "officialSource": null,
       "foundOfficialPage": false,
@@ -55055,7 +55337,9 @@
       "title": "USB Charger 2x USB-A, 15.5W",
       "description": "",
       "specifications": [],
-      "images": [],
+      "images": [
+        "/images/product-placeholder.svg"
+      ],
       "officialUrl": null,
       "officialSource": null,
       "foundOfficialPage": false,
@@ -55079,7 +55363,9 @@
       "title": "USB Charger 1x USB-A / 1x USB-C, 30W",
       "description": "",
       "specifications": [],
-      "images": [],
+      "images": [
+        "/images/product-placeholder.svg"
+      ],
       "officialUrl": null,
       "officialSource": null,
       "foundOfficialPage": false,
@@ -55395,7 +55681,9 @@
       "title": "Universal Charging Adapter, USB-C™, 20 W",
       "description": "",
       "specifications": [],
-      "images": [],
+      "images": [
+        "/images/product-placeholder.svg"
+      ],
       "officialUrl": null,
       "officialSource": null,
       "foundOfficialPage": false,
@@ -55514,7 +55802,9 @@
       "title": "Universal USB Plug-in Charger with 2 x USB-A Sockets and Integrated Socket",
       "description": "",
       "specifications": [],
-      "images": [],
+      "images": [
+        "/images/product-placeholder.svg"
+      ],
       "officialUrl": null,
       "officialSource": null,
       "foundOfficialPage": false,
@@ -55538,7 +55828,9 @@
       "title": "4-Port Universal USB Charging Adapter, USB Type-C™",
       "description": "",
       "specifications": [],
-      "images": [],
+      "images": [
+        "/images/product-placeholder.svg"
+      ],
       "officialUrl": null,
       "officialSource": null,
       "foundOfficialPage": false,
@@ -55678,7 +55970,9 @@
       "title": "Quick Charge™ 3.0 Car Charger, Dual Port",
       "description": "",
       "specifications": [],
-      "images": [],
+      "images": [
+        "/images/product-placeholder.svg"
+      ],
       "officialUrl": null,
       "officialSource": null,
       "foundOfficialPage": false,
@@ -56599,7 +56893,9 @@
       "title": "Passive PoE Wall Mount Box, RJ45/DC/PoE",
       "description": "",
       "specifications": [],
-      "images": [],
+      "images": [
+        "/images/product-placeholder.svg"
+      ],
       "officialUrl": null,
       "officialSource": null,
       "foundOfficialPage": false,
@@ -56623,7 +56919,9 @@
       "title": "Gigabit Ethernet PoE Ultra Injector, 802.3af/at, 60 W",
       "description": "",
       "specifications": [],
-      "images": [],
+      "images": [
+        "/images/products/dn-95104/01.jpg"
+      ],
       "officialUrl": null,
       "officialSource": null,
       "foundOfficialPage": false,
@@ -56638,6 +56936,14 @@
       "tags": [
         "Networking",
         "PoE Injectors / Splitters / Extenders"
+      ],
+      "imageMetadata": [
+        {
+          "src": "/images/products/dn-95104/01.jpg",
+          "width": 1999,
+          "height": 1333,
+          "bytes": 230281
+        }
       ]
     },
     {
@@ -57245,7 +57551,9 @@
       "title": "Gigabit Ethernet PoE+ injector, 802.3at, 30 W",
       "description": "",
       "specifications": [],
-      "images": [],
+      "images": [
+        "/images/product-placeholder.svg"
+      ],
       "officialUrl": null,
       "officialSource": null,
       "foundOfficialPage": false,
@@ -57269,7 +57577,9 @@
       "title": "2 Port Gigabit 4PPoE Extender, 802.3at, 60 W",
       "description": "",
       "specifications": [],
-      "images": [],
+      "images": [
+        "/images/product-placeholder.svg"
+      ],
       "officialUrl": null,
       "officialSource": null,
       "foundOfficialPage": false,
@@ -57293,7 +57603,9 @@
       "title": "Gigabit Active 802.3af PoE Midspan",
       "description": "",
       "specifications": [],
-      "images": [],
+      "images": [
+        "/images/product-placeholder.svg"
+      ],
       "officialUrl": null,
       "officialSource": null,
       "foundOfficialPage": false,
@@ -61855,7 +62167,9 @@
       "title": "4K HDMI extender via CAT / IP (set)",
       "description": "",
       "specifications": [],
-      "images": [],
+      "images": [
+        "/images/product-placeholder.svg"
+      ],
       "officialUrl": null,
       "officialSource": null,
       "foundOfficialPage": false,
@@ -61879,7 +62193,9 @@
       "title": "4K HDMI extender via CAT / IP (receiver unit)",
       "description": "",
       "specifications": [],
-      "images": [],
+      "images": [
+        "/images/product-placeholder.svg"
+      ],
       "officialUrl": null,
       "officialSource": null,
       "foundOfficialPage": false,
@@ -61991,7 +62307,9 @@
       "title": "4K HDMI extender via CAT/IP (receiver unit), PoE",
       "description": "",
       "specifications": [],
-      "images": [],
+      "images": [
+        "/images/product-placeholder.svg"
+      ],
       "officialUrl": null,
       "officialSource": null,
       "foundOfficialPage": false,
@@ -62613,7 +62931,9 @@
       "title": "HDMI HDBaseT™ 3.0 Extender Set, 100 m",
       "description": "",
       "specifications": [],
-      "images": [],
+      "images": [
+        "/images/product-placeholder.svg"
+      ],
       "officialUrl": null,
       "officialSource": null,
       "foundOfficialPage": false,
@@ -64515,7 +64835,9 @@
       "title": "VGA Switch 2 PCs, 1 Monitor",
       "description": "",
       "specifications": [],
-      "images": [],
+      "images": [
+        "/images/product-placeholder.svg"
+      ],
       "officialUrl": null,
       "officialSource": null,
       "foundOfficialPage": false,
@@ -64539,7 +64861,9 @@
       "title": "VGA Switch 4 PCs, 1 Monitor",
       "description": "",
       "specifications": [],
-      "images": [],
+      "images": [
+        "/images/product-placeholder.svg"
+      ],
       "officialUrl": null,
       "officialSource": null,
       "foundOfficialPage": false,
@@ -64862,7 +65186,9 @@
       "title": "4K HDMI Video Wall Controller, 2x2",
       "description": "",
       "specifications": [],
-      "images": [],
+      "images": [
+        "/images/product-placeholder.svg"
+      ],
       "officialUrl": null,
       "officialSource": null,
       "foundOfficialPage": false,
@@ -65184,7 +65510,9 @@
       "title": "4K DisplayPort Repeater",
       "description": "",
       "specifications": [],
-      "images": [],
+      "images": [
+        "/images/product-placeholder.svg"
+      ],
       "officialUrl": null,
       "officialSource": null,
       "foundOfficialPage": false,
@@ -65497,7 +65825,9 @@
       "title": "3-Port MST Video Hub (USB-C™ -> 3x HDMI)",
       "description": "",
       "specifications": [],
-      "images": [],
+      "images": [
+        "/images/product-placeholder.svg"
+      ],
       "officialUrl": null,
       "officialSource": null,
       "foundOfficialPage": false,
@@ -65521,7 +65851,9 @@
       "title": "3-Port MST Video Hub (USB-C™ -> 3x DisplayPort)",
       "description": "",
       "specifications": [],
-      "images": [],
+      "images": [
+        "/images/product-placeholder.svg"
+      ],
       "officialUrl": null,
       "officialSource": null,
       "foundOfficialPage": false,
@@ -66248,7 +66580,9 @@
       "title": "USB 3.2 Gen1 Fiber Extender, 5 Gbps, 4 ports: 3x USB-A / 1x USB-C, 300m",
       "description": "",
       "specifications": [],
-      "images": [],
+      "images": [
+        "/images/product-placeholder.svg"
+      ],
       "officialUrl": null,
       "officialSource": null,
       "foundOfficialPage": false,
@@ -68637,7 +68971,9 @@
       "title": "Single monitor mount, 32\", 8 kg",
       "description": "",
       "specifications": [],
-      "images": [],
+      "images": [
+        "/images/product-placeholder.svg"
+      ],
       "officialUrl": null,
       "officialSource": null,
       "foundOfficialPage": false,
@@ -68661,7 +68997,9 @@
       "title": "Dual monitor mount, 2x 32\", 2x 8 kg",
       "description": "",
       "specifications": [],
-      "images": [],
+      "images": [
+        "/images/product-placeholder.svg"
+      ],
       "officialUrl": null,
       "officialSource": null,
       "foundOfficialPage": false,
@@ -79534,7 +79872,9 @@
         "ITE category: INSTRUMENTA MATJE",
         "ITE category: VEGLA PUNE"
       ],
-      "images": [],
+      "images": [
+        "/images/product-placeholder.svg"
+      ],
       "officialUrl": "https://itegroup.al/product/laser-linear-gll-20-22-g-professional/",
       "officialSource": "itegroup.al",
       "foundOfficialPage": true,
@@ -79567,7 +79907,9 @@
         "ITE category: INSTRUMENTA MATJE",
         "ITE category: VEGLA PUNE"
       ],
-      "images": [],
+      "images": [
+        "/images/product-placeholder.svg"
+      ],
       "officialUrl": "https://itegroup.al/product/meter-laser-glm-40-2-bateri-15-v-lr03-aaa/",
       "officialSource": "itegroup.al",
       "foundOfficialPage": true,
@@ -79598,10 +79940,13 @@
         "Menu category visible on ITE homepage; Codex should scrape product list",
         "Brand: ITE",
         "ITE category: INSTRUMENTA MATJE",
-        "ITE category: VEGLA PUNE"
+        "ITE category: VEGLA PUNE",
+        "Brand: KPS"
       ],
-      "images": [],
-      "officialUrl": "https://itegroup.al/product/indikator-tensioni-12-1000-vac-pa-kontakt/",
+      "images": [
+        "/images/assmann-products/kpsdt120cbint/01.jpg"
+      ],
+      "officialUrl": "https://itegroup.al/produkt/indikator-tensioni-12-1000-vac-pa-kontakt-2/",
       "officialSource": "itegroup.al",
       "foundOfficialPage": true,
       "placements": [
@@ -79619,6 +79964,14 @@
         "itegroup.al",
         "Electrical & Industrial",
         "Measuring Instruments"
+      ],
+      "imageMetadata": [
+        {
+          "src": "/images/assmann-products/kpsdt120cbint/01.jpg",
+          "width": 284,
+          "height": 177,
+          "bytes": 1882
+        }
       ]
     },
     {
@@ -79631,10 +79984,13 @@
         "Menu category visible on ITE homepage; Codex should scrape product list",
         "Brand: ITE",
         "ITE category: INSTRUMENTA MATJE",
-        "ITE category: VEGLA PUNE"
+        "ITE category: VEGLA PUNE",
+        "Brand: KPS"
       ],
-      "images": [],
-      "officialUrl": "https://itegroup.al/product/multimeter-dixhital-1000v-10a-ac-dc-trms-fishanc/",
+      "images": [
+        "/images/assmann-products/kpsmt700cbint/01.jpg"
+      ],
+      "officialUrl": "https://itegroup.al/produkt/multimeter-dixhital-1000v-10a-ac-dc-trms-fishanc/",
       "officialSource": "itegroup.al",
       "foundOfficialPage": true,
       "placements": [
@@ -79652,6 +80008,14 @@
         "itegroup.al",
         "Electrical & Industrial",
         "Measuring Instruments"
+      ],
+      "imageMetadata": [
+        {
+          "src": "/images/assmann-products/kpsmt700cbint/01.jpg",
+          "width": 284,
+          "height": 177,
+          "bytes": 5628
+        }
       ]
     },
     {
@@ -81496,7 +81860,9 @@
         "ITE category: KASETA INDUSTRIALE",
         "ITE category: PANELE, KASETA"
       ],
-      "images": [],
+      "images": [
+        "/images/product-placeholder.svg"
+      ],
       "officialUrl": "https://itegroup.al/product/strukture-sf-2000x800x400/",
       "officialSource": "itegroup.al",
       "foundOfficialPage": true,
@@ -83360,8 +83726,10 @@
         "ITE category: ENERGJI",
         "ITE category: GJENERATOR"
       ],
-      "images": [],
-      "officialUrl": "https://itegroup.al/product/gjenerator-portabel-1f-2-2kva-benzine/",
+      "images": [
+        "/images/assmann-products/twfgeinv2200m/01.jpg"
+      ],
+      "officialUrl": "https://itegroup.al/produkt/gjenerator-portabel-1f-2-2kva-benzine/",
       "officialSource": "itegroup.al",
       "foundOfficialPage": true,
       "placements": [
@@ -83379,6 +83747,14 @@
         "itegroup.al",
         "Power",
         "Generators"
+      ],
+      "imageMetadata": [
+        {
+          "src": "/images/assmann-products/twfgeinv2200m/01.jpg",
+          "width": 800,
+          "height": 800,
+          "bytes": 55485
+        }
       ]
     },
     {
@@ -94096,9 +94472,9 @@
         "ITE category: KUTI MURI"
       ],
       "images": [
-        "https://itegroup.al/wp-content/uploads/2025/01/GW244031188-10.jpg"
+        "/images/assmann-products/gw24403/01.jpg"
       ],
-      "officialUrl": "https://itegroup.al/product/kuti-kv-per-3m-gw/",
+      "officialUrl": "https://itegroup.al/produkt/kuti-kv-per-3m-gw/",
       "officialSource": "itegroup.al",
       "foundOfficialPage": true,
       "placements": [
@@ -94120,7 +94496,7 @@
       ],
       "imageMetadata": [
         {
-          "src": "https://itegroup.al/wp-content/uploads/2025/01/GW244031188-10.jpg",
+          "src": "/images/assmann-products/gw24403/01.jpg",
           "width": 2000,
           "height": 2000,
           "bytes": 271641
@@ -98132,7 +98508,9 @@
         "ITE category: INSTALATIVE",
         "ITE category: KANALINE METALIKE"
       ],
-      "images": [],
+      "images": [
+        "/images/product-placeholder.svg"
+      ],
       "officialUrl": "https://itegroup.al/product/kanaline-hdg-50x60x3000-stampuar/",
       "officialSource": "itegroup.al",
       "foundOfficialPage": true,
@@ -105577,7 +105955,9 @@
         "ITE category: CIVILE",
         "ITE category: VIMAR, PLANA"
       ],
-      "images": [],
+      "images": [
+        "/images/product-placeholder.svg"
+      ],
       "officialUrl": "https://itegroup.al/product/prize-usb-ac-5v-2-4a-1m-bardhe/",
       "officialSource": "itegroup.al",
       "foundOfficialPage": true,
@@ -107796,9 +108176,9 @@
         "ITE category: VIMAR, ARKE"
       ],
       "images": [
-        "https://itegroup.al/wp-content/uploads/2024/09/VI19657.063592-1.jpg"
+        "/images/assmann-products/vi19657-06/01.jpg"
       ],
-      "officialUrl": "https://itegroup.al/product/pllake-klasike-7m-metal-bardhe-polare-arke/",
+      "officialUrl": "https://itegroup.al/produkt/pllake-klasike-7m-metal-bardhe-polare-arke/",
       "officialSource": "itegroup.al",
       "foundOfficialPage": true,
       "placements": [
@@ -107820,11 +108200,10 @@
       ],
       "imageMetadata": [
         {
-          "src": "https://itegroup.al/wp-content/uploads/2024/09/VI19657.063592-1.jpg",
+          "src": "/images/assmann-products/vi19657-06/01.jpg",
           "width": 339,
           "height": 149,
-          "bytes": 2358,
-          "low_quality_image": true
+          "bytes": 2358
         }
       ]
     },
@@ -112725,8 +113104,10 @@
         "ITE category: CIVILE",
         "ITE category: PRIZA SCHNEIDER"
       ],
-      "images": [],
-      "officialUrl": "https://itegroup.al/product/prize-shuko-ip40-16a-shine-din/",
+      "images": [
+        "/images/assmann-products/sha9a15310/01.jpg"
+      ],
+      "officialUrl": "https://itegroup.al/produkt/prize-shuko-ip40-16a-shine-din/",
       "officialSource": "itegroup.al",
       "foundOfficialPage": true,
       "placements": [
@@ -112745,6 +113126,14 @@
         "itegroup.al",
         "Electrical & Industrial",
         "Civil Switches & Sockets"
+      ],
+      "imageMetadata": [
+        {
+          "src": "/images/assmann-products/sha9a15310/01.jpg",
+          "width": 225,
+          "height": 225,
+          "bytes": 3762
+        }
       ]
     },
     {
@@ -114632,9 +115021,9 @@
         "ITE category: KABLLO"
       ],
       "images": [
-        "https://itegroup.al/wp-content/uploads/2025/01/GCFG16OR161KV3G44553-11.jpg"
+        "/images/assmann-products/gcfg16or161kv3g4/01.jpg"
       ],
-      "officialUrl": "https://itegroup.al/product/kabell-fg16or16-3g4mm/",
+      "officialUrl": "https://itegroup.al/produkt/kabell-fg16or16-3g4mm/",
       "officialSource": "itegroup.al",
       "foundOfficialPage": true,
       "placements": [
@@ -114656,11 +115045,10 @@
       ],
       "imageMetadata": [
         {
-          "src": "https://itegroup.al/wp-content/uploads/2025/01/GCFG16OR161KV3G44553-11.jpg",
+          "src": "/images/assmann-products/gcfg16or161kv3g4/01.jpg",
           "width": 323,
           "height": 156,
-          "bytes": 3700,
-          "low_quality_image": true
+          "bytes": 3700
         }
       ]
     },
@@ -116960,9 +117348,9 @@
         "ITE category: TV-SAT,CCTV"
       ],
       "images": [
-        "https://itegroup.al/wp-content/uploads/2025/01/FTEK200EM100703-11.jpg"
+        "/images/assmann-products/ftek200em100/01.jpg"
       ],
-      "officialUrl": "https://itegroup.al/product/kabell-koaksial-75-o-tv-humbje18db-100m-m100/",
+      "officialUrl": "https://itegroup.al/produkt/kabell-koaksial-75-o-tv-humbje18db-100m-m100/",
       "officialSource": "itegroup.al",
       "foundOfficialPage": true,
       "placements": [
@@ -116984,7 +117372,7 @@
       ],
       "imageMetadata": [
         {
-          "src": "https://itegroup.al/wp-content/uploads/2025/01/FTEK200EM100703-11.jpg",
+          "src": "/images/assmann-products/ftek200em100/01.jpg",
           "width": 1920,
           "height": 1080,
           "bytes": 189815
@@ -117001,10 +117389,13 @@
         "Scrape product list",
         "Brand: ITE",
         "ITE category: PINCA",
-        "ITE category: VEGLA PUNE"
+        "ITE category: VEGLA PUNE",
+        "Brand: UNIOR"
       ],
-      "images": [],
-      "officialUrl": "https://itegroup.al/product/pince-zhveshes-percjelles-0-5-6-mm/",
+      "images": [
+        "/images/assmann-products/un621552/01.jpg"
+      ],
+      "officialUrl": "https://itegroup.al/produkt/pince-zhveshes-percjelles-0-5-6-mm/",
       "officialSource": "itegroup.al",
       "foundOfficialPage": true,
       "placements": [
@@ -117022,6 +117413,14 @@
         "itegroup.al",
         "Tools & Accessories",
         "Hand Tools"
+      ],
+      "imageMetadata": [
+        {
+          "src": "/images/assmann-products/un621552/01.jpg",
+          "width": 256,
+          "height": 197,
+          "bytes": 3879
+        }
       ]
     },
     {
@@ -117394,9 +117793,9 @@
         "ITE category: VEGLA PUNE"
       ],
       "images": [
-        "https://itegroup.al/wp-content/uploads/2025/01/UN6079504508-9.jpg"
+        "/images/assmann-products/un607950/01.jpg"
       ],
-      "officialUrl": "https://itegroup.al/product/pince-terminale-0-25-16mm/",
+      "officialUrl": "https://itegroup.al/produkt/pince-terminale-0-25-16mm/",
       "officialSource": "itegroup.al",
       "foundOfficialPage": true,
       "placements": [
@@ -117418,11 +117817,10 @@
       ],
       "imageMetadata": [
         {
-          "src": "https://itegroup.al/wp-content/uploads/2025/01/UN6079504508-9.jpg",
+          "src": "/images/assmann-products/un607950/01.jpg",
           "width": 225,
           "height": 225,
-          "bytes": 4282,
-          "low_quality_image": true
+          "bytes": 4282
         }
       ]
     },
@@ -117791,10 +118189,13 @@
         "Scrape product list",
         "Brand: ITE",
         "ITE category: GERSHERE",
-        "ITE category: VEGLA PUNE"
+        "ITE category: VEGLA PUNE",
+        "Brand: CONTACT ITALIA"
       ],
-      "images": [],
-      "officialUrl": "https://itegroup.al/product/gershere-elektricisti-zhveshje-6mm2-prerje-70mm2/",
+      "images": [
+        "/images/assmann-products/ctute0002/01.jpg"
+      ],
+      "officialUrl": "https://itegroup.al/produkt/gershere-elektricisti-zhveshje-terminim-6mm2/",
       "officialSource": "itegroup.al",
       "foundOfficialPage": true,
       "placements": [
@@ -117812,6 +118213,14 @@
         "itegroup.al",
         "Tools & Accessories",
         "Hand Tools"
+      ],
+      "imageMetadata": [
+        {
+          "src": "/images/assmann-products/ctute0002/01.jpg",
+          "width": 259,
+          "height": 194,
+          "bytes": 6704
+        }
       ]
     },
     {
@@ -117824,10 +118233,13 @@
         "Scrape product list",
         "Brand: ITE",
         "ITE category: GERSHERE",
-        "ITE category: VEGLA PUNE"
+        "ITE category: VEGLA PUNE",
+        "Brand: CONTACT ITALIA"
       ],
-      "images": [],
-      "officialUrl": "https://itegroup.al/product/gershere-elektricisti-zhveshje-6mm2-prerje-50mm2/",
+      "images": [
+        "/images/assmann-products/ctute0001/01.jpg"
+      ],
+      "officialUrl": "https://itegroup.al/produkt/gershere-elektricisti-zhveshje-6mm2-prerje-50mm2/",
       "officialSource": "itegroup.al",
       "foundOfficialPage": true,
       "placements": [
@@ -117845,6 +118257,14 @@
         "itegroup.al",
         "Tools & Accessories",
         "Hand Tools"
+      ],
+      "imageMetadata": [
+        {
+          "src": "/images/assmann-products/ctute0001/01.jpg",
+          "width": 600,
+          "height": 600,
+          "bytes": 24916
+        }
       ]
     },
     {
@@ -117857,10 +118277,13 @@
         "Scrape product list",
         "Brand: ITE",
         "ITE category: KACAVIDA",
-        "ITE category: VEGLA PUNE"
+        "ITE category: VEGLA PUNE",
+        "Brand: UNIOR"
       ],
-      "images": [],
-      "officialUrl": "https://itegroup.al/product/komplet-me-5-kacavidaindikator-elektrike/",
+      "images": [
+        "/images/assmann-products/un617656/01.jpg"
+      ],
+      "officialUrl": "https://itegroup.al/produkt/komplet-me-5-kacavidaindikator-elektrike/",
       "officialSource": "itegroup.al",
       "foundOfficialPage": true,
       "placements": [
@@ -117878,6 +118301,14 @@
         "itegroup.al",
         "Tools & Accessories",
         "Hand Tools"
+      ],
+      "imageMetadata": [
+        {
+          "src": "/images/assmann-products/un617656/01.jpg",
+          "width": 800,
+          "height": 800,
+          "bytes": 50528
+        }
       ]
     },
     {
