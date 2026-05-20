@@ -10228,7 +10228,14 @@
       "description": "",
       "specifications": [],
       "images": [
-        "/images/product-placeholder.svg"
+        "/images/products/dn-93844-od-2/01.jpg",
+        "/images/products/dn-93844-od-2/02.jpg",
+        "/images/products/dn-93844-od-2/03.jpg",
+        "/images/products/dn-93844-od-2/04.jpg",
+        "/images/products/dn-93844-od-2/05.jpg",
+        "/images/products/dn-93844-od-2/06.jpg",
+        "/images/products/dn-93844-od-2/07.jpg",
+        "/images/products/dn-93844-od-2/08.jpg"
       ],
       "officialUrl": null,
       "officialSource": null,
@@ -10244,6 +10251,56 @@
       "tags": [
         "Networking",
         "Keystone Modules & Network Outlets"
+      ],
+      "imageMetadata": [
+        {
+          "src": "/images/products/dn-93844-od-2/01.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 508585
+        },
+        {
+          "src": "/images/products/dn-93844-od-2/02.jpg",
+          "width": 2019,
+          "height": 1361,
+          "bytes": 481777
+        },
+        {
+          "src": "/images/products/dn-93844-od-2/03.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 747086
+        },
+        {
+          "src": "/images/products/dn-93844-od-2/04.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 469240
+        },
+        {
+          "src": "/images/products/dn-93844-od-2/05.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 644280
+        },
+        {
+          "src": "/images/products/dn-93844-od-2/06.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 590400
+        },
+        {
+          "src": "/images/products/dn-93844-od-2/07.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 503048
+        },
+        {
+          "src": "/images/products/dn-93844-od-2/08.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 502741
+        }
       ]
     },
     {
@@ -10254,7 +10311,14 @@
       "description": "",
       "specifications": [],
       "images": [
-        "/images/product-placeholder.svg"
+        "/images/products/dn-93844-od/01.jpg",
+        "/images/products/dn-93844-od/02.jpg",
+        "/images/products/dn-93844-od/03.jpg",
+        "/images/products/dn-93844-od/04.jpg",
+        "/images/products/dn-93844-od/05.jpg",
+        "/images/products/dn-93844-od/06.jpg",
+        "/images/products/dn-93844-od/07.jpg",
+        "/images/products/dn-93844-od/08.jpg"
       ],
       "officialUrl": null,
       "officialSource": null,
@@ -10270,6 +10334,56 @@
       "tags": [
         "Networking",
         "Keystone Modules & Network Outlets"
+      ],
+      "imageMetadata": [
+        {
+          "src": "/images/products/dn-93844-od/01.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 560397
+        },
+        {
+          "src": "/images/products/dn-93844-od/02.jpg",
+          "width": 2019,
+          "height": 1361,
+          "bytes": 480754
+        },
+        {
+          "src": "/images/products/dn-93844-od/03.jpg",
+          "width": 2002,
+          "height": 1335,
+          "bytes": 691473
+        },
+        {
+          "src": "/images/products/dn-93844-od/04.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 461168
+        },
+        {
+          "src": "/images/products/dn-93844-od/05.jpg",
+          "width": 2024,
+          "height": 1369,
+          "bytes": 465676
+        },
+        {
+          "src": "/images/products/dn-93844-od/06.jpg",
+          "width": 2024,
+          "height": 1369,
+          "bytes": 854268
+        },
+        {
+          "src": "/images/products/dn-93844-od/07.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 507563
+        },
+        {
+          "src": "/images/products/dn-93844-od/08.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 276190
+        }
       ]
     },
     {
@@ -10280,7 +10394,14 @@
       "description": "",
       "specifications": [],
       "images": [
-        "/images/product-placeholder.svg"
+        "/images/products/dn-93844-od-1/01.jpg",
+        "/images/products/dn-93844-od-1/02.jpg",
+        "/images/products/dn-93844-od-1/03.jpg",
+        "/images/products/dn-93844-od-1/04.jpg",
+        "/images/products/dn-93844-od-1/05.jpg",
+        "/images/products/dn-93844-od-1/06.jpg",
+        "/images/products/dn-93844-od-1/07.jpg",
+        "/images/products/dn-93844-od-1/08.jpg"
       ],
       "officialUrl": null,
       "officialSource": null,
@@ -10296,6 +10417,56 @@
       "tags": [
         "Networking",
         "Keystone Modules & Network Outlets"
+      ],
+      "imageMetadata": [
+        {
+          "src": "/images/products/dn-93844-od-1/01.jpg",
+          "width": 2018,
+          "height": 1360,
+          "bytes": 338082
+        },
+        {
+          "src": "/images/products/dn-93844-od-1/02.jpg",
+          "width": 2019,
+          "height": 1361,
+          "bytes": 480754
+        },
+        {
+          "src": "/images/products/dn-93844-od-1/03.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 507563
+        },
+        {
+          "src": "/images/products/dn-93844-od-1/04.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 560397
+        },
+        {
+          "src": "/images/products/dn-93844-od-1/05.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 276190
+        },
+        {
+          "src": "/images/products/dn-93844-od-1/06.jpg",
+          "width": 2000,
+          "height": 1332,
+          "bytes": 228869
+        },
+        {
+          "src": "/images/products/dn-93844-od-1/07.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 478044
+        },
+        {
+          "src": "/images/products/dn-93844-od-1/08.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 478044
+        }
       ]
     },
     {
@@ -10779,7 +10950,8 @@
       "description": "",
       "specifications": [],
       "images": [
-        "/images/product-placeholder.svg"
+        "/images/products/a-mo6-8-8-hrs-10/01.jpg",
+        "/images/products/a-mo6-8-8-hrs-10/02.jpg"
       ],
       "officialUrl": null,
       "officialSource": null,
@@ -10795,6 +10967,20 @@
       "tags": [
         "Networking",
         "RJ45 Connectors & Plugs"
+      ],
+      "imageMetadata": [
+        {
+          "src": "/images/products/a-mo6-8-8-hrs-10/01.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 349308
+        },
+        {
+          "src": "/images/products/a-mo6-8-8-hrs-10/02.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 276593
+        }
       ]
     },
     {
@@ -14470,7 +14656,13 @@
       "description": "",
       "specifications": [],
       "images": [
-        "/images/product-placeholder.svg"
+        "/images/products/dn-651143/01.jpg",
+        "/images/products/dn-651143/02.jpg",
+        "/images/products/dn-651143/03.jpg",
+        "/images/products/dn-651143/04.jpg",
+        "/images/products/dn-651143/05.jpg",
+        "/images/products/dn-651143/06.jpg",
+        "/images/products/dn-651143/07.jpg"
       ],
       "officialUrl": null,
       "officialSource": null,
@@ -14486,6 +14678,50 @@
       "tags": [
         "Networking",
         "PoE Injectors / Splitters / Extenders"
+      ],
+      "imageMetadata": [
+        {
+          "src": "/images/products/dn-651143/01.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 607679
+        },
+        {
+          "src": "/images/products/dn-651143/02.jpg",
+          "width": 1333,
+          "height": 1333,
+          "bytes": 454627
+        },
+        {
+          "src": "/images/products/dn-651143/03.jpg",
+          "width": 1333,
+          "height": 1333,
+          "bytes": 694241
+        },
+        {
+          "src": "/images/products/dn-651143/04.jpg",
+          "width": 1333,
+          "height": 1333,
+          "bytes": 287517
+        },
+        {
+          "src": "/images/products/dn-651143/05.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 453926
+        },
+        {
+          "src": "/images/products/dn-651143/06.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 987217
+        },
+        {
+          "src": "/images/products/dn-651143/07.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 811900
+        }
       ]
     },
     {
@@ -14496,7 +14732,14 @@
       "description": "",
       "specifications": [],
       "images": [
-        "/images/product-placeholder.svg"
+        "/images/products/dn-95129/01.jpg",
+        "/images/products/dn-95129/02.jpg",
+        "/images/products/dn-95129/03.jpg",
+        "/images/products/dn-95129/04.jpg",
+        "/images/products/dn-95129/05.jpg",
+        "/images/products/dn-95129/06.jpg",
+        "/images/products/dn-95129/07.jpg",
+        "/images/products/dn-95129/08.jpg"
       ],
       "officialUrl": null,
       "officialSource": null,
@@ -14512,6 +14755,56 @@
       "tags": [
         "Networking",
         "PoE Injectors / Splitters / Extenders"
+      ],
+      "imageMetadata": [
+        {
+          "src": "/images/products/dn-95129/01.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 253696
+        },
+        {
+          "src": "/images/products/dn-95129/02.jpg",
+          "width": 1333,
+          "height": 1333,
+          "bytes": 1301006
+        },
+        {
+          "src": "/images/products/dn-95129/03.jpg",
+          "width": 1333,
+          "height": 1333,
+          "bytes": 536793
+        },
+        {
+          "src": "/images/products/dn-95129/04.jpg",
+          "width": 1333,
+          "height": 1333,
+          "bytes": 535207
+        },
+        {
+          "src": "/images/products/dn-95129/05.jpg",
+          "width": 1333,
+          "height": 1333,
+          "bytes": 537752
+        },
+        {
+          "src": "/images/products/dn-95129/06.jpg",
+          "width": 1333,
+          "height": 1333,
+          "bytes": 536828
+        },
+        {
+          "src": "/images/products/dn-95129/07.jpg",
+          "width": 1333,
+          "height": 1333,
+          "bytes": 376753
+        },
+        {
+          "src": "/images/products/dn-95129/08.jpg",
+          "width": 1333,
+          "height": 1333,
+          "bytes": 280252
+        }
       ]
     },
     {
@@ -15022,7 +15315,14 @@
       "description": "",
       "specifications": [],
       "images": [
-        "/images/product-placeholder.svg"
+        "/images/products/dn-652101-1/01.jpg",
+        "/images/products/dn-652101-1/02.jpg",
+        "/images/products/dn-652101-1/03.jpg",
+        "/images/products/dn-652101-1/04.jpg",
+        "/images/products/dn-652101-1/05.jpg",
+        "/images/products/dn-652101-1/06.jpg",
+        "/images/products/dn-652101-1/07.jpg",
+        "/images/products/dn-652101-1/08.jpg"
       ],
       "officialUrl": null,
       "officialSource": null,
@@ -15038,6 +15338,56 @@
       "tags": [
         "Networking",
         "Media Converters"
+      ],
+      "imageMetadata": [
+        {
+          "src": "/images/products/dn-652101-1/01.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 1342213
+        },
+        {
+          "src": "/images/products/dn-652101-1/02.jpg",
+          "width": 1333,
+          "height": 1333,
+          "bytes": 440977
+        },
+        {
+          "src": "/images/products/dn-652101-1/03.jpg",
+          "width": 1333,
+          "height": 1333,
+          "bytes": 489512
+        },
+        {
+          "src": "/images/products/dn-652101-1/04.jpg",
+          "width": 1333,
+          "height": 1333,
+          "bytes": 1184075
+        },
+        {
+          "src": "/images/products/dn-652101-1/05.jpg",
+          "width": 1333,
+          "height": 1333,
+          "bytes": 1472270
+        },
+        {
+          "src": "/images/products/dn-652101-1/06.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 1381516
+        },
+        {
+          "src": "/images/products/dn-652101-1/07.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 1521589
+        },
+        {
+          "src": "/images/products/dn-652101-1/08.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 1448289
+        }
       ]
     },
     {
@@ -16013,7 +16363,10 @@
       "description": "",
       "specifications": [],
       "images": [
-        "/images/product-placeholder.svg"
+        "/images/products/dn-81212/01.jpg",
+        "/images/products/dn-81212/02.jpg",
+        "/images/products/dn-81212/03.jpg",
+        "/images/products/dn-81212/04.jpg"
       ],
       "officialUrl": null,
       "officialSource": null,
@@ -16029,6 +16382,32 @@
       "tags": [
         "Networking",
         "SFP / DAC / AOC Modules"
+      ],
+      "imageMetadata": [
+        {
+          "src": "/images/products/dn-81212/01.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 500888
+        },
+        {
+          "src": "/images/products/dn-81212/02.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 761874
+        },
+        {
+          "src": "/images/products/dn-81212/03.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 444928
+        },
+        {
+          "src": "/images/products/dn-81212/04.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 404472
+        }
       ]
     },
     {
@@ -16233,7 +16612,11 @@
       "description": "",
       "specifications": [],
       "images": [
-        "/images/product-placeholder.svg"
+        "/images/products/dn-81325/01.jpg",
+        "/images/products/dn-81325/02.jpg",
+        "/images/products/dn-81325/03.jpg",
+        "/images/products/dn-81325/04.jpg",
+        "/images/products/dn-81325/05.jpg"
       ],
       "officialUrl": null,
       "officialSource": null,
@@ -16249,6 +16632,38 @@
       "tags": [
         "Networking",
         "SFP / DAC / AOC Modules"
+      ],
+      "imageMetadata": [
+        {
+          "src": "/images/products/dn-81325/01.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 576561
+        },
+        {
+          "src": "/images/products/dn-81325/02.jpg",
+          "width": 1333,
+          "height": 1333,
+          "bytes": 728545
+        },
+        {
+          "src": "/images/products/dn-81325/03.jpg",
+          "width": 1333,
+          "height": 1333,
+          "bytes": 266319
+        },
+        {
+          "src": "/images/products/dn-81325/04.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 441046
+        },
+        {
+          "src": "/images/products/dn-81325/05.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 353631
+        }
       ]
     },
     {
@@ -16457,7 +16872,7 @@
       "description": "",
       "specifications": [],
       "images": [
-        "/images/product-placeholder.svg"
+        "/images/products/dn-81312/01.jpg"
       ],
       "officialUrl": null,
       "officialSource": null,
@@ -16473,6 +16888,14 @@
       "tags": [
         "Networking",
         "SFP / DAC / AOC Modules"
+      ],
+      "imageMetadata": [
+        {
+          "src": "/images/products/dn-81312/01.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 360849
+        }
       ]
     },
     {
@@ -16702,7 +17125,12 @@
       "description": "",
       "specifications": [],
       "images": [
-        "/images/product-placeholder.svg"
+        "/images/products/dn-81205/01.jpg",
+        "/images/products/dn-81205/02.jpg",
+        "/images/products/dn-81205/03.jpg",
+        "/images/products/dn-81205/04.jpg",
+        "/images/products/dn-81205/05.jpg",
+        "/images/products/dn-81205/06.jpg"
       ],
       "officialUrl": null,
       "officialSource": null,
@@ -16718,6 +17146,44 @@
       "tags": [
         "Networking",
         "SFP / DAC / AOC Modules"
+      ],
+      "imageMetadata": [
+        {
+          "src": "/images/products/dn-81205/01.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 447547
+        },
+        {
+          "src": "/images/products/dn-81205/02.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 812610
+        },
+        {
+          "src": "/images/products/dn-81205/03.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 140305
+        },
+        {
+          "src": "/images/products/dn-81205/04.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 276180
+        },
+        {
+          "src": "/images/products/dn-81205/05.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 619234
+        },
+        {
+          "src": "/images/products/dn-81205/06.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 371932
+        }
       ]
     },
     {
@@ -17159,7 +17625,14 @@
         "Outdoor wall mounting, IP65"
       ],
       "images": [
-        "/images/product-placeholder.svg"
+        "/images/products/dn-18602/01.jpg",
+        "/images/products/dn-18602/02.jpg",
+        "/images/products/dn-18602/03.jpg",
+        "/images/products/dn-18602/04.jpg",
+        "/images/products/dn-18602/05.jpg",
+        "/images/products/dn-18602/06.jpg",
+        "/images/products/dn-18602/07.jpg",
+        "/images/products/dn-18602/08.jpg"
       ],
       "officialUrl": "https://www.assmann.com/product-pdf/4016032478850?PL=en",
       "officialSource": "assmann.com",
@@ -17178,7 +17651,57 @@
         "IP Cameras"
       ],
       "brand": "DIGITUS / ASSMANN",
-      "sourceLabel": "ASSMANN official datasheet"
+      "sourceLabel": "ASSMANN official datasheet",
+      "imageMetadata": [
+        {
+          "src": "/images/products/dn-18602/01.jpg",
+          "width": 1994,
+          "height": 1333,
+          "bytes": 228410
+        },
+        {
+          "src": "/images/products/dn-18602/02.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 150622
+        },
+        {
+          "src": "/images/products/dn-18602/03.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 175723
+        },
+        {
+          "src": "/images/products/dn-18602/04.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 170993
+        },
+        {
+          "src": "/images/products/dn-18602/05.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 180691
+        },
+        {
+          "src": "/images/products/dn-18602/06.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 159827
+        },
+        {
+          "src": "/images/products/dn-18602/07.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 922430
+        },
+        {
+          "src": "/images/products/dn-18602/08.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 1084995
+        }
+      ]
     },
     {
       "sku": "DN-31118",
@@ -17297,7 +17820,14 @@
       "description": "",
       "specifications": [],
       "images": [
-        "/images/product-placeholder.svg"
+        "/images/products/dn-43000/01.jpg",
+        "/images/products/dn-43000/02.jpg",
+        "/images/products/dn-43000/03.jpg",
+        "/images/products/dn-43000/04.jpg",
+        "/images/products/dn-43000/05.jpg",
+        "/images/products/dn-43000/06.jpg",
+        "/images/products/dn-43000/07.jpg",
+        "/images/products/dn-43000/08.jpg"
       ],
       "officialUrl": null,
       "officialSource": null,
@@ -17313,6 +17843,56 @@
       "tags": [
         "Racks & Cabinets",
         "Freestanding Racks & Cabinets"
+      ],
+      "imageMetadata": [
+        {
+          "src": "/images/products/dn-43000/01.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 249206
+        },
+        {
+          "src": "/images/products/dn-43000/02.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 218550
+        },
+        {
+          "src": "/images/products/dn-43000/03.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 477066
+        },
+        {
+          "src": "/images/products/dn-43000/04.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 1430513
+        },
+        {
+          "src": "/images/products/dn-43000/05.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 1119727
+        },
+        {
+          "src": "/images/products/dn-43000/06.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 1165405
+        },
+        {
+          "src": "/images/products/dn-43000/07.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 334822
+        },
+        {
+          "src": "/images/products/dn-43000/08.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 239321
+        }
       ]
     },
     {
@@ -17323,7 +17903,14 @@
       "description": "",
       "specifications": [],
       "images": [
-        "/images/product-placeholder.svg"
+        "/images/products/dn-43001/01.jpg",
+        "/images/products/dn-43001/02.jpg",
+        "/images/products/dn-43001/03.jpg",
+        "/images/products/dn-43001/04.jpg",
+        "/images/products/dn-43001/05.jpg",
+        "/images/products/dn-43001/06.jpg",
+        "/images/products/dn-43001/07.jpg",
+        "/images/products/dn-43001/08.jpg"
       ],
       "officialUrl": null,
       "officialSource": null,
@@ -17339,6 +17926,56 @@
       "tags": [
         "Racks & Cabinets",
         "Freestanding Racks & Cabinets"
+      ],
+      "imageMetadata": [
+        {
+          "src": "/images/products/dn-43001/01.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 263144
+        },
+        {
+          "src": "/images/products/dn-43001/02.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 186578
+        },
+        {
+          "src": "/images/products/dn-43001/03.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 344327
+        },
+        {
+          "src": "/images/products/dn-43001/04.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 938931
+        },
+        {
+          "src": "/images/products/dn-43001/05.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 923059
+        },
+        {
+          "src": "/images/products/dn-43001/06.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 238410
+        },
+        {
+          "src": "/images/products/dn-43001/07.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 885047
+        },
+        {
+          "src": "/images/products/dn-43001/08.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 912056
+        }
       ]
     },
     {
@@ -17778,7 +18415,14 @@
       "description": "",
       "specifications": [],
       "images": [
-        "/images/product-placeholder.svg"
+        "/images/products/dn-31128/01.jpg",
+        "/images/products/dn-31128/02.jpg",
+        "/images/products/dn-31128/03.jpg",
+        "/images/products/dn-31128/04.jpg",
+        "/images/products/dn-31128/05.jpg",
+        "/images/products/dn-31128/06.jpg",
+        "/images/products/dn-31128/07.jpg",
+        "/images/products/dn-31128/08.jpg"
       ],
       "officialUrl": null,
       "officialSource": null,
@@ -17794,6 +18438,56 @@
       "tags": [
         "Racks & Cabinets",
         "Freestanding Racks & Cabinets"
+      ],
+      "imageMetadata": [
+        {
+          "src": "/images/products/dn-31128/01.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 452897
+        },
+        {
+          "src": "/images/products/dn-31128/02.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 533571
+        },
+        {
+          "src": "/images/products/dn-31128/03.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 748551
+        },
+        {
+          "src": "/images/products/dn-31128/04.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 929798
+        },
+        {
+          "src": "/images/products/dn-31128/05.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 945455
+        },
+        {
+          "src": "/images/products/dn-31128/06.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 1130392
+        },
+        {
+          "src": "/images/products/dn-31128/07.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 523198
+        },
+        {
+          "src": "/images/products/dn-31128/08.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 906350
+        }
       ]
     },
     {
@@ -17804,7 +18498,14 @@
       "description": "",
       "specifications": [],
       "images": [
-        "/images/product-placeholder.svg"
+        "/images/products/dn-31126/01.jpg",
+        "/images/products/dn-31126/02.jpg",
+        "/images/products/dn-31126/03.jpg",
+        "/images/products/dn-31126/04.jpg",
+        "/images/products/dn-31126/05.jpg",
+        "/images/products/dn-31126/06.jpg",
+        "/images/products/dn-31126/07.jpg",
+        "/images/products/dn-31126/08.jpg"
       ],
       "officialUrl": null,
       "officialSource": null,
@@ -17820,6 +18521,56 @@
       "tags": [
         "Racks & Cabinets",
         "Freestanding Racks & Cabinets"
+      ],
+      "imageMetadata": [
+        {
+          "src": "/images/products/dn-31126/01.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 512177
+        },
+        {
+          "src": "/images/products/dn-31126/02.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 583695
+        },
+        {
+          "src": "/images/products/dn-31126/03.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 579614
+        },
+        {
+          "src": "/images/products/dn-31126/04.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 1150566
+        },
+        {
+          "src": "/images/products/dn-31126/05.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 987092
+        },
+        {
+          "src": "/images/products/dn-31126/06.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 1723158
+        },
+        {
+          "src": "/images/products/dn-31126/07.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 1086492
+        },
+        {
+          "src": "/images/products/dn-31126/08.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 994374
+        }
       ]
     },
     {
@@ -17830,7 +18581,14 @@
       "description": "",
       "specifications": [],
       "images": [
-        "/images/product-placeholder.svg"
+        "/images/products/dn-19-22u-6-6-db/01.jpg",
+        "/images/products/dn-19-22u-6-6-db/02.jpg",
+        "/images/products/dn-19-22u-6-6-db/03.jpg",
+        "/images/products/dn-19-22u-6-6-db/04.jpg",
+        "/images/products/dn-19-22u-6-6-db/05.jpg",
+        "/images/products/dn-19-22u-6-6-db/06.jpg",
+        "/images/products/dn-19-22u-6-6-db/07.jpg",
+        "/images/products/dn-19-22u-6-6-db/08.jpg"
       ],
       "officialUrl": null,
       "officialSource": null,
@@ -17846,6 +18604,56 @@
       "tags": [
         "Racks & Cabinets",
         "Freestanding Racks & Cabinets"
+      ],
+      "imageMetadata": [
+        {
+          "src": "/images/products/dn-19-22u-6-6-db/01.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 506754
+        },
+        {
+          "src": "/images/products/dn-19-22u-6-6-db/02.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 494846
+        },
+        {
+          "src": "/images/products/dn-19-22u-6-6-db/03.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 535112
+        },
+        {
+          "src": "/images/products/dn-19-22u-6-6-db/04.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 568402
+        },
+        {
+          "src": "/images/products/dn-19-22u-6-6-db/05.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 729977
+        },
+        {
+          "src": "/images/products/dn-19-22u-6-6-db/06.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 532853
+        },
+        {
+          "src": "/images/products/dn-19-22u-6-6-db/07.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 762147
+        },
+        {
+          "src": "/images/products/dn-19-22u-6-6-db/08.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 421061
+        }
       ]
     },
     {
@@ -18190,7 +18998,14 @@
       "description": "",
       "specifications": [],
       "images": [
-        "/images/product-placeholder.svg"
+        "/images/products/dn-19-26u-6-6-db/01.jpg",
+        "/images/products/dn-19-26u-6-6-db/02.jpg",
+        "/images/products/dn-19-26u-6-6-db/03.jpg",
+        "/images/products/dn-19-26u-6-6-db/04.jpg",
+        "/images/products/dn-19-26u-6-6-db/05.jpg",
+        "/images/products/dn-19-26u-6-6-db/06.jpg",
+        "/images/products/dn-19-26u-6-6-db/07.jpg",
+        "/images/products/dn-19-26u-6-6-db/08.jpg"
       ],
       "officialUrl": null,
       "officialSource": null,
@@ -18206,6 +19021,56 @@
       "tags": [
         "Racks & Cabinets",
         "Freestanding Racks & Cabinets"
+      ],
+      "imageMetadata": [
+        {
+          "src": "/images/products/dn-19-26u-6-6-db/01.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 406208
+        },
+        {
+          "src": "/images/products/dn-19-26u-6-6-db/02.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 352227
+        },
+        {
+          "src": "/images/products/dn-19-26u-6-6-db/03.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 401177
+        },
+        {
+          "src": "/images/products/dn-19-26u-6-6-db/04.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 339601
+        },
+        {
+          "src": "/images/products/dn-19-26u-6-6-db/05.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 349978
+        },
+        {
+          "src": "/images/products/dn-19-26u-6-6-db/06.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 352872
+        },
+        {
+          "src": "/images/products/dn-19-26u-6-6-db/07.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 373946
+        },
+        {
+          "src": "/images/products/dn-19-26u-6-6-db/08.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 481353
+        }
       ]
     },
     {
@@ -18269,7 +19134,14 @@
       "description": "",
       "specifications": [],
       "images": [
-        "/images/product-placeholder.svg"
+        "/images/products/dn-19-26u-6-8-db/01.jpg",
+        "/images/products/dn-19-26u-6-8-db/02.jpg",
+        "/images/products/dn-19-26u-6-8-db/03.jpg",
+        "/images/products/dn-19-26u-6-8-db/04.jpg",
+        "/images/products/dn-19-26u-6-8-db/05.jpg",
+        "/images/products/dn-19-26u-6-8-db/06.jpg",
+        "/images/products/dn-19-26u-6-8-db/07.jpg",
+        "/images/products/dn-19-26u-6-8-db/08.jpg"
       ],
       "officialUrl": null,
       "officialSource": null,
@@ -18285,6 +19157,56 @@
       "tags": [
         "Racks & Cabinets",
         "Freestanding Racks & Cabinets"
+      ],
+      "imageMetadata": [
+        {
+          "src": "/images/products/dn-19-26u-6-8-db/01.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 421061
+        },
+        {
+          "src": "/images/products/dn-19-26u-6-8-db/02.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 506754
+        },
+        {
+          "src": "/images/products/dn-19-26u-6-8-db/03.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 401177
+        },
+        {
+          "src": "/images/products/dn-19-26u-6-8-db/04.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 352227
+        },
+        {
+          "src": "/images/products/dn-19-26u-6-8-db/05.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 373946
+        },
+        {
+          "src": "/images/products/dn-19-26u-6-8-db/06.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 288573
+        },
+        {
+          "src": "/images/products/dn-19-26u-6-8-db/07.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 339601
+        },
+        {
+          "src": "/images/products/dn-19-26u-6-8-db/08.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 349978
+        }
       ]
     },
     {
@@ -18749,7 +19671,14 @@
       "description": "",
       "specifications": [],
       "images": [
-        "/images/product-placeholder.svg"
+        "/images/products/dn-19-32u-6-8-d/01.jpg",
+        "/images/products/dn-19-32u-6-8-d/02.jpg",
+        "/images/products/dn-19-32u-6-8-d/03.jpg",
+        "/images/products/dn-19-32u-6-8-d/04.jpg",
+        "/images/products/dn-19-32u-6-8-d/05.jpg",
+        "/images/products/dn-19-32u-6-8-d/06.jpg",
+        "/images/products/dn-19-32u-6-8-d/07.jpg",
+        "/images/products/dn-19-32u-6-8-d/08.jpg"
       ],
       "officialUrl": null,
       "officialSource": null,
@@ -18765,6 +19694,56 @@
       "tags": [
         "Racks & Cabinets",
         "Freestanding Racks & Cabinets"
+      ],
+      "imageMetadata": [
+        {
+          "src": "/images/products/dn-19-32u-6-8-d/01.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 402074
+        },
+        {
+          "src": "/images/products/dn-19-32u-6-8-d/02.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 228177
+        },
+        {
+          "src": "/images/products/dn-19-32u-6-8-d/03.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 554826
+        },
+        {
+          "src": "/images/products/dn-19-32u-6-8-d/04.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 670640
+        },
+        {
+          "src": "/images/products/dn-19-32u-6-8-d/05.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 564476
+        },
+        {
+          "src": "/images/products/dn-19-32u-6-8-d/06.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 542246
+        },
+        {
+          "src": "/images/products/dn-19-32u-6-8-d/07.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 470476
+        },
+        {
+          "src": "/images/products/dn-19-32u-6-8-d/08.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 436900
+        }
       ]
     },
     {
@@ -19268,7 +20247,14 @@
       "description": "",
       "specifications": [],
       "images": [
-        "/images/product-placeholder.svg"
+        "/images/products/dn-19-42u-8-10-d/01.jpg",
+        "/images/products/dn-19-42u-8-10-d/02.jpg",
+        "/images/products/dn-19-42u-8-10-d/03.jpg",
+        "/images/products/dn-19-42u-8-10-d/04.jpg",
+        "/images/products/dn-19-42u-8-10-d/05.jpg",
+        "/images/products/dn-19-42u-8-10-d/06.jpg",
+        "/images/products/dn-19-42u-8-10-d/07.jpg",
+        "/images/products/dn-19-42u-8-10-d/08.jpg"
       ],
       "officialUrl": null,
       "officialSource": null,
@@ -19284,6 +20270,56 @@
       "tags": [
         "Racks & Cabinets",
         "Freestanding Racks & Cabinets"
+      ],
+      "imageMetadata": [
+        {
+          "src": "/images/products/dn-19-42u-8-10-d/01.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 332248
+        },
+        {
+          "src": "/images/products/dn-19-42u-8-10-d/02.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 86150
+        },
+        {
+          "src": "/images/products/dn-19-42u-8-10-d/03.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 378640
+        },
+        {
+          "src": "/images/products/dn-19-42u-8-10-d/04.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 372955
+        },
+        {
+          "src": "/images/products/dn-19-42u-8-10-d/05.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 491133
+        },
+        {
+          "src": "/images/products/dn-19-42u-8-10-d/06.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 219339
+        },
+        {
+          "src": "/images/products/dn-19-42u-8-10-d/07.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 327795
+        },
+        {
+          "src": "/images/products/dn-19-42u-8-10-d/08.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 644280
+        }
       ]
     },
     {
@@ -19723,7 +20759,14 @@
       "description": "",
       "specifications": [],
       "images": [
-        "/images/product-placeholder.svg"
+        "/images/products/dn-19-42u-8-8-d-b/01.jpg",
+        "/images/products/dn-19-42u-8-8-d-b/02.jpg",
+        "/images/products/dn-19-42u-8-8-d-b/03.jpg",
+        "/images/products/dn-19-42u-8-8-d-b/04.jpg",
+        "/images/products/dn-19-42u-8-8-d-b/05.jpg",
+        "/images/products/dn-19-42u-8-8-d-b/06.jpg",
+        "/images/products/dn-19-42u-8-8-d-b/07.jpg",
+        "/images/products/dn-19-42u-8-8-d-b/08.jpg"
       ],
       "officialUrl": null,
       "officialSource": null,
@@ -19739,6 +20782,56 @@
       "tags": [
         "Racks & Cabinets",
         "Freestanding Racks & Cabinets"
+      ],
+      "imageMetadata": [
+        {
+          "src": "/images/products/dn-19-42u-8-8-d-b/01.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 492341
+        },
+        {
+          "src": "/images/products/dn-19-42u-8-8-d-b/02.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 398381
+        },
+        {
+          "src": "/images/products/dn-19-42u-8-8-d-b/03.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 434732
+        },
+        {
+          "src": "/images/products/dn-19-42u-8-8-d-b/04.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 655583
+        },
+        {
+          "src": "/images/products/dn-19-42u-8-8-d-b/05.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 525601
+        },
+        {
+          "src": "/images/products/dn-19-42u-8-8-d-b/06.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 507762
+        },
+        {
+          "src": "/images/products/dn-19-42u-8-8-d-b/07.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 506754
+        },
+        {
+          "src": "/images/products/dn-19-42u-8-8-d-b/08.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 272971
+        }
       ]
     },
     {
@@ -20347,7 +21440,14 @@
       "description": "",
       "specifications": [],
       "images": [
-        "/images/product-placeholder.svg"
+        "/images/products/dn-19-22u-6-8-d/01.jpg",
+        "/images/products/dn-19-22u-6-8-d/02.jpg",
+        "/images/products/dn-19-22u-6-8-d/03.jpg",
+        "/images/products/dn-19-22u-6-8-d/04.jpg",
+        "/images/products/dn-19-22u-6-8-d/05.jpg",
+        "/images/products/dn-19-22u-6-8-d/06.jpg",
+        "/images/products/dn-19-22u-6-8-d/07.jpg",
+        "/images/products/dn-19-22u-6-8-d/08.jpg"
       ],
       "officialUrl": null,
       "officialSource": null,
@@ -20363,6 +21463,56 @@
       "tags": [
         "Racks & Cabinets",
         "Freestanding Racks & Cabinets"
+      ],
+      "imageMetadata": [
+        {
+          "src": "/images/products/dn-19-22u-6-8-d/01.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 456855
+        },
+        {
+          "src": "/images/products/dn-19-22u-6-8-d/02.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 220131
+        },
+        {
+          "src": "/images/products/dn-19-22u-6-8-d/03.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 691359
+        },
+        {
+          "src": "/images/products/dn-19-22u-6-8-d/04.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 558299
+        },
+        {
+          "src": "/images/products/dn-19-22u-6-8-d/05.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 468944
+        },
+        {
+          "src": "/images/products/dn-19-22u-6-8-d/06.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 420489
+        },
+        {
+          "src": "/images/products/dn-19-22u-6-8-d/07.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 304267
+        },
+        {
+          "src": "/images/products/dn-19-22u-6-8-d/08.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 470476
+        }
       ]
     },
     {
@@ -20373,7 +21523,14 @@
       "description": "",
       "specifications": [],
       "images": [
-        "/images/product-placeholder.svg"
+        "/images/products/dn-19-26u-6-8-d/01.jpg",
+        "/images/products/dn-19-26u-6-8-d/02.jpg",
+        "/images/products/dn-19-26u-6-8-d/03.jpg",
+        "/images/products/dn-19-26u-6-8-d/04.jpg",
+        "/images/products/dn-19-26u-6-8-d/05.jpg",
+        "/images/products/dn-19-26u-6-8-d/06.jpg",
+        "/images/products/dn-19-26u-6-8-d/07.jpg",
+        "/images/products/dn-19-26u-6-8-d/08.jpg"
       ],
       "officialUrl": null,
       "officialSource": null,
@@ -20389,6 +21546,56 @@
       "tags": [
         "Racks & Cabinets",
         "Freestanding Racks & Cabinets"
+      ],
+      "imageMetadata": [
+        {
+          "src": "/images/products/dn-19-26u-6-8-d/01.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 201852
+        },
+        {
+          "src": "/images/products/dn-19-26u-6-8-d/02.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 118019
+        },
+        {
+          "src": "/images/products/dn-19-26u-6-8-d/03.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 455426
+        },
+        {
+          "src": "/images/products/dn-19-26u-6-8-d/04.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 375968
+        },
+        {
+          "src": "/images/products/dn-19-26u-6-8-d/05.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 565597
+        },
+        {
+          "src": "/images/products/dn-19-26u-6-8-d/06.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 443181
+        },
+        {
+          "src": "/images/products/dn-19-26u-6-8-d/07.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 542246
+        },
+        {
+          "src": "/images/products/dn-19-26u-6-8-d/08.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 523024
+        }
       ]
     },
     {
@@ -20399,7 +21606,14 @@
       "description": "",
       "specifications": [],
       "images": [
-        "/images/product-placeholder.svg"
+        "/images/products/dn-19-32u-6-6-d/01.jpg",
+        "/images/products/dn-19-32u-6-6-d/02.jpg",
+        "/images/products/dn-19-32u-6-6-d/03.jpg",
+        "/images/products/dn-19-32u-6-6-d/04.jpg",
+        "/images/products/dn-19-32u-6-6-d/05.jpg",
+        "/images/products/dn-19-32u-6-6-d/06.jpg",
+        "/images/products/dn-19-32u-6-6-d/07.jpg",
+        "/images/products/dn-19-32u-6-6-d/08.jpg"
       ],
       "officialUrl": null,
       "officialSource": null,
@@ -20415,6 +21629,56 @@
       "tags": [
         "Racks & Cabinets",
         "Freestanding Racks & Cabinets"
+      ],
+      "imageMetadata": [
+        {
+          "src": "/images/products/dn-19-32u-6-6-d/01.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 376861
+        },
+        {
+          "src": "/images/products/dn-19-32u-6-6-d/02.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 160034
+        },
+        {
+          "src": "/images/products/dn-19-32u-6-6-d/03.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 381776
+        },
+        {
+          "src": "/images/products/dn-19-32u-6-6-d/04.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 345006
+        },
+        {
+          "src": "/images/products/dn-19-32u-6-6-d/05.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 473132
+        },
+        {
+          "src": "/images/products/dn-19-32u-6-6-d/06.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 537471
+        },
+        {
+          "src": "/images/products/dn-19-32u-6-6-d/07.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 349978
+        },
+        {
+          "src": "/images/products/dn-19-32u-6-6-d/08.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 328773
+        }
       ]
     },
     {
@@ -20425,7 +21689,14 @@
       "description": "",
       "specifications": [],
       "images": [
-        "/images/product-placeholder.svg"
+        "/images/products/dn-19-42u-6-6-d/01.jpg",
+        "/images/products/dn-19-42u-6-6-d/02.jpg",
+        "/images/products/dn-19-42u-6-6-d/03.jpg",
+        "/images/products/dn-19-42u-6-6-d/04.jpg",
+        "/images/products/dn-19-42u-6-6-d/05.jpg",
+        "/images/products/dn-19-42u-6-6-d/06.jpg",
+        "/images/products/dn-19-42u-6-6-d/07.jpg",
+        "/images/products/dn-19-42u-6-6-d/08.jpg"
       ],
       "officialUrl": null,
       "officialSource": null,
@@ -20441,6 +21712,56 @@
       "tags": [
         "Racks & Cabinets",
         "Freestanding Racks & Cabinets"
+      ],
+      "imageMetadata": [
+        {
+          "src": "/images/products/dn-19-42u-6-6-d/01.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 246845
+        },
+        {
+          "src": "/images/products/dn-19-42u-6-6-d/02.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 129875
+        },
+        {
+          "src": "/images/products/dn-19-42u-6-6-d/03.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 473320
+        },
+        {
+          "src": "/images/products/dn-19-42u-6-6-d/04.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 350356
+        },
+        {
+          "src": "/images/products/dn-19-42u-6-6-d/05.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 472297
+        },
+        {
+          "src": "/images/products/dn-19-42u-6-6-d/06.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 425718
+        },
+        {
+          "src": "/images/products/dn-19-42u-6-6-d/07.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 313018
+        },
+        {
+          "src": "/images/products/dn-19-42u-6-6-d/08.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 417736
+        }
       ]
     },
     {
@@ -20451,7 +21772,14 @@
       "description": "",
       "specifications": [],
       "images": [
-        "/images/product-placeholder.svg"
+        "/images/products/dn-19-42u-6-8-d/01.jpg",
+        "/images/products/dn-19-42u-6-8-d/02.jpg",
+        "/images/products/dn-19-42u-6-8-d/03.jpg",
+        "/images/products/dn-19-42u-6-8-d/04.jpg",
+        "/images/products/dn-19-42u-6-8-d/05.jpg",
+        "/images/products/dn-19-42u-6-8-d/06.jpg",
+        "/images/products/dn-19-42u-6-8-d/07.jpg",
+        "/images/products/dn-19-42u-6-8-d/08.jpg"
       ],
       "officialUrl": null,
       "officialSource": null,
@@ -20467,6 +21795,56 @@
       "tags": [
         "Racks & Cabinets",
         "Freestanding Racks & Cabinets"
+      ],
+      "imageMetadata": [
+        {
+          "src": "/images/products/dn-19-42u-6-8-d/01.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 314695
+        },
+        {
+          "src": "/images/products/dn-19-42u-6-8-d/02.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 270161
+        },
+        {
+          "src": "/images/products/dn-19-42u-6-8-d/03.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 616551
+        },
+        {
+          "src": "/images/products/dn-19-42u-6-8-d/04.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 387066
+        },
+        {
+          "src": "/images/products/dn-19-42u-6-8-d/05.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 542763
+        },
+        {
+          "src": "/images/products/dn-19-42u-6-8-d/06.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 503747
+        },
+        {
+          "src": "/images/products/dn-19-42u-6-8-d/07.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 386919
+        },
+        {
+          "src": "/images/products/dn-19-42u-6-8-d/08.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 488863
+        }
       ]
     },
     {
@@ -20477,7 +21855,14 @@
       "description": "",
       "specifications": [],
       "images": [
-        "/images/product-placeholder.svg"
+        "/images/products/dn-19-42u-8-8-d/01.jpg",
+        "/images/products/dn-19-42u-8-8-d/02.jpg",
+        "/images/products/dn-19-42u-8-8-d/03.jpg",
+        "/images/products/dn-19-42u-8-8-d/04.jpg",
+        "/images/products/dn-19-42u-8-8-d/05.jpg",
+        "/images/products/dn-19-42u-8-8-d/06.jpg",
+        "/images/products/dn-19-42u-8-8-d/07.jpg",
+        "/images/products/dn-19-42u-8-8-d/08.jpg"
       ],
       "officialUrl": null,
       "officialSource": null,
@@ -20493,6 +21878,56 @@
       "tags": [
         "Racks & Cabinets",
         "Freestanding Racks & Cabinets"
+      ],
+      "imageMetadata": [
+        {
+          "src": "/images/products/dn-19-42u-8-8-d/01.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 308515
+        },
+        {
+          "src": "/images/products/dn-19-42u-8-8-d/02.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 141300
+        },
+        {
+          "src": "/images/products/dn-19-42u-8-8-d/03.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 514962
+        },
+        {
+          "src": "/images/products/dn-19-42u-8-8-d/04.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 449545
+        },
+        {
+          "src": "/images/products/dn-19-42u-8-8-d/05.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 516657
+        },
+        {
+          "src": "/images/products/dn-19-42u-8-8-d/06.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 588570
+        },
+        {
+          "src": "/images/products/dn-19-42u-8-8-d/07.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 386919
+        },
+        {
+          "src": "/images/products/dn-19-42u-8-8-d/08.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 488863
+        }
       ]
     },
     {
@@ -20503,7 +21938,14 @@
       "description": "",
       "specifications": [],
       "images": [
-        "/images/product-placeholder.svg"
+        "/images/products/dn-19-22u-6-6-d/01.jpg",
+        "/images/products/dn-19-22u-6-6-d/02.jpg",
+        "/images/products/dn-19-22u-6-6-d/03.jpg",
+        "/images/products/dn-19-22u-6-6-d/04.jpg",
+        "/images/products/dn-19-22u-6-6-d/05.jpg",
+        "/images/products/dn-19-22u-6-6-d/06.jpg",
+        "/images/products/dn-19-22u-6-6-d/07.jpg",
+        "/images/products/dn-19-22u-6-6-d/08.jpg"
       ],
       "officialUrl": null,
       "officialSource": null,
@@ -20519,6 +21961,56 @@
       "tags": [
         "Racks & Cabinets",
         "Freestanding Racks & Cabinets"
+      ],
+      "imageMetadata": [
+        {
+          "src": "/images/products/dn-19-22u-6-6-d/01.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 418399
+        },
+        {
+          "src": "/images/products/dn-19-22u-6-6-d/02.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 614576
+        },
+        {
+          "src": "/images/products/dn-19-22u-6-6-d/03.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 712771
+        },
+        {
+          "src": "/images/products/dn-19-22u-6-6-d/04.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 918201
+        },
+        {
+          "src": "/images/products/dn-19-22u-6-6-d/05.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 881849
+        },
+        {
+          "src": "/images/products/dn-19-22u-6-6-d/06.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 346613
+        },
+        {
+          "src": "/images/products/dn-19-22u-6-6-d/07.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 425718
+        },
+        {
+          "src": "/images/products/dn-19-22u-6-6-d/08.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 347788
+        }
       ]
     },
     {
@@ -20529,7 +22021,14 @@
       "description": "",
       "specifications": [],
       "images": [
-        "/images/product-placeholder.svg"
+        "/images/products/dn-19-26u-6-6-d/01.jpg",
+        "/images/products/dn-19-26u-6-6-d/02.jpg",
+        "/images/products/dn-19-26u-6-6-d/03.jpg",
+        "/images/products/dn-19-26u-6-6-d/04.jpg",
+        "/images/products/dn-19-26u-6-6-d/05.jpg",
+        "/images/products/dn-19-26u-6-6-d/06.jpg",
+        "/images/products/dn-19-26u-6-6-d/07.jpg",
+        "/images/products/dn-19-26u-6-6-d/08.jpg"
       ],
       "officialUrl": null,
       "officialSource": null,
@@ -20545,6 +22044,56 @@
       "tags": [
         "Racks & Cabinets",
         "Freestanding Racks & Cabinets"
+      ],
+      "imageMetadata": [
+        {
+          "src": "/images/products/dn-19-26u-6-6-d/01.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 385251
+        },
+        {
+          "src": "/images/products/dn-19-26u-6-6-d/02.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 186961
+        },
+        {
+          "src": "/images/products/dn-19-26u-6-6-d/03.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 534439
+        },
+        {
+          "src": "/images/products/dn-19-26u-6-6-d/04.jpg",
+          "width": 1997,
+          "height": 1333,
+          "bytes": 365329
+        },
+        {
+          "src": "/images/products/dn-19-26u-6-6-d/05.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 522966
+        },
+        {
+          "src": "/images/products/dn-19-26u-6-6-d/06.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 456472
+        },
+        {
+          "src": "/images/products/dn-19-26u-6-6-d/07.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 576029
+        },
+        {
+          "src": "/images/products/dn-19-26u-6-6-d/08.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 352227
+        }
       ]
     },
     {
@@ -29511,7 +31060,14 @@
       "description": "",
       "specifications": [],
       "images": [
-        "/images/product-placeholder.svg"
+        "/images/products/dn-19-16-u-3-sw/01.jpg",
+        "/images/products/dn-19-16-u-3-sw/02.jpg",
+        "/images/products/dn-19-16-u-3-sw/03.jpg",
+        "/images/products/dn-19-16-u-3-sw/04.jpg",
+        "/images/products/dn-19-16-u-3-sw/05.jpg",
+        "/images/products/dn-19-16-u-3-sw/06.jpg",
+        "/images/products/dn-19-16-u-3-sw/07.jpg",
+        "/images/products/dn-19-16-u-3-sw/08.jpg"
       ],
       "officialUrl": null,
       "officialSource": null,
@@ -29527,6 +31083,56 @@
       "tags": [
         "Racks & Cabinets",
         "Rack Accessories"
+      ],
+      "imageMetadata": [
+        {
+          "src": "/images/products/dn-19-16-u-3-sw/01.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 433971
+        },
+        {
+          "src": "/images/products/dn-19-16-u-3-sw/02.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 310499
+        },
+        {
+          "src": "/images/products/dn-19-16-u-3-sw/03.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 118362
+        },
+        {
+          "src": "/images/products/dn-19-16-u-3-sw/04.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 530947
+        },
+        {
+          "src": "/images/products/dn-19-16-u-3-sw/05.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 229540
+        },
+        {
+          "src": "/images/products/dn-19-16-u-3-sw/06.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 414666
+        },
+        {
+          "src": "/images/products/dn-19-16-u-3-sw/07.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 261412
+        },
+        {
+          "src": "/images/products/dn-19-16-u-3-sw/08.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 703567
+        }
       ]
     },
     {
@@ -31287,7 +32893,14 @@
       "description": "",
       "specifications": [],
       "images": [
-        "/images/product-placeholder.svg"
+        "/images/products/dn-19-srv-26u-1/01.jpg",
+        "/images/products/dn-19-srv-26u-1/02.jpg",
+        "/images/products/dn-19-srv-26u-1/03.jpg",
+        "/images/products/dn-19-srv-26u-1/04.jpg",
+        "/images/products/dn-19-srv-26u-1/05.jpg",
+        "/images/products/dn-19-srv-26u-1/06.jpg",
+        "/images/products/dn-19-srv-26u-1/07.jpg",
+        "/images/products/dn-19-srv-26u-1/08.jpg"
       ],
       "officialUrl": null,
       "officialSource": null,
@@ -31303,6 +32916,56 @@
       "tags": [
         "Racks & Cabinets",
         "Server Cabinets"
+      ],
+      "imageMetadata": [
+        {
+          "src": "/images/products/dn-19-srv-26u-1/01.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 439425
+        },
+        {
+          "src": "/images/products/dn-19-srv-26u-1/02.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 546172
+        },
+        {
+          "src": "/images/products/dn-19-srv-26u-1/03.jpg",
+          "width": 1946,
+          "height": 1298,
+          "bytes": 386774
+        },
+        {
+          "src": "/images/products/dn-19-srv-26u-1/04.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 656851
+        },
+        {
+          "src": "/images/products/dn-19-srv-26u-1/05.jpg",
+          "width": 1933,
+          "height": 1288,
+          "bytes": 669389
+        },
+        {
+          "src": "/images/products/dn-19-srv-26u-1/06.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 706909
+        },
+        {
+          "src": "/images/products/dn-19-srv-26u-1/07.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 288573
+        },
+        {
+          "src": "/images/products/dn-19-srv-26u-1/08.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 252441
+        }
       ]
     },
     {
@@ -31313,7 +32976,14 @@
       "description": "",
       "specifications": [],
       "images": [
-        "/images/product-placeholder.svg"
+        "/images/products/dn-19-srv-26u-b-1/01.jpg",
+        "/images/products/dn-19-srv-26u-b-1/02.jpg",
+        "/images/products/dn-19-srv-26u-b-1/03.jpg",
+        "/images/products/dn-19-srv-26u-b-1/04.jpg",
+        "/images/products/dn-19-srv-26u-b-1/05.jpg",
+        "/images/products/dn-19-srv-26u-b-1/06.jpg",
+        "/images/products/dn-19-srv-26u-b-1/07.jpg",
+        "/images/products/dn-19-srv-26u-b-1/08.jpg"
       ],
       "officialUrl": null,
       "officialSource": null,
@@ -31329,6 +32999,56 @@
       "tags": [
         "Racks & Cabinets",
         "Server Cabinets"
+      ],
+      "imageMetadata": [
+        {
+          "src": "/images/products/dn-19-srv-26u-b-1/01.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 523074
+        },
+        {
+          "src": "/images/products/dn-19-srv-26u-b-1/02.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 517021
+        },
+        {
+          "src": "/images/products/dn-19-srv-26u-b-1/03.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 723956
+        },
+        {
+          "src": "/images/products/dn-19-srv-26u-b-1/04.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 818917
+        },
+        {
+          "src": "/images/products/dn-19-srv-26u-b-1/05.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 829844
+        },
+        {
+          "src": "/images/products/dn-19-srv-26u-b-1/06.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 731801
+        },
+        {
+          "src": "/images/products/dn-19-srv-26u-b-1/07.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 799492
+        },
+        {
+          "src": "/images/products/dn-19-srv-26u-b-1/08.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 986390
+        }
       ]
     },
     {
@@ -31339,7 +33059,14 @@
       "description": "",
       "specifications": [],
       "images": [
-        "/images/product-placeholder.svg"
+        "/images/products/dn-19-srv-26u-b-g-1/01.jpg",
+        "/images/products/dn-19-srv-26u-b-g-1/02.jpg",
+        "/images/products/dn-19-srv-26u-b-g-1/03.jpg",
+        "/images/products/dn-19-srv-26u-b-g-1/04.jpg",
+        "/images/products/dn-19-srv-26u-b-g-1/05.jpg",
+        "/images/products/dn-19-srv-26u-b-g-1/06.jpg",
+        "/images/products/dn-19-srv-26u-b-g-1/07.jpg",
+        "/images/products/dn-19-srv-26u-b-g-1/08.jpg"
       ],
       "officialUrl": null,
       "officialSource": null,
@@ -31355,6 +33082,56 @@
       "tags": [
         "Racks & Cabinets",
         "Server Cabinets"
+      ],
+      "imageMetadata": [
+        {
+          "src": "/images/products/dn-19-srv-26u-b-g-1/01.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 552633
+        },
+        {
+          "src": "/images/products/dn-19-srv-26u-b-g-1/02.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 597106
+        },
+        {
+          "src": "/images/products/dn-19-srv-26u-b-g-1/03.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 947493
+        },
+        {
+          "src": "/images/products/dn-19-srv-26u-b-g-1/04.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 908519
+        },
+        {
+          "src": "/images/products/dn-19-srv-26u-b-g-1/05.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 762972
+        },
+        {
+          "src": "/images/products/dn-19-srv-26u-b-g-1/06.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 773791
+        },
+        {
+          "src": "/images/products/dn-19-srv-26u-b-g-1/07.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 881849
+        },
+        {
+          "src": "/images/products/dn-19-srv-26u-b-g-1/08.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 694883
+        }
       ]
     },
     {
@@ -31365,7 +33142,14 @@
       "description": "",
       "specifications": [],
       "images": [
-        "/images/product-placeholder.svg"
+        "/images/products/dn-19-srv-36u-b-g/01.jpg",
+        "/images/products/dn-19-srv-36u-b-g/02.jpg",
+        "/images/products/dn-19-srv-36u-b-g/03.jpg",
+        "/images/products/dn-19-srv-36u-b-g/04.jpg",
+        "/images/products/dn-19-srv-36u-b-g/05.jpg",
+        "/images/products/dn-19-srv-36u-b-g/06.jpg",
+        "/images/products/dn-19-srv-36u-b-g/07.jpg",
+        "/images/products/dn-19-srv-36u-b-g/08.jpg"
       ],
       "officialUrl": null,
       "officialSource": null,
@@ -31381,6 +33165,56 @@
       "tags": [
         "Racks & Cabinets",
         "Server Cabinets"
+      ],
+      "imageMetadata": [
+        {
+          "src": "/images/products/dn-19-srv-36u-b-g/01.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 474273
+        },
+        {
+          "src": "/images/products/dn-19-srv-36u-b-g/02.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 450595
+        },
+        {
+          "src": "/images/products/dn-19-srv-36u-b-g/03.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 465177
+        },
+        {
+          "src": "/images/products/dn-19-srv-36u-b-g/04.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 516047
+        },
+        {
+          "src": "/images/products/dn-19-srv-36u-b-g/05.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 491505
+        },
+        {
+          "src": "/images/products/dn-19-srv-36u-b-g/06.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 658490
+        },
+        {
+          "src": "/images/products/dn-19-srv-36u-b-g/07.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 619249
+        },
+        {
+          "src": "/images/products/dn-19-srv-36u-b-g/08.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 655365
+        }
       ]
     },
     {
@@ -31391,7 +33225,14 @@
       "description": "",
       "specifications": [],
       "images": [
-        "/images/product-placeholder.svg"
+        "/images/products/dn-19-srv-42u-8-n-1/01.jpg",
+        "/images/products/dn-19-srv-42u-8-n-1/02.jpg",
+        "/images/products/dn-19-srv-42u-8-n-1/03.jpg",
+        "/images/products/dn-19-srv-42u-8-n-1/04.jpg",
+        "/images/products/dn-19-srv-42u-8-n-1/05.jpg",
+        "/images/products/dn-19-srv-42u-8-n-1/06.jpg",
+        "/images/products/dn-19-srv-42u-8-n-1/07.jpg",
+        "/images/products/dn-19-srv-42u-8-n-1/08.jpg"
       ],
       "officialUrl": null,
       "officialSource": null,
@@ -31407,6 +33248,56 @@
       "tags": [
         "Racks & Cabinets",
         "Server Cabinets"
+      ],
+      "imageMetadata": [
+        {
+          "src": "/images/products/dn-19-srv-42u-8-n-1/01.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 366515
+        },
+        {
+          "src": "/images/products/dn-19-srv-42u-8-n-1/02.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 545508
+        },
+        {
+          "src": "/images/products/dn-19-srv-42u-8-n-1/03.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 388937
+        },
+        {
+          "src": "/images/products/dn-19-srv-42u-8-n-1/04.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 768572
+        },
+        {
+          "src": "/images/products/dn-19-srv-42u-8-n-1/05.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 470591
+        },
+        {
+          "src": "/images/products/dn-19-srv-42u-8-n-1/06.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 603755
+        },
+        {
+          "src": "/images/products/dn-19-srv-42u-8-n-1/07.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 641131
+        },
+        {
+          "src": "/images/products/dn-19-srv-42u-8-n-1/08.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 363182
+        }
       ]
     },
     {
@@ -31417,7 +33308,14 @@
       "description": "",
       "specifications": [],
       "images": [
-        "/images/product-placeholder.svg"
+        "/images/products/dn-19-srv-42u-8-12/01.jpg",
+        "/images/products/dn-19-srv-42u-8-12/02.jpg",
+        "/images/products/dn-19-srv-42u-8-12/03.jpg",
+        "/images/products/dn-19-srv-42u-8-12/04.jpg",
+        "/images/products/dn-19-srv-42u-8-12/05.jpg",
+        "/images/products/dn-19-srv-42u-8-12/06.jpg",
+        "/images/products/dn-19-srv-42u-8-12/07.jpg",
+        "/images/products/dn-19-srv-42u-8-12/08.jpg"
       ],
       "officialUrl": null,
       "officialSource": null,
@@ -31433,6 +33331,56 @@
       "tags": [
         "Racks & Cabinets",
         "Server Cabinets"
+      ],
+      "imageMetadata": [
+        {
+          "src": "/images/products/dn-19-srv-42u-8-12/01.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 327004
+        },
+        {
+          "src": "/images/products/dn-19-srv-42u-8-12/02.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 367210
+        },
+        {
+          "src": "/images/products/dn-19-srv-42u-8-12/03.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 517888
+        },
+        {
+          "src": "/images/products/dn-19-srv-42u-8-12/04.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 471040
+        },
+        {
+          "src": "/images/products/dn-19-srv-42u-8-12/05.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 455396
+        },
+        {
+          "src": "/images/products/dn-19-srv-42u-8-12/06.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 425718
+        },
+        {
+          "src": "/images/products/dn-19-srv-42u-8-12/07.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 568583
+        },
+        {
+          "src": "/images/products/dn-19-srv-42u-8-12/08.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 363182
+        }
       ]
     },
     {
@@ -31443,7 +33391,14 @@
       "description": "",
       "specifications": [],
       "images": [
-        "/images/product-placeholder.svg"
+        "/images/products/dn-19-srv-42u-b-1/01.jpg",
+        "/images/products/dn-19-srv-42u-b-1/02.jpg",
+        "/images/products/dn-19-srv-42u-b-1/03.jpg",
+        "/images/products/dn-19-srv-42u-b-1/04.jpg",
+        "/images/products/dn-19-srv-42u-b-1/05.jpg",
+        "/images/products/dn-19-srv-42u-b-1/06.jpg",
+        "/images/products/dn-19-srv-42u-b-1/07.jpg",
+        "/images/products/dn-19-srv-42u-b-1/08.jpg"
       ],
       "officialUrl": null,
       "officialSource": null,
@@ -31459,6 +33414,56 @@
       "tags": [
         "Racks & Cabinets",
         "Server Cabinets"
+      ],
+      "imageMetadata": [
+        {
+          "src": "/images/products/dn-19-srv-42u-b-1/01.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 451929
+        },
+        {
+          "src": "/images/products/dn-19-srv-42u-b-1/02.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 476572
+        },
+        {
+          "src": "/images/products/dn-19-srv-42u-b-1/03.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 639779
+        },
+        {
+          "src": "/images/products/dn-19-srv-42u-b-1/04.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 642563
+        },
+        {
+          "src": "/images/products/dn-19-srv-42u-b-1/05.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 589473
+        },
+        {
+          "src": "/images/products/dn-19-srv-42u-b-1/06.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 655365
+        },
+        {
+          "src": "/images/products/dn-19-srv-42u-b-1/07.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 344066
+        },
+        {
+          "src": "/images/products/dn-19-srv-42u-b-1/08.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 346032
+        }
       ]
     },
     {
@@ -31469,7 +33474,14 @@
       "description": "",
       "specifications": [],
       "images": [
-        "/images/product-placeholder.svg"
+        "/images/products/dn-19-srv-42u-8-b/01.jpg",
+        "/images/products/dn-19-srv-42u-8-b/02.jpg",
+        "/images/products/dn-19-srv-42u-8-b/03.jpg",
+        "/images/products/dn-19-srv-42u-8-b/04.jpg",
+        "/images/products/dn-19-srv-42u-8-b/05.jpg",
+        "/images/products/dn-19-srv-42u-8-b/06.jpg",
+        "/images/products/dn-19-srv-42u-8-b/07.jpg",
+        "/images/products/dn-19-srv-42u-8-b/08.jpg"
       ],
       "officialUrl": null,
       "officialSource": null,
@@ -31485,6 +33497,56 @@
       "tags": [
         "Racks & Cabinets",
         "Server Cabinets"
+      ],
+      "imageMetadata": [
+        {
+          "src": "/images/products/dn-19-srv-42u-8-b/01.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 548594
+        },
+        {
+          "src": "/images/products/dn-19-srv-42u-8-b/02.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 590119
+        },
+        {
+          "src": "/images/products/dn-19-srv-42u-8-b/03.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 768959
+        },
+        {
+          "src": "/images/products/dn-19-srv-42u-8-b/04.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 853286
+        },
+        {
+          "src": "/images/products/dn-19-srv-42u-8-b/05.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 626099
+        },
+        {
+          "src": "/images/products/dn-19-srv-42u-8-b/06.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 655365
+        },
+        {
+          "src": "/images/products/dn-19-srv-42u-8-b/07.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 249785
+        },
+        {
+          "src": "/images/products/dn-19-srv-42u-8-b/08.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 436446
+        }
       ]
     },
     {
@@ -31495,7 +33557,14 @@
       "description": "",
       "specifications": [],
       "images": [
-        "/images/product-placeholder.svg"
+        "/images/products/dn-19-srv-42u-8-12b/01.jpg",
+        "/images/products/dn-19-srv-42u-8-12b/02.jpg",
+        "/images/products/dn-19-srv-42u-8-12b/03.jpg",
+        "/images/products/dn-19-srv-42u-8-12b/04.jpg",
+        "/images/products/dn-19-srv-42u-8-12b/05.jpg",
+        "/images/products/dn-19-srv-42u-8-12b/06.jpg",
+        "/images/products/dn-19-srv-42u-8-12b/07.jpg",
+        "/images/products/dn-19-srv-42u-8-12b/08.jpg"
       ],
       "officialUrl": null,
       "officialSource": null,
@@ -31511,6 +33580,56 @@
       "tags": [
         "Racks & Cabinets",
         "Server Cabinets"
+      ],
+      "imageMetadata": [
+        {
+          "src": "/images/products/dn-19-srv-42u-8-12b/01.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 562559
+        },
+        {
+          "src": "/images/products/dn-19-srv-42u-8-12b/02.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 590244
+        },
+        {
+          "src": "/images/products/dn-19-srv-42u-8-12b/03.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 410923
+        },
+        {
+          "src": "/images/products/dn-19-srv-42u-8-12b/04.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 727612
+        },
+        {
+          "src": "/images/products/dn-19-srv-42u-8-12b/05.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 336874
+        },
+        {
+          "src": "/images/products/dn-19-srv-42u-8-12b/06.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 366120
+        },
+        {
+          "src": "/images/products/dn-19-srv-42u-8-12b/07.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 233021
+        },
+        {
+          "src": "/images/products/dn-19-srv-42u-8-12b/08.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 174413
+        }
       ]
     },
     {
@@ -31761,7 +33880,13 @@
       "description": "",
       "specifications": [],
       "images": [
-        "/images/product-placeholder.svg"
+        "/images/products/dn-19-phs-9473/01.jpg",
+        "/images/products/dn-19-phs-9473/02.jpg",
+        "/images/products/dn-19-phs-9473/03.jpg",
+        "/images/products/dn-19-phs-9473/04.jpg",
+        "/images/products/dn-19-phs-9473/05.jpg",
+        "/images/products/dn-19-phs-9473/06.jpg",
+        "/images/products/dn-19-phs-9473/07.jpg"
       ],
       "officialUrl": null,
       "officialSource": null,
@@ -31777,6 +33902,50 @@
       "tags": [
         "Racks & Cabinets",
         "Rack Accessories"
+      ],
+      "imageMetadata": [
+        {
+          "src": "/images/products/dn-19-phs-9473/01.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 559570
+        },
+        {
+          "src": "/images/products/dn-19-phs-9473/02.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 391329
+        },
+        {
+          "src": "/images/products/dn-19-phs-9473/03.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 396086
+        },
+        {
+          "src": "/images/products/dn-19-phs-9473/04.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 428786
+        },
+        {
+          "src": "/images/products/dn-19-phs-9473/05.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 527635
+        },
+        {
+          "src": "/images/products/dn-19-phs-9473/06.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 585953
+        },
+        {
+          "src": "/images/products/dn-19-phs-9473/07.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 427196
+        }
       ]
     },
     {
@@ -34425,7 +36594,12 @@
       "description": "",
       "specifications": [],
       "images": [
-        "/images/product-placeholder.svg"
+        "/images/products/dn-19-fan-4-srv/01.jpg",
+        "/images/products/dn-19-fan-4-srv/02.jpg",
+        "/images/products/dn-19-fan-4-srv/03.jpg",
+        "/images/products/dn-19-fan-4-srv/04.jpg",
+        "/images/products/dn-19-fan-4-srv/05.jpg",
+        "/images/products/dn-19-fan-4-srv/06.jpg"
       ],
       "officialUrl": null,
       "officialSource": null,
@@ -34441,6 +36615,44 @@
       "tags": [
         "Racks & Cabinets",
         "Cooling & Ventilation"
+      ],
+      "imageMetadata": [
+        {
+          "src": "/images/products/dn-19-fan-4-srv/01.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 795333
+        },
+        {
+          "src": "/images/products/dn-19-fan-4-srv/02.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 746723
+        },
+        {
+          "src": "/images/products/dn-19-fan-4-srv/03.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 523385
+        },
+        {
+          "src": "/images/products/dn-19-fan-4-srv/04.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 908506
+        },
+        {
+          "src": "/images/products/dn-19-fan-4-srv/05.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 821503
+        },
+        {
+          "src": "/images/products/dn-19-fan-4-srv/06.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 986390
+        }
       ]
     },
     {
@@ -34451,7 +36663,14 @@
       "description": "",
       "specifications": [],
       "images": [
-        "/images/product-placeholder.svg"
+        "/images/products/dn-19-fan-6-srv/01.jpg",
+        "/images/products/dn-19-fan-6-srv/02.jpg",
+        "/images/products/dn-19-fan-6-srv/03.jpg",
+        "/images/products/dn-19-fan-6-srv/04.jpg",
+        "/images/products/dn-19-fan-6-srv/05.jpg",
+        "/images/products/dn-19-fan-6-srv/06.jpg",
+        "/images/products/dn-19-fan-6-srv/07.jpg",
+        "/images/products/dn-19-fan-6-srv/08.jpg"
       ],
       "officialUrl": null,
       "officialSource": null,
@@ -34467,6 +36686,56 @@
       "tags": [
         "Racks & Cabinets",
         "Cooling & Ventilation"
+      ],
+      "imageMetadata": [
+        {
+          "src": "/images/products/dn-19-fan-6-srv/01.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 469706
+        },
+        {
+          "src": "/images/products/dn-19-fan-6-srv/02.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 523385
+        },
+        {
+          "src": "/images/products/dn-19-fan-6-srv/03.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 821503
+        },
+        {
+          "src": "/images/products/dn-19-fan-6-srv/04.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 572895
+        },
+        {
+          "src": "/images/products/dn-19-fan-6-srv/05.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 827962
+        },
+        {
+          "src": "/images/products/dn-19-fan-6-srv/06.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 746723
+        },
+        {
+          "src": "/images/products/dn-19-fan-6-srv/07.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 851242
+        },
+        {
+          "src": "/images/products/dn-19-fan-6-srv/08.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 795333
+        }
       ]
     },
     {
@@ -37535,7 +39804,7 @@
       "description": "",
       "specifications": [],
       "images": [
-        "/images/product-placeholder.svg"
+        "/images/products/al-9e2000-01i/01.jpg"
       ],
       "officialUrl": null,
       "officialSource": null,
@@ -37551,6 +39820,14 @@
       "tags": [
         "Fiber Optics",
         "Fiber Patch Cables"
+      ],
+      "imageMetadata": [
+        {
+          "src": "/images/products/al-9e2000-01i/01.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 608170
+        }
       ]
     },
     {
@@ -37561,7 +39838,7 @@
       "description": "",
       "specifications": [],
       "images": [
-        "/images/product-placeholder.svg"
+        "/images/products/al-9e2000-02i/01.jpg"
       ],
       "officialUrl": null,
       "officialSource": null,
@@ -37577,6 +39854,14 @@
       "tags": [
         "Fiber Optics",
         "Fiber Patch Cables"
+      ],
+      "imageMetadata": [
+        {
+          "src": "/images/products/al-9e2000-02i/01.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 608170
+        }
       ]
     },
     {
@@ -37587,7 +39872,7 @@
       "description": "",
       "specifications": [],
       "images": [
-        "/images/product-placeholder.svg"
+        "/images/products/al-9e2000lc-01i/01.jpg"
       ],
       "officialUrl": null,
       "officialSource": null,
@@ -37603,6 +39888,14 @@
       "tags": [
         "Fiber Optics",
         "Fiber Patch Cables"
+      ],
+      "imageMetadata": [
+        {
+          "src": "/images/products/al-9e2000lc-01i/01.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 522509
+        }
       ]
     },
     {
@@ -37613,7 +39906,7 @@
       "description": "",
       "specifications": [],
       "images": [
-        "/images/product-placeholder.svg"
+        "/images/products/al-9e2000lc-02i/01.jpg"
       ],
       "officialUrl": null,
       "officialSource": null,
@@ -37629,6 +39922,14 @@
       "tags": [
         "Fiber Optics",
         "Fiber Patch Cables"
+      ],
+      "imageMetadata": [
+        {
+          "src": "/images/products/al-9e2000lc-02i/01.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 522509
+        }
       ]
     },
     {
@@ -37639,7 +39940,7 @@
       "description": "",
       "specifications": [],
       "images": [
-        "/images/product-placeholder.svg"
+        "/images/products/al-9e2000lc-03i/01.jpg"
       ],
       "officialUrl": null,
       "officialSource": null,
@@ -37655,6 +39956,14 @@
       "tags": [
         "Fiber Optics",
         "Fiber Patch Cables"
+      ],
+      "imageMetadata": [
+        {
+          "src": "/images/products/al-9e2000lc-03i/01.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 522509
+        }
       ]
     },
     {
@@ -37665,7 +39974,7 @@
       "description": "",
       "specifications": [],
       "images": [
-        "/images/product-placeholder.svg"
+        "/images/products/al-9e2000lc-05i/01.jpg"
       ],
       "officialUrl": null,
       "officialSource": null,
@@ -37681,6 +39990,14 @@
       "tags": [
         "Fiber Optics",
         "Fiber Patch Cables"
+      ],
+      "imageMetadata": [
+        {
+          "src": "/images/products/al-9e2000lc-05i/01.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 522509
+        }
       ]
     },
     {
@@ -37691,7 +40008,7 @@
       "description": "",
       "specifications": [],
       "images": [
-        "/images/product-placeholder.svg"
+        "/images/products/al-9e2000lc-10i/01.jpg"
       ],
       "officialUrl": null,
       "officialSource": null,
@@ -37707,6 +40024,14 @@
       "tags": [
         "Fiber Optics",
         "Fiber Patch Cables"
+      ],
+      "imageMetadata": [
+        {
+          "src": "/images/products/al-9e2000lc-10i/01.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 522509
+        }
       ]
     },
     {
@@ -38062,7 +40387,12 @@
       "description": "",
       "specifications": [],
       "images": [
-        "/images/product-placeholder.svg"
+        "/images/products/dk-2512-01-3/01.jpg",
+        "/images/products/dk-2512-01-3/02.jpg",
+        "/images/products/dk-2512-01-3/03.jpg",
+        "/images/products/dk-2512-01-3/04.jpg",
+        "/images/products/dk-2512-01-3/05.jpg",
+        "/images/products/dk-2512-01-3/06.jpg"
       ],
       "officialUrl": null,
       "officialSource": null,
@@ -38078,6 +40408,44 @@
       "tags": [
         "Fiber Optics",
         "Fiber Patch Cables"
+      ],
+      "imageMetadata": [
+        {
+          "src": "/images/products/dk-2512-01-3/01.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 360083
+        },
+        {
+          "src": "/images/products/dk-2512-01-3/02.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 134121
+        },
+        {
+          "src": "/images/products/dk-2512-01-3/03.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 390033
+        },
+        {
+          "src": "/images/products/dk-2512-01-3/04.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 140725
+        },
+        {
+          "src": "/images/products/dk-2512-01-3/05.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 308130
+        },
+        {
+          "src": "/images/products/dk-2512-01-3/06.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 363306
+        }
       ]
     },
     {
@@ -38157,7 +40525,11 @@
       "description": "",
       "specifications": [],
       "images": [
-        "/images/product-placeholder.svg"
+        "/images/products/dk-2512-03-3/01.jpg",
+        "/images/products/dk-2512-03-3/02.jpg",
+        "/images/products/dk-2512-03-3/03.jpg",
+        "/images/products/dk-2512-03-3/04.jpg",
+        "/images/products/dk-2512-03-3/05.jpg"
       ],
       "officialUrl": null,
       "officialSource": null,
@@ -38173,6 +40545,38 @@
       "tags": [
         "Fiber Optics",
         "Fiber Patch Cables"
+      ],
+      "imageMetadata": [
+        {
+          "src": "/images/products/dk-2512-03-3/01.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 334207
+        },
+        {
+          "src": "/images/products/dk-2512-03-3/02.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 654687
+        },
+        {
+          "src": "/images/products/dk-2512-03-3/03.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 689546
+        },
+        {
+          "src": "/images/products/dk-2512-03-3/04.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 432874
+        },
+        {
+          "src": "/images/products/dk-2512-03-3/05.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 665970
+        }
       ]
     },
     {
@@ -38735,7 +41139,11 @@
       "description": "",
       "specifications": [],
       "images": [
-        "/images/product-placeholder.svg"
+        "/images/products/dk-2522-05-3/01.jpg",
+        "/images/products/dk-2522-05-3/02.jpg",
+        "/images/products/dk-2522-05-3/03.jpg",
+        "/images/products/dk-2522-05-3/04.jpg",
+        "/images/products/dk-2522-05-3/05.jpg"
       ],
       "officialUrl": null,
       "officialSource": null,
@@ -38751,6 +41159,38 @@
       "tags": [
         "Fiber Optics",
         "Fiber Patch Cables"
+      ],
+      "imageMetadata": [
+        {
+          "src": "/images/products/dk-2522-05-3/01.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 578303
+        },
+        {
+          "src": "/images/products/dk-2522-05-3/02.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 432829
+        },
+        {
+          "src": "/images/products/dk-2522-05-3/03.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 786335
+        },
+        {
+          "src": "/images/products/dk-2522-05-3/04.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 683521
+        },
+        {
+          "src": "/images/products/dk-2522-05-3/05.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 603214
+        }
       ]
     },
     {
@@ -38761,7 +41201,11 @@
       "description": "",
       "specifications": [],
       "images": [
-        "/images/product-placeholder.svg"
+        "/images/products/dk-2522-10-3/01.jpg",
+        "/images/products/dk-2522-10-3/02.jpg",
+        "/images/products/dk-2522-10-3/03.jpg",
+        "/images/products/dk-2522-10-3/04.jpg",
+        "/images/products/dk-2522-10-3/05.jpg"
       ],
       "officialUrl": null,
       "officialSource": null,
@@ -38777,6 +41221,38 @@
       "tags": [
         "Fiber Optics",
         "Fiber Patch Cables"
+      ],
+      "imageMetadata": [
+        {
+          "src": "/images/products/dk-2522-10-3/01.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 578303
+        },
+        {
+          "src": "/images/products/dk-2522-10-3/02.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 683521
+        },
+        {
+          "src": "/images/products/dk-2522-10-3/03.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 433538
+        },
+        {
+          "src": "/images/products/dk-2522-10-3/04.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 786335
+        },
+        {
+          "src": "/images/products/dk-2522-10-3/05.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 603214
+        }
       ]
     },
     {
@@ -41419,7 +43895,11 @@
       "description": "",
       "specifications": [],
       "images": [
-        "/images/product-placeholder.svg"
+        "/images/products/dk-2931-05/01.jpg",
+        "/images/products/dk-2931-05/02.jpg",
+        "/images/products/dk-2931-05/03.jpg",
+        "/images/products/dk-2931-05/04.jpg",
+        "/images/products/dk-2931-05/05.jpg"
       ],
       "officialUrl": null,
       "officialSource": null,
@@ -41435,6 +43915,38 @@
       "tags": [
         "Fiber Optics",
         "Fiber Patch Cables"
+      ],
+      "imageMetadata": [
+        {
+          "src": "/images/products/dk-2931-05/01.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 511031
+        },
+        {
+          "src": "/images/products/dk-2931-05/02.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 869540
+        },
+        {
+          "src": "/images/products/dk-2931-05/03.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 427672
+        },
+        {
+          "src": "/images/products/dk-2931-05/04.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 255315
+        },
+        {
+          "src": "/images/products/dk-2931-05/05.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 622378
+        }
       ]
     },
     {
@@ -41587,7 +44099,11 @@
       "description": "",
       "specifications": [],
       "images": [
-        "/images/product-placeholder.svg"
+        "/images/products/dk-2922-03/01.jpg",
+        "/images/products/dk-2922-03/02.jpg",
+        "/images/products/dk-2922-03/03.jpg",
+        "/images/products/dk-2922-03/04.jpg",
+        "/images/products/dk-2922-03/05.jpg"
       ],
       "officialUrl": null,
       "officialSource": null,
@@ -41603,6 +44119,38 @@
       "tags": [
         "Fiber Optics",
         "Fiber Patch Cables"
+      ],
+      "imageMetadata": [
+        {
+          "src": "/images/products/dk-2922-03/01.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 569880
+        },
+        {
+          "src": "/images/products/dk-2922-03/02.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 1039348
+        },
+        {
+          "src": "/images/products/dk-2922-03/03.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 708458
+        },
+        {
+          "src": "/images/products/dk-2922-03/04.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 427493
+        },
+        {
+          "src": "/images/products/dk-2922-03/05.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 1136760
+        }
       ]
     },
     {
@@ -41683,7 +44231,12 @@
       "description": "",
       "specifications": [],
       "images": [
-        "/images/product-placeholder.svg"
+        "/images/products/dk-2922-10/01.jpg",
+        "/images/products/dk-2922-10/02.jpg",
+        "/images/products/dk-2922-10/03.jpg",
+        "/images/products/dk-2922-10/04.jpg",
+        "/images/products/dk-2922-10/05.jpg",
+        "/images/products/dk-2922-10/06.jpg"
       ],
       "officialUrl": null,
       "officialSource": null,
@@ -41699,6 +44252,44 @@
       "tags": [
         "Fiber Optics",
         "Fiber Patch Cables"
+      ],
+      "imageMetadata": [
+        {
+          "src": "/images/products/dk-2922-10/01.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 569880
+        },
+        {
+          "src": "/images/products/dk-2922-10/02.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 1136760
+        },
+        {
+          "src": "/images/products/dk-2922-10/03.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 427823
+        },
+        {
+          "src": "/images/products/dk-2922-10/04.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 708458
+        },
+        {
+          "src": "/images/products/dk-2922-10/05.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 1039348
+        },
+        {
+          "src": "/images/products/dk-2922-10/06.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 540767
+        }
       ]
     },
     {
@@ -42469,7 +45060,7 @@
       "description": "",
       "specifications": [],
       "images": [
-        "/images/product-placeholder.svg"
+        "/images/products/dk-292219-02-apc/01.jpg"
       ],
       "officialUrl": null,
       "officialSource": null,
@@ -42485,6 +45076,14 @@
       "tags": [
         "Fiber Optics",
         "Fiber Pigtails"
+      ],
+      "imageMetadata": [
+        {
+          "src": "/images/products/dk-292219-02-apc/01.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 644851
+        }
       ]
     },
     {
@@ -43109,7 +45708,13 @@
       "description": "",
       "specifications": [],
       "images": [
-        "/images/product-placeholder.svg"
+        "/images/products/dk-24338ue50bk-bbb/01.jpg",
+        "/images/products/dk-24338ue50bk-bbb/02.jpg",
+        "/images/products/dk-24338ue50bk-bbb/03.jpg",
+        "/images/products/dk-24338ue50bk-bbb/04.jpg",
+        "/images/products/dk-24338ue50bk-bbb/05.jpg",
+        "/images/products/dk-24338ue50bk-bbb/06.jpg",
+        "/images/products/dk-24338ue50bk-bbb/07.jpg"
       ],
       "officialUrl": null,
       "officialSource": null,
@@ -43125,6 +45730,50 @@
       "tags": [
         "Fiber Optics",
         "Fiber Trunk / Breakout Cables"
+      ],
+      "imageMetadata": [
+        {
+          "src": "/images/products/dk-24338ue50bk-bbb/01.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 785157
+        },
+        {
+          "src": "/images/products/dk-24338ue50bk-bbb/02.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 314888
+        },
+        {
+          "src": "/images/products/dk-24338ue50bk-bbb/03.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 567988
+        },
+        {
+          "src": "/images/products/dk-24338ue50bk-bbb/04.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 584278
+        },
+        {
+          "src": "/images/products/dk-24338ue50bk-bbb/05.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 156605
+        },
+        {
+          "src": "/images/products/dk-24338ue50bk-bbb/06.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 525230
+        },
+        {
+          "src": "/images/products/dk-24338ue50bk-bbb/07.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 1177269
+        }
       ]
     },
     {
@@ -43311,7 +45960,13 @@
       "description": "",
       "specifications": [],
       "images": [
-        "/images/product-placeholder.svg"
+        "/images/products/dk-2433cu075bk-bbb/01.jpg",
+        "/images/products/dk-2433cu075bk-bbb/02.jpg",
+        "/images/products/dk-2433cu075bk-bbb/03.jpg",
+        "/images/products/dk-2433cu075bk-bbb/04.jpg",
+        "/images/products/dk-2433cu075bk-bbb/05.jpg",
+        "/images/products/dk-2433cu075bk-bbb/06.jpg",
+        "/images/products/dk-2433cu075bk-bbb/07.jpg"
       ],
       "officialUrl": null,
       "officialSource": null,
@@ -43327,6 +45982,50 @@
       "tags": [
         "Fiber Optics",
         "Fiber Trunk / Breakout Cables"
+      ],
+      "imageMetadata": [
+        {
+          "src": "/images/products/dk-2433cu075bk-bbb/01.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 830009
+        },
+        {
+          "src": "/images/products/dk-2433cu075bk-bbb/02.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 449757
+        },
+        {
+          "src": "/images/products/dk-2433cu075bk-bbb/03.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 472382
+        },
+        {
+          "src": "/images/products/dk-2433cu075bk-bbb/04.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 156605
+        },
+        {
+          "src": "/images/products/dk-2433cu075bk-bbb/05.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 595863
+        },
+        {
+          "src": "/images/products/dk-2433cu075bk-bbb/06.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 584278
+        },
+        {
+          "src": "/images/products/dk-2433cu075bk-bbb/07.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 1177269
+        }
       ]
     },
     {
@@ -44778,7 +47477,12 @@
       "description": "",
       "specifications": [],
       "images": [
-        "/images/product-placeholder.svg"
+        "/images/products/dn-96018-1/01.jpg",
+        "/images/products/dn-96018-1/02.jpg",
+        "/images/products/dn-96018-1/03.jpg",
+        "/images/products/dn-96018-1/04.jpg",
+        "/images/products/dn-96018-1/05.jpg",
+        "/images/products/dn-96018-1/06.jpg"
       ],
       "officialUrl": null,
       "officialSource": null,
@@ -44794,6 +47498,44 @@
       "tags": [
         "Fiber Optics",
         "Fiber Couplers"
+      ],
+      "imageMetadata": [
+        {
+          "src": "/images/products/dn-96018-1/01.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 229979
+        },
+        {
+          "src": "/images/products/dn-96018-1/02.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 290829
+        },
+        {
+          "src": "/images/products/dn-96018-1/03.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 365571
+        },
+        {
+          "src": "/images/products/dn-96018-1/04.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 569880
+        },
+        {
+          "src": "/images/products/dn-96018-1/05.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 219339
+        },
+        {
+          "src": "/images/products/dn-96018-1/06.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 230234
+        }
       ]
     },
     {
@@ -44838,7 +47580,12 @@
       "description": "",
       "specifications": [],
       "images": [
-        "/images/product-placeholder.svg"
+        "/images/products/dn-96009-1/01.jpg",
+        "/images/products/dn-96009-1/02.jpg",
+        "/images/products/dn-96009-1/03.jpg",
+        "/images/products/dn-96009-1/04.jpg",
+        "/images/products/dn-96009-1/05.jpg",
+        "/images/products/dn-96009-1/06.jpg"
       ],
       "officialUrl": null,
       "officialSource": null,
@@ -44854,6 +47601,44 @@
       "tags": [
         "Fiber Optics",
         "Fiber Couplers"
+      ],
+      "imageMetadata": [
+        {
+          "src": "/images/products/dn-96009-1/01.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 417801
+        },
+        {
+          "src": "/images/products/dn-96009-1/02.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 488660
+        },
+        {
+          "src": "/images/products/dn-96009-1/03.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 709519
+        },
+        {
+          "src": "/images/products/dn-96009-1/04.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 844861
+        },
+        {
+          "src": "/images/products/dn-96009-1/05.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 327795
+        },
+        {
+          "src": "/images/products/dn-96009-1/06.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 197382
+        }
       ]
     },
     {
@@ -44864,7 +47649,12 @@
       "description": "",
       "specifications": [],
       "images": [
-        "/images/product-placeholder.svg"
+        "/images/products/dn-96003-1/01.jpg",
+        "/images/products/dn-96003-1/02.jpg",
+        "/images/products/dn-96003-1/03.jpg",
+        "/images/products/dn-96003-1/04.jpg",
+        "/images/products/dn-96003-1/05.jpg",
+        "/images/products/dn-96003-1/06.jpg"
       ],
       "officialUrl": null,
       "officialSource": null,
@@ -44880,6 +47670,44 @@
       "tags": [
         "Fiber Optics",
         "Fiber Couplers"
+      ],
+      "imageMetadata": [
+        {
+          "src": "/images/products/dn-96003-1/01.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 113823
+        },
+        {
+          "src": "/images/products/dn-96003-1/02.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 366914
+        },
+        {
+          "src": "/images/products/dn-96003-1/03.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 644280
+        },
+        {
+          "src": "/images/products/dn-96003-1/04.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 293786
+        },
+        {
+          "src": "/images/products/dn-96003-1/05.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 570430
+        },
+        {
+          "src": "/images/products/dn-96003-1/06.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 221283
+        }
       ]
     },
     {
@@ -44890,7 +47718,7 @@
       "description": "",
       "specifications": [],
       "images": [
-        "/images/product-placeholder.svg"
+        "/images/products/dn-96004-1/01.jpg"
       ],
       "officialUrl": null,
       "officialSource": null,
@@ -44906,6 +47734,14 @@
       "tags": [
         "Fiber Optics",
         "Fiber Couplers"
+      ],
+      "imageMetadata": [
+        {
+          "src": "/images/products/dn-96004-1/01.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 739784
+        }
       ]
     },
     {
@@ -44916,7 +47752,12 @@
       "description": "",
       "specifications": [],
       "images": [
-        "/images/product-placeholder.svg"
+        "/images/products/dn-96005-1/01.jpg",
+        "/images/products/dn-96005-1/02.jpg",
+        "/images/products/dn-96005-1/03.jpg",
+        "/images/products/dn-96005-1/04.jpg",
+        "/images/products/dn-96005-1/05.jpg",
+        "/images/products/dn-96005-1/06.jpg"
       ],
       "officialUrl": null,
       "officialSource": null,
@@ -44932,6 +47773,44 @@
       "tags": [
         "Fiber Optics",
         "Fiber Couplers"
+      ],
+      "imageMetadata": [
+        {
+          "src": "/images/products/dn-96005-1/01.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 826942
+        },
+        {
+          "src": "/images/products/dn-96005-1/02.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 230234
+        },
+        {
+          "src": "/images/products/dn-96005-1/03.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 255693
+        },
+        {
+          "src": "/images/products/dn-96005-1/04.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 327795
+        },
+        {
+          "src": "/images/products/dn-96005-1/05.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 709519
+        },
+        {
+          "src": "/images/products/dn-96005-1/06.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 350678
+        }
       ]
     },
     {
@@ -45036,7 +47915,14 @@
       "description": "",
       "specifications": [],
       "images": [
-        "/images/product-placeholder.svg"
+        "/images/products/dn-96003-1apc/01.jpg",
+        "/images/products/dn-96003-1apc/02.jpg",
+        "/images/products/dn-96003-1apc/03.jpg",
+        "/images/products/dn-96003-1apc/04.jpg",
+        "/images/products/dn-96003-1apc/05.jpg",
+        "/images/products/dn-96003-1apc/06.jpg",
+        "/images/products/dn-96003-1apc/07.jpg",
+        "/images/products/dn-96003-1apc/08.jpg"
       ],
       "officialUrl": null,
       "officialSource": null,
@@ -45052,6 +47938,56 @@
       "tags": [
         "Fiber Optics",
         "Fiber Couplers"
+      ],
+      "imageMetadata": [
+        {
+          "src": "/images/products/dn-96003-1apc/01.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 370641
+        },
+        {
+          "src": "/images/products/dn-96003-1apc/02.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 590094
+        },
+        {
+          "src": "/images/products/dn-96003-1apc/03.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 777270
+        },
+        {
+          "src": "/images/products/dn-96003-1apc/04.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 986856
+        },
+        {
+          "src": "/images/products/dn-96003-1apc/05.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 524837
+        },
+        {
+          "src": "/images/products/dn-96003-1apc/06.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 290829
+        },
+        {
+          "src": "/images/products/dn-96003-1apc/07.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 365571
+        },
+        {
+          "src": "/images/products/dn-96003-1apc/08.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 569880
+        }
       ]
     },
     {
@@ -45309,7 +48245,14 @@
       "description": "",
       "specifications": [],
       "images": [
-        "/images/product-placeholder.svg"
+        "/images/products/dn-fc-9100/01.jpg",
+        "/images/products/dn-fc-9100/02.jpg",
+        "/images/products/dn-fc-9100/03.jpg",
+        "/images/products/dn-fc-9100/04.jpg",
+        "/images/products/dn-fc-9100/05.jpg",
+        "/images/products/dn-fc-9100/06.jpg",
+        "/images/products/dn-fc-9100/07.jpg",
+        "/images/products/dn-fc-9100/08.jpg"
       ],
       "officialUrl": null,
       "officialSource": null,
@@ -45325,6 +48268,56 @@
       "tags": [
         "Fiber Optics",
         "Fiber Connectors"
+      ],
+      "imageMetadata": [
+        {
+          "src": "/images/products/dn-fc-9100/01.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 553418
+        },
+        {
+          "src": "/images/products/dn-fc-9100/02.jpg",
+          "width": 1333,
+          "height": 1333,
+          "bytes": 503402
+        },
+        {
+          "src": "/images/products/dn-fc-9100/03.jpg",
+          "width": 1333,
+          "height": 1333,
+          "bytes": 742793
+        },
+        {
+          "src": "/images/products/dn-fc-9100/04.jpg",
+          "width": 1333,
+          "height": 1333,
+          "bytes": 271413
+        },
+        {
+          "src": "/images/products/dn-fc-9100/05.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 354264
+        },
+        {
+          "src": "/images/products/dn-fc-9100/06.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 379395
+        },
+        {
+          "src": "/images/products/dn-fc-9100/07.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 708368
+        },
+        {
+          "src": "/images/products/dn-fc-9100/08.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 363973
+        }
       ]
     },
     {
@@ -47652,7 +50645,11 @@
       "description": "",
       "specifications": [],
       "images": [
-        "/images/product-placeholder.svg"
+        "/images/products/dn-96200-2u/01.jpg",
+        "/images/products/dn-96200-2u/02.jpg",
+        "/images/products/dn-96200-2u/03.jpg",
+        "/images/products/dn-96200-2u/04.jpg",
+        "/images/products/dn-96200-2u/05.jpg"
       ],
       "officialUrl": null,
       "officialSource": null,
@@ -47668,6 +50665,38 @@
       "tags": [
         "Fiber Optics",
         "Fiber Splice Enclosures / Patch Panels"
+      ],
+      "imageMetadata": [
+        {
+          "src": "/images/products/dn-96200-2u/01.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 160953
+        },
+        {
+          "src": "/images/products/dn-96200-2u/02.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 433789
+        },
+        {
+          "src": "/images/products/dn-96200-2u/03.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 462653
+        },
+        {
+          "src": "/images/products/dn-96200-2u/04.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 569099
+        },
+        {
+          "src": "/images/products/dn-96200-2u/05.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 186053
+        }
       ]
     },
     {
@@ -47678,7 +50707,14 @@
       "description": "",
       "specifications": [],
       "images": [
-        "/images/product-placeholder.svg"
+        "/images/products/dn-949103/01.jpg",
+        "/images/products/dn-949103/02.jpg",
+        "/images/products/dn-949103/03.jpg",
+        "/images/products/dn-949103/04.jpg",
+        "/images/products/dn-949103/05.jpg",
+        "/images/products/dn-949103/06.jpg",
+        "/images/products/dn-949103/07.jpg",
+        "/images/products/dn-949103/08.jpg"
       ],
       "officialUrl": null,
       "officialSource": null,
@@ -47694,6 +50730,56 @@
       "tags": [
         "Fiber Optics",
         "Fiber Distribution Boxes"
+      ],
+      "imageMetadata": [
+        {
+          "src": "/images/products/dn-949103/01.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 467889
+        },
+        {
+          "src": "/images/products/dn-949103/02.jpg",
+          "width": 1333,
+          "height": 1333,
+          "bytes": 319869
+        },
+        {
+          "src": "/images/products/dn-949103/03.jpg",
+          "width": 1333,
+          "height": 1333,
+          "bytes": 439256
+        },
+        {
+          "src": "/images/products/dn-949103/04.jpg",
+          "width": 1333,
+          "height": 1333,
+          "bytes": 486063
+        },
+        {
+          "src": "/images/products/dn-949103/05.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 255823
+        },
+        {
+          "src": "/images/products/dn-949103/06.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 617354
+        },
+        {
+          "src": "/images/products/dn-949103/07.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 657069
+        },
+        {
+          "src": "/images/products/dn-949103/08.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 452052
+        }
       ]
     },
     {
@@ -47704,7 +50790,14 @@
       "description": "",
       "specifications": [],
       "images": [
-        "/images/product-placeholder.svg"
+        "/images/products/dn-968915/01.jpg",
+        "/images/products/dn-968915/02.jpg",
+        "/images/products/dn-968915/03.jpg",
+        "/images/products/dn-968915/04.jpg",
+        "/images/products/dn-968915/05.jpg",
+        "/images/products/dn-968915/06.jpg",
+        "/images/products/dn-968915/07.jpg",
+        "/images/products/dn-968915/08.jpg"
       ],
       "officialUrl": null,
       "officialSource": null,
@@ -47720,6 +50813,56 @@
       "tags": [
         "Fiber Optics",
         "Fiber Distribution Boxes"
+      ],
+      "imageMetadata": [
+        {
+          "src": "/images/products/dn-968915/01.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 507963
+        },
+        {
+          "src": "/images/products/dn-968915/02.jpg",
+          "width": 1333,
+          "height": 1333,
+          "bytes": 316712
+        },
+        {
+          "src": "/images/products/dn-968915/03.jpg",
+          "width": 1333,
+          "height": 1333,
+          "bytes": 506083
+        },
+        {
+          "src": "/images/products/dn-968915/04.jpg",
+          "width": 1333,
+          "height": 1333,
+          "bytes": 321811
+        },
+        {
+          "src": "/images/products/dn-968915/05.jpg",
+          "width": 1333,
+          "height": 1333,
+          "bytes": 298029
+        },
+        {
+          "src": "/images/products/dn-968915/06.jpg",
+          "width": 1333,
+          "height": 1333,
+          "bytes": 664645
+        },
+        {
+          "src": "/images/products/dn-968915/07.jpg",
+          "width": 1333,
+          "height": 1333,
+          "bytes": 280827
+        },
+        {
+          "src": "/images/products/dn-968915/08.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 370118
+        }
       ]
     },
     {
@@ -47773,7 +50916,12 @@
       "description": "",
       "specifications": [],
       "images": [
-        "/images/product-placeholder.svg"
+        "/images/products/dn-931093/01.jpg",
+        "/images/products/dn-931093/02.jpg",
+        "/images/products/dn-931093/03.jpg",
+        "/images/products/dn-931093/04.jpg",
+        "/images/products/dn-931093/05.jpg",
+        "/images/products/dn-931093/06.jpg"
       ],
       "officialUrl": null,
       "officialSource": null,
@@ -47789,6 +50937,44 @@
       "tags": [
         "Fiber Optics",
         "Fiber Distribution Boxes"
+      ],
+      "imageMetadata": [
+        {
+          "src": "/images/products/dn-931093/01.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 471444
+        },
+        {
+          "src": "/images/products/dn-931093/02.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 245165
+        },
+        {
+          "src": "/images/products/dn-931093/03.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 367500
+        },
+        {
+          "src": "/images/products/dn-931093/04.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 493428
+        },
+        {
+          "src": "/images/products/dn-931093/05.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 417183
+        },
+        {
+          "src": "/images/products/dn-931093/06.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 415712
+        }
       ]
     },
     {
@@ -48674,7 +51860,8 @@
       "description": "",
       "specifications": [],
       "images": [
-        "/images/product-placeholder.svg"
+        "/images/products/a-96522-02-upc-4/01.jpg",
+        "/images/products/a-96522-02-upc-4/02.jpg"
       ],
       "officialUrl": null,
       "officialSource": null,
@@ -48690,6 +51877,20 @@
       "tags": [
         "Fiber Optics",
         "Fiber Splice Enclosures / Patch Panels"
+      ],
+      "imageMetadata": [
+        {
+          "src": "/images/products/a-96522-02-upc-4/01.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 603513
+        },
+        {
+          "src": "/images/products/a-96522-02-upc-4/02.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 427235
+        }
       ]
     },
     {
@@ -48933,7 +52134,7 @@
       "description": "",
       "specifications": [],
       "images": [
-        "/images/product-placeholder.svg"
+        "/images/products/al-sk3/01.jpg"
       ],
       "officialUrl": null,
       "officialSource": null,
@@ -48949,6 +52150,14 @@
       "tags": [
         "Fiber Optics",
         "Fiber Splice Enclosures / Patch Panels"
+      ],
+      "imageMetadata": [
+        {
+          "src": "/images/products/al-sk3/01.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 335055
+        }
       ]
     },
     {
@@ -49047,7 +52256,13 @@
       "description": "",
       "specifications": [],
       "images": [
-        "/images/product-placeholder.svg"
+        "/images/products/dn-948050-1/01.jpg",
+        "/images/products/dn-948050-1/02.jpg",
+        "/images/products/dn-948050-1/03.jpg",
+        "/images/products/dn-948050-1/04.jpg",
+        "/images/products/dn-948050-1/05.jpg",
+        "/images/products/dn-948050-1/06.jpg",
+        "/images/products/dn-948050-1/07.jpg"
       ],
       "officialUrl": null,
       "officialSource": null,
@@ -49063,6 +52278,50 @@
       "tags": [
         "Fiber Optics",
         "FTTX"
+      ],
+      "imageMetadata": [
+        {
+          "src": "/images/products/dn-948050-1/01.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 1084843
+        },
+        {
+          "src": "/images/products/dn-948050-1/02.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 732206
+        },
+        {
+          "src": "/images/products/dn-948050-1/03.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 380209
+        },
+        {
+          "src": "/images/products/dn-948050-1/04.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 161132
+        },
+        {
+          "src": "/images/products/dn-948050-1/05.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 495095
+        },
+        {
+          "src": "/images/products/dn-948050-1/06.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 584436
+        },
+        {
+          "src": "/images/products/dn-948050-1/07.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 787832
+        }
       ]
     },
     {
@@ -50001,7 +53260,10 @@
       "description": "",
       "specifications": [],
       "images": [
-        "/images/product-placeholder.svg"
+        "/images/products/dn-931087/01.jpg",
+        "/images/products/dn-931087/02.jpg",
+        "/images/products/dn-931087/03.jpg",
+        "/images/products/dn-931087/04.jpg"
       ],
       "officialUrl": null,
       "officialSource": null,
@@ -50017,6 +53279,32 @@
       "tags": [
         "Fiber Optics",
         "FTTX"
+      ],
+      "imageMetadata": [
+        {
+          "src": "/images/products/dn-931087/01.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 496393
+        },
+        {
+          "src": "/images/products/dn-931087/02.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 587808
+        },
+        {
+          "src": "/images/products/dn-931087/03.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 417801
+        },
+        {
+          "src": "/images/products/dn-931087/04.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 384027
+        }
       ]
     },
     {
@@ -50850,7 +54138,14 @@
       "description": "",
       "specifications": [],
       "images": [
-        "/images/product-placeholder.svg"
+        "/images/products/dn-fo-fs4/01.jpg",
+        "/images/products/dn-fo-fs4/02.jpg",
+        "/images/products/dn-fo-fs4/03.jpg",
+        "/images/products/dn-fo-fs4/04.jpg",
+        "/images/products/dn-fo-fs4/05.jpg",
+        "/images/products/dn-fo-fs4/06.jpg",
+        "/images/products/dn-fo-fs4/07.jpg",
+        "/images/products/dn-fo-fs4/08.jpg"
       ],
       "officialUrl": null,
       "officialSource": null,
@@ -50866,6 +54161,56 @@
       "tags": [
         "Fiber Optics",
         "Splice Devices & Fiber Tools"
+      ],
+      "imageMetadata": [
+        {
+          "src": "/images/products/dn-fo-fs4/01.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 718532
+        },
+        {
+          "src": "/images/products/dn-fo-fs4/02.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 898035
+        },
+        {
+          "src": "/images/products/dn-fo-fs4/03.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 998328
+        },
+        {
+          "src": "/images/products/dn-fo-fs4/04.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 1445320
+        },
+        {
+          "src": "/images/products/dn-fo-fs4/05.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 966230
+        },
+        {
+          "src": "/images/products/dn-fo-fs4/06.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 423228
+        },
+        {
+          "src": "/images/products/dn-fo-fs4/07.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 339601
+        },
+        {
+          "src": "/images/products/dn-fo-fs4/08.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 261412
+        }
       ]
     },
     {
@@ -50876,7 +54221,8 @@
       "description": "",
       "specifications": [],
       "images": [
-        "/images/product-placeholder.svg"
+        "/images/products/dn-fo-kc/01.jpg",
+        "/images/products/dn-fo-kc/02.jpg"
       ],
       "officialUrl": null,
       "officialSource": null,
@@ -50892,6 +54238,20 @@
       "tags": [
         "Fiber Optics",
         "Splice Devices & Fiber Tools"
+      ],
+      "imageMetadata": [
+        {
+          "src": "/images/products/dn-fo-kc/01.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 423228
+        },
+        {
+          "src": "/images/products/dn-fo-kc/02.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 718532
+        }
       ]
     },
     {
@@ -51831,7 +55191,14 @@
       "description": "",
       "specifications": [],
       "images": [
-        "/images/product-placeholder.svg"
+        "/images/products/dn-95428/01.jpg",
+        "/images/products/dn-95428/02.jpg",
+        "/images/products/dn-95428/03.jpg",
+        "/images/products/dn-95428/04.jpg",
+        "/images/products/dn-95428/05.jpg",
+        "/images/products/dn-95428/06.jpg",
+        "/images/products/dn-95428/07.jpg",
+        "/images/products/dn-95428/08.jpg"
       ],
       "officialUrl": null,
       "officialSource": null,
@@ -51847,6 +55214,56 @@
       "tags": [
         "Power",
         "Rack PDUs"
+      ],
+      "imageMetadata": [
+        {
+          "src": "/images/products/dn-95428/01.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 367219
+        },
+        {
+          "src": "/images/products/dn-95428/02.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 112397
+        },
+        {
+          "src": "/images/products/dn-95428/03.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 349062
+        },
+        {
+          "src": "/images/products/dn-95428/04.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 298719
+        },
+        {
+          "src": "/images/products/dn-95428/05.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 674242
+        },
+        {
+          "src": "/images/products/dn-95428/06.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 412498
+        },
+        {
+          "src": "/images/products/dn-95428/07.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 323977
+        },
+        {
+          "src": "/images/products/dn-95428/08.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 484320
+        }
       ]
     },
     {
@@ -51959,7 +55376,14 @@
       "description": "",
       "specifications": [],
       "images": [
-        "/images/product-placeholder.svg"
+        "/images/products/dn-95432/01.jpg",
+        "/images/products/dn-95432/02.jpg",
+        "/images/products/dn-95432/03.jpg",
+        "/images/products/dn-95432/04.jpg",
+        "/images/products/dn-95432/05.jpg",
+        "/images/products/dn-95432/06.jpg",
+        "/images/products/dn-95432/07.jpg",
+        "/images/products/dn-95432/08.jpg"
       ],
       "officialUrl": null,
       "officialSource": null,
@@ -51975,6 +55399,56 @@
       "tags": [
         "Power",
         "Rack PDUs"
+      ],
+      "imageMetadata": [
+        {
+          "src": "/images/products/dn-95432/01.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 373547
+        },
+        {
+          "src": "/images/products/dn-95432/02.jpg",
+          "width": 1333,
+          "height": 1333,
+          "bytes": 323068
+        },
+        {
+          "src": "/images/products/dn-95432/03.jpg",
+          "width": 1333,
+          "height": 1333,
+          "bytes": 732886
+        },
+        {
+          "src": "/images/products/dn-95432/04.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 125946
+        },
+        {
+          "src": "/images/products/dn-95432/05.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 425058
+        },
+        {
+          "src": "/images/products/dn-95432/06.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 761631
+        },
+        {
+          "src": "/images/products/dn-95432/07.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 635564
+        },
+        {
+          "src": "/images/products/dn-95432/08.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 326929
+        }
       ]
     },
     {
@@ -52210,7 +55684,14 @@
       "description": "",
       "specifications": [],
       "images": [
-        "/images/product-placeholder.svg"
+        "/images/products/dn-95417/01.jpg",
+        "/images/products/dn-95417/02.jpg",
+        "/images/products/dn-95417/03.jpg",
+        "/images/products/dn-95417/04.jpg",
+        "/images/products/dn-95417/05.jpg",
+        "/images/products/dn-95417/06.jpg",
+        "/images/products/dn-95417/07.jpg",
+        "/images/products/dn-95417/08.jpg"
       ],
       "officialUrl": null,
       "officialSource": null,
@@ -52226,6 +55707,56 @@
       "tags": [
         "Power",
         "Rack PDUs"
+      ],
+      "imageMetadata": [
+        {
+          "src": "/images/products/dn-95417/01.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 350866
+        },
+        {
+          "src": "/images/products/dn-95417/02.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 174063
+        },
+        {
+          "src": "/images/products/dn-95417/03.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 470969
+        },
+        {
+          "src": "/images/products/dn-95417/04.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 358778
+        },
+        {
+          "src": "/images/products/dn-95417/05.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 723753
+        },
+        {
+          "src": "/images/products/dn-95417/06.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 317984
+        },
+        {
+          "src": "/images/products/dn-95417/07.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 685667
+        },
+        {
+          "src": "/images/products/dn-95417/08.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 502506
+        }
       ]
     },
     {
@@ -52331,7 +55862,14 @@
       "description": "",
       "specifications": [],
       "images": [
-        "/images/product-placeholder.svg"
+        "/images/products/dn-95412/01.jpg",
+        "/images/products/dn-95412/02.jpg",
+        "/images/products/dn-95412/03.jpg",
+        "/images/products/dn-95412/04.jpg",
+        "/images/products/dn-95412/05.jpg",
+        "/images/products/dn-95412/06.jpg",
+        "/images/products/dn-95412/07.jpg",
+        "/images/products/dn-95412/08.jpg"
       ],
       "officialUrl": null,
       "officialSource": null,
@@ -52347,6 +55885,56 @@
       "tags": [
         "Power",
         "Rack PDUs"
+      ],
+      "imageMetadata": [
+        {
+          "src": "/images/products/dn-95412/01.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 288573
+        },
+        {
+          "src": "/images/products/dn-95412/02.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 327140
+        },
+        {
+          "src": "/images/products/dn-95412/03.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 158741
+        },
+        {
+          "src": "/images/products/dn-95412/04.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 118816
+        },
+        {
+          "src": "/images/products/dn-95412/05.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 597407
+        },
+        {
+          "src": "/images/products/dn-95412/06.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 375826
+        },
+        {
+          "src": "/images/products/dn-95412/07.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 369429
+        },
+        {
+          "src": "/images/products/dn-95412/08.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 507041
+        }
       ]
     },
     {
@@ -52648,7 +56236,14 @@
       "description": "",
       "specifications": [],
       "images": [
-        "/images/product-placeholder.svg"
+        "/images/products/dn-95411/01.jpg",
+        "/images/products/dn-95411/02.jpg",
+        "/images/products/dn-95411/03.jpg",
+        "/images/products/dn-95411/04.jpg",
+        "/images/products/dn-95411/05.jpg",
+        "/images/products/dn-95411/06.jpg",
+        "/images/products/dn-95411/07.jpg",
+        "/images/products/dn-95411/08.jpg"
       ],
       "officialUrl": null,
       "officialSource": null,
@@ -52664,6 +56259,56 @@
       "tags": [
         "Power",
         "Rack PDUs"
+      ],
+      "imageMetadata": [
+        {
+          "src": "/images/products/dn-95411/01.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 497613
+        },
+        {
+          "src": "/images/products/dn-95411/02.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 193974
+        },
+        {
+          "src": "/images/products/dn-95411/03.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 108687
+        },
+        {
+          "src": "/images/products/dn-95411/04.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 104397
+        },
+        {
+          "src": "/images/products/dn-95411/05.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 1551254
+        },
+        {
+          "src": "/images/products/dn-95411/06.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 1083603
+        },
+        {
+          "src": "/images/products/dn-95411/07.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 653843
+        },
+        {
+          "src": "/images/products/dn-95411/08.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 665015
+        }
       ]
     },
     {
@@ -52864,7 +56509,14 @@
       "description": "",
       "specifications": [],
       "images": [
-        "/images/product-placeholder.svg"
+        "/images/products/dn-95403/01.jpg",
+        "/images/products/dn-95403/02.jpg",
+        "/images/products/dn-95403/03.jpg",
+        "/images/products/dn-95403/04.jpg",
+        "/images/products/dn-95403/05.jpg",
+        "/images/products/dn-95403/06.jpg",
+        "/images/products/dn-95403/07.jpg",
+        "/images/products/dn-95403/08.jpg"
       ],
       "officialUrl": null,
       "officialSource": null,
@@ -52880,6 +56532,56 @@
       "tags": [
         "Power",
         "Rack PDUs"
+      ],
+      "imageMetadata": [
+        {
+          "src": "/images/products/dn-95403/01.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 346613
+        },
+        {
+          "src": "/images/products/dn-95403/02.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 121057
+        },
+        {
+          "src": "/images/products/dn-95403/03.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 110677
+        },
+        {
+          "src": "/images/products/dn-95403/04.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 204675
+        },
+        {
+          "src": "/images/products/dn-95403/05.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 1210380
+        },
+        {
+          "src": "/images/products/dn-95403/06.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 936810
+        },
+        {
+          "src": "/images/products/dn-95403/07.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 839013
+        },
+        {
+          "src": "/images/products/dn-95403/08.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 1512805
+        }
       ]
     },
     {
@@ -52985,7 +56687,8 @@
       "description": "",
       "specifications": [],
       "images": [
-        "/images/product-placeholder.svg"
+        "/images/products/dn-95423/01.jpg",
+        "/images/products/dn-95423/02.jpg"
       ],
       "officialUrl": null,
       "officialSource": null,
@@ -53001,6 +56704,20 @@
       "tags": [
         "Power",
         "Rack PDUs"
+      ],
+      "imageMetadata": [
+        {
+          "src": "/images/products/dn-95423/01.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 94717
+        },
+        {
+          "src": "/images/products/dn-95423/02.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 223526
+        }
       ]
     },
     {
@@ -53011,7 +56728,12 @@
       "description": "",
       "specifications": [],
       "images": [
-        "/images/product-placeholder.svg"
+        "/images/products/dn-95412-it/01.jpg",
+        "/images/products/dn-95412-it/02.jpg",
+        "/images/products/dn-95412-it/03.jpg",
+        "/images/products/dn-95412-it/04.jpg",
+        "/images/products/dn-95412-it/05.jpg",
+        "/images/products/dn-95412-it/06.jpg"
       ],
       "officialUrl": null,
       "officialSource": null,
@@ -53027,6 +56749,44 @@
       "tags": [
         "Power",
         "Rack PDUs"
+      ],
+      "imageMetadata": [
+        {
+          "src": "/images/products/dn-95412-it/01.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 278346
+        },
+        {
+          "src": "/images/products/dn-95412-it/02.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 112714
+        },
+        {
+          "src": "/images/products/dn-95412-it/03.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 330760
+        },
+        {
+          "src": "/images/products/dn-95412-it/04.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 288174
+        },
+        {
+          "src": "/images/products/dn-95412-it/05.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 257636
+        },
+        {
+          "src": "/images/products/dn-95412-it/06.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 637416
+        }
       ]
     },
     {
@@ -53037,7 +56797,14 @@
       "description": "",
       "specifications": [],
       "images": [
-        "/images/product-placeholder.svg"
+        "/images/products/dn-95628/01.jpg",
+        "/images/products/dn-95628/02.jpg",
+        "/images/products/dn-95628/03.jpg",
+        "/images/products/dn-95628/04.jpg",
+        "/images/products/dn-95628/05.jpg",
+        "/images/products/dn-95628/06.jpg",
+        "/images/products/dn-95628/07.jpg",
+        "/images/products/dn-95628/08.jpg"
       ],
       "officialUrl": null,
       "officialSource": null,
@@ -53053,6 +56820,56 @@
       "tags": [
         "Power",
         "Rack PDUs"
+      ],
+      "imageMetadata": [
+        {
+          "src": "/images/products/dn-95628/01.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 212683
+        },
+        {
+          "src": "/images/products/dn-95628/02.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 485758
+        },
+        {
+          "src": "/images/products/dn-95628/03.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 411400
+        },
+        {
+          "src": "/images/products/dn-95628/04.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 145376
+        },
+        {
+          "src": "/images/products/dn-95628/05.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 937077
+        },
+        {
+          "src": "/images/products/dn-95628/06.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 589457
+        },
+        {
+          "src": "/images/products/dn-95628/07.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 535684
+        },
+        {
+          "src": "/images/products/dn-95628/08.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 605462
+        }
       ]
     },
     {
@@ -55312,7 +59129,14 @@
       "description": "",
       "specifications": [],
       "images": [
-        "/images/product-placeholder.svg"
+        "/images/products/da-10063/01.jpg",
+        "/images/products/da-10063/02.jpg",
+        "/images/products/da-10063/03.jpg",
+        "/images/products/da-10063/04.jpg",
+        "/images/products/da-10063/05.jpg",
+        "/images/products/da-10063/06.jpg",
+        "/images/products/da-10063/07.jpg",
+        "/images/products/da-10063/08.jpg"
       ],
       "officialUrl": null,
       "officialSource": null,
@@ -55328,6 +59152,56 @@
       "tags": [
         "Power",
         "Chargers & Power Supplies"
+      ],
+      "imageMetadata": [
+        {
+          "src": "/images/products/da-10063/01.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 314850
+        },
+        {
+          "src": "/images/products/da-10063/02.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 87343
+        },
+        {
+          "src": "/images/products/da-10063/03.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 170569
+        },
+        {
+          "src": "/images/products/da-10063/04.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 106215
+        },
+        {
+          "src": "/images/products/da-10063/05.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 1273178
+        },
+        {
+          "src": "/images/products/da-10063/06.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 1384250
+        },
+        {
+          "src": "/images/products/da-10063/07.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 321266
+        },
+        {
+          "src": "/images/products/da-10063/08.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 370710
+        }
       ]
     },
     {
@@ -55338,7 +59212,14 @@
       "description": "",
       "specifications": [],
       "images": [
-        "/images/product-placeholder.svg"
+        "/images/products/da-10061/01.jpg",
+        "/images/products/da-10061/02.jpg",
+        "/images/products/da-10061/03.jpg",
+        "/images/products/da-10061/04.jpg",
+        "/images/products/da-10061/05.jpg",
+        "/images/products/da-10061/06.jpg",
+        "/images/products/da-10061/07.jpg",
+        "/images/products/da-10061/08.jpg"
       ],
       "officialUrl": null,
       "officialSource": null,
@@ -55354,6 +59235,56 @@
       "tags": [
         "Power",
         "Chargers & Power Supplies"
+      ],
+      "imageMetadata": [
+        {
+          "src": "/images/products/da-10061/01.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 323844
+        },
+        {
+          "src": "/images/products/da-10061/02.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 129516
+        },
+        {
+          "src": "/images/products/da-10061/03.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 244119
+        },
+        {
+          "src": "/images/products/da-10061/04.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 984886
+        },
+        {
+          "src": "/images/products/da-10061/05.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 990030
+        },
+        {
+          "src": "/images/products/da-10061/06.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 269463
+        },
+        {
+          "src": "/images/products/da-10061/07.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 259188
+        },
+        {
+          "src": "/images/products/da-10061/08.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 405885
+        }
       ]
     },
     {
@@ -55364,7 +59295,14 @@
       "description": "",
       "specifications": [],
       "images": [
-        "/images/product-placeholder.svg"
+        "/images/products/da-10062/01.jpg",
+        "/images/products/da-10062/02.jpg",
+        "/images/products/da-10062/03.jpg",
+        "/images/products/da-10062/04.jpg",
+        "/images/products/da-10062/05.jpg",
+        "/images/products/da-10062/06.jpg",
+        "/images/products/da-10062/07.jpg",
+        "/images/products/da-10062/08.jpg"
       ],
       "officialUrl": null,
       "officialSource": null,
@@ -55380,6 +59318,56 @@
       "tags": [
         "Power",
         "Chargers & Power Supplies"
+      ],
+      "imageMetadata": [
+        {
+          "src": "/images/products/da-10062/01.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 272865
+        },
+        {
+          "src": "/images/products/da-10062/02.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 85233
+        },
+        {
+          "src": "/images/products/da-10062/03.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 150992
+        },
+        {
+          "src": "/images/products/da-10062/04.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 84294
+        },
+        {
+          "src": "/images/products/da-10062/05.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 2022519
+        },
+        {
+          "src": "/images/products/da-10062/06.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 1605358
+        },
+        {
+          "src": "/images/products/da-10062/07.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 302158
+        },
+        {
+          "src": "/images/products/da-10062/08.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 347761
+        }
       ]
     },
     {
@@ -55682,7 +59670,14 @@
       "description": "",
       "specifications": [],
       "images": [
-        "/images/product-placeholder.svg"
+        "/images/products/da-10196/01.jpg",
+        "/images/products/da-10196/02.jpg",
+        "/images/products/da-10196/03.jpg",
+        "/images/products/da-10196/04.jpg",
+        "/images/products/da-10196/05.jpg",
+        "/images/products/da-10196/06.jpg",
+        "/images/products/da-10196/07.jpg",
+        "/images/products/da-10196/08.jpg"
       ],
       "officialUrl": null,
       "officialSource": null,
@@ -55698,6 +59693,56 @@
       "tags": [
         "Power",
         "Chargers & Power Supplies"
+      ],
+      "imageMetadata": [
+        {
+          "src": "/images/products/da-10196/01.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 251371
+        },
+        {
+          "src": "/images/products/da-10196/02.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 243122
+        },
+        {
+          "src": "/images/products/da-10196/03.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 224886
+        },
+        {
+          "src": "/images/products/da-10196/04.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 997445
+        },
+        {
+          "src": "/images/products/da-10196/05.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 1016864
+        },
+        {
+          "src": "/images/products/da-10196/06.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 978834
+        },
+        {
+          "src": "/images/products/da-10196/07.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 202760
+        },
+        {
+          "src": "/images/products/da-10196/08.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 367931
+        }
       ]
     },
     {
@@ -55803,7 +59848,12 @@
       "description": "",
       "specifications": [],
       "images": [
-        "/images/product-placeholder.svg"
+        "/images/products/da-70617/01.jpg",
+        "/images/products/da-70617/02.jpg",
+        "/images/products/da-70617/03.jpg",
+        "/images/products/da-70617/04.jpg",
+        "/images/products/da-70617/05.jpg",
+        "/images/products/da-70617/06.jpg"
       ],
       "officialUrl": null,
       "officialSource": null,
@@ -55819,6 +59869,44 @@
       "tags": [
         "Power",
         "Chargers & Power Supplies"
+      ],
+      "imageMetadata": [
+        {
+          "src": "/images/products/da-70617/01.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 356855
+        },
+        {
+          "src": "/images/products/da-70617/02.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 1118040
+        },
+        {
+          "src": "/images/products/da-70617/03.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 290525
+        },
+        {
+          "src": "/images/products/da-70617/04.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 321467
+        },
+        {
+          "src": "/images/products/da-70617/05.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 227763
+        },
+        {
+          "src": "/images/products/da-70617/06.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 198255
+        }
       ]
     },
     {
@@ -55829,7 +59917,14 @@
       "description": "",
       "specifications": [],
       "images": [
-        "/images/product-placeholder.svg"
+        "/images/products/da-10195/01.jpg",
+        "/images/products/da-10195/02.jpg",
+        "/images/products/da-10195/03.jpg",
+        "/images/products/da-10195/04.jpg",
+        "/images/products/da-10195/05.jpg",
+        "/images/products/da-10195/06.jpg",
+        "/images/products/da-10195/07.jpg",
+        "/images/products/da-10195/08.jpg"
       ],
       "officialUrl": null,
       "officialSource": null,
@@ -55845,6 +59940,56 @@
       "tags": [
         "Power",
         "Chargers & Power Supplies"
+      ],
+      "imageMetadata": [
+        {
+          "src": "/images/products/da-10195/01.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 479055
+        },
+        {
+          "src": "/images/products/da-10195/02.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 515840
+        },
+        {
+          "src": "/images/products/da-10195/03.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 521873
+        },
+        {
+          "src": "/images/products/da-10195/04.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 1471511
+        },
+        {
+          "src": "/images/products/da-10195/05.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 925511
+        },
+        {
+          "src": "/images/products/da-10195/06.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 583014
+        },
+        {
+          "src": "/images/products/da-10195/07.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 963520
+        },
+        {
+          "src": "/images/products/da-10195/08.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 400823
+        }
       ]
     },
     {
@@ -55971,7 +60116,12 @@
       "description": "",
       "specifications": [],
       "images": [
-        "/images/product-placeholder.svg"
+        "/images/products/84103/01.jpg",
+        "/images/products/84103/02.jpg",
+        "/images/products/84103/03.jpg",
+        "/images/products/84103/04.jpg",
+        "/images/products/84103/05.jpg",
+        "/images/products/84103/06.jpg"
       ],
       "officialUrl": null,
       "officialSource": null,
@@ -55987,6 +60137,44 @@
       "tags": [
         "Power",
         "Chargers & Power Supplies"
+      ],
+      "imageMetadata": [
+        {
+          "src": "/images/products/84103/01.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 630903
+        },
+        {
+          "src": "/images/products/84103/02.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 1631643
+        },
+        {
+          "src": "/images/products/84103/03.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 1532535
+        },
+        {
+          "src": "/images/products/84103/04.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 668947
+        },
+        {
+          "src": "/images/products/84103/05.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 542698
+        },
+        {
+          "src": "/images/products/84103/06.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 614305
+        }
       ]
     },
     {
@@ -56894,7 +61082,10 @@
       "description": "",
       "specifications": [],
       "images": [
-        "/images/product-placeholder.svg"
+        "/images/products/dn-95002/01.jpg",
+        "/images/products/dn-95002/02.jpg",
+        "/images/products/dn-95002/03.jpg",
+        "/images/products/dn-95002/04.jpg"
       ],
       "officialUrl": null,
       "officialSource": null,
@@ -56910,6 +61101,32 @@
       "tags": [
         "Networking",
         "PoE Injectors / Splitters / Extenders"
+      ],
+      "imageMetadata": [
+        {
+          "src": "/images/products/dn-95002/01.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 367548
+        },
+        {
+          "src": "/images/products/dn-95002/02.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 174924
+        },
+        {
+          "src": "/images/products/dn-95002/03.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 428560
+        },
+        {
+          "src": "/images/products/dn-95002/04.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 222972
+        }
       ]
     },
     {
@@ -57552,7 +61769,14 @@
       "description": "",
       "specifications": [],
       "images": [
-        "/images/product-placeholder.svg"
+        "/images/products/dn-95103-2/01.jpg",
+        "/images/products/dn-95103-2/02.jpg",
+        "/images/products/dn-95103-2/03.jpg",
+        "/images/products/dn-95103-2/04.jpg",
+        "/images/products/dn-95103-2/05.jpg",
+        "/images/products/dn-95103-2/06.jpg",
+        "/images/products/dn-95103-2/07.jpg",
+        "/images/products/dn-95103-2/08.jpg"
       ],
       "officialUrl": null,
       "officialSource": null,
@@ -57568,6 +61792,56 @@
       "tags": [
         "Networking",
         "PoE Injectors / Splitters / Extenders"
+      ],
+      "imageMetadata": [
+        {
+          "src": "/images/products/dn-95103-2/01.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 764823
+        },
+        {
+          "src": "/images/products/dn-95103-2/02.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 402032
+        },
+        {
+          "src": "/images/products/dn-95103-2/03.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 1196752
+        },
+        {
+          "src": "/images/products/dn-95103-2/04.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 707952
+        },
+        {
+          "src": "/images/products/dn-95103-2/05.jpg",
+          "width": 2000,
+          "height": 1330,
+          "bytes": 665508
+        },
+        {
+          "src": "/images/products/dn-95103-2/06.jpg",
+          "width": 2000,
+          "height": 1330,
+          "bytes": 613790
+        },
+        {
+          "src": "/images/products/dn-95103-2/07.jpg",
+          "width": 2000,
+          "height": 1330,
+          "bytes": 912078
+        },
+        {
+          "src": "/images/products/dn-95103-2/08.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 352227
+        }
       ]
     },
     {
@@ -57578,7 +61852,14 @@
       "description": "",
       "specifications": [],
       "images": [
-        "/images/product-placeholder.svg"
+        "/images/products/dn-95127-1/01.jpg",
+        "/images/products/dn-95127-1/02.jpg",
+        "/images/products/dn-95127-1/03.jpg",
+        "/images/products/dn-95127-1/04.jpg",
+        "/images/products/dn-95127-1/05.jpg",
+        "/images/products/dn-95127-1/06.jpg",
+        "/images/products/dn-95127-1/07.jpg",
+        "/images/products/dn-95127-1/08.jpg"
       ],
       "officialUrl": null,
       "officialSource": null,
@@ -57594,6 +61875,56 @@
       "tags": [
         "Networking",
         "PoE Injectors / Splitters / Extenders"
+      ],
+      "imageMetadata": [
+        {
+          "src": "/images/products/dn-95127-1/01.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 839464
+        },
+        {
+          "src": "/images/products/dn-95127-1/02.jpg",
+          "width": 1333,
+          "height": 1333,
+          "bytes": 476063
+        },
+        {
+          "src": "/images/products/dn-95127-1/03.jpg",
+          "width": 1333,
+          "height": 1333,
+          "bytes": 475134
+        },
+        {
+          "src": "/images/products/dn-95127-1/04.jpg",
+          "width": 1333,
+          "height": 1333,
+          "bytes": 345494
+        },
+        {
+          "src": "/images/products/dn-95127-1/05.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 810203
+        },
+        {
+          "src": "/images/products/dn-95127-1/06.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 752187
+        },
+        {
+          "src": "/images/products/dn-95127-1/07.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 782536
+        },
+        {
+          "src": "/images/products/dn-95127-1/08.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 401928
+        }
       ]
     },
     {
@@ -57604,7 +61935,13 @@
       "description": "",
       "specifications": [],
       "images": [
-        "/images/product-placeholder.svg"
+        "/images/products/dn-95131/01.jpg",
+        "/images/products/dn-95131/02.jpg",
+        "/images/products/dn-95131/03.jpg",
+        "/images/products/dn-95131/04.jpg",
+        "/images/products/dn-95131/05.jpg",
+        "/images/products/dn-95131/06.jpg",
+        "/images/products/dn-95131/07.jpg"
       ],
       "officialUrl": null,
       "officialSource": null,
@@ -57620,6 +61957,50 @@
       "tags": [
         "Networking",
         "PoE Injectors / Splitters / Extenders"
+      ],
+      "imageMetadata": [
+        {
+          "src": "/images/products/dn-95131/01.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 310888
+        },
+        {
+          "src": "/images/products/dn-95131/02.jpg",
+          "width": 1333,
+          "height": 1333,
+          "bytes": 266288
+        },
+        {
+          "src": "/images/products/dn-95131/03.jpg",
+          "width": 1333,
+          "height": 1333,
+          "bytes": 250895
+        },
+        {
+          "src": "/images/products/dn-95131/04.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 393526
+        },
+        {
+          "src": "/images/products/dn-95131/05.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 272195
+        },
+        {
+          "src": "/images/products/dn-95131/06.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 283832
+        },
+        {
+          "src": "/images/products/dn-95131/07.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 329101
+        }
       ]
     },
     {
@@ -62168,7 +66549,14 @@
       "description": "",
       "specifications": [],
       "images": [
-        "/images/product-placeholder.svg"
+        "/images/products/ds-55122/01.jpg",
+        "/images/products/ds-55122/02.jpg",
+        "/images/products/ds-55122/03.jpg",
+        "/images/products/ds-55122/04.jpg",
+        "/images/products/ds-55122/05.jpg",
+        "/images/products/ds-55122/06.jpg",
+        "/images/products/ds-55122/07.jpg",
+        "/images/products/ds-55122/08.jpg"
       ],
       "officialUrl": null,
       "officialSource": null,
@@ -62184,6 +66572,56 @@
       "tags": [
         "AV & Multimedia",
         "HDMI / AV Extenders"
+      ],
+      "imageMetadata": [
+        {
+          "src": "/images/products/ds-55122/01.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 732068
+        },
+        {
+          "src": "/images/products/ds-55122/02.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 730841
+        },
+        {
+          "src": "/images/products/ds-55122/03.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 503769
+        },
+        {
+          "src": "/images/products/ds-55122/04.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 533238
+        },
+        {
+          "src": "/images/products/ds-55122/05.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 695088
+        },
+        {
+          "src": "/images/products/ds-55122/06.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 368303
+        },
+        {
+          "src": "/images/products/ds-55122/07.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 389344
+        },
+        {
+          "src": "/images/products/ds-55122/08.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 389344
+        }
       ]
     },
     {
@@ -62194,7 +66632,14 @@
       "description": "",
       "specifications": [],
       "images": [
-        "/images/product-placeholder.svg"
+        "/images/products/ds-55123/01.jpg",
+        "/images/products/ds-55123/02.jpg",
+        "/images/products/ds-55123/03.jpg",
+        "/images/products/ds-55123/04.jpg",
+        "/images/products/ds-55123/05.jpg",
+        "/images/products/ds-55123/06.jpg",
+        "/images/products/ds-55123/07.jpg",
+        "/images/products/ds-55123/08.jpg"
       ],
       "officialUrl": null,
       "officialSource": null,
@@ -62210,6 +66655,56 @@
       "tags": [
         "AV & Multimedia",
         "HDMI / AV Extenders"
+      ],
+      "imageMetadata": [
+        {
+          "src": "/images/products/ds-55123/01.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 869079
+        },
+        {
+          "src": "/images/products/ds-55123/02.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 874833
+        },
+        {
+          "src": "/images/products/ds-55123/03.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 923804
+        },
+        {
+          "src": "/images/products/ds-55123/04.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 831079
+        },
+        {
+          "src": "/images/products/ds-55123/05.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 638620
+        },
+        {
+          "src": "/images/products/ds-55123/06.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 356203
+        },
+        {
+          "src": "/images/products/ds-55123/07.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 389344
+        },
+        {
+          "src": "/images/products/ds-55123/08.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 389344
+        }
       ]
     },
     {
@@ -62308,7 +66803,14 @@
       "description": "",
       "specifications": [],
       "images": [
-        "/images/product-placeholder.svg"
+        "/images/products/ds-55125/01.jpg",
+        "/images/products/ds-55125/02.jpg",
+        "/images/products/ds-55125/03.jpg",
+        "/images/products/ds-55125/04.jpg",
+        "/images/products/ds-55125/05.jpg",
+        "/images/products/ds-55125/06.jpg",
+        "/images/products/ds-55125/07.jpg",
+        "/images/products/ds-55125/08.jpg"
       ],
       "officialUrl": null,
       "officialSource": null,
@@ -62324,6 +66826,56 @@
       "tags": [
         "AV & Multimedia",
         "HDMI / AV Extenders"
+      ],
+      "imageMetadata": [
+        {
+          "src": "/images/products/ds-55125/01.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 803881
+        },
+        {
+          "src": "/images/products/ds-55125/02.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 197691
+        },
+        {
+          "src": "/images/products/ds-55125/03.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 203937
+        },
+        {
+          "src": "/images/products/ds-55125/04.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 749309
+        },
+        {
+          "src": "/images/products/ds-55125/05.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 656131
+        },
+        {
+          "src": "/images/products/ds-55125/06.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 724073
+        },
+        {
+          "src": "/images/products/ds-55125/07.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 356203
+        },
+        {
+          "src": "/images/products/ds-55125/08.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 368303
+        }
       ]
     },
     {
@@ -62932,7 +67484,14 @@
       "description": "",
       "specifications": [],
       "images": [
-        "/images/product-placeholder.svg"
+        "/images/products/ds-55523/01.jpg",
+        "/images/products/ds-55523/02.jpg",
+        "/images/products/ds-55523/03.jpg",
+        "/images/products/ds-55523/04.jpg",
+        "/images/products/ds-55523/05.jpg",
+        "/images/products/ds-55523/06.jpg",
+        "/images/products/ds-55523/07.jpg",
+        "/images/products/ds-55523/08.jpg"
       ],
       "officialUrl": null,
       "officialSource": null,
@@ -62948,6 +67507,56 @@
       "tags": [
         "AV & Multimedia",
         "HDMI / AV Extenders"
+      ],
+      "imageMetadata": [
+        {
+          "src": "/images/products/ds-55523/01.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 557126
+        },
+        {
+          "src": "/images/products/ds-55523/02.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 195078
+        },
+        {
+          "src": "/images/products/ds-55523/03.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 162925
+        },
+        {
+          "src": "/images/products/ds-55523/04.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 141448
+        },
+        {
+          "src": "/images/products/ds-55523/05.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 162925
+        },
+        {
+          "src": "/images/products/ds-55523/06.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 595884
+        },
+        {
+          "src": "/images/products/ds-55523/07.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 567236
+        },
+        {
+          "src": "/images/products/ds-55523/08.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 809805
+        }
       ]
     },
     {
@@ -64836,7 +69445,11 @@
       "description": "",
       "specifications": [],
       "images": [
-        "/images/product-placeholder.svg"
+        "/images/products/ds-44100-1/01.jpg",
+        "/images/products/ds-44100-1/02.jpg",
+        "/images/products/ds-44100-1/03.jpg",
+        "/images/products/ds-44100-1/04.jpg",
+        "/images/products/ds-44100-1/05.jpg"
       ],
       "officialUrl": null,
       "officialSource": null,
@@ -64852,6 +69465,38 @@
       "tags": [
         "AV & Multimedia",
         "HDMI Switches"
+      ],
+      "imageMetadata": [
+        {
+          "src": "/images/products/ds-44100-1/01.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 715551
+        },
+        {
+          "src": "/images/products/ds-44100-1/02.jpg",
+          "width": 2000,
+          "height": 1330,
+          "bytes": 539638
+        },
+        {
+          "src": "/images/products/ds-44100-1/03.jpg",
+          "width": 2000,
+          "height": 1330,
+          "bytes": 851695
+        },
+        {
+          "src": "/images/products/ds-44100-1/04.jpg",
+          "width": 2000,
+          "height": 1330,
+          "bytes": 423853
+        },
+        {
+          "src": "/images/products/ds-44100-1/05.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 683561
+        }
       ]
     },
     {
@@ -64862,7 +69507,11 @@
       "description": "",
       "specifications": [],
       "images": [
-        "/images/product-placeholder.svg"
+        "/images/products/ds-45100-1/01.jpg",
+        "/images/products/ds-45100-1/02.jpg",
+        "/images/products/ds-45100-1/03.jpg",
+        "/images/products/ds-45100-1/04.jpg",
+        "/images/products/ds-45100-1/05.jpg"
       ],
       "officialUrl": null,
       "officialSource": null,
@@ -64878,6 +69527,38 @@
       "tags": [
         "AV & Multimedia",
         "HDMI Switches"
+      ],
+      "imageMetadata": [
+        {
+          "src": "/images/products/ds-45100-1/01.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 683561
+        },
+        {
+          "src": "/images/products/ds-45100-1/02.jpg",
+          "width": 2000,
+          "height": 1330,
+          "bytes": 564821
+        },
+        {
+          "src": "/images/products/ds-45100-1/03.jpg",
+          "width": 2000,
+          "height": 1330,
+          "bytes": 584001
+        },
+        {
+          "src": "/images/products/ds-45100-1/04.jpg",
+          "width": 2000,
+          "height": 1330,
+          "bytes": 427170
+        },
+        {
+          "src": "/images/products/ds-45100-1/05.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 715551
+        }
       ]
     },
     {
@@ -65187,7 +69868,14 @@
       "description": "",
       "specifications": [],
       "images": [
-        "/images/product-placeholder.svg"
+        "/images/products/ds-43309/01.jpg",
+        "/images/products/ds-43309/02.jpg",
+        "/images/products/ds-43309/03.jpg",
+        "/images/products/ds-43309/04.jpg",
+        "/images/products/ds-43309/05.jpg",
+        "/images/products/ds-43309/06.jpg",
+        "/images/products/ds-43309/07.jpg",
+        "/images/products/ds-43309/08.jpg"
       ],
       "officialUrl": null,
       "officialSource": null,
@@ -65203,6 +69891,56 @@
       "tags": [
         "AV & Multimedia",
         "Matrix & Video Walls"
+      ],
+      "imageMetadata": [
+        {
+          "src": "/images/products/ds-43309/01.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 628751
+        },
+        {
+          "src": "/images/products/ds-43309/02.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 472696
+        },
+        {
+          "src": "/images/products/ds-43309/03.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 456514
+        },
+        {
+          "src": "/images/products/ds-43309/04.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 796216
+        },
+        {
+          "src": "/images/products/ds-43309/05.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 714521
+        },
+        {
+          "src": "/images/products/ds-43309/06.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 493234
+        },
+        {
+          "src": "/images/products/ds-43309/07.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 599588
+        },
+        {
+          "src": "/images/products/ds-43309/08.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 540314
+        }
       ]
     },
     {
@@ -65511,7 +70249,11 @@
       "description": "",
       "specifications": [],
       "images": [
-        "/images/product-placeholder.svg"
+        "/images/products/ds-52900/01.jpg",
+        "/images/products/ds-52900/02.jpg",
+        "/images/products/ds-52900/03.jpg",
+        "/images/products/ds-52900/04.jpg",
+        "/images/products/ds-52900/05.jpg"
       ],
       "officialUrl": null,
       "officialSource": null,
@@ -65527,6 +70269,38 @@
       "tags": [
         "AV & Multimedia",
         "Repeaters / Converters / Adapters"
+      ],
+      "imageMetadata": [
+        {
+          "src": "/images/products/ds-52900/01.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 666133
+        },
+        {
+          "src": "/images/products/ds-52900/02.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 666787
+        },
+        {
+          "src": "/images/products/ds-52900/03.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 831582
+        },
+        {
+          "src": "/images/products/ds-52900/04.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 692711
+        },
+        {
+          "src": "/images/products/ds-52900/05.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 789157
+        }
       ]
     },
     {
@@ -65826,7 +70600,14 @@
       "description": "",
       "specifications": [],
       "images": [
-        "/images/product-placeholder.svg"
+        "/images/products/ds-45333/01.jpg",
+        "/images/products/ds-45333/02.jpg",
+        "/images/products/ds-45333/03.jpg",
+        "/images/products/ds-45333/04.jpg",
+        "/images/products/ds-45333/05.jpg",
+        "/images/products/ds-45333/06.jpg",
+        "/images/products/ds-45333/07.jpg",
+        "/images/products/ds-45333/08.jpg"
       ],
       "officialUrl": null,
       "officialSource": null,
@@ -65842,6 +70623,56 @@
       "tags": [
         "AV & Multimedia",
         "Repeaters / Converters / Adapters"
+      ],
+      "imageMetadata": [
+        {
+          "src": "/images/products/ds-45333/01.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 373571
+        },
+        {
+          "src": "/images/products/ds-45333/02.jpg",
+          "width": 1333,
+          "height": 1333,
+          "bytes": 256408
+        },
+        {
+          "src": "/images/products/ds-45333/03.jpg",
+          "width": 1333,
+          "height": 1333,
+          "bytes": 461688
+        },
+        {
+          "src": "/images/products/ds-45333/04.jpg",
+          "width": 1333,
+          "height": 1333,
+          "bytes": 319018
+        },
+        {
+          "src": "/images/products/ds-45333/05.jpg",
+          "width": 1333,
+          "height": 1333,
+          "bytes": 340042
+        },
+        {
+          "src": "/images/products/ds-45333/06.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 1327278
+        },
+        {
+          "src": "/images/products/ds-45333/07.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 459678
+        },
+        {
+          "src": "/images/products/ds-45333/08.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 324458
+        }
       ]
     },
     {
@@ -65852,7 +70683,14 @@
       "description": "",
       "specifications": [],
       "images": [
-        "/images/product-placeholder.svg"
+        "/images/products/ds-45334/01.jpg",
+        "/images/products/ds-45334/02.jpg",
+        "/images/products/ds-45334/03.jpg",
+        "/images/products/ds-45334/04.jpg",
+        "/images/products/ds-45334/05.jpg",
+        "/images/products/ds-45334/06.jpg",
+        "/images/products/ds-45334/07.jpg",
+        "/images/products/ds-45334/08.jpg"
       ],
       "officialUrl": null,
       "officialSource": null,
@@ -65868,6 +70706,56 @@
       "tags": [
         "AV & Multimedia",
         "Repeaters / Converters / Adapters"
+      ],
+      "imageMetadata": [
+        {
+          "src": "/images/products/ds-45334/01.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 396606
+        },
+        {
+          "src": "/images/products/ds-45334/02.jpg",
+          "width": 1333,
+          "height": 1333,
+          "bytes": 321339
+        },
+        {
+          "src": "/images/products/ds-45334/03.jpg",
+          "width": 1333,
+          "height": 1333,
+          "bytes": 251222
+        },
+        {
+          "src": "/images/products/ds-45334/04.jpg",
+          "width": 1333,
+          "height": 1333,
+          "bytes": 342413
+        },
+        {
+          "src": "/images/products/ds-45334/05.jpg",
+          "width": 1333,
+          "height": 1333,
+          "bytes": 613148
+        },
+        {
+          "src": "/images/products/ds-45334/06.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 1792036
+        },
+        {
+          "src": "/images/products/ds-45334/07.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 363562
+        },
+        {
+          "src": "/images/products/ds-45334/08.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 390952
+        }
       ]
     },
     {
@@ -66581,7 +71469,14 @@
       "description": "",
       "specifications": [],
       "images": [
-        "/images/product-placeholder.svg"
+        "/images/products/da-73122/01.jpg",
+        "/images/products/da-73122/02.jpg",
+        "/images/products/da-73122/03.jpg",
+        "/images/products/da-73122/04.jpg",
+        "/images/products/da-73122/05.jpg",
+        "/images/products/da-73122/06.jpg",
+        "/images/products/da-73122/07.jpg",
+        "/images/products/da-73122/08.jpg"
       ],
       "officialUrl": null,
       "officialSource": null,
@@ -66597,6 +71492,56 @@
       "tags": [
         "AV & Multimedia",
         "USB Extenders"
+      ],
+      "imageMetadata": [
+        {
+          "src": "/images/products/da-73122/01.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 572797
+        },
+        {
+          "src": "/images/products/da-73122/02.jpg",
+          "width": 1333,
+          "height": 1333,
+          "bytes": 1419888
+        },
+        {
+          "src": "/images/products/da-73122/03.jpg",
+          "width": 1333,
+          "height": 1333,
+          "bytes": 421079
+        },
+        {
+          "src": "/images/products/da-73122/04.jpg",
+          "width": 1333,
+          "height": 1333,
+          "bytes": 640030
+        },
+        {
+          "src": "/images/products/da-73122/05.jpg",
+          "width": 1333,
+          "height": 1333,
+          "bytes": 513579
+        },
+        {
+          "src": "/images/products/da-73122/06.jpg",
+          "width": 1333,
+          "height": 1333,
+          "bytes": 1350173
+        },
+        {
+          "src": "/images/products/da-73122/07.jpg",
+          "width": 1333,
+          "height": 1333,
+          "bytes": 1184751
+        },
+        {
+          "src": "/images/products/da-73122/08.jpg",
+          "width": 1333,
+          "height": 1333,
+          "bytes": 1492135
+        }
       ]
     },
     {
@@ -68972,7 +73917,14 @@
       "description": "",
       "specifications": [],
       "images": [
-        "/images/product-placeholder.svg"
+        "/images/products/da-90351/01.jpg",
+        "/images/products/da-90351/02.jpg",
+        "/images/products/da-90351/03.jpg",
+        "/images/products/da-90351/04.jpg",
+        "/images/products/da-90351/05.jpg",
+        "/images/products/da-90351/06.jpg",
+        "/images/products/da-90351/07.jpg",
+        "/images/products/da-90351/08.jpg"
       ],
       "officialUrl": null,
       "officialSource": null,
@@ -68988,6 +73940,56 @@
       "tags": [
         "AV & Multimedia",
         "Monitor & TV Mounts"
+      ],
+      "imageMetadata": [
+        {
+          "src": "/images/products/da-90351/01.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 193483
+        },
+        {
+          "src": "/images/products/da-90351/02.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 241538
+        },
+        {
+          "src": "/images/products/da-90351/03.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 349887
+        },
+        {
+          "src": "/images/products/da-90351/04.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 192803
+        },
+        {
+          "src": "/images/products/da-90351/05.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 201628
+        },
+        {
+          "src": "/images/products/da-90351/06.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 520918
+        },
+        {
+          "src": "/images/products/da-90351/07.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 124042
+        },
+        {
+          "src": "/images/products/da-90351/08.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 270808
+        }
       ]
     },
     {
@@ -68998,7 +74000,14 @@
       "description": "",
       "specifications": [],
       "images": [
-        "/images/product-placeholder.svg"
+        "/images/products/da-90353/01.jpg",
+        "/images/products/da-90353/02.jpg",
+        "/images/products/da-90353/03.jpg",
+        "/images/products/da-90353/04.jpg",
+        "/images/products/da-90353/05.jpg",
+        "/images/products/da-90353/06.jpg",
+        "/images/products/da-90353/07.jpg",
+        "/images/products/da-90353/08.jpg"
       ],
       "officialUrl": null,
       "officialSource": null,
@@ -69014,6 +74023,56 @@
       "tags": [
         "AV & Multimedia",
         "Monitor & TV Mounts"
+      ],
+      "imageMetadata": [
+        {
+          "src": "/images/products/da-90353/01.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 246197
+        },
+        {
+          "src": "/images/products/da-90353/02.jpg",
+          "width": 1333,
+          "height": 1333,
+          "bytes": 375207
+        },
+        {
+          "src": "/images/products/da-90353/03.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 331297
+        },
+        {
+          "src": "/images/products/da-90353/04.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 428267
+        },
+        {
+          "src": "/images/products/da-90353/05.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 309725
+        },
+        {
+          "src": "/images/products/da-90353/06.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 521394
+        },
+        {
+          "src": "/images/products/da-90353/07.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 251431
+        },
+        {
+          "src": "/images/products/da-90353/08.jpg",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 383464
+        }
       ]
     },
     {
