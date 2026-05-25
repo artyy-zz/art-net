@@ -989,6 +989,34 @@ export const partnerBrands = [
     name: "Schneider Electric",
     logo: "/images/artnet/partners/schneider-electric.png",
   },
+  {
+    name: "Panduit",
+    logo: "/images/artnet/partners/panduit.svg",
+  },
+  {
+    name: "Fluke",
+    logo: "/images/artnet/partners/fluke.svg",
+  },
+  {
+    name: "Prysmian",
+    logo: "/images/artnet/partners/prysmian.png",
+  },
+  {
+    name: "CONTEG",
+    logo: "/images/artnet/partners/conteg.svg",
+  },
+  {
+    name: "Belden",
+    logo: "/images/artnet/partners/belden.jpg",
+  },
+  {
+    name: "Rittal",
+    logo: "/images/artnet/partners/rittal.svg",
+  },
+  {
+    name: "GUNKO",
+    logo: "/images/artnet/partners/gunko.png",
+  },
 ] as const;
 
 export const publicCopy = {
